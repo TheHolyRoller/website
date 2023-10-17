@@ -1,0 +1,283 @@
+*, *::before, *::after{
+
+   padding: 0; 
+   margin: 0;
+   
+}
+
+
+body{
+
+    padding: 0 !important; 
+    margin: 0 !important;
+    box-sizing: border-box;
+
+    width: 100vw; 
+    min-height: 100vh;
+    position: relative; 
+}
+html{
+scroll-behavior: smooth;
+}
+#hero-container{
+    
+    position: relative; 
+    
+    min-width: 100vw; 
+    min-height: 110vh;  
+    
+        margin-top: -20vh; 
+        margin-left: -2rem;
+        
+    }
+    
+    #hero-container::before{
+        
+        content: "";
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 110vh;
+
+
+        background-image: url('../assets/BluePrints.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+    }
+
+    #hero-text{
+       
+       width: 40vw; 
+       
+       font-size: 2.5rem;
+       font-weight: 700;
+       
+       
+       
+       
+    }
+    
+     #hero-text-container{
+        position: absolute;
+        
+        top: 5.9%; 
+        left: 5%; 
+        z-index: 20; 
+        
+    }
+    
+      
+    #hero-headline{
+        
+        font-size: clamp(1.2rem, 1rem + 1vw, 1.7rem); 
+        color: white; 
+        font-weight: 780;   
+        width: 33vw; 
+    }
+
+    #hero-button{
+        
+        
+        position: absolute;
+        
+        top: 111%; 
+        left: -1%; 
+        z-index: 20;
+        
+        width: 13.438rem; 
+        height: 3.625rem;
+        background: #00c670; 
+        border-radius: 12px;
+        
+        text-transform: uppercase;
+        font-weight: 600;   
+        font-size: 0.899rem; 
+        color: white; 
+        
+        
+    }
+
+    
+    
+    
+    #box{
+    background-color: #ffffff; 
+    }
+        
+    #card-section{
+        
+    padding-bottom: 5rem !important;
+    
+    
+        
+        
+    }
+    
+    #TextCard1{
+        
+        
+        transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    
+    cursor: pointer !important; 
+    
+        
+        
+    }
+    
+    #content-main-headline{
+        
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0, 0) !important;
+        width: 50vw; 
+        display: grid;
+        place-content: center;
+        font-size: clamp(1rem, 1vw + 1rem, 2rem);
+        font-weight: 800;   
+        margin-bottom: 2rem !important; 
+        color: #00c670; 
+        
+        
+    }
+    
+    #mission-section{
+       width: 48vw; 
+       margin: auto; 
+       margin-top: 7rem;
+       margin-bottom: 5rem;
+        color: #9b9997 !important;
+    }
+    
+    #mission-text{
+
+        /* font-size: 1rem; */
+        
+        font-size: clamp(1rem, 1.3rem + 1vw, 4rem) !important;
+        
+        font-weight: 700;
+        letter-spacing: -0.1rem;    
+        
+    }
+    
+    
+    #mission-paragraph{
+
+        font-weight: 500;   
+        font-size: clamp(1rem, 0.1rem + 1vw, 2rem);
+        color: #9b9997 !important;
+    }
+    
+    
+    /* ______--------___________ */
+    /*----- Media Queries ----- */
+    
+    
+    
+    @media(max-width: 500px){
+        
+        #mission-section{
+
+            
+            width: 80vw; 
+            /* margin: 0 auto;  */
+            
+         }
+         
+         #mission-text{
+     
+             
+         }
+         
+         #mission-paragraph{
+     
+           
+         }
+        
+        
+        
+    }
+    
+    
+    @media(max-width: 455px){
+
+        #content-main-headline{
+            
+            margin: 0 auto !important; 
+            padding: 0 !important; 
+            margin-bottom: 1rem !important;
+            
+            transform: translate(0, 0) !important;
+            width: 80vw !important;
+
+            
+            
+            
+            
+            font-size: clamp(1rem, 1vw + 1rem, 2rem) !important;
+            font-weight: 700 !important;
+            
+            
+            /* width: auto !important;  */
+
+            
+            color: #00c670;
+            
+            
+            
+        }
+        
+        
+        #text-cards{
+
+            
+        }
+        
+        #great-commission-container{
+            
+
+            
+        }
+        
+        
+        
+        #hero-button{
+        
+            
+            left: -3.5% !important; 
+            
+            
+        }
+        
+    }
+    
+    
+    
+    /* Add in the hover effects here  */
+    
+    
+    
+    
+    #TextCard1:hover{
+        
+        transform: scale(1.1) !important ;
+        -webkit-transform: scale(1.1) !important ;
+        -moz-transform: scale(1.1) !important ;
+        -ms-transform: scale(1.1) !important ;
+        -o-transform: scale(1.1) !important ;
+        
+        -webkit-transform: translate(0, 3deg) !important;
+        -moz-transform: translate(0, 3deg) !important;
+        -ms-transform: translate(0, 3deg) !important;
+        -o-transform: translate(0, 3deg) !important;
+        transform: translate(0, 3deg) !important;
+        
+        
+        
+        
+    }
