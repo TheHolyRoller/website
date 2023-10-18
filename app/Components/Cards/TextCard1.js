@@ -2,8 +2,13 @@
 
 
 
-  import { Card, Col, Row, Button, Text } from "@nextui-org/react";
-
+  // import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+  // import {  Button, Text } from "@nextui-org/react";
+  import Card from "@nextui-org/react"; 
+  import Col from "@nextui-org/react"; 
+  import Row from "@nextui-org/react"; 
+  import Button from "@nextui-org/react"; 
+  import Text from "@nextui-org/react"; 
 
   import tc from '../../Styles/TextCard.module.css';
   
