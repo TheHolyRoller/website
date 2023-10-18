@@ -26,15 +26,17 @@ import { CloseButton } from '@chakra-ui/react';
 import MenuIcon from '@mui/icons-material/Menu';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
+
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
-import { useMediaQuery } from 'react-responsive'
+
 import { getDatabase, ref, set } from "firebase/database";
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
+
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-    
-// Import the stylesheet here 
+
+
 const theme = extendTheme({
     components: {
       Modal: {

@@ -1,9 +1,6 @@
 'use client'
 import React from 'react'
 
-
-
-// Import the stylesheet here 
 import val from  '../Styles/Values.module.css';
 
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';

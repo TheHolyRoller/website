@@ -4,24 +4,30 @@
 
   // import { Card, Col, Row, Button, Text } from "@nextui-org/react";
   // import {  Button, Text } from "@nextui-org/react";
-  import Card from "@nextui-org/react"; 
   import Col from "@nextui-org/react"; 
   import Row from "@nextui-org/react"; 
   import Button from "@nextui-org/react"; 
   import Text from "@nextui-org/react"; 
-
+  // import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
+  // import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
+  import Card from "@nextui-org/react"; 
+  import CardHeader from "@nextui-org/react"; 
+  import CardBody from "@nextui-org/react"; 
+  import Image from "@nextui-org/react"; 
+  
   import tc from '../../Styles/TextCard.module.css';
   
   
 
   export const TextCard1 = () => (
     <Card id={tc.textCard} css={{ w: "100%", h: "400px" }}>
-      <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+      {/* <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
         <Col>
         
         </Col>
-      </Card.Header>
-      <Card.Body css={{ p: 0 }}>
+      </Card.Header> */}
+      {/* css={{ p: 0 }} */}
+      <Card.Body >
         <Card.Image
           src="https://nextui.org/images/card-example-6.jpeg"
           width="100%"

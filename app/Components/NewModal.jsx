@@ -5,8 +5,6 @@ import { useDisclosure, useStatStyles } from '@chakra-ui/react';
 import Link from 'next/link';
 
 
-
-
 import React, {useState, useEffect, useReducer, useRef} from 'react'; 
 import {
   ChakraProvider,
@@ -34,7 +32,7 @@ import {
   import YouTubeIcon from '@mui/icons-material/YouTube';
   // import InstagramRoundedIcon from '@mui/icons-material/InstagramRounded';
   
-  import { useMediaQuery } from 'react-responsive'
+  // import { useMediaQuery } from 'react-responsive'
   
 //   Import the stylesheet here 
 import '../Styles/NewModal.css'; 
@@ -61,12 +59,12 @@ const theme = extendTheme({
  export default function NewModal() {
  
  
- const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-width: 1224px)'
-  })
-  const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+//  const isDesktopOrLaptop = useMediaQuery({
+//     query: '(min-width: 1224px)'
+//   })
+//   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+//   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+//   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
   
  
  

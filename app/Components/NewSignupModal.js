@@ -30,7 +30,9 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
-import { useMediaQuery } from 'react-responsive'
+
+
+// import { useMediaQuery } from 'react-responsive'
 import { getDatabase, ref, set } from "firebase/database";
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";

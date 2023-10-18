@@ -29,7 +29,6 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 import React from 'react'
 
-
 import Link from 'next/link';
 import { TypeFormatFlags } from 'typescript';
 
@@ -41,18 +40,11 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 
-// Import the Cards here 
 import { Card1 } from '../Components/Cards/Card1.js'; 
 import { Card2 } from '../Components/Cards/Card2.js'; 
 import { Card3 } from '../Components/Cards/Card3.js'; 
 import { Card4 } from '../Components/Cards/Card4.js'; 
 import { Card5 } from '../Components/Cards/Card5.js'; 
-
-
-// Import the Card renderer here 
-import CardRenderer from '../Components/CardRenderer.jsx'; 
-import AlternativeCard2 from "./Cards/AlternativeCard2.jsx";  
-
 
 
 import Footer from '../footer/Footer.tsx'; 
@@ -74,56 +66,52 @@ import HomeHero from '../Components/Heros/HomeHero.jsx';
 import ContactForm from '../ContactForm/ContactForm'; 
 
 
-export const Content = () => (
-
-
-
-  <>
+function LandingPage() {
+  return (
+    <div>
+    {/* LandingPage */}
+    
+    {/* Add in the hero section here  */}
+    
+    
+    <HomeHero/> 
+    
+    
+    
+    {/* Add in the Headline Text section here  */}
+    <section id="mission-section" style={{position: "relative", zIndex: "20"}} >
   
-  
-  <HomeHero/> 
-
-  <section id="mission-section" style={{position: "relative", zIndex: "20"}} >
-  
-  <Text id="mission-text" >
+  <div id="mission-text" >
   
   We are Renewal, a dynamic, family church with people of all ages
 
-  </Text>
+  </div>
 
-    <Text id="mission-paragraph" css={{$$textColor: "white"}} >
+    <div id="mission-paragraph"  >
     Renewal has a rich history spanning over 50 years and today is 
     home to many people from across the Midlands. We are a dynamic, 
     family church with people of all ages and from all walks of life and 
     you are welcome to join us.
-
+    
+    
   
   
     <SingupModal/> 
 
 
-    </Text>
+    </div>
     
     
   </section>
-  
-  
-  {/* Add in the Cards section here  */}
-  
+    
+    {/* Add in the first card section here  */}
+    <article id="text-cards">
 
-
-  <article id="text-cards">
-  
-  
-  
-  {/* Add in the Headline text container here  */}
-  
-  {/* <Text id='great-commission-container' > */}
     <div id='content-main-headline'   >
       Fulfilling the Great Commission 
     </div>
-  {/* </Text> */}
-
+    
+    
 
    {/* Add in the Grid Container here  */}
    {/* <Grid.Container gap={3} justify="center">
@@ -150,54 +138,82 @@ export const Content = () => (
         <Card5 />
       </Grid>
     </Grid.Container>  */}
+    
+    {/* Construct the Grid here  */}
+    <div id='landing-grid-container' >
+    <div id='landing-grid-one' >
+    
+    {/* Add in Each Grid Item here  */}
+    
+    <div id='grid-item-container' >
+    
+    {/* Add in the Card here  */}
+        
+        
+    </div>
+    
+        
+        
+    </div>
+
+    
+    </div>
+    
+    
 
   </article>
   
-  <article id="card-section" style={{outline: "0px solid blue", marginTop: '3rem', textAlign: 'center'}} >
+  
+
     
-    {/* Add in the Headline container here  */}
+    {/* Add in the second card section here  */}
+    
+    <article id="card-section">
     
     <div id="headline-container">
     
-    <Text id="card-headline" style={{fontSize: "2rem", fontWeight: "900", color: "#00c670"}}  >
+    <div id="card-headline" style={{fontSize: "2rem", fontWeight: "900", color: "#00c670"}}  >
     Get Involved 
-    </Text>
+    </div>
+     
     
-    
-    <Text id="text-container" style={{color: "#888888"}}  >
+    <div id="text-container" style={{color: "#888888"}}  >
       There are many ways you can get involved with the Renewal Family 
         
-      </Text>
+      </div>
+    </div>
+    
+    
+    {/* Add in the Second grid here  */}
+    
+    <div id='landing-grid-container-two' >
+    <div id='landing-grid-two' >
+    
+    {/* Add in Each Grid Item here  */}
+    
+    <div id='grid-item-container-two' >
+    
+    {/* Add in the Card here  */}
+     <TextCard1/> 
+     
+        
+    </div>
     </div>
 
- 
-  {/* Add in the Grid Layout here   */}
-  {/* <Grid.Container gap={4} justify="center">
-      <Grid xs={12} sm={3.5}>
-        <TextCard1 id='TextCard1'  />
-      </Grid>
-      <Grid xs={12} sm={3.5}>
-        <TextCard1 id='TextCard1'  />
-      </Grid>
-      
-      <Grid xs={12} sm={3.5}>
-        <TextCard1 id='TextCard1'  />
-      </Grid>
-     
-     
-     
-    </Grid.Container> */}
+    
+    </div>
     
     
-    {/* Add in the image text here  */}
+    
+    </article>
     
     
+
     <ContactForm/> 
     
     
-  </article>
-  
-  </>
-  
-  
-);
+    </div>
+  )
+}
+
+export default LandingPage

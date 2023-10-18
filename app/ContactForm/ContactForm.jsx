@@ -1,15 +1,15 @@
-
-
 'use client'
-
 
 import React, { useState, useEffect, useMemo  } from "react";
 
 // import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
+
+
+
 
 
 
@@ -177,6 +177,7 @@ const ContactForm = () => {
        message: message
 
   })
+  
   
   setName(" ");
 setLastName(" "); 

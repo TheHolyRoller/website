@@ -45,7 +45,8 @@ import YouTube from "@mui/icons-material/YouTube";
 import Link from "next/link";
 
 
-import '../Styles/footer.css'; 
+import './Styles/footer.css'; 
+
 
 function Footer() {
   return (
@@ -55,11 +56,6 @@ function Footer() {
   <div id="footer-main-container" >
     
   <footer id="footer-container"   >
-  
-  
-  {/* Add in the Section container here  */}
-  
-  
   
   <section id="footer-section-container" >
   
