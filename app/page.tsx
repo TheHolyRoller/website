@@ -7,8 +7,11 @@ export default function Home() {
    
    <div>
    
-   <LandingPage/> 
    
+   
+   
+   <LandingPage/> 
+
    </div>
    
    
