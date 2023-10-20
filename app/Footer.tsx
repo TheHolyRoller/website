@@ -5,9 +5,6 @@ import { FaSearchLocation } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 
 
-
-
-
 // import { Grid } from "@nextui-org/react";
 import  Grid  from "@nextui-org/react";
 
@@ -59,8 +56,8 @@ function Footer() {
   
   <section id="footer-section-container" >
   
-  
-  
+    
+    
   {/* ------GRID CONTAINER!#!!---------- */}
   <div id="section-list-container" >
   

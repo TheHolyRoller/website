@@ -1,0 +1,255 @@
+
+
+#cardMainContainer{
+
+position: relative;
+
+color: white; 
+
+
+width: max-content; 
+/* margin: clamp(1.7rem, 1vw + 2rem, 4rem) auto !important;  */
+
+
+
+
+    
+}
+
+
+
+#cardContainer{
+    
+}
+
+
+
+#imageContainer{
+
+
+    
+}
+
+
+
+#cardImage{
+
+background: url('../assets/BluePrints.jpg') !important; 
+background-size: cover; 
+background-position: center center; 
+
+width: 20vw; 
+min-width: 25rem; 
+max-width: 600px; 
+
+/* height: 30px !important;  */
+min-height: 250px; 
+
+
+
+border-radius: 1.3em; 
+margin: 0 auto; 
+position: relative;
+z-index: 1; 
+
+    
+}
+
+
+
+#cardTextContainer{
+    
+
+
+margin: 0rem auto; 
+
+/* margin-bottom: 4rem !important; */
+margin-top: -2rem; 
+position: relative; 
+z-index: 3; 
+padding: 2rem; 
+
+/* outline: 20px solid lime;  */
+
+background-color: white; 
+color: rgb(23, 23, 23); 
+
+border-bottom-left-radius: 1.313rem;
+border-bottom-right-radius: 1.313rem;
+
+width: 26vw; 
+min-width: 25rem; 
+max-width: 26rem; 
+
+
+    
+}
+
+
+#cardHeadlineContainer{
+
+font-weight: 800;
+font-size: clamp(1rem, 1vw + 1rem, 1.5rem) !important; 
+margin-bottom: 1rem;
+
+
+    
+}
+
+
+
+#cardHeadline{
+
+    
+    
+}
+
+
+#cardTextSubContainer{
+
+    
+    
+    
+}
+
+
+#cardText{
+
+color: rgb(136, 133, 133); 
+font-weight: 500;
+
+
+
+}
+
+
+
+
+
+
+/* Add in the media queries here  */
+
+@media(max-width: 1370px) and (min-width: 700px) {
+
+#cardTextContainer{
+
+width: 27vw !important; 
+min-width: 27vw !important; 
+max-width: 27vw !important; 
+
+    
+    
+    
+}
+
+/* Change the Image here  */
+#cardImage{
+
+
+width: 27vw !important;
+min-width: 27vw !important;
+max-width: 27vw !important;
+
+
+}
+    
+}
+
+
+
+@media(max-width: 700px){
+
+    #cardTextContainer{
+
+        width: 60vw !important; 
+      
+        
+            
+            
+            
+        }
+        
+        /* Change the Image here  */
+        #cardImage{
+        
+        
+        width: 60vw !important;
+            
+        
+        
+            
+            
+            
+        } 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

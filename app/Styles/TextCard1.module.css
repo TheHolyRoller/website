@@ -1,0 +1,223 @@
+
+#mainCardContainer{ 
+
+    max-width: 700px; 
+    width: 17vw; 
+    
+    min-width: 365px; 
+
+    
+    
+    /* height: 100px !important;  */
+    background: url('../assets/BluePrints.jpg') !important; 
+    
+    
+    background-size: cover; 
+    background-position: center center !important; 
+    
+    min-height: 230px;
+    
+    
+    /* min-height: 400px !important;  */
+    margin: 0rem auto !important; 
+    align-self: center; 
+    
+    border-radius: 20px !important; 
+    
+    position: relative;
+    
+    
+    
+    }
+    
+    #backgroundContainer{
+        
+     
+     
+        
+    }
+    
+    
+    #backgroundImageContainer{
+    
+    
+        
+    }
+    
+    
+    #imageBackground{
+
+        
+        
+    }
+    
+    
+    #textContainer{
+    
+        
+        
+    }
+    
+    #textHeadlineContainer{
+
+        
+        
+    }
+    
+    #textHeadline{
+        
+        
+        
+    }
+
+    
+    
+    
+    #textContainer{
+    
+    margin: 0 auto !important; 
+
+    width: max-content; 
+    
+    position: absolute;
+    
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+    
+    
+    /* font-size: 1.2rem;  */
+    
+    font-size: clamp(1rem, 0.5vw + 0.99rem, 1.9rem); 
+    
+    
+    font-weight: 700; 
+
+    }
+    
+    
+    
+    
+    #textBlockContainer{
+    
+    
+    
+        
+    }
+    
+    #textBlock{
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* Add in the media queries here  */
+    
+    
+    @media(max-width: 1200px){
+    
+    
+    #mainCardContainer{ 
+    
+        max-width: 700px; 
+        width: 17vw; 
+        
+        min-width: 250px;
+        
+    min-height: 180px;
+        
+    
+    }
+
+
+
+    
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width: 840px){
+        
+        
+    #mainCardContainer{ 
+        
+        
+        width: 80vw; 
+        
+        
+        
+    } 
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

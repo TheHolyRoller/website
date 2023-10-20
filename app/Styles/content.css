@@ -6,6 +6,7 @@
 }
 
 
+
 body{
 
     padding: 0 !important; 
@@ -15,6 +16,14 @@ body{
     width: 100vw; 
     min-height: 100vh;
     position: relative; 
+    
+    
+    background: #161822 !important; 
+    background-color: #161822 !important; 
+
+    
+        
+    
 }
 html{
 scroll-behavior: smooth;
@@ -54,9 +63,6 @@ scroll-behavior: smooth;
        font-size: 2.5rem;
        font-weight: 700;
        
-       
-       
-       
     }
     
      #hero-text-container{
@@ -65,6 +71,10 @@ scroll-behavior: smooth;
         top: 5.9%; 
         left: 5%; 
         z-index: 20; 
+        
+        
+        
+        
         
     }
     
@@ -98,22 +108,26 @@ scroll-behavior: smooth;
         
         
     }
+    
+    
+    #landing-page-main-container{
+    
+        background: var(--dark); 
+        background-color: var(--dark) !important; 
+
+        
+    }
 
     
     
     
-    #box{
-    background-color: #ffffff; 
-    }
+    #landing-grid-container-two{
         
-    #card-section{
-        
-    padding-bottom: 5rem !important;
-    
-    
-        
+        margin: 3rem auto; 
+        padding-bottom: 3rem !important; 
         
     }
+
     
     #TextCard1{
         
@@ -135,28 +149,199 @@ scroll-behavior: smooth;
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0, 0) !important;
-        width: 50vw; 
+        width: 60vw; 
         display: grid;
         place-content: center;
-        font-size: clamp(1rem, 1vw + 1rem, 2rem);
+        
+        font-size: clamp(1rem, 1vw + 1.35rem, 2rem);
         font-weight: 800;   
         margin-bottom: 2rem !important; 
-        color: #00c670; 
+        color: white; 
+        
+        margin-bottom: 4.5rem !important; 
+
+        
         
         
     }
     
+    
+    #text-container{
+        
+        color: #888888; 
+        
+        
+        
+        
+    }
+    
+    
+    
+    #landing-grid-container{
+    
+    display: flex;
+    
+    justify-items: center;
+    
+    
+
+    width: calc(70vw + clamp(1rem, 1vw + 1.5rem, 3rem)); 
+
+    margin: 0 auto !important; 
+    /* margin-top: -3rem;  */
+    margin-bottom: 5rem !important;
+    
+
+    /* gap: clamp(1.9rem, 0.7vw + 1rem, 10rem) !important;  */
+        
+    }
+    
+    
+    #landing-grid-sub-container{
+
+        
+            display: flex; 
+            justify-items: center;
+
+        
+
+    width: 80vw !important; 
+    margin: 0 auto !important; 
+    
+    
+}
+
+    
+    #grid-item-container{
+        
+
+        
+        
+    }
+    
+    #grid-item-two-container{
+        
+        
+        
+
+
+        
+    }
+    
+    #grid-card-one{
+    
+    
+    
+
+    
+        
+    }
+    
+    
+    #landing-grid-one{
+    
+    padding-right: clamp(1rem, 1vw + 1.5rem, 3rem); 
+    
+    
+    }
+    
+    
+    
+    
+    
+    #landing-grid-two{
+        
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        width: max-content; 
+        margin: 0 auto !important; 
+        gap: clamp(1rem, 1vw + 2rem, 3.2rem) !important; 
+
+        
+        
+    }
+    
+    
+    #grid-card-two{
+
+        
+        
+    }
+    
+    .getInvolvedContainer{
+    
+
+    width: max-content; 
+    margin: 0 auto; 
+    
+    margin-top: 5rem !important;
+        
+    }
+    
+    .getInvolved{
+    
+
+    width: max-content; 
+    margin: 0 auto; 
+    margin-bottom: 1rem !important; 
+    
+        
+        
+        
+    }
+    
+    /* ----SECOND GRID--- */
+    /* **************** */
+    
+    #landing-second-grid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: max-content; 
+    margin: 2rem auto !important;   
+    gap: clamp(1rem, 0.5vw + 1rem, 3rem) !important; 
+    /* margin-top: -2rem !important;  */
+    
+
+    
+        
+    }
+    
+    #second-landing-item-one{
+        
+        
+        
+        
+    }
+    
+
+    #second-landing-item-two{
+
+        
+        
+    }
+    
+    
+    
+    
+    #second-landing-item-three{
+    
+
+    }
+    
+    
     #mission-section{
        width: 48vw; 
-       margin: auto; 
+       margin: 0 auto; 
        margin-top: 7rem;
        margin-bottom: 5rem;
         color: #9b9997 !important;
     }
     
     #mission-text{
-
-        /* font-size: 1rem; */
+        
+        
         
         font-size: clamp(1rem, 1.3rem + 1vw, 4rem) !important;
         
@@ -177,29 +362,49 @@ scroll-behavior: smooth;
     /* ______--------___________ */
     /*----- Media Queries ----- */
     
+    @media(max-width: 700px){
     
+        #landing-grid-two{
+        
+            display: grid; 
+            grid-template-columns: 1fr;
+            width: max-content; 
+            margin: 0 auto !important; 
+            gap: clamp(1rem, 1vw + 2rem, 3.2rem) !important; 
+            
+            
+        }
+        
+        /* Adjust the the width of the sub text here  */
+        
+          
+    #text-container{
+        
+        color: #888888; 
+        width: 90vw !important; 
+
+        margin: 0 auto !important;
+        display: grid;
+        place-content: center;
+        text-wrap: wrap;
+        
+        
+        
+        
+    }
+        
+
+        
+    }
     
     @media(max-width: 500px){
         
         #mission-section{
-
             
             width: 80vw; 
-            /* margin: 0 auto;  */
-            
+
          }
-         
-         #mission-text{
-     
-             
-         }
-         
-         #mission-paragraph{
-     
-           
-         }
-        
-        
+
         
     }
     
@@ -210,26 +415,27 @@ scroll-behavior: smooth;
             
             margin: 0 auto !important; 
             padding: 0 !important; 
-            margin-bottom: 1rem !important;
+
+            /* margin-bottom: -5rem !important; */
+            margin-top: 7rem !important; 
+            margin-bottom: -8rem !important; 
             
-            transform: translate(0, 0) !important;
+
+            transform: translate(0, 0rem) !important;
             width: 80vw !important;
 
             
+            position: relative;
+            z-index: 3;
             
             
             
             font-size: clamp(1rem, 1vw + 1rem, 2rem) !important;
             font-weight: 700 !important;
-            
-            
-            /* width: auto !important;  */
 
             
-            color: #00c670;
-            
-            
-            
+
+
         }
         
         
@@ -247,20 +453,37 @@ scroll-behavior: smooth;
         
         
         #hero-button{
-        
-            
+
             left: -3.5% !important; 
-            
             
         }
         
     }
+
+    
+    #headline-container{
+    
+    color: white; 
+    position: relative; 
+    
+
+        
+    }
+    
+    #card-headline{
+    
+    color: white; 
+    font-size: 2rem; 
+    font-weight: 900;   
+        
+    }
     
     
+    #card-section{
     
-    /* Add in the hover effects here  */
-    
-    
+
+        
+    }
     
     
     #TextCard1:hover{
@@ -281,3 +504,239 @@ scroll-behavior: smooth;
         
         
     }
+    
+    @media(max-width: 1800px) and (min-width: 1110px)  {
+        
+        #mission-section{
+            /* width: 48vw;  */
+            /* margin: 0 auto;  */
+            margin-top: 7rem;
+            /* margin-bottom: 5rem; */
+            color: white; 
+             /* color: #9b9997 !important; */
+         }
+         
+    #landing-grid-container-two{
+    
+    
+    margin: 5rem auto !important; 
+    
+    }
+        
+        
+    }
+    
+    @media(max-width: 1100px){
+        
+        #mission-section{
+           
+           
+            margin-top: 2rem; 
+            
+           /* margin: auto;  */
+           
+         }
+        
+        
+    }
+    
+    @media(max-width: 900px){
+    
+
+        
+    }
+    
+    
+    @media(max-width: 840px){
+        
+    #landing-grid-container{
+        
+        
+        display: grid !important; 
+        
+        grid-template-columns: 1fr;
+        justify-content: center; 
+        
+        height: auto !important; 
+        min-height: 70vh; 
+        width: 80vw; 
+
+
+        
+        margin: 3rem auto !important; 
+        
+        
+        
+    }
+    
+    
+    /* Add in the second grid container here  */
+    #landing-second-grid{
+    
+    grid-template-columns: 1fr;
+    gap: clamp(1rem, 1vw + 3rem, 4rem) !important; 
+
+        
+    }
+    
+    #grid-item-container{
+        
+        margin: 2rem auto !important; 
+        
+        
+        
+    }
+    
+    #grid-item-two-container{
+    
+    display: block !important; 
+    
+    
+        
+    }
+    
+    
+    #mission-section{
+
+        margin-top: 2rem; 
+       
+     }
+     
+    #landing-grid-one{
+    
+    padding: 0; 
+    
+        
+        
+    }
+    
+
+    }
+    
+    
+    @media(max-width: 500px) {
+        
+        #mission-section{
+           
+           
+            margin-top: -1rem; 
+
+         }
+         
+         #content-main-headline{
+    
+
+            
+            margin-bottom: 5em; 
+
+            transform: translate(0, 0rem) !important;
+            color: black !important;
+            
+            
+                
+                
+                
+            }
+            
+            
+            #text-cards{
+                
+                margin: 4rem auto !important;
+                
+                
+                
+                
+            }
+        
+        
+        
+    }
+    
+    
+    @media(max-width: 455px){
+    
+        #content-main-headline{
+    
+            margin-bottom: 5em; 
+            transform: translate(0, -6rem) !important;
+            color: white !important;
+                
+            }
+            
+            
+            #text-cards{
+                
+                margin: 9rem auto !important;
+                
+
+                
+            }
+        
+        
+    }
+    
+    
+    
+    /* Add in another media query here to adjust the cards  */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

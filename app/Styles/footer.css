@@ -1,110 +1,8 @@
 
-/* 
-
-
-Okay so let's just talk things through. 
-
-First of all I have most of the things sorted. 
-
-There are quite a few things that I need to do before the website is actually 
-
-ready like polishing up some pages and components and adding a rotation lock 
-
-or just adding a min and a vmin and max to all the padding margins and percentages 
-as well as view width units that will help keep it responsive if the user. 
-
-Rotates their screen. 
-
-Okay so that's the polishing. Then there is getting the domain name and the hosting. 
-
-Then there is fixing the build errors and uploading it onto the hosting server. 
-
-Then there is also developing the add on features. 
-
-It might also be good to design, create and styling some extra pages. Like outreach or 
-kids ministry or something. 
-
-But that is for another day. 
-
-So there is the polishing now. The adding of content, and the adding the of extra 
-features as well as launching and fixing the errors. 
-
-
-
-I think now the best course of action would be to start the adding in the right 
-
-colors to all the backgrounds so that everything is not black. 
-
-Once that is done then I'll try and fix the build errors and the hydration errors. 
-
-Once that is done then I can assemble a general layout with the routes in place. 
-
-Then once that is done I can add in the hover effects and the rest of the routes 
-
-and links. 
-
-Okay so that sounds good. Do the background now and then the layout and routes 
-
-and then the hover effects and then the links and routes and then I'll 
-
-do the hydration and build errors. 
-
-Then I can do the adding in of content and polishing another day and then I 
-
-can add in the extra pages and features another day after that. 
-
-Okay so that's great, background, layout, routes, effects, and links then errors 
-now. 
-
-So let's get started. 
-
-So just to make sense of things. 
-First of all I either want all my components to have a background color of white 
-
-or I want the pages where my components are rendered to have a white background. 
-
-Okay so that's great. 
-
-I think I'll go with the background of components for now then I can always 
-change it and it also means that I have more control of the background sections 
-
-in general later when that is needed. 
-
-
-Okay so that's great. 
-
-Let's create a root variable and add that color variable into the main component 
-container background but do check for other background colors that could be clashing. 
-
-
-
-
-
-*/
-
-
-
-
-
-/* body{
-
-
-width: 100vw; 
-min-height: 100vh;
-position: relative;
-
-padding: 0; 
-margin: 0; 
-
-    
-} */
-
-
-
 
 #footer-container{
-    background: #161822;
-    background-color:  #161822;
+    background: #161822 !important;
+    background-color:  #161822 !important;
     
     position: relative !important;
     width: 99.9vw !important;
@@ -126,7 +24,7 @@ margin: 0;
     min-width: 100vw !important; 
     
     position: absolute; 
-    background-color:  #161822;
+    background-color:  #161822 !important;
     left: 0; 
     right: 0; 
     
@@ -134,6 +32,9 @@ margin: 0;
 
 
 #mobile-footer-background{
+    
+    
+    background: #161822 !important; 
     
     
 }
@@ -269,8 +170,6 @@ color: white;
 transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 
 cursor: pointer !important; 
-
-
 
 
 }

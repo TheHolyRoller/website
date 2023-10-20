@@ -8,17 +8,10 @@ import Worship from '../assets/Worship.jpg';
 
 
 import '../Styles/content.css'; 
-import {TextCard1} from '../Components/Cards/TextCard1.js'; 
-
 import { LocationCity } from "@mui/icons-material"; 
 
 import { FaSearchLocation } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
-
-import { Grid } from "@nextui-org/react";
-import { Card, Row, Text } from "@nextui-org/react";
-
-import {  Col,  Button,  } from "@nextui-org/react";
 
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
@@ -40,13 +33,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 
-import { Card1 } from '../Components/Cards/Card1.js'; 
-import { Card2 } from '../Components/Cards/Card2.js'; 
-import { Card3 } from '../Components/Cards/Card3.js'; 
-import { Card4 } from '../Components/Cards/Card4.js'; 
-import { Card5 } from '../Components/Cards/Card5.js'; 
-
-
 import Footer from '../footer/Footer.tsx'; 
 import SingupModal from '../Components/SingupModal.jsx'; 
 
@@ -56,19 +42,25 @@ import HeroComponent from '../Components/HeroComponent.jsx';
 
 // import YouTubeCTA from '../Components/YoutubeCTA.jsx'; 
 import ImageText from "./ImageText.jsx";
-import TextCard2 from '../Components/Cards/TextCard2.js'; 
-import NewCard from '../Components/Cards/NewCard.jsx'; 
-
 import GivingHero from "./GivingHero.jsx";
 
 import HomeHero from '../Components/Heros/HomeHero.jsx'; 
 
 import ContactForm from '../ContactForm/ContactForm'; 
 
+import Card1 from '../Components/Cards/Card1'; 
+import Card2 from './Cards/Card2'
+
+
+import TextCard1 from '../Components/Cards/TextCard1';
+
+import ImageTextCard from '../Components/Cards/ImageTextCard'; 
+
+
 
 function LandingPage() {
   return (
-    <div>
+    <div id='landing-page-main-container' >
     {/* LandingPage */}
     
     {/* Add in the hero section here  */}
@@ -113,50 +105,82 @@ function LandingPage() {
     
     
 
-   {/* Add in the Grid Container here  */}
-   {/* <Grid.Container gap={3} justify="center">
-      <Grid xs={12} sm={3}>
-
-        <Card1 />
-      </Grid>
-      <Grid xs={12} sm={3}>
-        <Card2 />
-      </Grid>
-      <Grid xs={12} sm={3}>
-       
-
-      
-        <Card3 />
-      </Grid>
-      <Grid xs={12} sm={5}>
-        {/* <CardRenderer/> */}
-        {/* <Card4/> 
-        
-        
-      </Grid>
-      <Grid xs={12} sm={5}>
-        <Card5 />
-      </Grid>
-    </Grid.Container>  */}
     
     {/* Construct the Grid here  */}
     <div id='landing-grid-container' >
+    
+    
+    {/* <div id='landing-grid-sub-container' > */}
+    
+
+    
+    <div id='landing-grid-one' >
+
+      
+    <div id='grid-item-container' >
+    <Card2  id='grid-card-one' />
+    
+
+    </div>
+    
+        
+        
+    </div>
     <div id='landing-grid-one' >
     
     {/* Add in Each Grid Item here  */}
     
-    <div id='grid-item-container' >
     
-    {/* Add in the Card here  */}
-        
-        
+    <div id='grid-item-two-container' >
+
+      
+    <Card2 id='grid-card-two' />
+
+
     </div>
     
         
         
     </div>
+    
+    
+    {/* ---Add in the sub container here ----- */}
+    
+    
+    
+    {/* </div> */}
+    
+    </div>
+    
+    
+    {/* Add in the second grid here  */}
+    
+    <div id='landing-second-grid' >
+    
+    {/* Add in the first grid item here  */}
+    
+    <div id='second-landing-item-one' >
+    
+    <TextCard1/> 
+    
+    
+    </div>
+    <div id='second-landing-item-two' >
+    <TextCard1/> 
+    
 
     
+    </div>
+      
+    <div id='second-landing-item-three' >
+    <TextCard1/> 
+    
+
+    
+    </div>
+      
+
+      
     </div>
     
     
@@ -170,15 +194,17 @@ function LandingPage() {
     
     <article id="card-section">
     
-    <div id="headline-container">
     
-    <div id="card-headline" style={{fontSize: "2rem", fontWeight: "900", color: "#00c670"}}  >
+    <div id="headline-container" className='getInvolvedContainer' >
+    
+    <div id="card-headline" className='getInvolved' >
     Get Involved 
     </div>
      
     
-    <div id="text-container" style={{color: "#888888"}}  >
+    <div id="text-container"   >
       There are many ways you can get involved with the Renewal Family 
+        
         
       </div>
     </div>
@@ -186,22 +212,48 @@ function LandingPage() {
     
     {/* Add in the Second grid here  */}
     
-    <div id='landing-grid-container-two' >
+    <div id='landing-grid-container-two'>
+    
+    
+    <div id='landing-grid-sub-container-two'>
+    
     <div id='landing-grid-two' >
     
     {/* Add in Each Grid Item here  */}
     
+    <div id=' ' >
+    
+    {/* Add in the Card here  */}
+    <ImageTextCard/> 
+    
+     
+        
+    </div>
     <div id='grid-item-container-two' >
     
     {/* Add in the Card here  */}
-     <TextCard1/> 
+    <ImageTextCard/> 
+    
+     
+        
+    </div>
+    <div id='grid-item-container-two' >
+    
+    {/* Add in the Card here  */}
+    <ImageTextCard/> 
+    
      
         
     </div>
     </div>
 
+    </div>
+    
     
     </div>
+    
+    
+    {/*  */}
     
     
     

@@ -5,13 +5,8 @@ import { FaSearchLocation } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
 
 
-
-
-
-// import { Grid } from "@nextui-org/react";
 import  Grid  from "@nextui-org/react";
-// import { Card, Row, Text } from "@nextui-org/react";
-// import { Card, Row, Text } from "@nextui-org/react";
+
 import Card from "@nextui-org/react"; 
 import Row from "@nextui-org/react"; 
 import Text from "@nextui-org/react"; 
@@ -52,11 +47,6 @@ function Footer() {
   <div id="footer-main-container" >
     
   <footer id="footer-container"   >
-  
-  
-  {/* Add in the Section container here  */}
-  
-  
   
   <section id="footer-section-container" >
   

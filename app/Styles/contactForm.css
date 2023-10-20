@@ -18,6 +18,8 @@ padding: 0;
 margin: 0; 
 
 box-sizing: border-box;
+background: #040d14 !important;
+
 
 
 
@@ -38,14 +40,7 @@ position: relative;
 }
 
 
-html{
 
-    scroll-behavior: smooth;
-    
-    
-    
-    
-}
 
 :root{
 
@@ -79,7 +74,10 @@ html{
   
   .ContactForm{
     
-
+    background: var(--dark); 
+    background-color: var(--dark) !important; 
+    
+    
     
   }
 
@@ -87,8 +85,10 @@ html{
 .container{
    
    
-   outline: 30px solid lime; 
-
+  background: var(--dark); 
+  background-color: var(--dark) !important; 
+  
+    
    
     
 }
@@ -111,9 +111,7 @@ h1 {
 
     display: grid;
     place-content: center;
-    
-    
-    /* outline: 10px solid lime;  */
+
     
     
   }
@@ -129,7 +127,7 @@ h1 {
   
   #name-row{
     
-    outline: 10px solid red; 
+    
     
   }
   
@@ -166,7 +164,7 @@ h1 {
 
 display: flex;
 justify-items: center !important;
-outline: 10px solid red; 
+
 flex: row; 
 
     
@@ -188,7 +186,7 @@ flex: row;
 
 #subject-input{
 
-    /* outline: 20px solid lime;  */
+
     
 }
     
@@ -251,11 +249,13 @@ flex: row;
     border-radius: 6px;
     width: 200px;
     
-    /* outline: 100px solid red !important;  */
+
     
     margin-left: 75px;
     background-color: var(--green);
   }
+  
+  
   
   .submit-btn {
     background-color: var(--dark);
@@ -266,10 +266,7 @@ flex: row;
     margin-bottom: 25px;
     width: 72%; 
     border-radius: 10%; 
-    
-    /* width: 7rem; 
-    display: flex;  
-    place-items: center; */
+
     
   }
   
