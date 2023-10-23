@@ -56,6 +56,8 @@ import TextCard1 from '../Components/Cards/TextCard1';
 
 import ImageTextCard from '../Components/Cards/ImageTextCard'; 
 
+import MinistryMaterial from '../Components/MinistryMaterial'; 
+
 
 
 function LandingPage() {
@@ -257,11 +259,23 @@ function LandingPage() {
     
     
     
+    
+    
     </article>
     
     
+    {/* Add in the Youtube Section here  */}
+    
+    <div id='youtubeSectionContainer'>
+    
+    
+      <MinistryMaterial/> 
+      
+      
+    </div>
 
-    <ContactForm/> 
+
+    {/* <ContactForm/>  */}
     
     
     </div>

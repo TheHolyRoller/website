@@ -4,6 +4,9 @@ import './globals.css'
 import NewNav from './Components/NewNav'; 
 import Footer from './Footer'; 
 
+import MinistryMaterial from './Components/MinistryMaterial'; 
+
+
 // import Footer from './Components/'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,14 +25,18 @@ export default function RootLayout({
     <html lang="en">
     
     {/* Add in the Navbar here  */}
-    <NewNav/> 
+    {/* <NewNav/>  */}
       <body className={inter.className}>
       
       {children}
       
+      <MinistryMaterial/> 
+      
+      
+      
       </body>
       {/* Add in the footer here  */}
-      <Footer/> 
+      {/* <Footer/>  */}
       
       
     </html>

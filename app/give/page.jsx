@@ -35,7 +35,7 @@ function openDonationWindow (customUrl) {
 
 const openDonation = () => {
 
-openDonationWindow ("https://donate.stripe.com/test_7sI5kOexagFeeJicMN");
+openDonationWindow ("https://buy.stripe.com/8wMcN79FLgcN86I000");
   
 }
 

@@ -1,0 +1,540 @@
+
+
+
+#mainContainer{
+
+margin: 2rem 0; 
+
+
+}
+
+
+
+#subContainer{
+
+width: 99.99vw; 
+
+min-height: 100vh;
+display: grid;
+place-content: center;
+
+position: relative; 
+
+    
+}
+
+
+#headlinecontainer{
+    
+    font-size: clamp(1rem, 1vw + 1rem, 3rem) !important;
+    font-weight: 700;   
+    margin: 3rem auto; 
+
+}
+
+
+#headline{}
+
+
+#youtubeSectionContainer{
+    display: block;
+}
+
+
+#youtubeSection{}
+
+
+#youtubeRowContainer{}
+
+
+#youtubeRow{}
+
+
+#youtubeRowTitleContainer{
+
+margin-left: 10%; 
+font-size: clamp(1rem, 1vw + 0.5rem, 1.7rem) !important;
+font-weight: 600;
+
+    
+}
+
+
+#youtubeRowTitle{}
+
+
+#youtubeVideoSlideContainer{
+margin: 0 auto; 
+display: grid; 
+place-content: center;
+    
+}
+
+
+#youtubeVideoSlide{}
+
+
+#youtubeVideoList{
+
+width: 90%; 
+
+padding-left: 5%; 
+
+text-align: center;
+
+margin: auto; 
+
+font-size: clamp(1.72rem, 1vw + 1rem, 3rem) !important;
+font-weight: 700; 
+
+/* font-size: clamp(); */
+
+
+
+
+    
+}
+
+#youtubeVideoListItem{
+
+display: inline-block;
+width: 15vw; 
+
+/* Add in a min width here  */
+min-width: 10rem; 
+
+border-radius: 25% 10%;
+/* border-radius: 50% 20% / 10% 40%; */
+
+background: red; 
+aspect-ratio: 12/12;
+    
+}
+
+
+#videoContainer{}
+
+
+#youtubeVideo{}
+
+
+
+/* Add in the media queries here  */
+
+ @media(max-width:1800px) and (min-width: 1000px){
+    
+    /* Add in the list item here  */
+    
+    
+    /* Adjust the size of the Youtube Video Here  */
+    
+    /* Adjust the margin of each list item here  */
+    
+    /* Change the wrapping behavior of the Youtube video here  */
+    
+    
+    
+
+#youtubeVideoSlideContainer{
+
+    
+
+/* width: 90%;  */
+margin: 0 auto; 
+display: grid; 
+place-content: center;
+
+
+    
+}
+
+
+#youtubeVideoSlide{}
+
+
+#youtubeVideoList{
+
+width: 90%; 
+
+padding: 0 !important; 
+
+
+text-align: center;
+
+margin: auto; 
+
+
+
+
+    
+}
+
+#youtubeVideoListItem{
+
+display: inline-block;
+width: 25.5vw; 
+
+min-width: 10rem; 
+
+border-radius: 25% 10%;
+/* border-radius: 50% 20% / 10% 40%; */
+
+margin: clamp(1rem, 1vw + 1rem, 1.7rem) !important; 
+
+background: red; 
+aspect-ratio: 12/12;
+    
+}
+    
+    
+} 
+
+
+
+/* Add in the next media query that kicks in at 1000px and is valid until 700px  */
+
+@media(max-width: 1000px) and (min-width: 700px){
+
+    #youtubeVideoSlideContainer{
+
+
+        margin: 0 auto; 
+        display: grid; 
+        place-content: center;
+        
+        
+            
+        }
+        
+        #headlinecontainer{
+            
+            width: 70vw; 
+            margin: 2rem auto; 
+            
+        }
+        
+        
+        #youtubeVideoSlide{}
+        
+        
+        #youtubeVideoList{
+        
+
+        
+        /*  margin: 0 auto;  */
+        
+        width: 90%; 
+        
+        padding: 0 !important; 
+        
+        
+        text-align: center;
+        
+        margin: auto; 
+        
+        
+        
+        
+            
+        }
+        
+        
+        /* Reduce the margin around the items  */
+        
+        #youtubeVideoListItem{
+        
+        display: inline-block;
+        width: 35vw; 
+        
+        min-width: 10rem; 
+        
+        border-radius: 25% 10%;
+        /* border-radius: 50% 20% / 10% 40%; */
+        /* border-radius: 12px;  */
+        margin: clamp(1rem, 1vw + 0.5rem, 1.7rem) !important; 
+        
+        /* margin: 2.5rem;  */
+        
+        background: blue; 
+        aspect-ratio: 12/12;
+            
+        }
+    
+    
+}
+
+
+@media(max-width: 700px) and (min-width: 450px){
+
+    #youtubeVideoSlideContainer{
+
+
+        margin: 0 auto; 
+        display: grid; 
+        place-content: center;
+        
+        
+            
+        }
+        #headlinecontainer{
+            
+            width: 70vw; 
+        }
+        
+        
+        #youtubeVideoSlide{
+        
+        
+            
+            
+        }
+        
+        
+        #youtubeVideoList{
+        
+        
+        width: 90%; 
+        
+        padding: 0 !important; 
+        
+        
+        text-align: center;
+        
+        margin: auto; 
+        
+        
+        
+        
+            
+        }
+        
+        
+        /* Reduce the margin around the items  */
+        
+        #youtubeVideoListItem{
+        
+        display: inline-block;
+        width: 40vw; 
+        
+        min-width: 10rem; 
+        
+        border-radius: 25% 10%;
+        /* border-radius: 50% 20% / 10% 40%; */
+        /* border-radius: 12px;  */
+        margin: clamp(1rem, 1vw + 0.3rem, 1.5rem) !important; 
+        
+        /* margin: 2.5rem;  */
+        
+        background: blue; 
+        aspect-ratio: 12/12;
+            
+        }
+    
+    
+}
+
+
+@media(max-width: 570px){
+
+     #youtubeVideoListItem{
+        
+        display: inline-block;
+        width: 70vw; 
+        
+        min-width: 10rem; 
+        
+        border-radius: 25% 10%;
+        /* border-radius: 50% 20% / 10% 40%; */
+        /* border-radius: 12px;  */
+        margin: clamp(1rem, 1vw + 0.3rem, 1.5rem) !important; 
+        
+        /* margin: 2.5rem;  */
+        
+        background: blue; 
+        aspect-ratio: 12/12;
+            
+        }
+        
+        #headlinecontainer{
+            
+            width: 70vw; 
+            margin: 2rem auto; 
+            
+        }
+    
+    
+}
+
+
+@media(max-width: 451px){
+
+    #youtubeVideoSlideContainer{
+
+
+        margin: 0 auto; 
+        display: grid; 
+        place-content: center;
+        
+
+        }
+        #headlinecontainer{
+            
+            width: 70vw; 
+            
+            margin: 2rem auto; 
+            
+        }
+        
+        
+        #youtubeVideoSlide{
+        
+        
+            
+            
+        }
+        
+        
+        #youtubeVideoList{
+        
+
+        width: 90%; 
+        
+        padding: 0 !important; 
+        
+        
+        text-align: center;
+        
+        margin: auto; 
+        
+        
+        
+        
+            
+        }
+        
+        
+        /* Reduce the margin around the items  */
+        
+        #youtubeVideoListItem{
+        
+        display: inline-block;
+        width: 70vw; 
+        
+        min-width: 10rem; 
+        
+        border-radius: 25% 10%;
+        /* border-radius: 50% 20% / 10% 40%; */
+        /* border-radius: 12px;  */
+        /* margin: clamp(1.7rem, 2vw + 2rem, 4rem) !important;  */
+        
+        /* margin: 2.5rem;  */
+        margin: 0.3rem; 
+        
+        background: hotpink; 
+        aspect-ratio: 12/12;
+            
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
