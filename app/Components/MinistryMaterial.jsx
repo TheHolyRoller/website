@@ -104,12 +104,10 @@ import mm from '../Styles/MinistryMaterial.module.css';
 
 function MinistryMaterial() {
   return (
-    <div id={mm.mainC ontainer} >
+    <div id={mm.mainContainer} >
     
     <div id={mm.subContainer}>
-    
-    
-    {/* /Add in the headline container here  */}
+      
     
     <div id={mm.headlinecontainer} >
     
@@ -147,9 +145,9 @@ function MinistryMaterial() {
     
     <ul id={mm.youtubeVideoList}>
     
-    <div id="{mm.youtubeRowTitleContainer}">
+    <div id={mm.youtubeRowTitleContainer}>
     
-    <div id="{mm.youtubeRowTitle}">
+    <div id={mm.youtubeRowTitle}>
     
     Walking in the Spirit 
     
@@ -268,9 +266,9 @@ function MinistryMaterial() {
     <ul id={mm.youtubeVideoList}>
     
      
-    <div id="{mm.youtubeRowTitleContainer}">
+    <div id={mm.youtubeRowTitleContainer}>
     
-    <div id="{mm.youtubeRowTitle}">
+    <div id={mm.youtubeRowTitle}>
     
     Walking in the Spirit 
     

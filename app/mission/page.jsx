@@ -12,6 +12,7 @@ import React from 'react'
 
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
 
+import Head from 'next/head'
 
 
 
@@ -25,12 +26,14 @@ import ss from '../Styles/MissionText.module.css';
 import MissionHero from '../Components/Heros/MissionHero'; 
 
 
-
-
 function Mission() {
   return (
     <div id={ss.textcomponentcontainer}>
-    
+      <Head>
+    <title>
+      Revival 
+    </title>
+    </Head>
     
     <MissionHero/> 
     
