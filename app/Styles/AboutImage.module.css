@@ -1,0 +1,155 @@
+
+
+
+
+#mainContainer{
+
+    
+}
+
+
+#subContainer{
+
+    
+}
+
+
+#imageContainer{
+
+background: url('../assets/BluePrints.jpg'); 
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center; 
+
+/* outline: 2px solid blue;  */
+
+width: 46vw; 
+height: 25.7vw; 
+/* Add in a min and a max height: and width here  */
+
+
+margin: 4rem auto; 
+border-radius: 0.7rem;
+
+
+
+    
+}
+
+#image{
+
+    
+    
+}
+
+
+/* Add in a few media queries here to adjust the width of the card */
+
+
+@media(max-width:669px){
+
+
+
+    #imageContainer{
+
+        background: url('../assets/BluePrints.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        
+        width: 92vw; 
+        height: 52.5vw; 
+        /* Add in a min and a max height: and width here  */
+     
+        
+        
+        
+            
+        }
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

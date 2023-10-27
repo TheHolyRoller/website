@@ -1,0 +1,439 @@
+
+
+#backgroundcontainer{
+    box-sizing: border-box; 
+    width: 100vw; 
+    min-height: 100vh; 
+    background-color: #ffffff !important;
+    position: relative; 
+    z-index: 200; 
+    display: grid;
+    place-content: center;
+    
+
+    
+    overflow: auto;
+    
+
+    
+    }
+    #componentcontainer{
+    background-color: white; 
+    color: black; 
+    width: 90vw; 
+    min-height: 100vh;
+    margin: 4rem auto !important; 
+    
+    display: grid;
+    place-content: center;
+    
+
+    
+    
+    }
+    #componentsectionlist{
+    margin: 0 auto !important ; 
+    margin-top: 20vh !important; 
+
+    display: flex; 
+    
+    }
+    #listcomponentitem{
+    
+    
+        display: inline-block;
+    }
+    #textlistitem{
+    
+    
+    display: inline-block !important;
+    margin-top: 0; 
+    margin-left: 0 !important; 
+    
+    padding-left: 2rem; 
+    
+
+    
+    }
+    #imagesubcontainer{
+        border-radius: 40px; 
+        margin: 0 auto !important; 
+        display: 
+        ;
+        justify-items: center;
+        
+        
+    }
+    #image{
+
+    width: 40vw;
+    height: 32vw; 
+    
+    
+    border-radius: 1rem; 
+    
+    }
+    
+    
+    #textsectioncontainer{
+    
+    
+    position: relative;
+    width: 45vw; 
+    text-align: center;
+
+    
+    }
+    
+    
+    
+    #textsectionsubcontainer{
+    height: 20vh;   
+    transform: translate(0rem, 0vh);
+    text-align: center;
+    
+    margin: 0 auto; 
+
+    
+    }
+    #textsectionheader{
+    
+    
+        font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
+        letter-spacing: -0.12rem;
+        width: 45vw; 
+        position: relative; 
+        z-index: 200;   
+        font-weight: 700; 
+        display: grid; 
+        place-content: center;
+
+        
+    }
+    #toptextcontainer{
+    
+    
+        margin-top: 0.54rem;
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 1rem;
+        color: lightslategray; 
+        width: 45vw; 
+        text-align: left !important; 
+        
+        
+    }
+    
+    #middleTextcontainer{
+    
+        margin: 1rem auto; 
+        width: 35vw; 
+        
+        text-align: center !important;
+        
+        
+        
+    }
+
+    
+    #bottomtextcontainer{
+
+        margin: 0 auto; 
+        width: 45vw; 
+        
+        
+        
+    }
+    
+    
+    
+   #imagesSectionContainer{
+    
+
+    width: 47vw; 
+    
+
+    
+   }
+    
+    
+    #imageList{
+    
+
+    width: 46vw; 
+    margin: 2rem auto !important; 
+    
+
+        
+    }
+    
+    #imageListItem{
+    
+    display: inline-block; 
+    
+        
+        
+    }
+    
+    
+    #listImage{
+    
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 17vw; 
+    min-height: 10vw; 
+    margin-right: 2rem; 
+    
+    border-radius: 0.5rem; 
+
+    
+    
+    }
+    
+    
+    @media(max-width: 1100px){
+        
+        /* Add in the main image here and sort the height and width  */
+
+        
+        
+    }
+    
+    
+    
+    @media(max-width: 990px){
+    
+    /* Add in the Main image here  */
+    
+    
+    
+    /* Add in the image list here  */
+
+    
+    /* Add in the image list items here  */
+    
+
+    }
+    
+    
+    @media(max-width: 695px){
+        
+        /* Create a grid container here  */
+    #componentsectionlist{
+        
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        
+        
+        
+    }
+    
+    #textlistitem{
+        
+        padding: 0 !important; 
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    /* Add in the list image items here  */
+    #imageListItem{
+        
+        display: block;
+        margin: 0 auto !important; 
+        width: 50vw !important;
+       
+        
+    }
+    
+    #listImage{
+    
+    width: 75vw; 
+    margin: 2rem auto; 
+    height: 45vw; 
+    border-radius: 0.5rem; 
+    
+    
+    
+
+    }
+    
+    
+    
+    
+    /* Increase all the widths and heights here  */
+    
+    /* Add in the main image here  */
+    
+    #image{
+    
+    width: 75vw; 
+    height: 45vw; 
+    
+
+    }
+    
+    /* Add in the headline container here  */
+        #textlistitem{
+            
+            width: 75vw; 
+            margin: 0 auto !important; 
+
+        }
+        
+        
+        #textsectioncontainer{
+            
+        width: 75vw; 
+        margin: 0 auto; 
+        
+        
+
+            
+        }
+        
+        
+        #textsectionheader{
+        
+        width: 75vw; 
+        
+
+            
+        }
+        
+        
+        #toptextcontainer{
+        
+        width: 75vw; 
+        
+
+            
+        }
+        
+        #middleTextcontainer{
+        
+        width: 70vw; 
+        
+
+        }
+        
+        
+        #bottomtextcontainer{
+        
+        
+        width: 75vw; 
+        
+
+            
+        }
+        
+        /* Ensure that everything wraps here  */
+        
+        
+        /* Sort out the widths and alignment here  */
+
+        
+        /*  */
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+
+    
+    
+   
+ 
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

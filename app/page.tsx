@@ -23,6 +23,8 @@ import CTAComponent from './Components/CTAComponent';
 import ImageText from './Components/ImageText'; 
 
 import TextImage from './Components/TextImage'; 
+import AboutImage from './Components/AboutImage'; 
+import ImagesText from './Components/ImagesText'; 
 
 
 
@@ -30,10 +32,10 @@ export default function Home() {
   return (
    
    <div  >
-    <TextImage/> 
     
+   
+    <ImagesText/> 
     
-    {/* <ImageText/>  */}
    
    </div>
    
