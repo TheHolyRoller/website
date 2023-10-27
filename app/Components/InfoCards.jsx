@@ -34,6 +34,7 @@ function InfoCards() {
     
     Adresa 
         
+        
     </div>
     <div id={ic.textContainer}>
     

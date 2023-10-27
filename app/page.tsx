@@ -16,9 +16,13 @@ import KidsCards from './Components/KidsCards';
 import Images from './Components/Images'; 
 import Video from './Components/Video'; 
 import InfoCards from './Components/InfoCards'; 
+import RightTextImage from './Components/RightTextImage'; 
 
-// import KidsImageCards from './Components/KidsImageCards'; 
+import CTAComponent from './Components/CTAComponent'; 
 
+import ImageText from './Components/ImageText'; 
+
+import TextImage from './Components/TextImage'; 
 
 
 
@@ -26,10 +30,10 @@ export default function Home() {
   return (
    
    <div  >
+    <TextImage/> 
     
     
-    <InfoCards/> 
-    
+    {/* <ImageText/>  */}
    
    </div>
    

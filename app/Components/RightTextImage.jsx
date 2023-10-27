@@ -6,6 +6,7 @@ Let's work things out.
 So now I have a Material UI Card that needs to be heavily modified. 
 
 
+
 First of all I need to add in the right image and remove the buttons. 
 
 Then add in the right text and headline, 

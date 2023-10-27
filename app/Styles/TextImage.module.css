@@ -1,16 +1,14 @@
-*, *::after, *::before{
-    padding: 0; 
-    margin: 0; 
-    }
-    body{
-    position: relative; 
-    width: 100vw; 
-    min-height: 100vh;
-    padding: 0; 
-    margin: 0; 
-    box-sizing: border-box; 
-    }
-    #background-container{
+
+    #backgroundcontainer{
+    
+    
+        position: relative; 
+        width: 100vw; 
+        min-height: 100vh;
+        padding: 0; 
+        margin: 0; 
+        box-sizing: border-box; 
+    
     width: 99.99vw !important; 
     margin: 0 auto !important; 
     min-height: 100vh; 
@@ -20,7 +18,7 @@
     display: grid;
     place-content: center;
     }
-    #component-container{
+    #componentcontainer{
     background-color: white; 
     color: black; 
     width: 90vw; 
@@ -29,21 +27,25 @@
     display: grid;
     justify-content: center;
     }
-    #component-section-list{
+    #componentsectionlist{
     margin: 0 auto ; 
     margin-top: 20vh !important; 
     }
-    #list-component-item{
+    #listcomponentitem{
         display: inline-block;
     }
-    #text-list-item{
+    #textlistitem{
     display: inline-block !important;
     margin: 0 auto !important; 
     position: relative !important; 
     padding: 0 !important; 
     transform: translate(20%, 20%) !important;
+    
+    text-align: right; 
+
+    
     }
-    #image-sub-container{
+    #imagesubcontainer{
         border-radius: 40px; 
         margin: 0 auto !important; 
         display: grid;
@@ -51,19 +53,24 @@
     }
     #image{
     max-width: 600px !important;
+    
+    border-radius: 10px; 
+        
+    outline: 10px solid lime !important; 
+    
     }
     /* ----TEXT SECTION------ */
-    #text-section-container{
+    #textsectioncontainer{
     position: relative;
     max-width: 750px;
     transform: translate(0, -15.5%);
     width: 70%; 
     }
-    #text-section-sub-container{
+    #textsectionsubcontainer{
     height: 20vh;   
     transform: translate(0rem, 0vh);
     }
-    #text-section-header{
+    #textsectionheader{
         font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
         letter-spacing: -0.12rem;
         width: 30vw; 
@@ -71,20 +78,26 @@
         z-index: 200;   
         font-weight: 700;   
     }
-    #top-text-container{
+    #toptextcontainer{
+    
+    
         margin-top: 0.54rem;
         font-size: 1rem;
         font-weight: 450;
         line-height: 1rem;
         color: lightslategray; 
         width: 22vw; 
-        text-align: left;
+        text-align: center !important;
+
+        
     }
-    #bottom-text-container{
+    #bottomtextcontainer{
         max-width: 650px; 
         margin-top: 0.7rem; 
+        
+        
     }
-    #values-button{
+    #valuesbutton{
     margin-top: 2rem;
     color: white; 
     font-weight: 600;   
@@ -99,7 +112,7 @@
     background-color: #ecb61f;
     }
     @media(max-width: 1700px) and (min-width: 1200.5px){
-        #text-list-item-backup{
+        #textlistitembackup{
             display: none;
         }
         #image{
@@ -109,23 +122,23 @@
         }
     }
     @media(max-width: 1200px){
-        #text-list-item{
+        #textlistitem{
           display: none !important; 
         }
-            #text-section-container{
+            #textsectioncontainer{
              transform: translate(0,0) !important;
             }
-            #top-text-container{
+            #toptextcontainer{
             width: 80vw !important; 
             max-width: 800px; 
             }
-            #text-list-item-backup{
+            #textlistitembackup{
             display: inline-block !important;
             margin: 0 auto !important; 
             position: relative;
             transform: translate(0vw, 0vh) !important ;
             }
-            #list-component-item{
+            #listcomponentitem{
                 display: block !important; 
             }
             #image{
@@ -136,12 +149,12 @@
             }
     }
     @media(max-width: 1200px) and (min-width:777px){
-        #text-list-item-backup{
+        #textlistitembackup{
             margin-left: 10% !important; 
         }
     }
     @media(max-width: 900px){
-        #values-button{
+        #valuesbutton{
             margin-top: 0.5rem !important; 
         }
     }
@@ -151,12 +164,14 @@
         }
     }
     @media(max-width: 375.5px){
-            #text-list-item{
+            #textlistitem{
                 margin: 0 auto !important; 
                 }
-                #text-list-item-backup{
+                
+                #textlistitembackup{
                     margin-left: 6.6% !important;
                 }
+                
                 #image{
                 max-height: 350px; 
                 }
