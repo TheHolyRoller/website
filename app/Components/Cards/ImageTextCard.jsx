@@ -8,6 +8,7 @@ function ImageTextCard() {
   return (
   
   
+  
     <div id={im.cardMainContainer}>
     
     <div id={im.cardContainer} >
@@ -56,6 +57,7 @@ function ImageTextCard() {
 
     </div>
     
+
 
 
     </div>

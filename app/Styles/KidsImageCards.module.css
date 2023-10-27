@@ -1,0 +1,272 @@
+
+
+#cardMainContainer{
+    position: relative;
+    color: white; 
+    
+    margin: 5rem; 
+    align-self: center;
+
+    display: inline-block;  
+    
+    
+    }
+    
+    
+    
+    /* Adjust the width and the height here  */
+    
+    #cardImage{
+    background: url('../assets/BluePrints.jpg') !important; 
+    background-size: cover; 
+    background-position: center center; 
+    width: 40.5vw; 
+    min-height: 226px; 
+
+    border-top-left-radius: 1.3em; 
+    border-top-right-radius: 1.3em; 
+    
+    margin: 0 auto; 
+    position: relative;
+    z-index: 1; 
+    
+    }
+    
+    
+    
+    /* Adjust the width and the height here  */
+    
+    #cardTextContainer{
+    margin: 0rem auto !important; 
+    margin-top: -2rem; 
+    position: relative; 
+    z-index: 3; 
+    padding: 2rem; 
+    background-color: #848c2f; 
+    
+    color: rgb(23, 23, 23); 
+    border-bottom-left-radius: 1.313rem;
+    border-bottom-right-radius: 1.313rem;
+    width: 40.5vw; 
+    
+    min-height: 162px; 
+    
+    
+    text-align: center;
+    
+    
+    }
+    #cardHeadlineContainer{
+    font-weight: 800;
+    
+
+    
+    
+    font-size: clamp(1rem, 1vw + 1rem, 1.5rem) !important; 
+    margin-bottom: 1rem;
+    }
+    #cardText{
+    color: rgb(136, 133, 133); 
+    font-weight: 500;
+
+    }
+    
+    
+    @media(max-width: 970px){
+        
+        #cardTextContainer{
+            
+            width: 44vw;
+            height: 7.563rem !important; 
+            max-height: 7.563rem !important; 
+            
+            }
+            
+            
+            #imageContainer{
+            
+                width: 44vw; 
+                height: 12.375rem !important; 
+                max-height: 12.375rem !important; 
+                 margin: 0 auto !important; 
+
+            }
+            
+            #cardImage{
+
+            width: 44vw; 
+            height: 12.375rem !important; 
+            max-height: 12.375rem !important; 
+            
+                
+            } 
+
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                margin: 0 auto !important; 
+                
+                }
+        
+    }
+
+   
+    @media(max-width: 700px){
+        #cardTextContainer{
+            
+            
+            
+            }
+            #cardImage{
+                
+                
+                
+                
+            } 
+            
+            
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                margin: 0 auto !important; 
+                
+                }
+    }
+    
+    
+    @media(max-width: 560px){
+    
+        #cardTextContainer{
+
+            margin: 0rem auto !important;
+            
+            }
+            #cardImage{
+            margin: 0 auto !important; 
+
+            
+            } 
+            
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                
+                width: 99.999vw; 
+                
+                margin: 2rem auto !important; 
+                
+                }
+        
+        
+    }   
+    
+    
+    
+    @media(max-width: 485px){
+
+         #cardTextContainer{
+
+             
+             width: 13.063rem !important; 
+             height: 6.325rem !important; 
+             max-height: 6.325rem !important; 
+             min-height: 5rem !important; 
+             margin: 0 auto !important;
+             
+             
+             
+            }
+            #cardImage{
+                
+                height: 12.75rem !important; 
+                width: 13.063rem !important; 
+                margin: 0 auto !important; 
+
+
+            } 
+            
+            #cardImage{
+
+                margin: 0 auto !important; 
+                
+            }
+            
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                
+                width: 99.999vw; 
+                margin: 2rem auto !important; 
+                
+                }
+        
+        
+    }
+    
+    
+    
+    /* Add in a media query here for smaller phones that works to center the image  */
+    
+    @media(max-width: 465px){
+
+        /* Add in the image container here  */
+        #imageContainer{
+
+           padding: 0 !important; 
+           margin: 0 auto !important; 
+           
+           align-self: center !important;
+           width: 13.063rem !important; 
+           
+            
+        }
+        /* Add in the image here  */
+        #cardImage{
+
+            margin: 0 auto !important; 
+            align-self: center; 
+            padding: 0 !important; 
+
+        }
+
+        /* Add in the card container here  */
+        #cardMainContainer{
+
+        outline: 4px solid hotpink; 
+        display: grid; 
+        place-content: center; 
+
+
+        }
+        
+        #cardContainer{
+
+            display: grid; 
+            place-content: center;
+            margin: 0 auto; 
+
+            
+        }
+        
+        
+        #cardTextContainer{
+        
+
+            
+        }
+        
+        
+        #cardTextSubContainer{
+
+            
+        }
+        
+        
+        /* Add in the text container here  */
+        
+        
+    }

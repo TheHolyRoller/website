@@ -1,23 +1,10 @@
 'use client'
 
-
-/**
-
-
-*/
-
-
-
 import React from 'react'
 
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
-
-import Head from 'next/head'
-
-
-
 import { Card, Row, Text } from "@nextui-org/react";
-import TextCard1 from '../Components/TextCard1'; 
+import TextCard1 from '../Components/Cards/TextCard1'; 
 import MuiCard from '../Components/MuiCard'; 
 
 import {  Col,  Button,  } from "@nextui-org/react";
@@ -25,16 +12,9 @@ import {  Col,  Button,  } from "@nextui-org/react";
 import ss from '../Styles/MissionText.module.css';
 import MissionHero from '../Components/Heros/MissionHero'; 
 
-
 function Mission() {
   return (
     <div id={ss.textcomponentcontainer}>
-      <Head>
-    <title>
-      Revival 
-    </title>
-    </Head>
-    
     <MissionHero/> 
     
     <div id={ss.missionsubcontainer}>

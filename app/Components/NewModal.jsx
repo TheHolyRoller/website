@@ -30,11 +30,7 @@ import {
   import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
   import InstagramIcon from '@mui/icons-material/Instagram';
   import YouTubeIcon from '@mui/icons-material/YouTube';
-  // import InstagramRoundedIcon from '@mui/icons-material/InstagramRounded';
-  
-  // import { useMediaQuery } from 'react-responsive'
-  
-//   Import the stylesheet here 
+
 import '../Styles/NewModal.css'; 
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
@@ -56,18 +52,8 @@ const theme = extendTheme({
 
 
 
+
  export default function NewModal() {
- 
- 
-//  const isDesktopOrLaptop = useMediaQuery({
-//     query: '(min-width: 1224px)'
-//   })
-//   const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-//   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-//   const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  
- 
- 
     const { isOpen, onOpen, onClose } = useDisclosure()
     const [size, setSize] = React.useState('md')
 
@@ -76,23 +62,11 @@ const theme = extendTheme({
       setSize(newSize)
       onOpen()
     }
-  
-  
-    // 'xs', 'sm', 'md', 'lg', 'xl',
     const sizes = [ 'full'];
-    
-    // Add in the state variable for the visibility basis 
     const [open, setIsOpen] = useState('open');
-    
     const [toggle, setToggle] = useState(true); 
-    
     const [className, setClassName] = useState("class1");
-
-    
     const handleClick = () => {
-
-      
-      // Toggle the visibility here 
       setIsOpen(!open);
       console.log("this has been toggled ")
       setToggle(!toggle); 
@@ -100,7 +74,6 @@ const theme = extendTheme({
       if (className === "class1") {
         setClassName("class2");
       }
-      // If the state is "class2", set it to "class1"
       else {
         setClassName("class1");
       }
@@ -158,7 +131,6 @@ const theme = extendTheme({
               <MenuIcon   id='toggle-button' className={className}  style={style1}  />
 
               
-          {/* This was a SPAN!!!! */}
             <div
             
             style={{marginTop: '-1.69rem', 

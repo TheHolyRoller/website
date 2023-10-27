@@ -1,336 +1,159 @@
 *, *::before, *::after{
-
    padding: 0; 
    margin: 0;
-   
 }
-
-
-
 body{
 
     padding: 0 !important; 
     margin: 0 !important;
-    box-sizing: border-box;
-
     width: 100vw; 
     min-height: 100vh;
     position: relative; 
-    
-    
     background: #161822 !important; 
     background-color: #161822 !important; 
-
-    
-        
-    
-}
-html{
-scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 #hero-container{
-    
     position: relative; 
-    
     min-width: 100vw; 
     min-height: 110vh;  
-    
         margin-top: -20vh; 
         margin-left: -2rem;
-        
     }
-    
     #hero-container::before{
-        
         content: "";
         position: absolute; 
         top: 0; 
         left: 0; 
         width: 100%; 
         height: 110vh;
-
-
         background-image: url('../assets/BluePrints.jpg'); 
         background-repeat: no-repeat;
         background-size: cover; 
         background-position: center center;
     }
-
     #hero-text{
-       
        width: 40vw; 
-       
        font-size: 2.5rem;
        font-weight: 700;
-       
     }
-    
      #hero-text-container{
         position: absolute;
-        
         top: 5.9%; 
         left: 5%; 
         z-index: 20; 
-        
-        
-        
-        
-        
     }
-    
-      
     #hero-headline{
-        
         font-size: clamp(1.2rem, 1rem + 1vw, 1.7rem); 
         color: white; 
         font-weight: 780;   
         width: 33vw; 
     }
-
     #hero-button{
-        
-        
         position: absolute;
-        
         top: 111%; 
         left: -1%; 
         z-index: 20;
-        
         width: 13.438rem; 
         height: 3.625rem;
         background: #00c670; 
         border-radius: 12px;
-        
         text-transform: uppercase;
         font-weight: 600;   
         font-size: 0.899rem; 
         color: white; 
-        
-        
     }
-    
-    
     #landing-page-main-container{
-    
         background: var(--dark); 
         background-color: var(--dark) !important; 
-
-        
     }
-
-    
-    
-    
     #landing-grid-container-two{
-        
         margin: 3rem auto; 
         padding-bottom: 3rem !important; 
         
-    }
 
-    
-    #TextCard1{
+        width: 90vw; 
+        margin: 0 auto !important; 
+        display: grid; 
+        place-content: center; 
         
-        
-        transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    
-    cursor: pointer !important; 
-    
         
         
     }
-    
+    #TextCard1{
+        -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        cursor: pointer !important; 
+    }
     #content-main-headline{
-        
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0, 0) !important;
         width: 60vw; 
         display: grid;
         place-content: center;
-        
         font-size: clamp(1rem, 1vw + 1.35rem, 2rem);
         font-weight: 800;   
         margin-bottom: 2rem !important; 
         color: white; 
-        
         margin-bottom: 4.5rem !important; 
-
-        
-        
-        
     }
-    
-    
     #text-container{
-        
         color: #888888; 
-        
-        
-        
-        
     }
-    
-    
-    
     #landing-grid-container{
-    
     display: flex;
-    
     justify-items: center;
-    
-    
-
     width: calc(70vw + clamp(1rem, 1vw + 1.5rem, 3rem)); 
-
     margin: 0 auto !important; 
-    /* margin-top: -3rem;  */
+   
     margin-bottom: 5rem !important;
-    
-
-    /* gap: clamp(1.9rem, 0.7vw + 1rem, 10rem) !important;  */
-        
+   
     }
-    
-    
     #landing-grid-sub-container{
-
-        
             display: flex; 
             justify-items: center;
-
-        
-
     width: 80vw !important; 
     margin: 0 auto !important; 
-    
-    
 }
-
-    
-    #grid-item-container{
-        
-
-        
-        
-    }
-    
-    #grid-item-two-container{
-        
-        
-        
-
-
-        
-    }
-    
-    #grid-card-one{
-    
-    
-    
-
-    
-        
-    }
-    
-    
     #landing-grid-one{
-    
     padding-right: clamp(1rem, 1vw + 1.5rem, 3rem); 
-    
-    
     }
-    
-    
-    
-    
-    
     #landing-grid-two{
-        
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr;
         width: max-content; 
         margin: 0 auto !important; 
         gap: clamp(1rem, 1vw + 2rem, 3.2rem) !important; 
-
-        
-        
     }
     
-    
-    #grid-card-two{
+    #grid-item-container-two{
 
-        
-        
     }
     
     .getInvolvedContainer{
-    
-
     width: max-content; 
     margin: 0 auto; 
-    
     margin-top: 5rem !important;
-        
     }
-    
     .getInvolved{
-    
-
     width: max-content; 
     margin: 0 auto; 
     margin-bottom: 1rem !important; 
-    
-        
-        
-        
     }
-    
-    /* ----SECOND GRID--- */
-    /* **************** */
-    
+   
+   
     #landing-second-grid{
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     width: max-content; 
     margin: 2rem auto !important;   
     gap: clamp(1rem, 0.5vw + 1rem, 3rem) !important; 
-    /* margin-top: -2rem !important;  */
-    
-
-    
-        
+   
     }
-    
-    #second-landing-item-one{
-        
-        
-        
-        
-    }
-    
-
-    #second-landing-item-two{
-
-        
-        
-    }
-    
-    
-    
-    
-    #second-landing-item-three{
-    
-
-    }
-    
-    
     #mission-section{
        width: 48vw; 
        margin: 0 auto; 
@@ -338,405 +161,159 @@ scroll-behavior: smooth;
        margin-bottom: 5rem;
         color: #9b9997 !important;
     }
-    
     #mission-text{
-        
-        
-        
         font-size: clamp(1rem, 1.3rem + 1vw, 4rem) !important;
-        
         font-weight: 700;
         letter-spacing: -0.1rem;    
-        
     }
-    
-    
     #mission-paragraph{
-
         font-weight: 500;   
         font-size: clamp(1rem, 0.1rem + 1vw, 2rem);
         color: #9b9997 !important;
     }
-    
-    
-    /* ______--------___________ */
-    /*----- Media Queries ----- */
-    
     @media(max-width: 700px){
-    
         #landing-grid-two{
-        
             display: grid; 
             grid-template-columns: 1fr;
-            width: max-content; 
+            width:80vw; 
+            position: relative; 
+            
+
             margin: 0 auto !important; 
             gap: clamp(1rem, 1vw + 2rem, 3.2rem) !important; 
+
+            
+        }
+        /* Add in the grid item here  */
+        #grid-item-container-two{
+        
+            
+            align-self: center; 
+            margin: 0 auto !important; 
             
             
         }
         
-        /* Adjust the the width of the sub text here  */
         
-          
     #text-container{
-        
         color: #888888; 
         width: 90vw !important; 
-
         margin: 0 auto !important;
         display: grid;
         place-content: center;
         text-wrap: wrap;
-        
-        
-        
-        
     }
-        
-
-        
     }
-    
     @media(max-width: 500px){
-        
         #mission-section{
-            
             width: 80vw; 
-
          }
-
-        
     }
-    
-    
     @media(max-width: 455px){
-
         #content-main-headline{
-            
             margin: 0 auto !important; 
             padding: 0 !important; 
-
-            /* margin-bottom: -5rem !important; */
+           
             margin-top: 7rem !important; 
             margin-bottom: -8rem !important; 
-            
-
             transform: translate(0, 0rem) !important;
             width: 80vw !important;
-
-            
             position: relative;
             z-index: 3;
-            
-            
-            
             font-size: clamp(1rem, 1vw + 1rem, 2rem) !important;
             font-weight: 700 !important;
-
-            
-
-
         }
-        
-        
-        #text-cards{
-
-            
-        }
-        
-        #great-commission-container{
-            
-
-            
-        }
-        
-        
-        
         #hero-button{
-
             left: -3.5% !important; 
-            
         }
-        
     }
-
-    
     #headline-container{
-    
     color: white; 
     position: relative; 
-    
-
-        
     }
-    
     #card-headline{
-    
     color: white; 
     font-size: 2rem; 
     font-weight: 900;   
-        
     }
-    
-    
-    #card-section{
-    
-
-        
-    }
-    
-    
     #TextCard1:hover{
-        
         transform: scale(1.1) !important ;
         -webkit-transform: scale(1.1) !important ;
         -moz-transform: scale(1.1) !important ;
         -ms-transform: scale(1.1) !important ;
         -o-transform: scale(1.1) !important ;
-        
         -webkit-transform: translate(0, 3deg) !important;
         -moz-transform: translate(0, 3deg) !important;
         -ms-transform: translate(0, 3deg) !important;
         -o-transform: translate(0, 3deg) !important;
         transform: translate(0, 3deg) !important;
-        
-        
-        
-        
     }
-    
     @media(max-width: 1800px) and (min-width: 1110px)  {
-        
         #mission-section{
-            /* width: 48vw;  */
-            /* margin: 0 auto;  */
             margin-top: 7rem;
-            /* margin-bottom: 5rem; */
             color: white; 
-             /* color: #9b9997 !important; */
          }
-         
     #landing-grid-container-two{
-    
-    
     margin: 5rem auto !important; 
-    
     }
-        
-        
     }
-    
     @media(max-width: 1100px){
-        
         #mission-section{
-           
-           
             margin-top: 2rem; 
-            
-           /* margin: auto;  */
-           
          }
-        
-        
     }
-    
-    @media(max-width: 900px){
-    
-
-        
-    }
-    
-    
     @media(max-width: 840px){
-        
     #landing-grid-container{
-        
-        
         display: grid !important; 
-        
         grid-template-columns: 1fr;
         justify-content: center; 
-        
         height: auto !important; 
         min-height: 70vh; 
         width: 80vw; 
-
-
-        
         margin: 3rem auto !important; 
         
         
         
     }
-    
-    
-    /* Add in the second grid container here  */
     #landing-second-grid{
-    
     grid-template-columns: 1fr;
     gap: clamp(1rem, 1vw + 3rem, 4rem) !important; 
 
-        
-    }
     
+    }
     #grid-item-container{
-        
         margin: 2rem auto !important; 
-        
-        
-        
     }
-    
     #grid-item-two-container{
-    
     display: block !important; 
-    
-    
-        
     }
-    
-    
     #mission-section{
-
         margin-top: 2rem; 
-       
      }
-     
     #landing-grid-one{
-    
     padding: 0; 
-    
-        
-        
     }
-    
-
     }
-    
-    
     @media(max-width: 500px) {
-        
         #mission-section{
-           
-           
             margin-top: -1rem; 
-
          }
-         
          #content-main-headline{
-    
-
-            
             margin-bottom: 5em; 
-
             transform: translate(0, 0rem) !important;
             color: black !important;
-            
-            
-                
-                
-                
             }
-            
-            
             #text-cards{
-                
                 margin: 4rem auto !important;
-                
-                
-                
-                
             }
-        
-        
-        
     }
-    
-    
     @media(max-width: 455px){
-    
         #content-main-headline{
-    
             margin-bottom: 5em; 
             transform: translate(0, -6rem) !important;
             color: white !important;
-                
             }
-            
-            
             #text-cards{
-                
                 margin: 9rem auto !important;
-                
-
-                
             }
-        
-        
     }
-    
-    
-    
-    /* Add in another media query here to adjust the cards  */
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    

@@ -1,0 +1,154 @@
+
+#mainContainer{
+
+    
+    
+}
+
+#subContainer{
+
+
+
+}
+
+
+
+#cardContainer{
+       
+    width: 34.505vw; 
+    background: blue; 
+    height: 19vw; 
+    margin: 9rem auto !important; 
+    min-height: 17.5rem !important; 
+    min-width: 18.7rem; 
+    border-radius: 10px;
+    
+    display: grid; 
+    place-content: center;
+    
+    /* Try and see if you can get everything to get items in the middle 
+    */
+    
+    
+    
+    
+}
+
+
+#mainCard{
+
+
+  
+    
+}
+
+#headlineContainer{
+    
+    margin: 1rem auto !important; 
+    width: 5rem; 
+    outline: 3px solid lime; 
+    font-weight: 800;
+    font-size: 1.3rem; 
+    
+
+}
+
+
+#iconContainer{
+
+background: url('../assets/map.png'); 
+background-repeat:no-repeat; 
+background-size: cover;
+background-position: center center;
+
+width: 5.25rem; 
+height: 4.5rem; 
+
+margin: 0 auto !important; 
+
+
+    
+}
+
+#textContainer{
+
+text-align: center;
+
+
+}
+
+#text{
+
+    
+    
+}
+
+
+#subTextContainer{
+
+    display: block; 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

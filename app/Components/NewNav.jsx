@@ -4,9 +4,12 @@
 import { FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 
+
 import NewModal from './NewModal';
+
 import { Navbar } from "@nextui-org/react";
 import {  Button, Link, Text, useTheme } from "@nextui-org/react";
+
 
 // import { AcmeLogo } from './AcmeLogo';
 import LiveTvIcon from '@mui/icons-material/LiveTv';

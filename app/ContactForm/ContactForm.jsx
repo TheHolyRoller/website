@@ -10,26 +10,15 @@ import 'react-toastify/dist/ReactToastify.min.css';
 
 
 
-
-
-
 // import * as React from 'react';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-
-
-// Import Font Awesome Icons here 
 import ReactDOM from 'react-dom'
 
-
-
-
-
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
 const options = [
   ' ',
   ' ',
@@ -44,8 +33,11 @@ const options = [
 ];
 
 
-import '../Styles/form.css'; 
 
+import fv from '../Styles/form.module.css'; 
+
+
+// import  '../Styles/form.css'; 
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
 import { addDoc, getFirestore, collection } from 'firebase/firestore';
@@ -54,6 +46,8 @@ const filter = new Filter();
 
 import { db } from '../Components/SingupModal'; 
 import { app } from '../Components/SingupModal';
+
+
 
 
 const ContactForm = () => {
@@ -74,6 +68,22 @@ const ContactForm = () => {
   const [messageError, setMessageError] = useState("");
   
   
+  
+  // Add in the ClassToggling state variables here 
+  
+  
+  
+  
+  
+  
+  // Add in the classToggling functions here 
+  
+  
+  
+  
+  
+  
+  
   const initialInputValues = useMemo(() => ({
     name: "",
     email: "",
@@ -87,7 +97,7 @@ const ContactForm = () => {
   };
   const handleLastNameChange = (e) => {
     setLastName(e.target.value);
-    // setLastNameError("");
+
   };
   
   const handleEmailChange = (e) => {
@@ -102,11 +112,6 @@ const ContactForm = () => {
     setMessage(e.target.value);
     setMessageError(" ");
   };
-  
-
-   
-   
-
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [selectedIndex, setSelectedIndex] = React.useState(1);
@@ -136,7 +141,6 @@ const ContactForm = () => {
   const [disabled, setDisabled] = useState(false);
 
  
-  // const handleSubmit = async (e) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
@@ -166,10 +170,6 @@ const ContactForm = () => {
       isValid = false;
     }
     
-    // if (isValid) {
-
-      
-    // Add in the await code here from the other file 
     await addDoc(collection(db, productID ), {
       name:  name,
       email: email,
@@ -184,13 +184,8 @@ setLastName(" ");
 setEmail(" ");
 setPhone(" ");
 setMessage(" ");
-// This will not work
-      alert("Your message has been sent. Thank you!");
-   
-      
-    // }
+alert("Your message has been sent. Thank you!");
   };
-  
   
   useEffect(() => {
     setName(initialInputValues.name);
@@ -200,58 +195,50 @@ setMessage(" ");
 
 
   return (
-    <div className='ContactForm'  >
-      <div className='container'>
-        <div className='row'>
-          <div className='col-12 text-center'>
-            <div className='contactForm'>
-              <form key={formKey} id='contact-form' onSubmit={handleSubmit} noValidate>
+    <div className={fv.ContactForm}  >
+      <div className={fv.container}>
+        <div className={fv.row}>
+
+        {/* Toggling */}
+          <div 
+          // className='col12 textcenter'>
+          className={`${fv.col12} ${fv.textcenter}`}>
+            <div className={fv.contactForm}>
+              <form key={formKey} id={fv.contactform} onSubmit={handleSubmit} noValidate>
                 {/* Row 1 of form */}
-                
-                
-                {/* Add in a container here just for the content of the contact form  */}
-                
-                <div id='content-container' >
-
-                  
-                
-    
-   <div id='CTA-text-container'>
+                <div id={fv.contentcontainer} >
+   <div id={fv.CTAtextcontainer}>
    
-   
-   <div id="CTA-container" >
-
+   <div id={fv.CTAcontainer} >
   </div>
     
+    <div id={fv.CTAtext}>
     
-    <div id='CTA-text' style={{  }} >
-    
-    
-    <div id="CTA-Header">
-
-<span id='CTA-header-span' >
+    <div id={fv.CTAHeader}>
+<span id={fv.CTAheaderspan}>
 Get in touch 
 </span>
-
 
    </div>
     
     
     We love to hear from people, so if you'd like to ask a question, get some info or just want to say hi, drop us a message below.   
-      
-      
     </div>
    
    </div>
-                <div id="name-row"  className='row formRow'>
+   
+   {/* Toggling */}
+                <div id={fv.namerow}  
+                // className='row formRow'>
+          className={`${fv.row} ${fv.formRow}`}>
                 
-                  <div id="name-column"  className=''>
-       <div id='drop-down-content-container' >
-                <div  id='drop-down-container'>
+                  <div id={fv.namecolumn}>
+       <div id={fv.dropdowncontentcontainer}>
+                <div  id={fv.dropdowncontainer}>
     
-    <div id="name-header" >
+    <div id={fv.nameheader }>
           Name 
-          <span id='name-asterisk' >
+          <span id={fv.nameasterisk} >
             * 
           </span>
             
@@ -259,10 +246,10 @@ Get in touch
           </div>
     
     
-    <div id='title-container' >
+    <div id={fv.titlecontainer}>
     
     
-    <div id='dropdown-title' >
+    <div id={fv.dropdowntitle}>
     
     Title 
     
@@ -271,44 +258,41 @@ Get in touch
           
       <List
       
-      id='drop-down-list'
-        // style={{width: '16vw', borderRadius: '5px'}}
+      id={fv.dropdownlist}
+
         component="nav"
-        aria-label="Device settings"
+        arialabel="Device settings"
         sx={{ bgcolor: 'background.paper' }}
       >
-      
-      
-      
       {/* Add in the icon here  */}
       <ArrowDropDownIcon style={{color: '#0bb8d0', position: 'absolute', top: '23%', right: '18%'}} 
       onClick={handleClickListItem} 
       />
       
         <ListItem
-        
-        
           button
-          id="lock-button"
-          aria-haspopup="listbox"
-          aria-controls="lock-menu"
-          // aria-label="when device is locked"
-          aria-expanded={open ? 'true' : undefined}
+          id={fv.lockbutton}
+          ariahaspopup="listbox"
+          ariacontrols="lockmenu"
+          // arialabel="when device is locked"
+          ariaexpanded={open ? 'true' : undefined}
           onClick={handleClickListItem} 
         >
           <ListItemText
             // primary="When device is locked"
             secondary={options[selectedIndex]}
+            id={fv.listItemTxt}
+            
           />
         </ListItem>
       </List>
       <Menu
-        id="lock-menu"
+        id={fv.lockmenu}
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          'aria-labelledby': 'lock-button',
+          'arialabelledby': 'lockbutton',
           role: 'listbox',
           
           
@@ -320,121 +304,70 @@ Get in touch
             disabled={index === 0}
             selected={index === selectedIndex}
             onClick={(event) => handleMenuItemClick(event, index)}
+            id={fv.menuItem}
           >
             {option}
           </MenuItem>
         ))}
       </Menu>
-    
-    
-    {/* Title container for the text  */}
-    </div>
-    
-    
-    
-    
-    {/* Drop down container */}
-    </div>
-    
-    
-    {/* Add in the end of the Drop down Content container here  */}
-    </div>
-    
-    
-    {/* Add in the first name title here  */}
-    
-    
-    
-    {/* Try adding in an input container here  */}
-    
-    <div id='first-name-container' >
-    
-    {/* Add in the title here  */}
+
       
-      {/* Modify the container so that it can hold both the input and the title  */}
-      <div id='first-name-title' >
+    </div>
+
+    </div>
+    
+    </div>
+    <div id={fv.firstnamecontainer} >
+      <div id={fv.firstnametitle}>
           
     First 
-    <span style={{display: 'inline', marginLeft: '0.5rem'}} >Name </span>
-      
-      
+    <span id={fv.firstNameSpan}  style={{display: 'inline', marginLeft: '0.5rem'}} >Name </span>
+
     </div>
-      
-      
-      
                     <input
-                    id="name-input"
+                    id={fv.nameinput}
                       type='text'
                       name='name'
                       style={{color: 'black'}}
                       onChange={handleNameChange}
+                      // Toggling
+                      className={`${fv.formInput} ${fv.firstname}`}
                       
-                      // {...register('name', {
-                      //   required: {
-                      //     value: true,
-                      //     message: 'Please enter your name'
-                      //   },
-                      //   maxLength: {
-                      //     value: 30,
-                      //     message: 'Please use 30 characters or less'
-                      //   }
-                      // })}
-                      // /form-control
-                      className=' formInput first-name '
                       placeholder='First Name'
                     >
-                    
-                    
                     </input>
                     
     </div>
-                    
-
-
-
-                    {/* {errors.name && <span className='errorMessage'>{errors.name.message}</span>} */}
-                  <div id="name-column"  className=''>
-                    
-                   
-                    
-                    
-                    
-                    
-    {/* Add in the input container here  */}
+                  <div id={fv.namecolumn}>
     
-    <div id='last-name-title-container' >
-
-      {/* Add in the title here  */}
-      
-      <div id='name-headline-title' >
+    <div id={fv.lastnametitlecontainer} >
+      <div id={fv.nameheadlinetitle}>
                       Last 
-                      <span id='last-name-span' style={{display: 'inline', marginLeft: '0.5rem'}} >
+                      <span id={fv.lastnamespan} style={{display: 'inline', marginLeft: '0.5rem'}} >
                         Name 
                       </span>
                       
                     </div>
             
                     <input
-                    id="name-input"
+                    id={fv.nameinput}
                       type='text'
                       name='name'
                       style={{color: 'black'}}
                       onChange={handleLastNameChange}
                      
-                      // /form-control
-                      className=' formInput last-name'
+                      // /formcontrol
+                      // Toggling
+                      // className=' formInput lastname'
+                      className={`${fv.formInput} ${fv.lastname}`}
+                      
+                      
                       placeholder=' Name'
                     >
                     
                     </input>
                     
-
-                    
     </div>
-                    
-                      
-
-                    {/* {errors.name && <span className='errorMessage'>{errors.name.message}</span>} */}
                   </div>
                   
                   
@@ -442,27 +375,29 @@ Get in touch
                   
                 </div>
                 
-                <ul id='input-list' >
-                  <li id='input-list-item' >
-                  <div id="email-row"  className='col-6'>
+                <ul id={fv.inputlist} >
+                  <li id={fv.inputlistitem} >
+                  <div id={fv.emailrow}  className={fv.col6}>
                   
-                  <div id='input-main-container' >
-
+                  <div id={fv.inputmaincontainer} >
                       
                       
-                  <div id='email-title' >
+                  <div id={fv.emailtitle} >
                     Email 
-                    <span id='email-asterisk' >* </span>
+                    <span id={fv.emailasterisk} > * </span>
                     
                   </div>
                   
                   
                     <input
-                    id='email-input'
+                    id={fv.emailinput}
                       type='email'
                       name='email'
                      
-                      className=' formInput emailaddress '
+                    //  Toggling
+                      // className=' formInput emailaddress '
+                      className={`${fv.formInput} ${fv.emailaddress}`}
+                      
                       placeholder='Email address'
                       style={{color: 'black'}}
                       onChange={handleEmailChange}
@@ -471,32 +406,39 @@ Get in touch
                     ></input>
                     
                     {/* #!@#@$!@#$!@#$ */}
-                    {/* ---Input Container Here end ------- */}
+                    {/* Input Container Here end  */}
                   </div>
                     
           
                   </div>
                   </li>
-                  <li id='input-list-item' >
-                  <div id="phone-number-row"  className='row formRow'>
-                  <div id="phone-input"  className='col'>
+                  <li id={fv.inputlistitem} >
+                  
+                  {/* Toggling */}
+                  <div id={fv.phonenumberrow}  
+                  // className='row formRow'>
+                      className={`${fv.row} ${fv.formRow}`}>
+                  
+                  <div id={fv.phoneinput}  className={fv.col}>
                   
                   
-                  <div id='phone-input-content-container' >
+                  <div id={fv.phoneinputcontentcontainer} >
                     
-                  <div id='phone-title' >
+                  <div id={fv.phonetitle} >
                     Phone 
                   </div>
                   
                   
                     <input
-                    id='phone-input'
+                    id={fv.phoneinput}
                       type='text'
                       name='subject'
                       onChange={handlePhoneChange}
 
+                      // Toggling
+                      // className='formcontrol formInput'
+                      className={`${fv.formcontrol} ${fv.formInput}`}
                       
-                      className='form-control formInput'
                       placeholder='Phone Number'
                       style={{color: 'black'}}
                       
@@ -524,59 +466,54 @@ Get in touch
               
               
                 {/* Row 3 of form */}
-                <div id="message-row"  className='row formRow'>
+                {/* Toggling */}
+                <div id={fv.messagerow}  
+                // className='row formRow'
+                className={`${fv.row} ${fv.formRow}`}
                 
-                {/* Add in the label here  */}
                 
-              
-                
-                  <div id="text-area-input"  className='col' >
+                >
+                  <div id={fv.textareainput}  className={fv.col} >
                   
-                  
-                  <div id='text-area-content-container'  style={{position: 'relative'}} >
+                  <div id={fv.textareacontentcontainer}  style={{position: 'relative'}} >
 
-                  <label id='text-area-label' style={{outline: '00px solid red', position: 'absolute', left: '1%',  top: '-30%', zIndex: '10' }} >
+                  <label id={fv.textarealabel} className={fv.messageHeader}  >
                 
                 
-                    <div id='text-area-header' >
+                    <div id={fv.textareaheader}>
 
-                    Drop us a message 
+                    
+                    Drop us a message   
                     </div>
                 
                 
-                    <span id='asterisk' style={{}}  > *</span>
+                
+                    <span id={fv.messageAsterisk}> * </span>
                   
                 </label>
 
-                    
-                    
-                  
-                  
-                  
                     <textarea
-                    // id='message-input'
                       rows={3}
                       name='message'
                       onChange={handleMessageChange}
-                      id="message-textarea"
-                      className='form-control formInput message-input '
+                      id={fv.messagetextarea}
+                      
+                      // Toggling
+                      // className='formcontrol formInput messageinput '
+                      className={`${fv.formcontrol} ${fv.formInput} ${fv.messageinput}`}
+                      
                       placeholder='Message'
                       style={{color: 'black'}}
                     ></textarea>
 
-                   
-                    {/* content container  */}
                   </div>
                   
-                  <button id="submit-button"  className='submit-btn' disabled={disabled} type='submit' >
+                  <button id={fv.submitbutton}  className={fv.submitbtn} disabled={disabled} type='submit' >
                   Submit 
                 </button>
                     
-                    {/* Text area container  */}
                   </div>
                 </div>
-
-              
                 
                 </div>
                 

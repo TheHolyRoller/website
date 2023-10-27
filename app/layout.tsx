@@ -2,12 +2,10 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import NewNav from './Components/NewNav'; 
-import Footer from './Footer'; 
+import Footer from './footer/Footer'; 
 
-// Import the icon here 
+// import Footer from './Footer'; 
 
-import MinistryMaterial from './Components/MinistryMaterial'; 
-import Head from 'next/head'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -39,24 +37,14 @@ export default function RootLayout({
   return (
     <html lang="en">
     
-    {/* Add in the Navbar here  */}
-    {/* <NewNav/>  */}
-    <Head>
-    <title>
-      Revival 
-    </title>
-    </Head>
+    <NewNav/> 
+
       <body className={inter.className}>
       
       {children}
       
-      <MinistryMaterial/> 
-      
-      
-      
       </body>
-      {/* Add in the footer here  */}
-      {/* <Footer/>  */}
+      <Footer/> 
       
       
     </html>

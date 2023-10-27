@@ -1,9 +1,6 @@
-
-
 #footer-container{
     background: #161822 !important;
     background-color:  #161822 !important;
-    
     position: relative !important;
     width: 99.9vw !important;
     margin: 0 auto !important;
@@ -14,887 +11,323 @@
     -ms-transform: translate(0,0) !important;
     -o-transform: translate(0,0) !important;
     transform: translate(0,0) !important;
-
-    
 }
-
-
 #background-container{
-
     min-width: 100vw !important; 
-    
     position: absolute; 
     background-color:  #161822 !important;
     left: 0; 
     right: 0; 
-    
 }
-
-
 #mobile-footer-background{
-    
-    
     background: #161822 !important; 
-    
-    
 }
-
-
-
 #footer-logo-container{
-    
     position: absolute; 
     top: 13%; 
     left: 50%;
     transform: translate(-50%, 50%);    
-    
 }
-
 #footer-list{
-    
-    
     text-align: center;
-    
-    
 }
-
-
-
 #footer-list-item{
     margin-top: 0.62rem; 
-
 }
-
-
 #footer-list-text{
-
-    
     font-size: 1.1rem;
     text-transform: uppercase;
-    
-    
-    
 }
-
-
-
 #bottom-buttons-section{
-
-    
     position: absolute; 
-
     bottom: 0; 
     left: 0%; 
-    
-    
     width: 100vw; 
-    
 }
-
-
-
 #footer-social-buttons-container{
-    
-
     position: relative; 
-    
 }
-
-
-
 #social-list-container{
-
-    
     min-height: 4.31rem;
-
-    
     display: flex;
     align-items: center;
-    
-    
-    
 }
-
-
-
 #social-media-list{
-    
-    
     width: 34vw; 
-
     border-right: 1px solid white; 
-    
     height: 4.93rem; 
-    
     margin-bottom:0px; 
-    
-    
     overflow: hidden;
-
-    
 }
-
-
-
 #social-media-list-item{
-    
     display: inline-block;
-    
     margin-top: 1.1rem; 
-    
     font-size: 3rem;
-
-    
 }
-
-
-
 .facebook-icon{
-
-    
 margin-left: 1.6rem; 
-   
 margin-right: 0.45rem;
-
 font-size: 2.5rem; 
- 
-    
 }
-
-
 #footer-social-icon{
-
 font-size: 2.5rem;  
-
 color: white; 
 transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-
 cursor: pointer !important; 
-
-
 }
-
-
-
-
-
-
-#footer-icon{
-
-
-    
-}
-
-
 #footer-CTA-container{
-
-    
 position: absolute; 
-
 bottom: 0px; 
-
 border: 1px solid white; 
-
-
 overflow: hidden;
-
-
 width: 100vw; 
 min-height: 5rem; 
-
-    
-    
 }
-
-
-
-
-
 #CTA-button-container{
-
-
     width: 23rem; 
-
-    
     transform: translate(36vw, 0);
-    
 }
-
-
-
-
 #CTA-button{
-
-
     display: grid; 
     justify-content: center;
-    
     align-content: center;
-
 }
-
-
-
-
 #footer-CTA-text{
-    
-    
     margin-top: 1.5rem; 
-    
     text-transform: uppercase;
-    
-
-    
 }
-
-
-
 #footer-main-container{
-
-
-    /* position: relative;  */
     background: #161822 !important;
     background-color:  #161822 !important;
     position: absolute; 
     bottom: 0 !important;
-    
     left: 0 !important; 
-    
-     
-    
 }
-
-
-#footer-container{
-
-    
-    
-    
-    
-    
-}
-
-
-
-
 #footer-section-container{
-
-    
     display: grid;
-    
     position: relative !important;
-    
-
     width: 99.5vw; 
     margin: 0 auto !important; 
     transform: translate(0,0) !important;
     padding: 0 !important; 
-    /* overflow: hidden; */
-    
-
-    
-    
-    
 }
-
-
-
 #section-list-container{
-
-
-
 display: grid; 
-
 margin-top: 3%; 
-
 margin-left: 5%; 
 margin-right: 5%; 
-
 min-height: 50vh;
-
-
-
-
-
 grid-template-columns: 4fr 2fr;
-
 position: relative; 
-
-
-
 }
 
 
 #list-container{
-
-
 position: absolute; 
 left: 0; 
-
-
-
-
 top: 16% !important; 
-
-
-
-
-
 }
 
 #section-list{
-
 display: grid;
 place-content: center;
-
-
-
-
 }
-
-
-
-
 #section-list-item{
-
 margin-bottom: 1rem; 
-/* cursor: pointer !important; */
-
-
-
 }
-
-
 #headline-container{
-    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
-
-
 #footer-main-container{
-/* position: relative;  */
-
-
 width: 99.9vw !important; 
 position: relative !important; 
-
 margin: 0 auto !important; 
 padding: 0 !important; 
-
-
 }
-
-
-
-#footer-container{
-
-
-
-}
-
-
 #section-headline{
-
-
-
 margin-bottom: 2rem; 
-
 font-size: 1rem !important;
-
 cursor: pointer !important; 
-
 font-weight: 500; 
   transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-
-
-
-
 }
-
-
-
-
-
-
-#section-list-item{
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
 #second-section-container{
-
-
     position: absolute; 
     right: 0; 
     top: 0%; 
-    
-
-    
-    
-    
-    
 }
-
-/* Beginning! */
-
 #second-section-list{
-
-
     min-height: 37vh; 
     margin-top: 5.5% !important; 
-    
-    
     margin-left: -10% !important; 
-    
-
-    
-
-    
-    
     display: grid;
-
     justify-content: center;
-    
     padding-top: 0.6rem; 
-    
-    /* gap: 1% !important; */
-    
     width: 33vw !important;
-    
-    
-    /* width: 38vw;  */
     grid-template-columns: 1fr 1fr;
-    
 }
-
-#second-section-item{
-
-    
-
-    
-}
-
-
 #second-section-text{
-
-    
     font-size: 1.2rem; 
-    
     font-weight: 700;   
-    
-    
 }
-
-
 #location-icon{
-
-
     font-size: 1rem; 
-    
     font-weight: 500; 
-    
-    
 }
-
-
 #meeting-location{
-
     margin-left: 1rem; 
-    
     font-size: 1.2rem; 
     font-weight: 700; 
-    
     color: white; 
-    
-    
-    
 }
-
 #meeting-info{
-
     display: block; 
-    
     font-size: 1rem; 
-    
     font-weight: 500; 
-    
     color: grey; 
     margin-top: 5.5px !important; 
-    /* margin-right: -10px !important; */
     transform: translate(4.5px, 0);
-    
-    
-    /* margin-top: -0.05rem !important; */
-    
-    
-
-    
 }
-
-
-
-
-
-
 #headline-container{
-
     margin-bottom: 1.7rem; 
-    
-    
 } 
-
-
-
-
 #section-headline{
-
-    
     font-size: 1.1rem; 
-    
     font-weight: 700;
     color: #e7e7e8; 
-    
-    
     text-transform: uppercase;
-    
-    
-    
 }
-
-
 #list-phone-text{
-
-
-    
     font-size: 1.2rem !important;
-    
     color: #00c56f; 
-    /* pointer-events: auto; */
-    
-    
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
-    
-    
 }
-
-
-
 #list-text{
-
    font-size: 1.5rem; 
-   
    font-weight: 400; 
     color: #00c56f;
-    
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
-    
 }
-
 .email-contact{
     margin-bottom: 2rem !important; 
     margin-top: -5px; 
-    
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-
-    
 }
-
-
-
-
 #signup-container{
-
 display: grid;
 place-content: center;
-
-
-
 }    
-
-
-
-
-
-
 #signup-header{
-
 font-size: 1.3rem; 
-
 font-weight: 400; 
-
-
 }    
-
-
 #signup-input{
-
-
 width: 12rem; 
 margin-top: 1rem; 
 margin-bottom: 3rem; 
-
 margin-left: 13.5%; 
-    
 }
-
-
-
 #footer-section-container{
-    
     display: grid;
-    
-    
-    
 }
-
-
-
 #social-list{
-    
     display: flex;
     align-items: baseline; 
-    
 }
-
-
 #social-item{
-    
     display: inline-block;
-    
     margin-right: 1rem; 
-    
     font-size: 1.3rem; 
-    
 }
-
 #icon-container{
-    
     font-size: 2rem; 
-    
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
-    
-
 }
-
-
 #bottom-section-container{
     position: absolute;
-    
     bottom: 9% !important; 
-    
     left: 5%; 
-    
     display: flex;
     justify-items: center;
     
-
-    
-    
 }
-
-
-
 #bottom-section-list{
-
-    
     display: flex; 
     place-items: center;    
     margin: 0 auto; 
     color: white; 
-
-    
-
-    
 }
-
-
-
 #bottom-section-item{ 
-
 display: inline-block; 
 margin-right: 2rem; 
 font-size: 0.75rem; 
 cursor: pointer !important; 
-
-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -webkit-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -moz-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -ms-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -o-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+-webkit-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
+-moz-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
+-ms-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
+-o-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
 }
-/* transition: all cubic-bezier() */
-/* all  */
-
 #copyright-info{
-
 margin-top: 5%; 
-
 position: absolute !important;
 bottom: 8%; 
 right: 9%; 
-
 width: 35vw; 
-
-
 font-size: 0.84rem; 
 font-weight: 500; 
-
 display: grid; 
 justify-content: center;
-
 color: #535357; 
-
-
 }
-
 #copyright-info-container{
-
-/* 
-style={{backgroundColor: '#161822', 
-position: 'relative', zIndex:'22000'}} 
-
-
-
-*/
-
-
 width: 100vw; 
 margin: 0 auto;
 background-color: #161822 !important;
-
-
-
-
-
 }
-
-
-
 #ministry-tagline{
-
 position: absolute; 
-
 bottom: 10%; 
 right: 5%; 
-
-
-
 display: grid;
 place-content: center;
 margin-top: 2rem; 
 color: white; 
-
-
-
 }
-
-/* Make the secondary social media list invisible here but only up to a certain point  */
-
-    
-    /* Add in the media query here to change the placement of the bottom Section of the footer  */
-
 @media(max-width: 1800px) and (min-width: 1435.1px){
-
-    /* Select the  */
-    
-    #bottom-section-container{
-        /*Movethewholelistrightbyapercentage*/
-        
-        /* -webkit-transform: translate(33%, 0) !important;
-        -moz-transform: translate(33%, 0) !important;
-        -ms-transform: translate(33%, 0) !important;
-        -o-transform: translate(33%, 0) !important;
-        transform: translate(33%, 0) !important; */
-    }
-    
-    
-    /* Select the copyright info here  */
     #copyright-info-container{
         margin: 0 auto !important;
-        /* -webkit-transform: translate(2.7vw, 3.5rem) !important;
-        -moz-transform: translate(2.7vw, 3.5rem) !important;
-        -ms-transform: translate(2.7vw, 3.5rem) !important;
-        -o-transform: translate(2.7vw, 3.5rem) !important;
-        transform: translate(2.7vw, 3.5rem) !important; */
 }
-    /* Select the tagline container here  */
     #tagline-container{
         margin-top: 1rem !important;
         position: absolute  !important;
         bottom: 5%;
         right: 15%;
         width: 5rem;
-        
-        /* -webkit-transform: translate(-10.3%, 4%) !important;
-        -moz-transform: translate(-10.3%, 4%) !important;
-        -ms-transform: translate(-10.3%, 4%) !important;
-        -o-transform: translate(-10.3%, 4%) !important;
-        transform: translate(-10.3%, 4%) !important; */
 }
-    
-    
-    
-    
 }
-
-
-
-
 @media(max-width: 1435px){
-
-
-    /* Add in a container for the copyright info here  */
     #copyright-info-container{
-        
-    
-        
         width: 50vw !important;
         margin: 0 auto !important; 
-        
-        
         display: grid;
         place-content: center;
-        
-        
-        
-        
     }
-    
-    
     #copyright-info{
-    
-    
-        
         position: relative !important;
-        
         width: 90vw; 
         display: grid;
         place-content: center;
         margin-top: 2.3rem; 
-        
-        
-
-        /* transform: translate(8.2vw, 0rem);  */
-        
     }
-    
-    /* Select the bottom section list here  */
     #bottom-section-container{
-    
     left: 25%;
     bottom: 5%;
     transform: translate(-50%, -50%);
@@ -909,173 +342,78 @@ color: white;
     -ms-transform: translate(0,0) !important;
     -o-transform: translate(0,0) !important;
     transform: translate(0,0) !important;
-    
-    
 }
-    
-    /* Select the tagline here  */
-    
     #ministry-tagline{
-    
         position: relative !important; 
-    
-    
     }
-    
-    
     #tagline-container{
-    
-
-        
         width: 50vw; 
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         position: relative !important; 
-        
-        
     }
-    
-    
-    /* For the grid template to work you need to reset all the sub-containers below  */
     #list-container{
-    
     position: relative; 
-    
-        
     }
-    
-    
     #second-section-container{
-    
         position: relative; 
-        
-        
-        
-        
-        
-        
     }
-    
     #second-section-list{
-        
-        
         margin: 0 auto; 
-        
         margin-top: 15vh; 
-        
-        
     }
-    
-    
-    
     #section-list-container{
-            
         grid-template-columns: 1fr !important; 
-        
     }
-    
-
-    
-    
     }
-    
-    
-
-
 @media(max-width: 1435px){
-    
     #section-list-item{
-
-        
         text-align: center;
-        
     }
-    
     #section-list{
-        
         text-align: center; 
-        
-        
     }
-    /* My Query  */
     #second-section-container{
-
         position: relative !important; 
         margin: 0 !important; 
         padding: 0 !important; 
         display: grid;
         place-content: center;
-
-        
     }
-    
     #second-section-list{
-        
         margin: 0 auto !important; 
         padding: 0 !important; 
         margin-top: 4rem !important; 
         grid-template-columns: 1fr !important; 
         width: min-content !important; 
-        
-        
-        
     }
-    
-    
-    /* Remove the main social media here  */
     #social-list{
-        /* display: none !important;  */
         margin: 0 auto !important; 
-
     }
-    
     #social-media-item{
-        
         margin: 0 auto !important; 
-
     }
-    
     #copyright-info-container{
         width: 60vw; 
-
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         position: relative !important; 
         display: grid; 
         place-content: center;
-
-        /* overflow: hidden; */
-        
-        
-        
     }
-    
-    
     #copyright-info{
-        
         width: 50vw !important; 
-
         position: absolute !important; 
         left: 0 !important; 
         top: 0 !important; 
-
-        
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         z-index: 20 !important; 
-
-        
-        
-        
     }
-    
-    
     #bottom-section-container{
-    
-
     width: 50vw; 
     margin: 0 auto !important; 
     transform: translate(0,0) !important;
@@ -1083,587 +421,178 @@ color: white;
     margin-bottom: 3rem !important; 
     display: grid;
     place-content: center;
-    
-        
-        
-        
     }
-    
- 
-    
-    
-    
     #bottom-section-list{
-
-        
-
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         position: relative !important; 
-        
-
     }
-    
     #tagline-container{
         margin-bottom: 3rem;
-        
-        
-        
-        
     }
-    
-    
 }
-
-
 @media(max-width: 1434.4px){
-    
-
-/* Increase the tagline top margin here  */
 #tagline-container{
-    
-    
     margin-top: 6rem !important; 
-    
-    
 }
-
-/* Increase the copyright info top margin and bottom margin here  */
 #copyright-info-container{
-    
     margin-top: 5.5rem !important; 
     margin-bottom: 7rem;
-    
-    
-    
 }
-/* Add some top margin to the contact list container or at least lower it's positioning  */
 #bottom-section-container{
-    
-
-
 bottom: 1.9% !important; 
-
-    
-    
 }
-    
-    
 }
-
-
-
-
 @media(max-width: 960px){
-    
     #copyright-info-container{
-            
-        /* margin: 0 auto !important;  */
         text-align: center !important; 
-
-        
     }
-    
     #bottom-section-list{
-        
         margin: 0 auto !important; 
-
-        /* transform: translate(7.7vw, 0) !important; */
-        
     }
-    
-    #tagline-container{
-        
-        /* transform: translate(14%, 0) !important; */
-        
-    }
-    
-    
-    
 }
 
 @media(max-width: 620px){
-    
-    /* Select the location list here and move it right  */
-    #second-section-list{
-        
-        
-        
-    }
-    /* Move the everything right here  */
-    #footer-main-container{
-        
-        /* transform: translate(9.5vw, 0) !important; */
-
-        
-        
-        
-    }
-    
     #copyright-info-container{
-
-        /* transform: translate(-7vw,0) !important; */
         margin: 0 auto !important; 
         padding: 0 !important; 
-        
-        
-        
     }
-    
-    
 }
-
 @media(max-width: 665px){
-    /* Select the whole footer here and move it right  */
-    
-    /* Make the copyright info disappear here  */
     #copyright-info-container{
-        
         display: none;
-        
-        
-        
     }
-    
-    
-    
-    
 }
-
-
 @media screen and (max-width: 480px) {
-   
     #hero-container{
-        
         margin-left: -1.5rem;
-        
     }
-    
     #copyright-info-container{
-        
-
-        /* margin: 0 auto !important;  */
         text-align: center !important; 
-
     }
-    
-    
-    
     #footer-section-container{
-    
     transform: translate(0vw, 0) !important;
-    
-    
-    
-    
     }
-    
     #second-section-item{
-        
-        
         margin-top: 3.5rem !important;
-        
-        
     }
-    
-    
-    #list-container{
-    
-    
-    
-        }
-        
         #section-list-container{
-            
             transform: translate(0, 3rem) !important; 
-
-
         }
-        
-        
-        
         #section-list{
-            
             margin: 0 auto; 
-
-            
-            
         }
-        
-        
         #bottom-section-list{
-            
             flex-wrap: wrap;
             justify-content: center;
-            
-
-            /* transform: translate(3%, 0); */
             color: white !important; 
-
-            
         }
-        
         .mission-statement-item{
-            
             margin-top: 1rem !important; 
-            
-            
         }
-        
         #bottom-section-container{
-            
             margin-top: 7rem !important;
-
-            
         }
-    
     #bottom-section-list{
-
-
         width: 80vw !important; 
-        
-
-        
-        
     }
-    
     #section-list-container{
-
         margin: 0 auto !important; 
-
     }
     #section-list{
-
         margin: 0 auto !important; 
-
     }
-    
     #list-container{
-
         position: absolute; 
         left: 0; 
-
-        
         position: relative; 
         margin: 0 auto !important; 
-        
         top: 22% !important; 
-
-        
         }
-        
         #second-section-list{
-
-
             min-height: 37vh; 
-            /* margin-top: 79% !important;  */
-            
-            
         }
-        
-        
         #tagline-container{
-
             margin: 0 auto !important; 
             width: 50vw; 
             font-weight: 400;   
-            /* margin-top: -0.9rem !important; */
             margin-top: 13rem !important;
             margin-bottom: 2rem !important;
-            
-            
         }
-        
-        #ministry-tagline{
-            
-        }
-        
-        
         #social-item{
-            
             margin-right: 1.4rem;   
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-
-            
         }
-        
         #copyright-info-container{
-            
             margin: 0 auto !important; 
             text-align: center !important; 
-            
         }
-        
         #bottom-section-list{
-            
             margin: 0 auto !important; 
-
-            /* transform: translate(7.7vw, 0) !important; */
-            
-            
-            
-            
         }
-        
-        
-   
-
-   
   }    
 #hero-text-container{
 position: absolute;
-
 top: 50%; 
 left: 5vw; 
-
 z-index: 20; 
-
 }
-
 @media(max-width: 390px){
-
-    /* Add in the footer content container here  */
-    #footer-section-container{
-        
-
-        
-        
-        
-    }
-    
     #social-list{
-        transform: translate(2.8vw, 0) !important;
         -webkit-transform: translate(2.8vw, 0) !important;
         -moz-transform: translate(2.8vw, 0) !important;
         -ms-transform: translate(2.8vw, 0) !important;
         -o-transform: translate(2.8vw, 0) !important;
-        
+        transform: translate(2.8vw, 0) !important;
         transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-
 }
-    
-
-    
 }
-
-
-
-@media(max-width: 1435.5px) and (min-width: 480px) {
-    #footer-main-container{
-    
-        
-        
-}
-
-#footer-section-container{
-
-    
-
-    
-
-    
-}
-    
-    
-    
-}
-
-
-
-
-
-
-/* Add in the media query here to reduce negative left margin and to create a mobile layout  */
-
-
-
-
-
-/* Add in the media queries here  */
-
-
-/* Add in the Animations here  */
-
-
-/* Add in the Effects here  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Add in the Media queries here  */
-
-
-
-
-/* Add in the container queries here  */
-
-
-
-
-/* Add in the preference queries here  */
-
-
-
-/* Add in the orientation queries here  */
-
-
-
-
-
-/* Add in the Effects here  */
-
 #icon-container:hover{ 
-
-
     -webkit-transform: scale(1.1) !important ; 
     -moz-transform: scale(1.1) !important ; 
     -ms-transform: scale(1.1) !important ; 
     -o-transform: scale(1.1) !important ;
     transform: scale(1.1) !important ; 
     
-    
-    transform: translate(0, 3deg) !important ;
     -webkit-transform: translate(0, 3deg) !important ;
     -moz-transform: translate(0, 3deg) !important ;
     -ms-transform: translate(0, 3deg) !important ;
     -o-transform: translate(0, 3deg) !important ;
-    
-    
-    
+    transform: translate(0, 3deg) !important ;
 }
-
 #footer-social-icon:hover{
-    transform: translate(0, 3deg) !important ;
     -webkit-transform: translate(0, 3deg) !important ;
     -moz-transform: translate(0, 3deg) !important ;
     -ms-transform: translate(0, 3deg) !important ;
     -o-transform: translate(0, 3deg) !important ;
+    transform: translate(0, 3deg) !important ;
 }
-
-
-
 #social-item:hover{
-    
     -webkit-transform: scale(1.1) !important ; 
     -moz-transform: scale(1.1) !important ; 
     -ms-transform: scale(1.1) !important ; 
     -o-transform: scale(1.1) !important ;
     transform: scale(1.1) !important ; 
-    
-    
-    transform: translate(0, 3deg) !important ;
     -webkit-transform: translate(0, 3deg) !important ;
     -moz-transform: translate(0, 3deg) !important ;
     -ms-transform: translate(0, 3deg) !important ;
     -o-transform: translate(0, 3deg) !important ;
-
-    
+    transform: translate(0, 3deg) !important ;
 }
-
-
-
-#headline-container:hover{
-    /* color: #42f5a8 !important;
-    transform: scale(1.1) !important ;
-    -webkit-transform: scale(1.1) !important ;
-    -moz-transform: scale(1.1) !important ;
-    -ms-transform: scale(1.1) !important ;
-    -o-transform: scale(1.1) !important ;
-    
-    -webkit-transform: translate(0, 3deg) !important;
-    -moz-transform: translate(0, 3deg) !important;
-    -ms-transform: translate(0, 3deg) !important;
-    -o-transform: translate(0, 3deg) !important;
-    transform: translate(0, 3deg) !important; */
-}
-
-
-#section-headline:hover{
-    /* color: #42f5a8 !important;
-    transform: scale(1.1) !important ;
-    -webkit-transform: scale(1.1) !important ;
-    -moz-transform: scale(1.1) !important ;
-    -ms-transform: scale(1.1) !important ;
-    -o-transform: scale(1.1) !important ;
-    
-    -webkit-transform: translate(0, 3deg) !important;
-    -moz-transform: translate(0, 3deg) !important;
-    -ms-transform: translate(0, 3deg) !important;
-    -o-transform: translate(0, 3deg) !important;
-    transform: translate(0, 3deg) !important; */
-}
-
-
 #list-phone-text:hover{
-
     color: #42f5a8 !important;
     transform: scale(1.1) !important ;
     -webkit-transform: scale(1.1) !important ;
     -moz-transform: scale(1.1) !important ;
     -ms-transform: scale(1.1) !important ;
     -o-transform: scale(1.1) !important ;
-    
     -webkit-transform: translate(0, 3deg) !important;
     -moz-transform: translate(0, 3deg) !important;
     -ms-transform: translate(0, 3deg) !important;
     -o-transform: translate(0, 3deg) !important;
     transform: translate(0, 3deg) !important;
-    
-    
 }
-
-#section-list-item:hover{
-    
-    /* color: #42f5a8 !important;
-    transform: scale(1.1) !important ;
-    -webkit-transform: scale(1.1) !important ;
-    -moz-transform: scale(1.1) !important ;
-    -ms-transform: scale(1.1) !important ;
-    -o-transform: scale(1.1) !important ;
-    
-    -webkit-transform: translate(0, 3deg) !important;
-    -moz-transform: translate(0, 3deg) !important;
-    -ms-transform: translate(0, 3deg) !important;
-    -o-transform: translate(0, 3deg) !important;
-    transform: translate(0, 3deg) !important; */
-    
-    /* cursor: pointer !important; */
-    
-    
-    
-}
-
 
 #email-contact:hover{
     
@@ -1679,69 +608,25 @@ z-index: 20;
     -ms-transform: translate(0, 3deg) !important;
     -o-transform: translate(0, 3deg) !important;
     transform: translate(0, 3deg) !important;
-
-    
 }
-
-
-
 #list-text:hover{
-    
     color: #42f5a8 !important;
     transform: scale(1.1) !important ;
     -webkit-transform: scale(1.1) !important ;
     -moz-transform: scale(1.1) !important ;
     -ms-transform: scale(1.1) !important ;
     -o-transform: scale(1.1) !important ;
-    
     -webkit-transform: translate(0, 3deg) !important;
     -moz-transform: translate(0, 3deg) !important;
     -ms-transform: translate(0, 3deg) !important;
     -o-transform: translate(0, 3deg) !important;
     transform: translate(0, 3deg) !important;
-    
-    
-    
 }
-
-
 #bottom-section-item:hover{
     color: white;
-    transform: scale(1.1) !important;
     -webkit-transform: scale(1.1) !important;
     -moz-transform: scale(1.1) !important;
     -ms-transform: scale(1.1) !important;
     -o-transform: scale(1.1) !important;
-    
-    
+    transform: scale(1.1) !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Add in the Animations here  */
-
-
-
-
-
-

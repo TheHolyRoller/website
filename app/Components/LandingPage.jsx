@@ -31,16 +31,10 @@ import { Facebook } from '@mui/icons-material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-
-
 import Footer from '../footer/Footer.tsx'; 
 import SingupModal from '../Components/SingupModal.jsx'; 
 
-import {NewSignupModal} from '../Components/NewSignupModal.js'; 
-
 import HeroComponent from '../Components/HeroComponent.jsx'; 
-
-// import YouTubeCTA from '../Components/YoutubeCTA.jsx'; 
 import ImageText from "./ImageText.jsx";
 import GivingHero from "./GivingHero.jsx";
 
@@ -50,6 +44,7 @@ import ContactForm from '../ContactForm/ContactForm';
 
 import Card1 from '../Components/Cards/Card1'; 
 import Card2 from './Cards/Card2'
+
 
 
 import TextCard1 from '../Components/Cards/TextCard1';
@@ -63,19 +58,11 @@ import MinistryMaterial from '../Components/MinistryMaterial';
 function LandingPage() {
   return (
     <div id='landing-page-main-container' >
-    {/* LandingPage */}
-    
-    {/* Add in the hero section here  */}
-    
-    
     <HomeHero/> 
-    
-    
-    
-    {/* Add in the Headline Text section here  */}
     <section id="mission-section" style={{position: "relative", zIndex: "20"}} >
   
   <div id="mission-text" >
+  
   
   We are Renewal, a dynamic, family church with people of all ages
 
@@ -217,20 +204,13 @@ function LandingPage() {
     <div id='landing-grid-container-two'>
     
     
+    
     <div id='landing-grid-sub-container-two'>
     
     <div id='landing-grid-two' >
     
     {/* Add in Each Grid Item here  */}
     
-    <div id=' ' >
-    
-    {/* Add in the Card here  */}
-    <ImageTextCard/> 
-    
-     
-        
-    </div>
     <div id='grid-item-container-two' >
     
     {/* Add in the Card here  */}
@@ -245,6 +225,10 @@ function LandingPage() {
     <ImageTextCard/> 
     
      
+        
+    </div>
+    <div id='grid-item-container-two' >
+    <ImageTextCard/> 
         
     </div>
     </div>
@@ -269,13 +253,14 @@ function LandingPage() {
     <div id='youtubeSectionContainer'>
     
     
-      <MinistryMaterial/> 
+    
+      {/* <MinistryMaterial/>  */}
       
       
     </div>
 
 
-    {/* <ContactForm/>  */}
+    <ContactForm/> 
     
     
     </div>
