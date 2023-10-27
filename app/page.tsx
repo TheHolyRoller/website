@@ -25,6 +25,7 @@ import ImageText from './Components/ImageText';
 import TextImage from './Components/TextImage'; 
 import AboutImage from './Components/AboutImage'; 
 import ImagesText from './Components/ImagesText'; 
+import StargeredGrid from './Components/StargeredGrid'; 
 
 
 
@@ -33,9 +34,9 @@ export default function Home() {
    
    <div  >
     
+   <StargeredGrid/> 
    
-    <ImagesText/> 
-    
+
    
    </div>
    

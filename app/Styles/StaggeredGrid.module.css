@@ -1,0 +1,602 @@
+
+
+/* Import the variables here  */
+
+#mainContainer{
+
+    
+    
+    
+}
+
+
+#subContainer{
+
+width: 99.999vw; 
+margin: 0 auto; 
+
+position: relative; 
+box-sizing: border-box;
+
+    
+}
+
+
+#headlineContainer{
+
+
+/* outline: 4px solid lime;  */
+
+
+    
+}
+
+
+#headline{
+
+
+    
+}
+
+#headlineSupportingText{
+
+    
+}
+
+
+
+
+/* Grid Area  */
+
+
+#gridContainer{
+
+    width: 75vw; 
+    outline: 4px solid lime; 
+    margin: 4rem auto !important; 
+    
+    
+    min-height: 100vh; 
+    /* display: grid;  */
+    /* place-content: center; */
+    
+    
+    
+}
+
+#gridSubContainer{
+
+
+    
+}
+
+#staggeredGrid{
+
+display: grid; 
+grid-template-columns: 1fr 1fr;
+grid-auto-rows: minmax(100px, auto);
+gap: 1rem; 
+padding: 1rem; 
+
+    
+masonry-auto-flow: next !important; /* make the items display in order on the grid axis */
+
+
+
+    
+}
+
+
+#gridItemOne{
+
+
+/* Add in the background image here  */
+background: url('../assets/BluePrints.jpg'); 
+background-size: cover; 
+background-position: center center; 
+background-repeat: no-repeat;
+
+width: 37vw; 
+min-height: 19vw;
+max-height: 19vw;
+
+
+grid-area: auto !important;
+
+justify-self: center;
+    /* align-self: center; */
+
+
+/* Add in the dimensions here  */
+
+/* Add in the grid area here  */
+    
+}
+
+
+#gridItemTwo{
+
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    
+    width: 35vw; 
+    /* max-width: 35vw !important;  */
+    max-width: 30.563rem !important; 
+    
+    min-height: 27vw;
+    grid-area: auto !important;
+    
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+#gridItemThree{
+
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    width: 37vw; 
+    min-height: 29vw;
+    grid-area: auto !important;
+    justify-self: center;
+    /* align-self: center; */
+    
+    margin-top: -8vw; 
+    
+    
+    
+}
+
+#gridItemFour{
+
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    width: 32vw; 
+    max-width: 30.563rem !important; 
+    
+    min-height: 21vw;
+    height: 21vw; 
+    max-height: 21vw; 
+    
+    grid-area: auto !important;
+    justify-self: center;
+    /* align-self: center; */
+    
+    /* margin-top: -3vw; */
+    
+    
+}
+
+
+#gridItemFive{
+    
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    width: 37vw; 
+
+    min-height: 21vw;
+    height: 21vw; 
+    max-height: 21vw; 
+    
+    grid-area: auto !important;
+    
+    justify-self: center;
+
+    
+    
+    
+}
+#gridItemSeven{
+
+    background: url('../assets/BluePrints.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    width: 37vw; 
+    min-height: 21vw;
+    height: 25vw; 
+    max-height: 25vw;
+
+    
+    grid-area: auto !important;
+    
+    /* margin-top: -10vw;  */
+    
+    justify-self: center;
+    /* align-self: center; */
+    margin-top: -24vw; 
+    
+}
+#gridItemSix{
+
+    /* background: url('../assets/BluePrints.jpg');  */
+    background: url('../assets/GroupImage.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    width: 32vw; 
+    max-width: 30.563rem !important; 
+    
+    min-height: 21vw;
+    height: 45vw; 
+    max-height: 45vw;
+    
+    
+    
+    grid-area: auto !important;
+    
+    /* margin-top: -3vw !important; */
+    
+    
+    justify-self: center;
+    /* align-self: center; */
+    
+}
+
+
+
+/* Add in the media query here  */
+
+
+@media(max-width: 670px){
+
+/* Select the grid container here and remove one of the columns  */
+#staggeredGrid{
+
+    
+    grid-template-columns: 1fr;
+    place-content: center;
+
+    
+    
+    
+}
+
+/* Adjust the height and width of all the images here  */
+
+
+
+#gridItemOne{
+
+
+    /* background: url('../assets/BluePrints.jpg');  */
+    background: url('../assets/GroupImage.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    
+    /* width: 32vw; 
+    max-width: 30.563rem !important; 
+    
+    min-height: 21vw;
+    height: 45vw; 
+    max-height: 45vw; */
+    
+    width: 75vw !important ; 
+    height: 37vw !important;
+    min-height: 60vw !important;
+    
+    margin-top: 2rem !important; 
+    
+    
+    
+    grid-area: auto !important;
+    
+    /* margin-top: -3vw !important; */
+    
+    
+    justify-self: center;
+        
+    }
+    
+    
+    #gridItemTwo{
+    
+     /* background: url('../assets/BluePrints.jpg');  */
+     background: url('../assets/GroupImage.jpg'); 
+     background-size: cover; 
+     background-position: center center; 
+     background-repeat: no-repeat;
+     
+     /* width: 32vw; 
+     max-width: 30.563rem !important; 
+     
+     min-height: 21vw;
+     height: 45vw; 
+     max-height: 45vw; */
+     
+     width: 75vw !important ; 
+     height: 37vw !important;
+     min-height: 60vw !important;
+     
+    margin-top: 2rem !important 
+    ; 
+     
+     
+     grid-area: auto !important;
+     
+     /* margin-top: -3vw !important; */
+     
+     
+     justify-self: center;
+        
+    }
+    
+    #gridItemThree{
+     /* background: url('../assets/BluePrints.jpg');  */
+     background: url('../assets/GroupImage.jpg'); 
+     background-size: cover; 
+     background-position: center center; 
+     background-repeat: no-repeat;
+     
+     /* width: 32vw; 
+     max-width: 30.563rem !important; 
+     
+     min-height: 21vw;
+     height: 45vw; 
+     max-height: 45vw; */
+     
+     width: 75vw !important ; 
+     height: 37vw !important;
+     min-height: 60vw !important;
+    margin-top: 2rem !important 
+    ; 
+     
+     
+     
+     grid-area: auto !important;
+     
+     /* margin-top: -3vw !important; */
+     
+     
+     justify-self: center;
+        
+        
+    }
+    
+    #gridItemFour{
+    
+     /* background: url('../assets/BluePrints.jpg');  */
+     background: url('../assets/GroupImage.jpg'); 
+     background-size: cover; 
+     background-position: center center; 
+     background-repeat: no-repeat;
+     
+     /* width: 32vw; 
+     max-width: 30.563rem !important; 
+     
+     min-height: 21vw;
+     height: 45vw; 
+     max-height: 45vw; */
+     
+     width: 75vw !important ; 
+     height: 37vw !important;
+     min-height: 60vw !important;
+    margin-top: 2rem !important 
+    ; 
+     
+     
+     
+     grid-area: auto !important;
+     
+     /* margin-top: -3vw !important; */
+     
+     
+     justify-self: center;
+        
+    }
+    
+    
+    #gridItemFive{
+        
+        /* background: url('../assets/BluePrints.jpg');  */
+        background: url('../assets/GroupImage.jpg'); 
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;
+        
+        /* width: 32vw; 
+        max-width: 30.563rem !important; 
+        
+        min-height: 21vw;
+        height: 45vw; 
+        max-height: 45vw; */
+        
+        width: 75vw !important ; 
+        height: 37vw !important;
+        min-height: 60vw !important;
+    margin-top: 2rem !important 
+    ; 
+        
+        
+        
+        grid-area: auto !important;
+        
+        /* margin-top: -3vw !important; */
+        
+        
+        justify-self: center;
+        
+        
+        
+    }
+    #gridItemSeven{
+    
+         /* background: url('../assets/BluePrints.jpg');  */
+         background: url('../assets/GroupImage.jpg'); 
+         background-size: cover; 
+         background-position: center center; 
+         background-repeat: no-repeat;
+         
+         /* width: 32vw; 
+         max-width: 30.563rem !important; 
+         
+         min-height: 21vw;
+         height: 45vw; 
+         max-height: 45vw; */
+         
+         width: 75vw !important ; 
+         height: 37vw !important;
+        min-height: 60vw !important;
+    margin-top: 2rem !important 
+    ; 
+         
+         
+         
+         grid-area: auto !important;
+         
+         /* margin-top: -3vw !important; */
+         
+         
+         justify-self: center;
+        
+    }
+    #gridItemSix{
+    
+        /* background: url('../assets/BluePrints.jpg');  */
+        background: url('../assets/GroupImage.jpg'); 
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;
+        
+        /* width: 32vw; 
+        max-width: 30.563rem !important; 
+        
+        min-height: 21vw;
+        height: 45vw; 
+        max-height: 45vw; */
+        
+        width: 75vw !important ; 
+        height: 37vw !important;
+        min-height: 60vw !important;
+    margin-top: 2rem !important 
+    ; 
+        
+        
+        
+        grid-area: auto !important;
+        
+        /* margin-top: -3vw !important; */
+        
+        
+        justify-self: center;
+        /* align-self: center; */
+        
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
