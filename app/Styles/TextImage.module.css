@@ -3,7 +3,7 @@
     
     
         position: relative; 
-        width: 100vw; 
+        /* width: 100vw;  */
         min-height: 100vh;
         padding: 0; 
         margin: 0; 
@@ -26,22 +26,44 @@
     margin: 0 auto !important; 
     display: grid;
     justify-content: center;
+    
+    outline: 10px solid lime; 
+    
     }
     #componentsectionlist{
     margin: 0 auto ; 
     margin-top: 20vh !important; 
+    
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    
+    outline: 20px solid blue; 
+     /* width: max-content !important;  */
+     width: min-content !important; 
+     
+
+    
+    
+    
     }
     #listcomponentitem{
         display: inline-block;
     }
     #textlistitem{
+    
+    /* outline: 4px solid red;  */
+    
+    
     display: inline-block !important;
     margin: 0 auto !important; 
     position: relative !important; 
     padding: 0 !important; 
-    transform: translate(20%, 20%) !important;
+    transform: translate(0%, 20%) !important;
+    /* width: min-content !important;  */
+    /* width: 20vw !important;  */
+    height: auto; 
     
-    text-align: right; 
+    text-align: left; 
 
     
     }
@@ -54,6 +76,9 @@
     #image{
     max-width: 600px !important;
     
+    width: 55vw; 
+    
+    
     border-radius: 10px; 
         
     outline: 10px solid lime !important; 
@@ -62,11 +87,16 @@
     /* ----TEXT SECTION------ */
     #textsectioncontainer{
     position: relative;
-    max-width: 750px;
     transform: translate(0, -15.5%);
-    width: 70%; 
+    
+    outline: 5px solid blue; 
+    
+    
+    
     }
     #textsectionsubcontainer{
+    
+        
     height: 20vh;   
     transform: translate(0rem, 0vh);
     }
@@ -81,14 +111,18 @@
     #toptextcontainer{
     
     
-        margin-top: 0.54rem;
+        /* margin-top: 0.54rem; */
         font-size: 1rem;
         font-weight: 450;
         line-height: 1rem;
         color: lightslategray; 
-        width: 22vw; 
-        text-align: center !important;
-
+        /* width: 22vw;  */
+        text-align: left !important;
+        margin: 1rem auto !important; 
+        
+        width: auto; 
+        
+        
         
     }
     #bottomtextcontainer{
@@ -111,68 +145,45 @@
     width: 10rem; 
     background-color: #ecb61f;
     }
-    @media(max-width: 1700px) and (min-width: 1200.5px){
-        #textlistitembackup{
-            display: none;
+    
+    
+    @media(max-width: 970px){
+        
+        
+        #componentsectionlist{
+        
+        grid-template-columns: 1fr; 
+        
+        grid-template-rows: auto;
+        height: auto !important; 
+        gap: 4.5rem; 
+        
+
         }
-        #image{
-            max-width: 50vw !important;
-            width: 31vw !important; 
-            height: 50vh !important; 
-        }
-    }
-    @media(max-width: 1200px){
+        
         #textlistitem{
-          display: none !important; 
+        
+            outline: 30px solid hotpink; 
+            margin: 3rem auto; 
+            height: auto !important; 
+            
+            
         }
-            #textsectioncontainer{
-             transform: translate(0,0) !important;
-            }
-            #toptextcontainer{
-            width: 80vw !important; 
-            max-width: 800px; 
-            }
-            #textlistitembackup{
-            display: inline-block !important;
-            margin: 0 auto !important; 
-            position: relative;
-            transform: translate(0vw, 0vh) !important ;
-            }
-            #listcomponentitem{
-                display: block !important; 
-            }
-            #image{
-            width: 82.7vw !important; 
-            border-radius: 40px; 
-            /*---- ADD IN A CALC FUNCTION ----- */
-            height: clamp(20rem, 63vw, 44.8rem); 
-            }
+        
+        
+
     }
-    @media(max-width: 1200px) and (min-width:777px){
-        #textlistitembackup{
-            margin-left: 10% !important; 
-        }
+    
+    @media(max-width: 500px){
+    
+        #componentsectionlist{
+        
+     
+            gap: 6.6rem; 
+            
+    
+            }
+        
     }
-    @media(max-width: 900px){
-        #valuesbutton{
-            margin-top: 0.5rem !important; 
-        }
-    }
-    @media(max-width: 670px){
-        #image{
-            max-height: 400px;
-        }
-    }
-    @media(max-width: 375.5px){
-            #textlistitem{
-                margin: 0 auto !important; 
-                }
-                
-                #textlistitembackup{
-                    margin-left: 6.6% !important;
-                }
-                
-                #image{
-                max-height: 350px; 
-                }
-    }
+
+    
