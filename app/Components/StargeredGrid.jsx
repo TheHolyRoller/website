@@ -44,10 +44,10 @@ function StargeredGrid() {
     
         
     </div>
+
+    {/* StargeredGrid */}
     
     
-    
-    StargeredGrid
     
     </div>
     
