@@ -2,8 +2,7 @@
     #backgroundcontainer{
     
     
-        position: relative; 
-        /* width: 100vw;  */
+        /* position: relative; 
         min-height: 100vh;
         padding: 0; 
         margin: 0; 
@@ -16,18 +15,18 @@
     position: relative; 
     z-index: 200; 
     display: grid;
-    place-content: center;
+    place-content: center; */
     }
     #componentcontainer{
-    background-color: white; 
-    color: black; 
-    width: 90vw; 
-    min-height: 100vh;
-    margin: 0 auto !important; 
-    display: grid;
-    justify-content: center;
+    /* background-color: white;  */
+    /* color: black;  */
+    /* width: 90vw;  */
+    /* min-height: 100vh; */
+    /* margin: 0 auto !important;  */
+    /* display: grid; */
+    /* justify-content: center; */
     
-    outline: 10px solid lime; 
+    /* outline: 10px solid lime;  */
     
     }
     #componentsectionlist{
@@ -158,7 +157,7 @@
         height: auto !important; 
         gap: 4.5rem; 
         
-
+        
         }
         
         #textlistitem{

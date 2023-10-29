@@ -1,22 +1,32 @@
 'use client'
 
+
 import React from 'react'
 
 import oo from '../Styles/OutReach.module.css'; 
 
-import GiveHero from './GivingHero'; 
-
+import GivingHero from './GivingHero'; 
+import ImageText from '../Components/ImageText'; 
+import KidsCards from '../Components/KidsCards'; 
+import InfoCards from '../Components/InfoCards'; 
+import Images from '../Components/Images'; 
+import RightTextImage from '../Components/RightTextImage'; 
+import TextImage from './TextImage'; 
+import MaterialCards from './MuiCard'; 
+import GiveSection from './GiveSection'; 
 
 function OutReach() {
   return (
     
     <div id={oo.mainContainer}>
     
-    <GiveHero/> 
+    <GivingHero/> 
+
+    
     <div id={oo.mainSubContainer}>
     
     {/* Add in the Hero component here  */}
-    
+
     
     {/* Add in the content container here  */}
     <div id={oo.contentContainer}>
@@ -30,7 +40,13 @@ function OutReach() {
     <div id={oo.headlineSubCotnainer}>
     
     <div id={oo.firstHeadline}>
+    
+    
+    <div id={oo.headlineDiv} >
+      
     First Headline 
+      
+    </div>  
     
     
     <div id={oo.headlineTextContainer}>
@@ -38,7 +54,14 @@ function OutReach() {
     <div id={oo.headlineText}>
     
     Main Headline Text 
-    
+    The Senate shall chuse their Speaker and other needful Buildings. Nor 
+    any State be formed by the Junction of two thirds, expel a Member. 
+    The Congress shall assemble at least once in every Year, 
+    and such Meeting shall be on Oath or Affirmation: —“
+    I do solemnly swear or affirm that I will faithfully execute 
+    the Office of President. New States may be chosen every second Year 
+   
+
     
     </div>
     
@@ -65,18 +88,7 @@ function OutReach() {
     
     {/* Add in the headline container here  */}
     
-    <div id={oo.businessHeadlineContainer}>
-    
-    <div id={oo.businessHeadline}>
-    
-    Business Headline 
-        
-
-        
-    </div>
-        
-        
-    </div>
+   
     
     
     {/* Add in the Image Text CTA here  */}
@@ -85,7 +97,25 @@ function OutReach() {
     
     {/* This is where the image Text CTA Cards will go  */}
     <div id={oo.businessCTA}>
-        Business Text Image CTA 
+    
+    <div id={oo.businessHeadlineContainer}>
+    
+    <div id={oo.businessHeadline}>
+    
+    {/* Business Headline  */}
+        
+
+        
+    </div>
+        
+        
+    </div>
+    
+    {/* Add the image text CTA here  */}
+    <RightTextImage/> 
+    
+    
+        {/* Business Text Image CTA  */}
     
     </div>
 
@@ -149,8 +179,20 @@ function OutReach() {
     <div id={oo.scholarCards}>
     
     Scholar Cards 
-        
-        
+    {/* Create the the grid container here  */}
+    
+    <div id={oo.scholarGridContainer} >
+    
+    <KidsCards/> 
+    <KidsCards/> 
+    <KidsCards/> 
+    <KidsCards/> 
+
+      
+    </div>
+   
+   
+
     </div>
     
 
@@ -212,6 +254,13 @@ function OutReach() {
     <div id={oo.counsellingCards}>
 
         Counselling Cards 
+        <TextImage/> 
+        
+        
+        {/* Add in the text image CTA here  */}
+        
+        
+        
         
     </div>
 
@@ -316,7 +365,22 @@ function OutReach() {
     {/* Turn this into a Grid container  */}
     <div id={oo.farmingCards}>
     
-    Farming Cards 
+    {/* Add in the Grid container here  */}
+    
+    <div id={oo.farmingGrid} >
+    <MaterialCards/> 
+    <MaterialCards/> 
+    <MaterialCards/> 
+    <MaterialCards/> 
+      
+    </div>
+      
+      
+    
+    
+    
+    {/* Add in the Cards here  */}
+    
     
     </div>
     
@@ -367,6 +431,12 @@ function OutReach() {
       
       Food Cards 
       
+      {/* Add in the Image text cta here  */}
+      <RightTextImage/> 
+      
+      
+      
+      
     </div>
     
     
@@ -391,6 +461,7 @@ function OutReach() {
     <div id={oo.giveCTASectionSubContainer} >
     
     
+    
     {/* Add in the headline container  */}
     
     <div id={oo.giveHeadlineContainer} >
@@ -398,7 +469,10 @@ function OutReach() {
     
     <div id={oo.giveHeadline} >
     
-    Give Headline 
+    // Give Headline 
+    
+    <GiveSection/> 
+    
     
     
     </div>
@@ -427,9 +501,7 @@ function OutReach() {
     
     
     </div>
-    
-    
-    
+
     
   )
 }

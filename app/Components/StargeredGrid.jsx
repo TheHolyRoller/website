@@ -34,6 +34,9 @@ function StargeredGrid() {
     
     <div id={sg.headlineMainText} >
 
+    
+
+
         
     </div>
     
@@ -46,8 +49,7 @@ function StargeredGrid() {
     </div>
 
     {/* StargeredGrid */}
-    
-    
+
     
     </div>
     

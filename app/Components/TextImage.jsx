@@ -14,6 +14,7 @@ function ImageText() {
 
     <div id={img.backgroundcontainer} >
     
+    
     {/* Add in the main component container here  */}
     
     <div id={img.componentcontainer} >
@@ -75,55 +76,25 @@ The church moved to a hotel meeting room where they had to clean, set-up and tea
      </div>
      </div>
      
-     {/* <span> 
-     <button id={img.valuesbutton}> 
-     
-     Our Values 
-     
-       
-       
-     </button>
-     </span> */}
-    
-   
          
      </div>  
-     {/* <div id='buttontextsectioncontainer' style={{marginBottom: '20vh'}}   >
- 
- <button> <h1>Hi </h1></button> 
   
-  
- </div>  */}
-     
-    
          
      </div>
-     
-     
-     {/* Add in the button section container here  */}
- 
-    
- 
      
      {/* Text Sub Container  */}
      </div>
  
      {/* Text Section Main Container */}
      </div> 
-        
-        
-        
 
     </li>
     
     
     
-    
-    {/* <li id={m.textlistitem}> */}
     <li id={img.listcomponentitem}>
+
     
-    
-    {/* No styling so far  */}
     <div id={img.imagesectioncontainer}>
     
     {/* Add in the subcontainer here  */}

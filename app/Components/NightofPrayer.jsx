@@ -1,11 +1,36 @@
 'use client'
 import React from 'react'
-import nn from '../Styles/NightOfNight.module.css'; 
+
+
+
+import nn from '../Styles/NightOfPrayer.module.css'; 
+
+// import nn from '../Styles/NightOfNight.module.css'; 
+
+import MuiCard from '../Components/MuiCard'; 
+import InfoCards from '../Components/InfoCards'; 
+import Images from '../Components/Images'; 
+import KidsCards from '../Components/KidsCards'; 
+import AboutImage from '../Components/AboutImage'; 
+
+  import ImageText from '../Components/ImageText'; 
+  import GivingHero from '../Components/GivingHero'; 
+  import ImagesText from '../Components/ImagesText'; 
+  import TextImage from '../Components/TextImage'; 
+  
+
 
 
  export default function NightOfNight() {
   return (
     <div id={nn.mainContainer} >
+    
+    
+    
+    {/* Add in the hero Section here  */}
+    
+    <GivingHero/> 
+
     
     <div id={nn.mainSubContainer} >
     
@@ -64,6 +89,8 @@ import nn from '../Styles/NightOfNight.module.css';
     <div id={nn.nightHeadline} >
     
     Night Headline 
+    
+    
         
 
         
@@ -80,6 +107,11 @@ import nn from '../Styles/NightOfNight.module.css';
     {/* This is where the image Text CTA Cards will go  */}
     <div id={nn.nightCTA} >
         Night Text Image CTA 
+        
+        {/* Add in the image Text component here  */}
+        <ImageText/> 
+        
+        
     
     </div>
 
@@ -142,7 +174,23 @@ import nn from '../Styles/NightOfNight.module.css';
     
     <div id={nn.prayerCards}>
     
-    Prayer Cards 
+    Prayer Cards
+    
+    {/* Add in the prayer cards here  */}
+    
+    {/* Add in the Card Grid here  */}
+    
+    <div id={nn.prayerGridContainer} >
+
+    <MuiCard/> 
+    <MuiCard/> 
+    <MuiCard/> 
+      
+      
+    </div>
+    
+    
+        
         
         
     </div>
@@ -205,6 +253,15 @@ import nn from '../Styles/NightOfNight.module.css';
 
         Teaching Cards 
         
+        {/* Add in the Text Image CTA Section here  */}
+        
+        <TextImage/> 
+        
+        
+        {/* Add in the material UI Cards here  */}
+        
+
+        
     </div>
 
     
@@ -258,6 +315,22 @@ import nn from '../Styles/NightOfNight.module.css';
     <div id={nn.worshipSectionCardsContainer}>
     <div id={nn.worshipSectionCardsSubContainer}>
     <div id={nn.worshipSectionCards}>
+      
+      {/* Add in the Grid container here  */}
+      
+      <div id={nn.worshipGridContainer} >
+      
+      {/* <InfoCards/>  */}
+      <KidsCards/> 
+      <KidsCards/> 
+      <KidsCards/> 
+      <KidsCards/> 
+      
+
+        
+      </div>
+
+      
     Worship Cards 
     </div>
 
@@ -312,6 +385,11 @@ import nn from '../Styles/NightOfNight.module.css';
     <div id={nn.detailsCards}>
     
     Details Cards 
+    
+    <InfoCards/> 
+    <InfoCards/> 
+    
+    
     
     </div>
     
@@ -379,7 +457,8 @@ import nn from '../Styles/NightOfNight.module.css';
 
     </div>
     </div>
-    
+    </div>
+    </div>    
     
   )
   

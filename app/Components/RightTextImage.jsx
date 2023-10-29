@@ -54,8 +54,6 @@ import React from 'react'
 
 import BluePrints from '../assets/BluePrints.jpg'; 
 import { Typography } from '@mui/material';
-import '../Styles/TextImage.css'; 
-
 import '../Styles/RightTextImage.css'; 
 
 
@@ -72,8 +70,7 @@ function RightImage() {
     
     {/* Add in the list to organise and arrange the component */}
     <ul id='right-component-section-list'>
-    
-    
+      
    
     <li id='right-list-component-item' >
     
@@ -90,6 +87,7 @@ function RightImage() {
     height={1200} 
     alt='alt'
     style={{borderRadius: '25px'}}
+    
     
     /> 
 

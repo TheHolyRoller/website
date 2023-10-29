@@ -50,6 +50,7 @@ function KidsCards() {
     
     Our group of small networks that meet regularly across the midlands 
     
+    
         
     </div>
         

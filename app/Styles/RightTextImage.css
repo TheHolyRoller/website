@@ -28,15 +28,19 @@
     }
     #right-component-section-list{
     margin: 4rem auto ; 
-    margin-top: 20vh !important; 
+    /* margin-top: 17vh !important;  */
     position: relative !important; 
+    
+    /* background: blue;  */
+    
+    
     }
     #right-list-component-item{
         display: inline-block;
     }
     #right-text-list-item{
     display: inline-block !important;
-    margin: 5rem auto !important;
+    margin: 3rem auto !important;
     padding: 0 !important;
     -webkit-transform: translate(0, -30%) !important;
     -moz-transform: translate(0, -30%) !important;
@@ -131,6 +135,7 @@
         #right-text-list-item{
           display: none !important; 
         }
+        
             #right-top-text-container{
             width: 80vw !important; 
             max-width: 500px !important; 

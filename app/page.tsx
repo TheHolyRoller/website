@@ -27,17 +27,21 @@ import AboutImage from './Components/AboutImage';
 import ImagesText from './Components/ImagesText'; 
 import StargeredGrid from './Components/StargeredGrid'; 
 
+import GiveSection from './Components/GiveSection'; 
+
 
 
 export default function Home() {
   return (
    
-   <div  >
+   <div>
     
-   <StargeredGrid/> 
-   
+    <OutReach/> 
+    
+    
+    {/* <NightofPrayer/>  */}
 
-   
+    
    </div>
    
   )

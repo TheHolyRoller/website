@@ -3,6 +3,14 @@
 import React from 'react'
 
 import a from '../Styles/AboutUs.module.css'; 
+import ImagesText from '../Components/ImagesText'; 
+import ImageText from '../Components/ImageText'; 
+// import Images from '../Components/Images'; 
+import StaggeredGrid from '../Components/StargeredGrid'; 
+import TextImage from '../Components/TextImage'; 
+
+import Images from '../Components/Images'; 
+
 
 
 function AboutUs() {
@@ -60,6 +68,13 @@ function AboutUs() {
     
     Started Sub Container 
 
+    {/* Add in the image Text component here  */}
+    
+    {/* <ImageText/>  */}
+    <TextImage/> 
+    
+
+
     </div>
     
 
@@ -99,6 +114,26 @@ function AboutUs() {
     Going Component 
     
     
+    {/* Add in the images here  */}
+    {/* <ImagesText/>  */}
+    
+    
+    
+    
+    
+    {/* Add in a grid container here for the images  */}
+    
+    <div id={a.imagGridContainer} >
+ 
+    <Images/> 
+    
+
+      
+      
+    </div>
+    
+    
+    
 
     </div>
     
@@ -111,6 +146,14 @@ function AboutUs() {
     {/* Add in the images here  */}
     Going Images 
     
+    {/* Add in the images Text here  */}
+    
+    <ImagesText/> 
+    
+    
+       {/* <Images/>  */}
+    {/* Add in a grid container here with the images  */}
+    
     
     
     </div>
@@ -121,6 +164,8 @@ function AboutUs() {
     
     
     </div>  
+    
+    
       
       
     </div>  
@@ -142,6 +187,8 @@ function AboutUs() {
       Headed Headline 
       
       
+      
+      
     </div>
       
 
@@ -152,7 +199,8 @@ function AboutUs() {
     
     <div id={a.headedComponent} >
     
-    Headed Component 
+    {/* Headed Component  */}
+      <StaggeredGrid/> 
       
       
       

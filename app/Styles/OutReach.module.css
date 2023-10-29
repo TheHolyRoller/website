@@ -1,6 +1,8 @@
 #mainContainer{
     
-
+    
+    
+    
     
 }
 
@@ -8,19 +10,27 @@
 #mainSubContainer{
 
     
+     
+    
 }
 
 
     
 #contentContainer{
-
+    
+    outline: 4px solid blue; 
+    width: 80vw; 
+    margin: 4rem auto; 
+    position: relative; 
+    
     
 }
 
 
     
 #contentSubContainer{
-
+    
+    
 
 }
 
@@ -37,17 +47,39 @@
 
 #firstHeadline{
 
+    font-size: clamp(1rem, 1vw + 1rem, 2rem); 
+    font-weight: 700; 
+    outline: 4px solid lime; 
+    margin: 0 auto; 
+    width: max-content; 
+    
+    
+    
+}
+
+#headlineDiv{
+    
+    width: max-content; 
+    outline: 14px solid blue; 
+    margin: 1rem auto; 
     
     
 }
 
     
 #headlineTextContainer{
+    
+    
+    font-size: 1rem; 
+    color: rgb(200, 188, 188); 
 
 
 }
 
 #headlineText{
+    
+    
+    max-width: 70vw; 
     
     
 }
@@ -69,23 +101,38 @@
 
 #businessHeadlineContainer{
 
+    
+    outline: 4px solid red; 
+    
+    width: 20vw; 
+    margin: 0 auto; 
+    
+    
+    
+
 
 }
 
-
 #businessHeadline{
 
-    
-    
-}
+font-size: 2rem; 
 
-#businessHeadline{
+font-weight: 550; 
+/* margin-bottom: -1rem;  */
+
 
     
 }
 
 
 #businessCTA{
+
+
+outline: 4px solid blue; 
+
+display: grid; 
+place-content: center;
+
 
 
 }
@@ -154,6 +201,23 @@
 }
 
 
+#scholarGridContainer{
+
+   outline: 20px solid red; 
+   display: grid; 
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 1rem; 
+   width: 80vw; 
+   margin: 0 auto; 
+   
+    
+}
+
+
+
+/* Counselling Section  */
+
+
 #counsellingTestimoniesMainContainer{
 
     
@@ -184,6 +248,7 @@
 
 
 #counsellingCardSectionContainer{
+
 
     
     
@@ -299,8 +364,17 @@
 
 #farmingCards{
 
-
     
+}
+
+
+#farmingGrid{
+    
+    display: grid; 
+    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem; 
+
     
 }
 
@@ -350,6 +424,10 @@
 #foodCards{
 
 
+/* outline: 20px solid lime;  */
+display: grid; 
+place-content: center; 
+
     
 }
 
@@ -381,7 +459,6 @@
 #giveHeadlineSubContainer{
 
     
-    
 }
 
 
@@ -399,43 +476,64 @@
 
 
 
+/* Add in the media queries here  */
+
+@media(max-width: 990px){
+    
+#scholarGridContainer{
+    
+ grid-template-columns: 1fr 1fr;
+ width: 60vw; 
+ 
+    
+    
+}
+
+#farmingGrid{
+
+    grid-template-columns: 1fr 1fr;
+    
+    
+    
+}
+    
+    
+}
 
 
+@media(max-width: 650px){
+    
+    #scholarGridContainer{
+    
+        grid-template-columns: 1fr;
+        width: 80vw; 
+        place-content: center;
 
+           
+       }
+       
+       #farmingGrid{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        grid-template-columns: 1fr;
+        
+        outline: 10px solid lime; 
+        margin: 0 auto; 
+        place-content: center; 
+        
+        width: max-content; 
+        
+        gap: 1.5rem; 
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+}
 
 
 
