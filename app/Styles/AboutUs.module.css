@@ -6,6 +6,8 @@
     
     
     
+    
+    
 }
 
 #mainSubContainer{
@@ -110,6 +112,68 @@
 
 #headedComponent{
 
+    
+}
+
+#imagGridContainer{
+    
+    display: grid; 
+    place-content: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 2rem; 
+    
+    width: 80vw; 
+    margin: 0 auto !important; 
+
+    
+}
+
+
+@media(max-width: 900px){
+
+    
+    #imagGridContainer{
+    
+        display: grid; 
+        place-content: center; 
+        grid-template-columns: 1fr  1fr;
+        grid-auto-rows: auto;
+        gap: 2rem; 
+        
+
+        width: 90vw; 
+        margin: 0 auto !important; 
+    
+        
+    }
+#goingImageSubContainer{
+    
+    /* margin-bottom: 170vh; */
+    
+    
+    
+}
+    
+}
+
+
+@media(max-width: 660px){
+
+     #imagGridContainer{
+    
+        display: grid; 
+        place-content: center; 
+        grid-template-columns:1fr;
+        grid-auto-rows: auto;
+        gap: 2rem; 
+
+        width: 90vw; 
+        margin: 0 auto !important; 
+    
+        
+    }
+    
     
 }
 

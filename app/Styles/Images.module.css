@@ -17,13 +17,15 @@
 width: 26.823vw; 
 height: 17.188rem !important; 
 
-background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no '); 
+background: url('../assets/BluePrints.jpg') !important; 
+
+/* background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no ');  */
 background-repeat: no-repeat; 
 background-size: cover; 
 background-position: center center;
+border-radius: 1rem; 
 
-/* height: 18.063vw;  */
-margin: 5rem auto; 
+margin: 0rem auto; 
 
 
     
@@ -34,6 +36,8 @@ margin: 5rem auto;
 height: auto; 
 width: 100%; 
 margin: 0 auto; 
+
+
 
 
     
@@ -58,7 +62,8 @@ margin: 0 auto;
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position: center center;
-        margin: 5rem auto; 
+        margin: 0rem auto !important;
+        
         
         
             
@@ -83,7 +88,7 @@ margin: 0 auto;
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position: center center;
-        margin: 5rem auto; 
+        margin: 0rem auto; 
         
         
             
@@ -106,7 +111,7 @@ margin: 0 auto;
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position: center center;
-        margin: 5rem auto; 
+        margin: 0 auto; 
         
         
             
@@ -120,24 +125,41 @@ margin: 0 auto;
 
     #imageContainer{
 
-        /* width: 37.5rem !important;  */
-        /* height: 24.938rem !important;  */
+        width: 40vw !important;
         
-        width: 82vw !important;
-        
-        height: 30vh !important; 
-        
-
-
+        height: 30vw !important;
 
         background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no '); 
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position: center center;
-        margin: 5rem auto; 
+        margin: 0 auto; 
         
             
         }
+    
+    
+    
+}
+
+
+@media(max-width: 624px){
+
+    #imageContainer{
+
+        width: 70vw !important;
+        
+        height: 50vw !important;
+
+        background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no '); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: center center;
+        margin: 0 auto; 
+        
+            
+        }
+
     
     
 }
@@ -147,15 +169,14 @@ margin: 0 auto;
 
     #imageContainer{
     
-        width: 60vw !important;
-        height: 11.188rem !important; 
+        width: 70vw !important;
+        min-height: 50vw; 
 
         background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no '); 
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position: center center;
-        margin: 5rem auto; 
-        
+        margin: 0 auto; 
         
             
         }

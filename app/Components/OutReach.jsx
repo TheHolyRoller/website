@@ -1,6 +1,7 @@
 'use client'
 
 
+
 import React from 'react'
 
 import oo from '../Styles/OutReach.module.css'; 
@@ -14,6 +15,12 @@ import RightTextImage from '../Components/RightTextImage';
 import TextImage from './TextImage'; 
 import MaterialCards from './MuiCard'; 
 import GiveSection from './GiveSection'; 
+import OutReachCards from '../Components/OutReachCards'; 
+
+
+// Finish up the polishing on this page 
+
+
 
 function OutReach() {
   return (
@@ -44,7 +51,8 @@ function OutReach() {
     
     <div id={oo.headlineDiv} >
       
-    First Headline 
+    Sharing the Gospel 
+    
       
     </div>  
     
@@ -61,8 +69,6 @@ function OutReach() {
     I do solemnly swear or affirm that I will faithfully execute 
     the Office of President. New States may be chosen every second Year 
    
-
-    
     </div>
     
 
@@ -145,13 +151,11 @@ function OutReach() {
     
     <div id={oo.scholarHeadline}>
         
-    Scholar Headline         
+    {/* Scholar Headline          */}
     <div id={oo.scholarTextContainer}>
     
     <div id={oo.scholarText}>
     
-    Scholar Text 
-
     
     </div>
 
@@ -178,18 +182,22 @@ function OutReach() {
     
     <div id={oo.scholarCards}>
     
-    Scholar Cards 
-    {/* Create the the grid container here  */}
-    
     <div id={oo.scholarGridContainer} >
-    
-    <KidsCards/> 
-    <KidsCards/> 
-    <KidsCards/> 
-    <KidsCards/> 
 
+    <OutReachCards/> 
+    <OutReachCards/> 
+    <OutReachCards/> 
       
     </div>
+    
+    
+
+    
+    
+    
+    Scholar Cards 
+    {/* Create the the grid container here  */}
+   
    
    
 
@@ -232,8 +240,7 @@ function OutReach() {
     
     <div id={oo.counsellingHeadline}>
     
-    Counselling Headline 
-    
+
     
         
         
@@ -253,7 +260,7 @@ function OutReach() {
     
     <div id={oo.counsellingCards}>
 
-        Counselling Cards 
+
         <TextImage/> 
         
         
@@ -281,57 +288,6 @@ function OutReach() {
         
     </div>
     
-    
-    
-    {/* Add in the fourth section here  */}
-    
-    <div id={oo.prayerNightsSectionMainContainer}>
-    <div id={oo.prayerNightsSectionSubContainer}>
-    
-    {/* Add in the prayerNights headline container here  */}
-    
-    <div id={oo.prayerNightsHeadlineContainer}>
-    <div id={oo.prayerNightsHeadlineSubContainer}>
-    
-    <div id={oo.prayerNightsHeadline}>
-    
-    PrayerNights Headline 
-    
-    
-    </div>
-
-    
-    </div>
-        
-        
-    </div>
-    
-    
-    {/* Add in the prayerNights Section Cards here  */}
-    
-    <div id={oo.prayerNightsSectionCardsContainer}>
-    <div id={oo.prayerNightsSectionCardsSubContainer}>
-    <div id={oo.prayerNightsSectionCards}>
-    PrayerNights Cards 
-    </div>
-
-    </div>
-        
-    </div>
-    
-    
-    
-    
-    
-    </div>
-    
-    
-    
-    </div>
-    
-    
-    
-    {/* Add in the detail section container here  */}
     
     
     <div id={oo.farmingSectionContainer}>
@@ -411,9 +367,6 @@ function OutReach() {
     <div id={oo.foodHeadlineContainer}>
     
     <div id={oo.foodHeadline}>
-    
-    Food Headline 
-
       
     </div>
       
@@ -428,14 +381,6 @@ function OutReach() {
     <div id={oo.foodCardsSubContainer} >
     
     <div id={oo.foodCards}>
-      
-      Food Cards 
-      
-      {/* Add in the Image text cta here  */}
-      <RightTextImage/> 
-      
-      
-      
       
     </div>
     
@@ -469,9 +414,8 @@ function OutReach() {
     
     <div id={oo.giveHeadline} >
     
-    // Give Headline 
-    
     <GiveSection/> 
+    
     
     
     

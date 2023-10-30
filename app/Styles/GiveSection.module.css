@@ -11,6 +11,7 @@
 #subContainer{
     
 
+
 width: 50vw; 
 margin: 0rem auto; 
 
@@ -21,20 +22,28 @@ margin: 0rem auto;
 
 
 
-width: max-content; 
+    width: 50vw; 
+    
+/* width: max-content;  */
 margin: 0 auto; 
 
+text-align: center; 
 color: rgb(65, 62, 62); 
-
-
 font-size: 1.5rem; 
-font-weight: 600;   
+font-weight: 600;
+
+display: flex; 
+flex-wrap: wrap; 
+justify-items: center;
 
 
 }
 
 
 #headline{
+
+margin: 0 auto; 
+
 
     
 }
@@ -76,6 +85,55 @@ font-weight: 600;
 
 
 
+/* Add in the media queries here  */
+
+@media(max-width: 500px){
+
+    
+    #headlineContainer{
+
+
+    width: 70vw; 
+    
+    
+margin: 0 auto; 
+
+text-align: center; 
+
+
+color: rgb(65, 62, 62); 
+
+font-size: 1.5rem; 
+font-weight: 600;
+
+display: flex; 
+flex-wrap: wrap; 
+
+
+
+}
+
+
+/* Add in th main container here  */
+    
+#subContainer{
+    
+
+
+    width: 75vw; 
+    margin: 0rem auto; 
+    
+
+    
+        
+        
+    }
+
+
+
+
+    
+}
 
 
 

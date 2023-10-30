@@ -2,38 +2,32 @@
 
 #backgroundcontainer{
     box-sizing: border-box; 
-    width: 100vw; 
-    min-height: 100vh; 
+    /* width: 100vw;  */
+    /* min-height: 100vh;  */
     background-color: #ffffff !important;
     position: relative; 
     z-index: 200; 
     display: grid;
     place-content: center;
     
-
-    
-    overflow: auto;
     
 
     
     }
     #componentcontainer{
+    
     background-color: white; 
     color: black; 
     width: 90vw; 
     min-height: 100vh;
-    margin: 4rem auto !important; 
+    margin: 2rem auto !important; 
     
     display: grid;
     place-content: center;
     
-
-    
-    
     }
     #componentsectionlist{
     margin: 0 auto !important ; 
-    margin-top: 20vh !important; 
 
     display: flex; 
     
@@ -58,8 +52,7 @@
     #imagesubcontainer{
         border-radius: 40px; 
         margin: 0 auto !important; 
-        display: 
-        ;
+        
         justify-items: center;
         
         
@@ -216,6 +209,7 @@
     
 
     }
+    
     
     
     @media(max-width: 695px){

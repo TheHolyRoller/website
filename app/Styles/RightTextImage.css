@@ -28,12 +28,9 @@
     }
     #right-component-section-list{
     margin: 4rem auto ; 
-    /* margin-top: 17vh !important;  */
     position: relative !important; 
-    
-    /* background: blue;  */
-    
-    
+        
+        
     }
     #right-list-component-item{
         display: inline-block;
@@ -70,7 +67,11 @@
     }
     #right-text-section-typography{
         width: 90%; 
-        margin-left: -1.5rem;
+        margin-left: -1.29rem;
+        
+        
+        
+        
     }
     #right-text-section-header{
         font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
@@ -183,6 +184,15 @@
     @media(max-width: 995px) and (min-width:600px){
         #right-text-section-block-container-backup{
             width: 500px !important; 
+        }
+        
+        #right-image{
+
+            width: 70vw !important; 
+            /* outline: 20px solid lime;  */
+            min-height: 40vw; 
+            
+            
         }
     }
     @media(max-width: 900px){

@@ -10,6 +10,7 @@ import StaggeredGrid from '../Components/StargeredGrid';
 import TextImage from '../Components/TextImage'; 
 
 import Images from '../Components/Images'; 
+import GiveHero from '../Components/GivingHero'; 
 
 
 
@@ -20,9 +21,15 @@ function AboutUs() {
     
     {/* Add in the hero Component in here  */}
     
+    <GiveHero/> 
     
     
     <div id={a.mainSubContainer} >
+    
+    
+    {/* Add in the here component here  */}
+    
+    
     
     {/* add in the headline container here  */}
     
@@ -30,7 +37,7 @@ function AboutUs() {
     
     <div id={a.firstHeadline} >
     
-    First Headline 
+    {/* First Headline  */}
     
     </div>
       
@@ -50,7 +57,7 @@ function AboutUs() {
     <div id={a.startedHeadline}>
     
     
-    Started Headline 
+    {/* Started Headline  */}
     
     </div>
     
@@ -66,7 +73,7 @@ function AboutUs() {
     
     {/* Add in the imported UI component here  */}
     
-    Started Sub Container 
+    {/* Started Sub Container  */}
 
     {/* Add in the image Text component here  */}
     
@@ -99,7 +106,7 @@ function AboutUs() {
     <div id={a.goingHeadlineSubContainer} >
     
     
-    Going Headline 
+    {/* Going Headline  */}
     
     </div>
 
@@ -111,7 +118,7 @@ function AboutUs() {
     <div id={a.goingComponentContainer} >
     
     
-    Going Component 
+    {/* Going Component  */}
     
     
     {/* Add in the images here  */}
@@ -126,7 +133,11 @@ function AboutUs() {
     <div id={a.imagGridContainer} >
  
     <Images/> 
+    <Images/> 
+    <Images/> 
+    <Images id={a.lastImage} /> 
     
+
 
       
       
@@ -143,10 +154,8 @@ function AboutUs() {
     <div id={a.goingImageSubContainer} >
     
     
-    {/* Add in the images here  */}
-    Going Images 
-    
-    {/* Add in the images Text here  */}
+    {/* Going Images  */}
+
     
     <ImagesText/> 
     
@@ -184,7 +193,7 @@ function AboutUs() {
     <div id={a.headedHeadlineContainer} >
     <div id={a.headedHeadline} >
       
-      Headed Headline 
+      {/* Headed Headline  */}
       
       
       
@@ -212,6 +221,7 @@ function AboutUs() {
     </div>
     
     
+
 
     </div>
     

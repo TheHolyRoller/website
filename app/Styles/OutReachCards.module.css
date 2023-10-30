@@ -1,0 +1,159 @@
+
+#cardMainContainer{
+    position: relative;
+    color: white; 
+    
+    /* align-self: center; */
+    
+
+    
+    }
+    
+    #cardImage{
+    background: url('../assets/BluePrints.jpg') !important; 
+    background-size: cover; 
+    background-position: center center; 
+    width: 19vw !important; 
+    
+    height: 19.2vw; 
+
+    min-width: 136px; 
+    min-height: 136px; 
+    
+    
+
+    border-radius: 2rem; 
+    
+    
+    margin: 0rem auto; 
+    position: relative;
+    z-index: 1; 
+    
+    }
+    #cardTextContainer{
+    margin: 0rem auto !important; 
+    margin-top: -2rem; 
+    position: relative; 
+    z-index: 3; 
+    padding: 2rem; 
+    
+    color: rgb(23, 23, 23); 
+    border-bottom-left-radius: 1.313rem;
+    border-bottom-right-radius: 1.313rem;
+
+    max-width: 16.813rem; 
+    
+    /* aspect-ratio: 9/15; */
+    text-align: center;
+    
+    
+    
+    }
+    #cardHeadlineContainer{
+    font-weight: 800;
+    
+
+    
+    
+    font-size: clamp(1rem, 1vw + 1rem, 1.5rem) !important; 
+    margin-bottom: 1rem;
+    }
+    #cardText{
+    color: rgb(136, 133, 133); 
+    font-weight: 500;
+    
+
+    
+    }
+   
+   /* Increase the breakpoint for this media query */
+    @media(max-width: 766px){
+        #cardTextContainer{
+            }
+            #cardImage{
+                
+                width: 20vw !important;
+                
+                
+                min-height: 9.438rem !important; 
+
+                
+            
+            } 
+            
+            
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                margin: 0 auto !important; 
+                height: auto !important; 
+                
+                }
+    }
+    
+    
+    
+    
+    @media(max-width: 632px){
+    
+        
+        #cardImage{
+            
+            height: 10.688rem !important; 
+            width: 65vw !important; 
+            min-height: 50vw !important;
+
+            
+        } 
+        
+        
+        
+        #cardMainContainer{
+            position: relative;
+            color: white; 
+            margin: 0 auto !important; 
+            
+            }
+        
+        
+    }
+    
+    @media(max-width: 474px){
+    
+        #cardTextContainer{
+        
+        width: 14.375rem !important; 
+        /* height: 14.375rem !important;  */
+        height: auto !important; 
+        
+            margin: 0rem auto !important;
+
+            }
+            #cardImage{
+            
+            margin: 0 auto !important; 
+            width: 20.375rem !important; 
+            height: 16.375rem !important;
+            
+
+            
+            
+            } 
+            
+            
+            #cardMainContainer{
+                position: relative;
+                color: white; 
+                
+                width: 99.999vw; 
+                margin: 0rem auto !important; 
+                
+                }
+        
+        
+    }   
+
+
+
+

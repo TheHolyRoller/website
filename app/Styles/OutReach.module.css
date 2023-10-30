@@ -1,5 +1,8 @@
 #mainContainer{
     
+    padding: 0 !important; 
+    margin: 0 !important; 
+    box-sizing: border-box; 
     
     
     
@@ -18,7 +21,7 @@
     
 #contentContainer{
     
-    outline: 4px solid blue; 
+
     width: 80vw; 
     margin: 4rem auto; 
     position: relative; 
@@ -37,6 +40,9 @@
 #headlineContainer{
 
 
+
+
+
 }
 
 #headlineSubCotnainer{
@@ -49,7 +55,7 @@
 
     font-size: clamp(1rem, 1vw + 1rem, 2rem); 
     font-weight: 700; 
-    outline: 4px solid lime; 
+
     margin: 0 auto; 
     width: max-content; 
     
@@ -60,8 +66,11 @@
 #headlineDiv{
     
     width: max-content; 
-    outline: 14px solid blue; 
+
     margin: 1rem auto; 
+    
+    color: rgb(43, 41, 41) !important;
+    
     
     
 }
@@ -71,8 +80,11 @@
     
     
     font-size: 1rem; 
-    color: rgb(200, 188, 188); 
-
+    color: rgb(71, 68, 68); 
+    margin:0rem auto; 
+    margin-top: 0rem !important; 
+    
+    
 
 }
 
@@ -102,10 +114,12 @@
 #businessHeadlineContainer{
 
     
-    outline: 4px solid red; 
+
     
     width: 20vw; 
     margin: 0 auto; 
+    
+    
     
     
     
@@ -128,7 +142,7 @@ font-weight: 550;
 #businessCTA{
 
 
-outline: 4px solid blue; 
+
 
 display: grid; 
 place-content: center;
@@ -138,6 +152,16 @@ place-content: center;
 }
 
 #scholarSecondSectionContainer{
+
+
+width: 80vw; 
+margin: 4rem auto !important; 
+
+padding: 0 !important; 
+
+display: grid; 
+place-content: center; 
+
 
 
     
@@ -186,10 +210,17 @@ place-content: center;
 
 #scholarCardsSectionContainer{
 
+
+    
+margin: 0 auto; 
+
+
+
     
 }
 
 #scholarCardsSubContainer{
+
 
     
     
@@ -203,13 +234,18 @@ place-content: center;
 
 #scholarGridContainer{
 
-   outline: 20px solid red; 
+
    display: grid; 
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   gap: 1rem; 
+   grid-template-columns:  1fr 1fr 1fr;
+
    width: 80vw; 
-   margin: 0 auto; 
    
+
+   margin: 0 auto !important; 
+   place-content: center !important;
+    
+    margin-top: -4rem !important; 
+    
     
 }
 
@@ -344,11 +380,17 @@ place-content: center;
 #farmingHeadline{
 
 
+
+
 }
 
 
 
 #farmingCardContainer{
+
+
+
+
 
     
 }
@@ -374,7 +416,8 @@ place-content: center;
     place-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem; 
-
+    margin: 3rem auto; 
+    
     
 }
 
@@ -424,7 +467,7 @@ place-content: center;
 #foodCards{
 
 
-/* outline: 20px solid lime;  */
+
 display: grid; 
 place-content: center; 
 
@@ -459,10 +502,15 @@ place-content: center;
 #giveHeadlineSubContainer{
 
     
+    
+    
 }
 
 
 #giveHeadline{
+    
+    
+    margin:4rem auto; 
     
     
 }
@@ -482,20 +530,30 @@ place-content: center;
     
 #scholarGridContainer{
     
- grid-template-columns: 1fr 1fr;
- width: 60vw; 
- 
     
+    margin-top: 0 !important; 
+    margin: 0 auto !important; 
     
 }
+
+
 
 #farmingGrid{
 
     grid-template-columns: 1fr 1fr;
     
+}
     
     
 }
+
+@media(max-width: 768px){
+    #headlineContainer{
+        
+        margin-top: -30vh; 
+
+        }
+    
     
     
 }
@@ -511,12 +569,11 @@ place-content: center;
 
            
        }
-       
+
        #farmingGrid{
 
         grid-template-columns: 1fr;
-        
-        outline: 10px solid lime; 
+
         margin: 0 auto; 
         place-content: center; 
         
@@ -533,7 +590,29 @@ place-content: center;
     
     
     
+    
+    
+    
 }
+
+
+
+@media(max-width: 501px){
+
+    #headlineContainer{
+
+
+
+margin-top: -10vh; 
+
+
+}
+    
+}
+
+
+
+
 
 
 

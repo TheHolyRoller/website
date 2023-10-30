@@ -84,6 +84,7 @@ function RightImage() {
     src={BluePrints}
     id='right-image'
     width={600}
+    
     height={1200} 
     alt='alt'
     style={{borderRadius: '25px'}}
@@ -174,7 +175,6 @@ function RightImage() {
     <Typography id='right-text-section-typography' >
     <h1 id='right-text-section-header-backup'>
         Our Values 
-    
         
     </h1>
 
