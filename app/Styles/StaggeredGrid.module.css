@@ -24,49 +24,29 @@ box-sizing: border-box;
 
 #headlineContainer{
 
-
-/* outline: 4px solid lime;  */
-
-
-    
 }
 
 
 #headline{
 
-
-    
 }
 
 #headlineSupportingText{
-
     
 }
-
-
-
-
-/* Grid Area  */
 
 
 #gridContainer{
 
     width: 75vw; 
-    outline: 4px solid lime; 
+    
     margin: 4rem auto !important; 
     
-    
     min-height: 100vh; 
-    /* display: grid;  */
-    /* place-content: center; */
-    
-    
-    
+
 }
 
 #gridSubContainer{
-
-
     
 }
 
@@ -78,11 +58,7 @@ grid-auto-rows: minmax(100px, auto);
 gap: 1rem; 
 padding: 1rem; 
 
-    
 masonry-auto-flow: next !important; /* make the items display in order on the grid axis */
-
-
-
     
 }
 

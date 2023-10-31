@@ -18,6 +18,8 @@ import AboutImage from '../Components/AboutImage';
   import ImagesText from '../Components/ImagesText'; 
   import TextImage from '../Components/TextImage'; 
   
+import RightTextImage from '../Components/RightTextImage'; 
+import OutReachCards from '../Components/OutReachCards'; 
 
 
 
@@ -49,14 +51,14 @@ import AboutImage from '../Components/AboutImage';
     <div id={nn.headlineSubCotnainer} >
     
     <div id={nn.firstHeadline} >
-    First Headline 
+    {/* First Headline  */}
     
     
     <div id={nn.headlineTextContainer} >
     
     <div id={nn.headlineText} >
     
-    Main Headline Text 
+    {/* Main Headline Text  */}
     
     
     </div>
@@ -88,7 +90,7 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.nightHeadline} >
     
-    Night Headline 
+    {/* Night Headline  */}
     
     
         
@@ -106,10 +108,12 @@ import AboutImage from '../Components/AboutImage';
     
     {/* This is where the image Text CTA Cards will go  */}
     <div id={nn.nightCTA} >
-        Night Text Image CTA 
+        {/* Night Text Image CTA  */}
         
         {/* Add in the image Text component here  */}
-        <ImageText/> 
+
+        {/* <ImageText/>  */}
+        <RightTextImage/> 
         
         
     
@@ -141,12 +145,12 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.prayerHeadline} >
         
-    Prayer Headline         
+    {/* Prayer Headline          */}
     <div id={nn.prayerTextContainer} >
     
     <div id={nn.prayerText}>
     
-    Prayer Text 
+    {/* Prayer Text  */}
 
     
     </div>
@@ -174,7 +178,7 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.prayerCards}>
     
-    Prayer Cards
+    {/* Prayer Cards */}
     
     {/* Add in the prayer cards here  */}
     
@@ -233,7 +237,7 @@ import AboutImage from '../Components/AboutImage';
     <div id={nn.teachingHeadline} >
     
     
-    Teaching Headline 
+    {/* Teaching Headline  */}
     
     </div>
 
@@ -251,7 +255,7 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.teachingCards} >
 
-        Teaching Cards 
+        {/* Teaching Cards  */}
         
         {/* Add in the Text Image CTA Section here  */}
         
@@ -298,7 +302,7 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.worshipHeadline} >
     
-    Worship Headline 
+    {/* Worship Headline  */}
     
     
     </div>
@@ -321,17 +325,20 @@ import AboutImage from '../Components/AboutImage';
       <div id={nn.worshipGridContainer} >
       
       {/* <InfoCards/>  */}
-      <KidsCards/> 
-      <KidsCards/> 
-      <KidsCards/> 
-      <KidsCards/> 
+
+      
+      {/* Add in the outreach cards here  */}
+      <OutReachCards/> 
+      <OutReachCards/> 
+      <OutReachCards/> 
+      
       
 
         
       </div>
 
       
-    Worship Cards 
+    {/* Worship Cards  */}
     </div>
 
     </div>
@@ -362,7 +369,7 @@ import AboutImage from '../Components/AboutImage';
     <div id={nn.detailsHeadlineSubContainer} >
     <div id={nn.detailsHeadline} >
     
-    Details Headline 
+    {/* Details Headline  */}
     
     
     </div>
@@ -381,13 +388,20 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.detailsCardSubContainer} >
     
+    
     {/* Turn this into a Grid container  */}
     <div id={nn.detailsCards}>
     
-    Details Cards 
+    {/* Details Cards  */}
     
+    <div id={nn.infoCardsGrid} >
     <InfoCards/> 
     <InfoCards/> 
+      
+      
+    </div>
+    
+
     
     
     
@@ -420,7 +434,7 @@ import AboutImage from '../Components/AboutImage';
     
     <div id={nn.requestHeadline} >
     
-    request headline 
+    {/* request headline  */}
       
       
     </div>
@@ -433,7 +447,7 @@ import AboutImage from '../Components/AboutImage';
     {/* Add in the prayer Request element  */}
     <div id={nn.prayerRequestComponent} >
     
-    Prayer Request Component 
+    {/* Prayer Reqsuest Component  */}
     
     
       

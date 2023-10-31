@@ -4,8 +4,12 @@
     -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-    cursor: pointer !important; 
+    cursor: pointer !important;
+    
+    margin: 0 auto !important; 
+    
 }
+
 #textCard:hover{ 
     transform: translate(0, -0.3rem) !important;
     transform: scale(1.01); 

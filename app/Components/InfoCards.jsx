@@ -66,11 +66,6 @@ function InfoCards() {
     
     </div>
     
-    {/* height is just over half the width  */}
-    {/* width can be in view port units  */}
-    
-    InfoCards
-    
     
     </div>
   )

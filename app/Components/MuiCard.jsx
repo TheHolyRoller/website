@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import tc from '../Styles/TextCard.module.css'; 
 
 
+
 export default function MuiCard() {
  return (
    <Card id={tc.textCard}   sx={{ maxWidth: 365 }}>

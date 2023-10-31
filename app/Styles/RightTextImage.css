@@ -21,13 +21,15 @@
     background-color: white; 
     color: black; 
     width: 90vw; 
-    margin: 2rem auto !important; 
+    
+    /* Experimental */
+    margin: 0rem auto !important; 
     display: grid;
     justify-content: center;
     height: min-content !important;
     }
     #right-component-section-list{
-    margin: 4rem auto ; 
+    margin: 0rem auto ; 
     position: relative !important; 
         
         
@@ -56,8 +58,10 @@
     height: clamp(14rem, 23vw, 29rem) !important;
     width: 33vw !important; 
     max-width: 800px !important;
+    
+    
     }
-    /* ----TEXT SECTION------ */
+    /* ----TEXsT SECTION------ */
     #right-text-section-container{
     max-width: 800px;
     }
@@ -101,7 +105,7 @@
         margin-top: 0.7rem; 
     }
     /* -----Button Section ------ */
-    #right-values-button{
+    /* #right-values-button{
     margin-top: 2rem;
     color: white; 
     font-weight: 600;   
@@ -114,7 +118,7 @@
     transform: translate(0rem, 2.3vh);
     width: 10rem; 
     background-color: #ecb61f;
-    }
+    } */
     @media(max-width: 1700px) and (min-width: 1200.5px){
         #right-text-list-item-backup{
             display: none;
@@ -157,6 +161,7 @@
             z-index: 200;   
             font-weight: 700;   
             margin-left: 2.2%; 
+            
             }
             #right-text-list-item-backup{
             display: inline-block !important;
@@ -186,20 +191,17 @@
             width: 500px !important; 
         }
         
+        
         #right-image{
 
             width: 70vw !important; 
-            /* outline: 20px solid lime;  */
+
             min-height: 40vw; 
             
             
         }
     }
-    @media(max-width: 900px){
-        #right-values-button{
-            margin-top: 0.5rem !important; 
-        }
-    }
+  
     @media(max-width: 600px){
         #right-component-section-list{
             width: 77vw; 
@@ -210,7 +212,9 @@
         transform: translate(0,0) !important;
         }
         #top-right-text-backup{
-            margin-left: -1rem; 
+            margin-left: -1rem;
+            
+            
         }
         #right-bottom-text-container{
             margin-left: -1rem; 

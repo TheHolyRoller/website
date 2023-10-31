@@ -48,11 +48,17 @@
 
 
 #startedCardContainer{
-
+    
+    
     
 }
 
 #startedCardSubContainer{
+
+
+margin: 5rem auto; 
+margin-top: 6.7rem !important;
+
 
     
 }
@@ -149,11 +155,23 @@
     }
 #goingImageSubContainer{
     
-    /* margin-bottom: 170vh; */
     
     
     
 }
+    
+}
+@media(max-width: 694px){
+
+    
+    #goingImageSubContainer{
+    
+        margin-bottom: 130vh;
+        
+        
+        
+    }
+    
     
 }
 
@@ -174,6 +192,19 @@
         
     }
     
+    
+}
+
+
+@media(max-width: 500px){
+
+
+    #goingImageSubContainer{
+    
+        margin-bottom: 100vh;
+        
+        
+    }
     
 }
 

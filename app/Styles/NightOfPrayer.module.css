@@ -97,12 +97,25 @@
 
 #nightCTAContainer{
 
+
+display: flex; 
+
     
     
 }
 
+
 #nightCTA{
 
+    display: block; 
+
+    line-height: 0; 
+    
+    margin: 3rem auto; 
+    
+    
+    /* margin-top: -1rem;  */
+    
     
     
 }
@@ -168,9 +181,33 @@
     
 }
 
+
+#prayerGridContainer{
+    
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem auto; 
+
+    width: 70vw; 
+    
+    margin-bottom: 8rem !important;
+    
+    
+    place-content: center; 
+    
+    /* justify-content: center; */
+    gap: 2rem; 
+    
+    
+    
+    
+}
+
 #prayerCards{
 
-
+    width: 80vw; 
+    margin: 0 auto; 
+    
     
 }
 
@@ -221,6 +258,10 @@
 
 
 #teachingCards{
+
+
+margin: 3rem auto; 
+
 
     
 }
@@ -281,6 +322,26 @@
 }
 
 
+#worshipGridContainer{
+    
+    display: grid; 
+    place-content: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 90vw; 
+    margin: 2rem auto; 
+    /* margin-bottom: 4rem !important; */
+    margin-top: 5rem; 
+    
+
+    
+    
+    
+}
+
+
+
+/* Details  */
 
     
 #detailsSectionContainer{
@@ -340,9 +401,26 @@
     
 }
 
+
+
+
+#infoCardsGrid{
+    
+    display: grid;
+    place-content: center; 
+    grid-template-columns: 1fr 1fr;
+    
+    width: 80vw; 
+    margin: 3rem auto; 
+
+}
+
+
+/* Requests  */
+
 #requestSectionSubContainer{
 
-    
+
     
 }
 
@@ -369,6 +447,134 @@
 
 /* Add in the media queries here  */
 
+@media(max-width: 900px){
+    
+    /* Select the Info Card grid here  */
+    #infoCardsGrid{
+    
+        display: grid;
+        place-content: center; 
+        grid-template-columns: 1fr 1fr;
+        
+        width: 80vw; 
+        margin: 0 auto; 
+        gap: 1em; 
+        
+    }
+    
+    
+    
+    
+#worshipGridContainer{
+    
+    display: grid; 
+    place-content: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90vw; 
+    margin: 2rem auto; 
+
+    margin-top: 5rem; 
+    
+
+    
+    
+    
+}
+
+
+#prayerGridContainer{
+    
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    width: 80vw; 
+
+    place-content: center; 
+    gap: 2rem; 
+
+}
+
+
+@media(max-width: 650px){
+
+    #worshipGridContainer{
+    
+    display: grid; 
+    place-content: center; 
+    grid-template-columns: 1fr ;
+    width: 90vw; 
+    margin: 2rem auto; 
+    margin-top: 5rem; 
+
+}
+
+
+#prayerGridContainer{
+    
+    display: grid; 
+    grid-template-columns: 1fr ;
+    margin: 0 auto; 
+
+    width: 70vw;    
+
+    place-content: center; 
+    gap: 2rem; 
+
+}
+#infoCardsGrid{
+    
+    display: grid;
+    place-content: center; 
+    grid-template-columns: 1fr;
+
+    width: 80vw; 
+    margin: 3rem auto; 
+    gap: 1em; 
+    
+    
+}
+
+
+
+
+    
+    
+    
+}
+
+
+
+
+
+
+    
+    /* Select the Outreach Cards Grid here  */
+    
+    
+    
+    /* Select the Material Cards Grid here  */
+    
+    
+    
+    
+}
+
+
+
+@media(max-width: 1200px){
+    
+#nightCTAContainer{
+
+
+/* margin-top: -12rem; */
+
+    
+    
+    
+    
+}
+    
+    
+}
 
 
 /* Add in the container queries here  */
