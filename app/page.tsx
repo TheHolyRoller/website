@@ -36,7 +36,9 @@ export default function Home() {
    
    <div>
     
-    <KidsCamp/> 
+    <LandingPage/> 
+    
+    {/* <KidsCamp/>  */}
     
    </div>
    
