@@ -18,6 +18,7 @@
     background-position: center center; 
     width: 15vw !important; 
     
+    
     height: 15.2vw; 
 
     min-width: 136px; 
@@ -43,11 +44,8 @@
     color: rgb(23, 23, 23); 
     border-bottom-left-radius: 1.313rem;
     border-bottom-right-radius: 1.313rem;
-
-    /* width: 20.5vw;  */
-    max-width: 15.813rem; 
     
-    aspect-ratio: 9/15;
+    max-width: 15.813rem; 
     text-align: center;
     
     
@@ -144,7 +142,7 @@
                 color: white; 
                 
                 width: 99.999vw; 
-                margin: 2rem auto !important; 
+                margin: 0rem auto !important; 
                 
                 }
         

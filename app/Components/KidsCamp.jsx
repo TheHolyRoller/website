@@ -3,6 +3,16 @@
 import React from 'react'
 import kk from '../Styles/KidsCamp.module.css'; 
 import GivingHero from '../Components/GivingHero'; 
+import KidsCards from '../Components/KidsCards'; 
+import InfoCards from '../Components/InfoCards'; 
+import ImageTextBullet from '../Components/ImageTextBullet'; 
+import KidsImageCards from '../Components/KidsImageCards'; 
+import Images from '../Components/Images'; 
+import YoutubeCTA from '../Components/YoutubeCTA'; 
+import YoutubeVideo from '../Components/YoutubeVideo'; 
+
+
+
 
 
 function KidsCamp() {
@@ -12,6 +22,7 @@ function KidsCamp() {
     
     {/* Add in the hero component here  */}
     <GivingHero/> 
+    
 
     <div id={kk.mainSubContainer}>
 
@@ -21,11 +32,11 @@ function KidsCamp() {
   <div id={kk.mainHeadline} >
   
   
-  
   <div id={kk.introTextContainer}>
   <div id={kk.introText}>
   
-    Intro Text 
+  Mirësevini në
+    {/* Intro Text  */}
   
   </div>
   
@@ -35,7 +46,8 @@ function KidsCamp() {
 <div id={kk.boldTextContainer} >
 <div id={kk.boldTextContainer} >
 
-Bold Text 
+Klea Huta Summer Camp
+{/* Bold Text  */}
 
 </div>
   
@@ -46,9 +58,9 @@ Bold Text
   
   <div id={kk.supportingTextContainer} >
   <div id={kk.supportingText} >
-  
-  
-  Supporting Text 
+
+  Një program i pasur me aktivitete, edukim, kreativitet dhe argëtim- Ku fëmijët zhvillojnë më tej talentet e tyre dhe marrin me vete kujtime që zgjasin për gjithë jetën.
+  {/* Supporting Text  */}
   
   </div>
   
@@ -68,16 +80,17 @@ Bold Text
   
   <div id={kk.timelineCardsContainer}>
   <div id={kk.timelineCards}>
-  
-  {/* Add in the TimeLine Cards component here  */}
-  
-  TimeLine Cards 
-  
+    
+    <div id={kk.kidsCardGrid} >
 
   
-  
+    <KidsImageCards/> 
+  <KidsImageCards/> 
+      
+    </div>
+
+
   </div>
-  
 
   
   </div>
@@ -91,7 +104,9 @@ Bold Text
   
   Image Learning Text Component 
   
+  {/* Add in the IMage text bullet here  */}
 
+  <ImageTextBullet/> 
   
   
   </div>
@@ -112,11 +127,20 @@ Bold Text
   
   <div id={kk.activitiesHeadlineContainer} >
   <div id={kk.activitiesHeadline}>
+  
+  <div id={kk.HeadlineIntro} >
+  
+
+  </div>
     
-    Activities Headline 
+  Rreth kampit
+    {/* Activities Headline  */}
   <div id={kk.activitiesIntroText} >
   
-  Activities Intro Text 
+  {/* Rreth kampit */}
+  Aktiviteti i kampit
+  {/* Activities Intro Text  */}
+
 
     
   </div>  
@@ -128,6 +152,21 @@ Bold Text
   </div>
   
   Activities Cards 
+  
+  {/* Add in a grid container here  */}
+  
+  
+  <div id={kk.activitiesCardGrid} >
+
+    {/* Add in the kids cards here  */}
+
+<KidsCards/> 
+<KidsCards/> 
+<KidsCards/> 
+<KidsCards/> 
+    
+  </div>
+  
   
   
   
@@ -146,15 +185,32 @@ Bold Text
     <div id={kk.galleryHeadlineContainer} >
     <div id={kk.galleryHeadline}>
 
-    Gallery Headline 
-    
+    {/* Gallery Headline  */}
+    Vitet e Mëparshme
 
     
     </div>
     
     </div>
     
-      Gallery Component 
+      Gallery Component
+      
+      {/* create a grid component here  */}
+      
+      <div id={kk.imageGridContainer} >
+    
+    
+    <Images/>
+    <Images/>
+    <Images/>
+    {/* <Images/> */}
+    
+        
+        
+      </div>
+      
+      
+      
     
   </div>
     
@@ -172,7 +228,8 @@ Bold Text
    <div id={kk.youtubeContainer} >
    
    Youtube Video 
-   
+   <YoutubeVideo/> 
+
 
    </div> 
     
@@ -196,10 +253,8 @@ Bold Text
     
     <div id={kk.infoCardsHeadlineContainer} >
     <div id={kk.infoCardsHeadline}>
-    
-    
-    Info Cards Headline 
-    
+
+    Virësevini
     
     </div>
 
@@ -210,7 +265,18 @@ Bold Text
     <div id={kk.infoCards} >
     
     Info Cards 
+    
+    {/* Add in the Info cards here  */}
+    
+    {/* Add in the grid container here  */}
+    <div id={kk.infoGridContainer} >
 
+      <InfoCards/> 
+      <InfoCards/> 
+      
+      
+    </div>
+    
       
     </div>
     
@@ -224,7 +290,7 @@ Bold Text
       
     </div>
     
-    KidsCamp
+    {/* KidsCamp */}
     
     
     

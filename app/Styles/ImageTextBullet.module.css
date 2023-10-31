@@ -74,11 +74,18 @@ width: 50vw;
 
 display: grid; 
 /* place-content: center; */
-font-size: 2.5rem; 
-font-family: 'Playpen Sans', sans-serif;
+
+/* Clamp the font size */
+font-size: clamp(1.4rem, 2vw + 1.5rem, 4rem);
+
+/* font-size: 2.5rem;  */
+font-family: 'Luckiest Guy', cursive; 
+
+/* font-family: 'Playpen Sans', sans-serif; */
 
 
 font-weight: 900 !important;
+color: #422c18; 
 
 
 width: 70%; 
@@ -125,6 +132,13 @@ width: 70%;
 #supportingText{
 
     /* font-family: 'Playpen Sans', sans-serif; */
+    font-family: 'Roboto';
+    color: grey; 
+    font-size: 1.09rem; 
+    
+    /* font-family:Arial, Helvetica, sans-serif;    */
+    
+    /* font-family: 'Luckiest Guy', cursive; */
     
     
     
@@ -200,19 +214,17 @@ top: 20%;
 
 #bulletPointTextSubContainer{
     
-font-size: 1.5rem; 
-
-
-font-weight: 800; 
+    font-size: clamp(1.35rem, 2vw + 1rem, 2rem); 
+    font-family: 'Comic Neue'; 
+font-weight: 900; 
 
 
     
 }
 
 #bulletPointText{
-    
 
-    /* margin-left: 10%;  */
+    
     
     
 }
@@ -259,7 +271,10 @@ margin: 0 auto;
 
     
     font-weight: 600; 
-    font-size: 1.25rem; 
+    font-size: clamp(1.1rem, 1vw + 1rem, 1.3rem); 
+
+    color:#422c18; 
+    
     
     
 }
@@ -278,9 +293,14 @@ margin: 0 auto;
     /* font-family: 'Agbalumo sans serif';  */
     
     
-    font-family: 'Playpen Sans', sans-serif;
+    font-family: 'Luckiest Guy', cursive; 
     
-    font-size: 2rem; 
+    /* font-family: 'Playpen Sans', sans-serif; */
+    
+    font-size: clamp(1.9rem, 2vw + 1rem, 3rem); 
+    color:#422c18; 
+    
+    /* font-size: 2rem;  */
     
     
 }
@@ -365,6 +385,7 @@ margin: 0 auto;
 
         width: 85vw; 
         margin: 0 auto !important; 
+        font-family: 'Luckiest Guy', cursive; 
         
         
         
@@ -378,6 +399,7 @@ margin: 0 auto;
     margin: 1rem auto !important; 
     padding-top: 1rem; 
     
+    font-family: 'Poppins', cursive;
     
 
     
@@ -458,6 +480,8 @@ margin: 0 auto;
    
            width: 85vw; 
            margin: 0 auto !important; 
+           /* font-family: 'Luckiest Guy', cursive; */
+           
            
            
        }
@@ -469,6 +493,8 @@ margin: 0 auto;
        
        margin: 1rem auto !important; 
        padding-top: 1rem; 
+       
+       font-family: 'Poppins', cursive;
        
        
 
