@@ -40,7 +40,9 @@ export default function Home() {
     
     {/* <AboutUs/>  */}
     
-    <OutReach/> 
+    <LandingPage/> 
+    
+    {/* <OutReach/>  */}
 
     
    </div>
