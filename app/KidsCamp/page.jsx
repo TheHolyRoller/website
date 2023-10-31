@@ -1,26 +1,35 @@
 'use client'
+/**
+
+*/
+
 
 import React from 'react'
+
+
+// Import the components here 
+
+
+
+
 import kk from '../Styles/KidsCamp.module.css'; 
-import GivingHero from '../Components/GivingHero'; 
 
 
 function KidsCamp() {
   return (
     <div id={kk.mainContainer}>
     
-    
-    {/* Add in the hero component here  */}
-    <GivingHero/> 
-
     <div id={kk.mainSubContainer}>
-
+    
+    
+    {/* Add in the headline container here  */}
     
   <div id={kk.mainHeadlineContainer}>
   
   <div id={kk.mainHeadline} >
   
   
+  {/* Addd in the intro text here  */}
   
   <div id={kk.introTextContainer}>
   <div id={kk.introText}>
@@ -100,11 +109,6 @@ Bold Text
   </div>
   
   
-  {/* Add in the next Section Container here  */}
-  
-  {/* This will be the Text Image Cards Section on the activities of the camp.  */}
-  
-  {/* There could be two or even three rows of Cards about the activities  */}
   
   <div id={kk.activitiesMainContainer} >
   <div id={kk.activitiesSubContainer}>

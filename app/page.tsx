@@ -28,7 +28,7 @@ import ImagesText from './Components/ImagesText';
 import StargeredGrid from './Components/StargeredGrid'; 
 
 import GiveSection from './Components/GiveSection'; 
-
+import KidsCamp from './Components/KidsCamp'; 
 
 
 export default function Home() {
@@ -36,14 +36,7 @@ export default function Home() {
    
    <div>
     
-    {/* <NightofPrayer/>  */}
-    
-    {/* <AboutUs/>  */}
-    
-    <LandingPage/> 
-    
-    {/* <OutReach/>  */}
-
+    <KidsCamp/> 
     
    </div>
    
