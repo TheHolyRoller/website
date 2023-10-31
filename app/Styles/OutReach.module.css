@@ -117,12 +117,7 @@
 
     
     width: 20vw; 
-    margin: 0 auto; 
-    
-    
-    
-    
-    
+    margin: 2em auto; 
 
 
 }
@@ -244,7 +239,7 @@ margin: 0 auto;
    margin: 0 auto !important; 
    place-content: center !important;
     
-    margin-top: -4rem !important; 
+    margin-top: -0rem !important; 
     
     
 }
@@ -529,6 +524,7 @@ place-content: center;
 @media(max-width: 990px){
     
 #scholarGridContainer{
+    
     
     
     margin-top: 0 !important; 

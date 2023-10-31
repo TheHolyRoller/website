@@ -36,11 +36,11 @@ export default function Home() {
    
    <div>
     
-    <NightofPrayer/> 
+    {/* <NightofPrayer/>  */}
     
     {/* <AboutUs/>  */}
     
-    {/* <OutReach/>  */}
+    <OutReach/> 
 
     
    </div>
