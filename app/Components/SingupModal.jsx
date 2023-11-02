@@ -6,6 +6,7 @@ import '../Styles/SignupModal.css';
 import  { forwardRef } from "react";
 
 import {
+
     ChakraProvider,
     extendTheme,
       Modal,
@@ -50,20 +51,29 @@ const theme = extendTheme({
   });
   
   const firebaseConfig = {
-    apiKey: "AIzaSyD6VYOfuhsxcj_UVkQu9goxCjdZSh-CFUE",
-    authDomain: "emailsignup-54a97.firebaseapp.com",
-    projectId: "emailsignup-54a97",
-    storageBucket: "emailsignup-54a97.appspot.com",
-    messagingSenderId: "74279721731",
-    appId: "1:74279721731:web:710a01abdfadc53014a736",
-    measurementId: "G-31FQ1CQKFT"
-  };
+
+  apiKey: "AIzaSyD6VYOfuhsxcj_UVkQu9goxCjdZSh-CFUE",
+
+  authDomain: "emailsignup-54a97.firebaseapp.com",
+
+  projectId: "emailsignup-54a97",
+
+  storageBucket: "emailsignup-54a97.appspot.com",
+
+  messagingSenderId: "74279721731",
+
+  appId: "1:74279721731:web:710a01abdfadc53014a736",
+
+  measurementId: "G-31FQ1CQKFT"
+
+};
+
    export const app = initializeApp(firebaseConfig);
 
    
 export const db = getFirestore(app);
 
- export const productID = 'myid'
+ export const productID = 'mycollection'
 
  
  
@@ -115,6 +125,7 @@ const validateEmail = (email) => {
       }
     };
    
+   
     // Add the scroll event listener to the body element using the named function
     window.addEventListener("scroll", handleScroll);
   
@@ -142,6 +153,8 @@ const validateEmail = (email) => {
 
     })
     
+    
+    
     // Close the Modal here 
     setMessage("");
     alert('You have been signed up!  '); 
@@ -151,17 +164,9 @@ const validateEmail = (email) => {
     console.log(message.text); 
     console.log(db); 
     
+    console.log('did this work!!!!!?????'); 
     
-  // }
-  
-  // else{
 
-  // alert("Please enter a valid email"); 
-  
-    
-  // }
-
-    
   };
   
   

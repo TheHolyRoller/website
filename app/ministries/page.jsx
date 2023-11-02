@@ -39,6 +39,7 @@ function Ministries() {
     "Go into the world and announce the message of God's good news to all people." Mark 16:16
     
     
+    
     </div>
 
     </div>

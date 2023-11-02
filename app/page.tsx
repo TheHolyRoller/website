@@ -36,10 +36,11 @@ export default function Home() {
    
    <div>
     
-    <LandingPage/> 
+    <LandingPage/>
     
-    {/* <KidsCamp/>  */}
+    {/* <AboutUs/>  */}
     
+
    </div>
    
   )

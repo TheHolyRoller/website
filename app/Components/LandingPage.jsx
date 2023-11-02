@@ -47,6 +47,7 @@ import Card2 from './Cards/Card2'
 
 
 
+
 import TextCard1 from '../Components/Cards/TextCard1';
 
 import ImageTextCard from '../Components/Cards/ImageTextCard'; 
@@ -107,8 +108,11 @@ function LandingPage() {
 
       
     <div id='grid-item-container' >
+    
+    <Link href='/OutReach'>
     <Card2  id='grid-card-one' />
     
+    </Link>
 
     </div>
     
@@ -122,8 +126,11 @@ function LandingPage() {
     
     <div id='grid-item-two-container' >
 
+    <Link href='/about'>
       
-    <Card2 id='grid-card-two' />
+    <Card2 id='grid-card-two'/>
+    
+    </Link>
 
 
     </div>
@@ -150,20 +157,33 @@ function LandingPage() {
     
     <div id='second-landing-item-one' >
     
+    <Link href='/NightOfPrayer'>
+    
     <TextCard1/> 
     
+    </Link>
     
     </div>
     <div id='second-landing-item-two' >
+
+      
+         <Link href='/kidscamp'>
+    
     <TextCard1/> 
     
-
+    </Link>
     
     </div>
       
     <div id='second-landing-item-three' >
+      
+    
+    
+    <Link href='/ministrymaterial'>
+    
     <TextCard1/> 
     
+    </Link>
 
     
     </div>
@@ -213,22 +233,31 @@ function LandingPage() {
     
     <div id='grid-item-container-two' >
     
-    {/* Add in the Card here  */}
+
+    <Link href='/mission'>
+
     <ImageTextCard/> 
     
+    </Link>
      
         
     </div>
     <div id='grid-item-container-two' >
     
     {/* Add in the Card here  */}
+    <Link href='/vision'>
+
     <ImageTextCard/> 
     
-     
+    </Link>
         
     </div>
     <div id='grid-item-container-two' >
-    <ImageTextCard/> 
+    <Link href='/values'>
+
+<ImageTextCard/> 
+
+</Link>
         
     </div>
     </div>

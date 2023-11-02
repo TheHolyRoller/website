@@ -8,6 +8,10 @@ import { ToastContainer, toast } from 'react-toastify';
 // import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 
+// import React, { useState } from "react";
+import { useFormspark } from "@formspark/use-formspark";
+// import Formspark from 'react-formspark';
+
 
 
 // import * as React from 'react';
@@ -40,19 +44,22 @@ import fv from '../Styles/form.module.css';
 // import  '../Styles/form.css'; 
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 
-import { addDoc, getFirestore, collection } from 'firebase/firestore';
 import Filter from "bad-words";
 const filter = new Filter();
 
-import { db } from '../Components/SingupModal'; 
-import { app } from '../Components/SingupModal';
 
-
+const FORMSPARK_FORM_ID = "EPq8u563";
 
 
 const ContactForm = () => {
 
-   const productID = 'collection'; 
+
+  const [submit, submitting] = useFormspark({
+    formId: FORMSPARK_FORM_ID,
+  });
+  
+
+
 
 
    const [formKey, setFormKey] = useState(0);
@@ -70,16 +77,6 @@ const ContactForm = () => {
   
   
   // Add in the ClassToggling state variables here 
-  
-  
-  
-  
-  
-  
-  // Add in the classToggling functions here 
-  
-  
-  
   
   
   
@@ -137,6 +134,9 @@ const ContactForm = () => {
     () => Array.from(selectedKeys).join(", ").replaceAll("_", " "),
     [selectedKeys]
   );
+  
+  
+  
 
   const [disabled, setDisabled] = useState(false);
 
@@ -170,13 +170,13 @@ const ContactForm = () => {
       isValid = false;
     }
     
-    await addDoc(collection(db, productID ), {
-      name:  name,
-      email: email,
-      phone: phone,
-       message: message
+  //   await addDoc(collection(db, productID ), {
+  //     name:  name,
+  //     email: email,
+  //     phone: phone,
+  //      message: message
 
-  })
+  // })
   
   
   setName(" ");
@@ -187,16 +187,43 @@ setMessage(" ");
 alert("Your message has been sent. Thank you!");
   };
   
-  useEffect(() => {
-    setName(initialInputValues.name);
-    setEmail(initialInputValues.email);
-    setMessage(initialInputValues.message);
-  }, [formKey, initialInputValues]);
+  
+  // Find out what this does 
+  // useEffect(() => {
+  //   setName(initialInputValues.name);
+  //   setEmail(initialInputValues.email);
+  //   setMessage(initialInputValues.message);
+  // }, [formKey, initialInputValues]);
+  
+  
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await submit({ name,lastName, message, email });
+    setLastName(" "); 
+    setEmail(" ");
+    setPhone(" ");
+    setMessage(" ");
+    setName(" ");
 
+    alert("Form submitted");
+    console.log('FormSparkSubmitted'); 
+    
+    
+    useEffect(() => {
+      setName(initialInputValues.name);
+      setEmail(initialInputValues.email);
+      setMessage(initialInputValues.message);
+    }, [formKey, initialInputValues]);
+    
+    
+    
+  };
+  
 
   return (
     <div className={fv.ContactForm}  >
       <div className={fv.container}>
+        
         <div className={fv.row}>
 
         {/* Toggling */}
@@ -204,7 +231,29 @@ alert("Your message has been sent. Thank you!");
           // className='col12 textcenter'>
           className={`${fv.col12} ${fv.textcenter}`}>
             <div className={fv.contactForm}>
-              <form key={formKey} id={fv.contactform} onSubmit={handleSubmit} noValidate>
+            
+            
+            {/* Add in the formSpark form component here  */}
+            {/* <Formspark
+            key={formKey}
+        formId={formId}
+        name="yourName"
+        email="yourEmail"
+        message="yourMessage"
+        showName={true}
+        showEmail={true}
+        showMessage={true}
+        // layout="vertical"
+        style={{ color: 'blue' }}
+        onSubmit={handleSubmit}
+        noValidate
+      > */}
+            
+            <form key={formKey} id={fv.contactform} onSubmit={onSubmit} noValidate>
+                
+                
+                
+                
                 {/* Row 1 of form */}
                 <div id={fv.contentcontainer} >
    <div id={fv.CTAtextcontainer}>
@@ -277,6 +326,8 @@ Get in touch
           // arialabel="when device is locked"
           ariaexpanded={open ? 'true' : undefined}
           onClick={handleClickListItem} 
+          
+          
         >
           <ListItemText
             // primary="When device is locked"
@@ -328,6 +379,8 @@ Get in touch
                     id={fv.nameinput}
                       type='text'
                       name='name'
+                      value={name}
+                      
                       style={{color: 'black'}}
                       onChange={handleNameChange}
                       // Toggling
@@ -353,6 +406,8 @@ Get in touch
                     id={fv.nameinput}
                       type='text'
                       name='name'
+                      value={lastName}
+                      
                       style={{color: 'black'}}
                       onChange={handleLastNameChange}
                      
@@ -360,7 +415,6 @@ Get in touch
                       // Toggling
                       // className=' formInput lastname'
                       className={`${fv.formInput} ${fv.lastname}`}
-                      
                       
                       placeholder=' Name'
                     >
@@ -393,6 +447,8 @@ Get in touch
                     id={fv.emailinput}
                       type='email'
                       name='email'
+                      value={email}
+                      
                      
                     //  Toggling
                       // className=' formInput emailaddress '
@@ -433,6 +489,10 @@ Get in touch
                     id={fv.phoneinput}
                       type='text'
                       name='subject'
+                      value={phone}
+                      
+                      
+                      
                       onChange={handlePhoneChange}
 
                       // Toggling
@@ -497,6 +557,7 @@ Get in touch
                       name='message'
                       onChange={handleMessageChange}
                       id={fv.messagetextarea}
+                      value={message}
                       
                       // Toggling
                       // className='formcontrol formInput messageinput '
@@ -508,7 +569,7 @@ Get in touch
 
                   </div>
                   
-                  <button id={fv.submitbutton}  className={fv.submitbtn} disabled={disabled} type='submit' >
+                  <button id={fv.submitbutton}  className={fv.submitbtn} disabled={submitting} type='submit' >
                   Submit 
                 </button>
                     
@@ -518,6 +579,12 @@ Get in touch
                 </div>
                 
               </form>
+              
+              {/* Add in the form Spark closing tab here  */}
+      {/* </Formspark> */}
+              
+              
+              
             </div>
             {/* <ToastContainer /> */}
           </div>
