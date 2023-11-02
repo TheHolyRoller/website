@@ -10,6 +10,7 @@ import ab from '../Styles/AboutImage.module.css';
 
 
 
+
 function AboutImage() {
   return (
     <div id={ab.mainContainer} >

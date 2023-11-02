@@ -2,8 +2,10 @@
 
 // import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, RadioGroup, Radio} from "@nextui-org/react";
 import '../Styles/SignupModal.css'; 
+import { useFormspark } from "@formspark/use-formspark";
+import React, { useState, useReducer, useRef, useEffect, useMemo,forwardRef  } from "react";
 
-import  { forwardRef } from "react";
+
 
 import {
 
@@ -20,8 +22,6 @@ import {
     } from '@chakra-ui/react';
     
 import { useDisclosure, useStatStyles } from '@chakra-ui/react';
-import React, {useState, useEffect, useReducer, useRef} from 'react'; 
-    
 import { CloseButton } from '@chakra-ui/react';
   
 import MenuIcon from '@mui/icons-material/Menu';
@@ -31,11 +31,6 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
 
-import { getDatabase, ref, set } from "firebase/database";
-import { getFirestore } from "firebase/firestore";
-import { initializeApp } from "firebase/app";
-
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 
 
 const theme = extendTheme({
@@ -49,43 +44,25 @@ const theme = extendTheme({
       }
     }
   });
-  
-  const firebaseConfig = {
-
-  apiKey: "AIzaSyD6VYOfuhsxcj_UVkQu9goxCjdZSh-CFUE",
-
-  authDomain: "emailsignup-54a97.firebaseapp.com",
-
-  projectId: "emailsignup-54a97",
-
-  storageBucket: "emailsignup-54a97.appspot.com",
-
-  messagingSenderId: "74279721731",
-
-  appId: "1:74279721731:web:710a01abdfadc53014a736",
-
-  measurementId: "G-31FQ1CQKFT"
-
-};
-
-   export const app = initializeApp(firebaseConfig);
-
-   
-export const db = getFirestore(app);
-
- export const productID = 'mycollection'
-
  
- 
+
+const FORMSPARK_FORM_ID = "EPq8u563";
  function SignupModal(props, ref) {
 
-  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  const emailPattern = `/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/`;
 
+   const [formKey, setFormKey] = useState(0);
       
   const { isOpen, onOpen, onClose } = useDisclosure();
   
   const [hasOpened, setHasOpened] = useState(true); 
   const [modalOpened, setModalOpened] = useState(false);
+  
+  const initialInputValues = useMemo(() => ({
+    name: "",
+    email: "",
+    message: ""
+  }), []);
   
 
   // Define a ref to access the element that you want to scroll
@@ -102,6 +79,10 @@ const validateEmail = (email) => {
   
 };
 
+
+const [submit, submitting] = useFormspark({
+  formId: FORMSPARK_FORM_ID,
+});
   
   useEffect(() => {
     // Define a state variable to track whether the modal has been opened or not
@@ -126,6 +107,7 @@ const validateEmail = (email) => {
     };
    
    
+   
     // Add the scroll event listener to the body element using the named function
     window.addEventListener("scroll", handleScroll);
   
@@ -142,15 +124,14 @@ const validateEmail = (email) => {
     
     
     
+    
     // Add in the email validation here 
     
     // if (validateEmail(email)) {
     await addDoc(collection(db, productID ), {
               email: email,
-              
-              // Add in the extra fields for email and name here 
-              
 
+              
     })
     
     
@@ -159,6 +140,8 @@ const validateEmail = (email) => {
     setMessage("");
     alert('You have been signed up!  '); 
     onClose(); 
+    handleClose(); 
+    
     
     console.log(message); 
     console.log(message.text); 
@@ -195,9 +178,9 @@ const validateEmail = (email) => {
   const [email, setEmail] = useState("");
      
         // const { isOpen, onOpen, onClose } = useDisclosure()
-        const [size, setSize] = React.useState('md')
+        const [size, setSize] = useState('md')
     
-        const [scrollBehavior, setScrollBehavior] = React.useState('inside')
+        const [scrollBehavior, setScrollBehavior] = useState('inside')
         const handleSizeClick = (newSize) => {
           setSize(newSize)
           onOpen();
@@ -218,6 +201,36 @@ const validateEmail = (email) => {
           
           
         }
+        
+        
+         
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await submit({  email });
+    
+    alert("Form submitted");
+    console.log('FormSparkSubmitted'); 
+    
+    setEmail(" ");
+    alert('You have been signed up!  '); 
+    onClose(); 
+    handleClose(); 
+    
+    
+    console.log(email.text); 
+    console.log(email); 
+    
+    console.log('did this work!!!!!?????'); 
+    
+    
+    useEffect(() => {
+      setEmail(initialInputValues.email);
+      
+    }, [formKey, initialInputValues]);
+    
+    
+    
+  };
 
 
   return (
@@ -254,7 +267,7 @@ const validateEmail = (email) => {
           
           {/* Add in the input section container here  */}
           
-        <form onSubmit={(e) => sendMessage(e)}   style={{position: 'relative', margin: '0 auto', padding: '0', width: '0',  }} >
+        <form onSubmit={onSubmit}   style={{position: 'relative', margin: '0 auto', padding: '0', width: '0',  }} >
           <div id='modal-signup-input-container-section'  style={{outline: '0px solid blue', margin: '0 auto', display: 'grid', placeContent: 'center', }} >
 
         

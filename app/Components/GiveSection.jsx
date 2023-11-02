@@ -11,12 +11,11 @@ function GiveSection() {
   return (
     <div id={gs.mainContainer} >
     <div id={gs.subContainer} >
-    
-    
-    {/* Add in the headline container here  */}
-    
+
+
     <div id={gs.headlineContainer} >
     <div id={gs.headline}>
+    
     
     
     Would you like to contribute to more projects like these? 

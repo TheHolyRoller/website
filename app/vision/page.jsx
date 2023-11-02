@@ -4,6 +4,8 @@ import MuiCard from '../Components/MuiCard';
 import VisionHero from '../Components/Heros/VisionHero'; 
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
 import { Card, Row, Text } from "@nextui-org/react";
+import Link from 'next/link';
+
 import vs from '../Styles/VisionText.module.css';
 function Vision() {
   return (
@@ -68,13 +70,18 @@ Read more about our vision, values & vision
 </div>
 <div id={vs.visioncardcontainer}>
 <div id={vs.visioncarditem}  >
-<MuiCard /> 
+<Link href='mission'>
+    <MuiCard/> 
+    </Link> 
 </div>
 <div id={vs.visioncarditem}>
-<MuiCard  /> 
-</div>
+<Link href='vision'>
+    <MuiCard/> 
+    </Link> </div>
 <div id={vs.visioncarditem} >
-<MuiCard  /> 
+<Link href='values'>
+    <MuiCard/> 
+    </Link> 
 </div>
 </div>
 {/* Vision card container */}

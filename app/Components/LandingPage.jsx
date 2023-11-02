@@ -56,6 +56,7 @@ import MinistryMaterial from '../Components/MinistryMaterial';
 
 
 
+
 function LandingPage() {
   return (
     <div id='landing-page-main-container' >
@@ -107,9 +108,10 @@ function LandingPage() {
     <div id='landing-grid-one' >
 
       
+      
     <div id='grid-item-container' >
     
-    <Link href='/OutReach'>
+    <Link href='/outreach'>
     <Card2  id='grid-card-one' />
     
     </Link>
@@ -157,7 +159,7 @@ function LandingPage() {
     
     <div id='second-landing-item-one' >
     
-    <Link href='/NightOfPrayer'>
+    <Link href='/nightofprayer'>
     
     <TextCard1/> 
     
@@ -197,6 +199,7 @@ function LandingPage() {
   </article>
   
   
+
 
     
     {/* Add in the second card section here  */}

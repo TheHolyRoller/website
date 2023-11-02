@@ -42,6 +42,8 @@ body{
         top: 5.9%; 
         left: 5%; 
         z-index: 20; 
+        color: white !important; 
+        /* color: rgb(240, 240, 248) !important; */
     }
     #hero-headline{
         font-size: clamp(1.2rem, 1rem + 1vw, 1.7rem); 
@@ -102,7 +104,8 @@ body{
         margin-bottom: 4.5rem !important; 
     }
     #text-container{
-        color: #888888; 
+        color: #f2f2f7; 
+        
     }
     #landing-grid-container{
     display: flex;
@@ -131,7 +134,19 @@ body{
     }
     
     #grid-item-container-two{
-
+    
+    
+        transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+        
+        
+    }
+    
+    
+    
+    #grid-item-container-two:hover{ 
+        transform: translate(0, -0.3rem) !important;
+        transform: scale(1.01); 
+        
     }
     
     .getInvolvedContainer{
@@ -164,12 +179,15 @@ body{
     #mission-text{
         font-size: clamp(1rem, 1.3rem + 1vw, 4rem) !important;
         font-weight: 700;
-        letter-spacing: -0.1rem;    
+        letter-spacing: -0.1rem;  
+        
+        color: rgb(242, 243, 248); 
+        
     }
     #mission-paragraph{
         font-weight: 500;   
         font-size: clamp(1rem, 0.1rem + 1vw, 2rem);
-        color: #9b9997 !important;
+        color: #f0effa !important;
     }
     @media(max-width: 700px){
         #landing-grid-two{
@@ -196,7 +214,8 @@ body{
         
         
     #text-container{
-        color: #888888; 
+        color: #fbfbfb !important;
+        
         width: 90vw !important; 
         margin: 0 auto !important;
         display: grid;

@@ -10,6 +10,7 @@ import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
 import MuiCard from '../Components/MuiCard';
 
 import BeliefsHero from '../Components/Heros/BeliefsHero'; 
+import Link from 'next/link';
 
 
 function Values() {
@@ -181,9 +182,6 @@ function Values() {
     </div>
     </div>
     
-    {/* Add in the subheadline container here  */}
-
-    
     
     </div>
     
@@ -191,17 +189,24 @@ function Values() {
 
     
     <div id={val.valuescarditem}  >
+      <Link href='/beliefs'>
     <MuiCard /> 
+      </Link> 
     </div>
     
     <div id={val.valuescarditem} >
-    <MuiCard  /> 
+    <Link href='/vision'>
+    <MuiCard /> 
+      </Link> 
+
     </div>
     
     
     <div id={val.valuescarditem} >
       
-    <MuiCard  /> 
+    <Link href='/values'>
+    <MuiCard /> 
+      </Link> 
     </div>
     
     

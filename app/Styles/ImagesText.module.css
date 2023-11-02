@@ -4,7 +4,9 @@
     box-sizing: border-box; 
     /* width: 100vw;  */
     /* min-height: 100vh;  */
-    background-color: #ffffff !important;
+    background: #161822 !important; 
+    
+    /* background-color: #ffffff !important; */
     position: relative; 
     z-index: 200; 
     display: grid;
@@ -17,8 +19,8 @@
     
     #componentcontainer{
     
-    background-color: white; 
-    color: black; 
+        background: #161822; 
+    color: rgb(234, 233, 243); 
     width: 90vw; 
     min-height: 100vh;
     margin: 2rem auto !important; 
@@ -122,32 +124,22 @@
     
         margin: 1rem auto; 
         width: 35vw; 
-        
         text-align: center !important;
-        
-        
-        
-    }
 
+
+    }
     
     #bottomtextcontainer{
 
         margin: 0 auto; 
         width: 45vw; 
         
-        
-        
     }
     
-    
-    
    #imagesSectionContainer{
-    
 
     width: 47vw; 
-    
 
-    
    }
     
     

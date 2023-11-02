@@ -11,6 +11,7 @@ import {  Col,  Button,  } from "@nextui-org/react";
 
 import ss from '../Styles/MissionText.module.css';
 import MissionHero from '../Components/Heros/MissionHero'; 
+import Link from 'next/link';
 
 function Mission() {
   return (
@@ -222,17 +223,25 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
 
     
     <div id={ss.missioncarditem}>
-    <MuiCard /> 
+    
+    <Link href='/mission' >
+        
+    <MuiCard   /> 
+    </Link>
     </div>
     
     <div id={ss.missioncarditem}>
-    <MuiCard  /> 
+    
+    <Link href='vision'>
+    <MuiCard/> 
+    </Link> 
     </div>
     
     
     <div id={ss.missioncarditem}>
-      
-    <MuiCard  /> 
+    <Link href='values'>
+    <MuiCard/> 
+    </Link> 
     </div>
     
     

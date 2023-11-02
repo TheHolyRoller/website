@@ -28,13 +28,14 @@ margin: 0rem auto;
 margin: 0 auto; 
 
 text-align: center; 
-color: rgb(65, 62, 62); 
+color: rgb(235, 235, 243); 
 font-size: 1.5rem; 
 font-weight: 600;
 
 display: flex; 
 flex-wrap: wrap; 
 justify-items: center;
+
 
 
 }

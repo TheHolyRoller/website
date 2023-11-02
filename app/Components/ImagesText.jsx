@@ -9,6 +9,7 @@ import mt from '../Styles/ImagesText.module.css';
 
 
 function ImagesText() {
+
   return (
 
     <div id={mt.backgroundcontainer} >
@@ -88,6 +89,7 @@ function ImagesText() {
     {/* Renewal’s values are what we do alongside what we believe. */}
     
     <div id={mt.middleTextcontainer} >
+    
     
     "Let us not give up the habit of meeting together, as some are doing.
 Instead, let us encourage one another all the more,

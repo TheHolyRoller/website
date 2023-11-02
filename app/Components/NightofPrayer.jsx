@@ -392,7 +392,6 @@ import OutReachCards from '../Components/OutReachCards';
     {/* Turn this into a Grid container  */}
     <div id={nn.detailsCards}>
     
-    {/* Details Cards  */}
     
     <div id={nn.infoCardsGrid} >
     <InfoCards/> 

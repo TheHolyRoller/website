@@ -128,6 +128,7 @@ const theme = extendTheme({
               
               
               
+              
               <MenuIcon   id='toggle-button' className={className}  style={style1}  />
 
               
@@ -189,8 +190,11 @@ const theme = extendTheme({
             <div id='modal-logo-container' >
           
             <div id='modal-logo' >
-
+          
+          <Link href='/'  onClick={onClose} >
+          
             Revival
+          </Link>
 
             </div>
               

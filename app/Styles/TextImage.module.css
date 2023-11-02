@@ -96,6 +96,9 @@
     transform: translate(0rem, 0vh);
     }
     #textsectionheader{
+    
+        color: rgb(234, 235, 242); 
+        
         font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
         letter-spacing: -0.12rem;
         width: 30vw; 
@@ -233,8 +236,7 @@
                 display: grid;
                 justify-content: center;
                 margin-top: -6rem !important;
-                
-                
+
             }
             
             /* Add in the image here  */

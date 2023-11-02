@@ -6,11 +6,13 @@ import cf from '../../Styles/TextCard1.module.css';
 
 
 
+
 function TextCard1() {
   return (
     <div id={cf.mainCardContainer}>
     
     <div id={cf.backgroundContainer} >
+    
     
     
     <div id={cf.backgroundImageContainer} >

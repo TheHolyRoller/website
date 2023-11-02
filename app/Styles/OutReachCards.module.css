@@ -37,7 +37,8 @@
     z-index: 3; 
     padding: 2rem; 
     
-    color: rgb(23, 23, 23); 
+    color: rgb(222, 220, 233) !important; 
+    /* color: rgb(23, 23, 23);  */
     border-bottom-left-radius: 1.313rem;
     border-bottom-right-radius: 1.313rem;
 
@@ -59,7 +60,7 @@
     margin-bottom: 1rem;
     }
     #cardText{
-    color: rgb(136, 133, 133); 
+    color: rgb(185, 187, 210); 
     font-weight: 500;
     
 
@@ -73,12 +74,8 @@
             #cardImage{
                 
                 width: 20vw !important;
-                
-                
                 min-height: 9.438rem !important; 
 
-                
-            
             } 
             
             

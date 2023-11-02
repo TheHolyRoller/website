@@ -4,6 +4,8 @@
     margin: 0 !important; 
     box-sizing: border-box; 
     
+    color: rgb(213, 214, 223) !important;
+    
     
     
     
@@ -69,7 +71,7 @@
 
     margin: 1rem auto; 
     
-    color: rgb(43, 41, 41) !important;
+    color: rgb(239, 240, 245) !important;
     
     
     
@@ -80,7 +82,7 @@
     
     
     font-size: 1rem; 
-    color: rgb(71, 68, 68); 
+    color: rgb(213, 214, 223); 
     margin:0rem auto; 
     margin-top: 0rem !important; 
     
@@ -117,7 +119,10 @@
     margin: 2em auto; 
 
 
+
 }
+
+
 
 #businessHeadline{
 
@@ -127,6 +132,15 @@ font-weight: 550;
 /* margin-bottom: -1rem;  */
 
 
+    
+}
+
+
+#businessCTAContainer{
+
+    
+    /*  background:rgb(43, 41, 41) !important;  */
+    
     
 }
 

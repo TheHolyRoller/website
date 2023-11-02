@@ -11,6 +11,7 @@ import MuiCard from '../Components/MuiCard';
 
 
 import ValuesHero from '../Components/Heros/ValuesHero'; 
+import Link from 'next/link';
 
 
 
@@ -197,17 +198,23 @@ function Values() {
 
     
     <div id={val.valuescarditem}  >
-    <MuiCard /> 
+    <Link href='mission'>
+    <MuiCard/> 
+    </Link>  
     </div>
     
     <div id={val.valuescarditem} >
-    <MuiCard  /> 
+    <Link href='vision'>
+    <MuiCard/> 
+    </Link> 
     </div>
     
     
     <div id={val.valuescarditem} >
       
-    <MuiCard  /> 
+    <Link href='values'>
+    <MuiCard/> 
+    </Link> 
     </div>
     
     

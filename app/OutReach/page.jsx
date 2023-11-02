@@ -24,6 +24,7 @@ import OutReachCards from '../Components/OutReachCards';
 function OutReach() {
   return (
     
+    
     <div id={oo.mainContainer}>
     
     <GivingHero/> 
@@ -52,6 +53,7 @@ function OutReach() {
       
     Sharing the Gospel 
     
+     
       
     </div>  
     
@@ -191,12 +193,7 @@ function OutReach() {
       
     </div>
     
-    
 
-    
-    
-    
-    Scholar Cards 
     {/* Create the the grid container here  */}
    
    
@@ -299,9 +296,7 @@ function OutReach() {
     <div id={oo.farmingHeadlineContainer}>
     <div id={oo.farmingHeadlineSubContainer}>
     <div id={oo.farmingHeadline}>
-    
-    Farming Headline 
-    
+      
     
     </div>
     

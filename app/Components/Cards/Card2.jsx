@@ -4,11 +4,13 @@ import cv from '../../Styles/Card1.module.css';
 
 
 
+
 function Card2() {
   return (
     <div id={cv.mainCardContainer}>
     
     <div id={cv.backgroundContainer} >
+    
     
     
     

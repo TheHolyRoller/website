@@ -188,6 +188,7 @@ alert("Your message has been sent. Thank you!");
   };
   
   
+  
   // Find out what this does 
   // useEffect(() => {
   //   setName(initialInputValues.name);
@@ -207,6 +208,7 @@ alert("Your message has been sent. Thank you!");
 
     alert("Form submitted");
     console.log('FormSparkSubmitted'); 
+    
     
     
     useEffect(() => {
@@ -250,9 +252,6 @@ alert("Your message has been sent. Thank you!");
       > */}
             
             <form key={formKey} id={fv.contactform} onSubmit={onSubmit} noValidate>
-                
-                
-                
                 
                 {/* Row 1 of form */}
                 <div id={fv.contentcontainer} >
@@ -469,6 +468,7 @@ Get in touch
                   </div>
                   </li>
                   <li id={fv.inputlistitem} >
+                  
                   
                   {/* Toggling */}
                   <div id={fv.phonenumberrow}  

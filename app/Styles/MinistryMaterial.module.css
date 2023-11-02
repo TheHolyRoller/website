@@ -1,6 +1,11 @@
 #mainContainer{
 margin: 2rem 0; 
+
+color: white !important; 
+
 }
+
+
 #subContainer{
 width: 99.99vw; 
 min-height: 100vh;

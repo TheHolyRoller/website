@@ -66,18 +66,14 @@ function AboutUs() {
     </div>
     
     
+    
     {/* Add in the component container here  */}
     
     <div id={a.startedCardContainer} >
     <div id={a.startedCardSubContainer}>
     
-    {/* Add in the imported UI component here  */}
     
-    {/* Started Sub Container  */}
 
-    {/* Add in the image Text component here  */}
-    
-    {/* <ImageText/>  */}
     <TextImage/> 
     
 
@@ -153,17 +149,7 @@ function AboutUs() {
     <div id={a.goingImageContainer} >
     <div id={a.goingImageSubContainer} >
     
-    
-    {/* Going Images  */}
-
-    
     <ImagesText/> 
-    
-    
-       {/* <Images/>  */}
-    {/* Add in a grid container here with the images  */}
-    
-    
     
     </div>
     

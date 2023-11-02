@@ -64,6 +64,7 @@ function ImageText() {
  
  
  
+ 
      <div id={img.toptextcontainer}>
 
       {/* The River Church started at Cornerstone Christian Fellowship Church in Keizer, Oregon in 2014. Pastor Lew and Lorri Wootan were handed the baton from Pastor Jim & Shannon Banke. They have continued to work together to grow this church into a community fellowship to reach out to Salem with the powerful gift of Salvation. This church is a place to change, encourage and grow in relationship with Jesus Christ and other Christians. */}

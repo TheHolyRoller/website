@@ -13,6 +13,17 @@ border-radius: 20px !important;
 color: white !important; 
 
 
+transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+
+
+
+}
+
+
+#mainCardContainer:hover{ 
+    transform: translate(0, -0.3rem) !important;
+    transform: scale(1.01) !important; 
+    /* outline: 5px solid lime !important;  */
 }
 
 #textContainer{

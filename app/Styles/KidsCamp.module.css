@@ -4,11 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300&family=Lobster&family=Playpen+Sans:wght@800&display=swap');
 
 #mainContainer{
-
-
-
-
-
+background: white !important; 
     
 }
 
@@ -401,6 +397,7 @@ color: #422c18;
         display: grid;
         grid-template-columns: 1fr; 
         margin: 2rem auto; 
+        
         
     }
     

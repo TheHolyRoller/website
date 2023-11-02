@@ -16,6 +16,7 @@ import LiveTvIcon from '@mui/icons-material/LiveTv';
 
 import '../Styles/NewNav.css'; 
 import React from 'react'
+// import Link from 'next/link';
 
   const NewNav = () => {
   return (
@@ -69,6 +70,7 @@ import React from 'react'
     </div>    
         
         
+        
     </li>
     <li id='new-nav-list-item' className='nav-hover' >
 
@@ -104,6 +106,7 @@ import React from 'react'
     <NewModal id='new-nav-modal' />
     </div>
 
+    
     
     </div>    
         

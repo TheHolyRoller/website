@@ -1,11 +1,4 @@
-        /** 
-         * 
-        */
-
-
         'use client'
-
-
         import React from 'react'
 
         import l from '../Styles/YouTube.module.css'; 
@@ -13,13 +6,13 @@
         import { FaFacebook} from 'react-icons/fa'; 
         import { FaYoutube} from 'react-icons/fa'; 
         import LiveHero from '../Components/Heros/LiveHero'; 
-        
-    
+import Link from 'next/link';
+
     
         function YoutubeCTA() {
         return (
-        
-        // Add in the main component container here 
+
+            
             <div id={l.componentcontainer} >
             
             <LiveHero id={l.livehero} />
@@ -45,10 +38,7 @@
             
             Get filled with the Word of God and the true Gospel Spoken from the Heart. The 
             Albanian Service is Friday Morning 7 am, the English Service is on Tuesday from 9pm to 10pm and the final service is on Kisha Online. 
-                
-            {/* We have new Giving Point stations at Renewal Solihull, our brilliant Finance team Rob and Bev will show you how its done! */}
-            
-                
+
             </div>
             
             {/* Add in the CTA text here  */}

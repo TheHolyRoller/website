@@ -14,6 +14,7 @@ function ImageTextCard() {
     <div id={im.cardContainer} >
     
     
+    
     <div id={im.imageContainer} >
     <div id={im.cardImage} >
     

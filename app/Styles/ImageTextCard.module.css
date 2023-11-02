@@ -11,6 +11,14 @@ align-self: center;
 
 display: inline-block;  
 
+/* Add in the transition delay here  
+*/
+transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+
+/* transition:cubic-bezier(0.165, 0.84, 0.44, 1);  */
+
+
 
 }
 
@@ -109,13 +117,68 @@ max-width: 27vw !important;
         #cardMainContainer{
             position: relative;
             color: white; 
-            
-            /* width: 22.5vw;  */
-            
-
             margin: 0 auto !important; 
             
             }
     
     
 }
+
+
+
+
+
+/* Add in the effects here  */
+
+#cardMainContainer:hover{
+
+
+/* transform: translate(0, -5px) !important;  */
+/* outline: 20px solid lime;  */
+transform: translate(0, -0.3rem) !important;
+transform: scale(1.01); 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
