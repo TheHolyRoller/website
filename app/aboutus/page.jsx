@@ -14,6 +14,95 @@ import GiveHero from '../Components/GivingHero';
 
 
 
+
+/** 
+ * 
+ 
+
+
+
+
+import { LocationCity } from "@mui/icons-material"; 
+
+import { FaSearchLocation } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
+
+
+
+import  Grid  from "@nextui-org/react";
+
+import Card from "@nextui-org/react"; 
+import Row from "@nextui-org/react"; 
+import Text from "@nextui-org/react"; 
+import Col from "@nextui-org/react"; 
+import Button from "@nextui-org/react"; 
+// import {  Col,  Button,  } from "@nextui-org/react";
+
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
+
+
+import React from 'react'
+
+
+
+// import Link from 'next/link';
+import { TypeFormatFlags } from 'typescript';
+
+import { Typography } from '@mui/material';
+
+import { Facebook } from '@mui/icons-material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTube from "@mui/icons-material/YouTube";
+import Link from "next/link";
+
+
+import ft from '../Styles/footer.module.css'; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+*/
+
+
 function AboutUs() {
   return (
     <div id={a.mainContainer}>
@@ -130,7 +219,7 @@ function AboutUs() {
     
     {/* Add in a grid container here for the images  */}
     
-    <div id={a.imagGridContainer} >
+    <div id={a.imageGridContainer} >
  
     <Images/> 
     <Images/> 
@@ -195,7 +284,7 @@ function AboutUs() {
       
       {/* Headed Headline  */}
       
-      
+      Where We're Headed...
       
       
     </div>
@@ -204,6 +293,8 @@ function AboutUs() {
       
       
     </div>
+    
+    
     
     
     <div id={a.headedComponent} >
@@ -229,10 +320,7 @@ function AboutUs() {
     
       
     </div>
-    
-    
-    AboutUs
-    
+
     
     </div>
   )

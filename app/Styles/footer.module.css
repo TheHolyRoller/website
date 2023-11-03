@@ -1,4 +1,4 @@
-#footer-container{
+#footercontainer{
     background: #161822 !important;
     background-color:  #161822 !important;
     position: relative !important;
@@ -12,70 +12,70 @@
     -o-transform: translate(0,0) !important;
     transform: translate(0,0) !important;
 }
-#background-container{
+#backgroundcontainer{
     min-width: 100vw !important; 
     position: absolute; 
     background-color:  #161822 !important;
     left: 0; 
     right: 0; 
 }
-#mobile-footer-background{
+#mobilefooterbackground{
     background: #161822 !important; 
 }
-#footer-logo-container{
+#footerlogocontainer{
     position: absolute; 
     top: 13%; 
     left: 50%;
     transform: translate(-50%, 50%);    
 }
-#footer-list{
+#footerlist{
     text-align: center;
 }
-#footer-list-item{
+#footerlistitem{
     margin-top: 0.62rem; 
 }
-#footer-list-text{
+#footerlisttext{
     font-size: 1.1rem;
     text-transform: uppercase;
 }
-#bottom-buttons-section{
+#bottombuttonssection{
     position: absolute; 
     bottom: 0; 
     left: 0%; 
     width: 100vw; 
 }
-#footer-social-buttons-container{
+#footersocialbuttonscontainer{
     position: relative; 
 }
-#social-list-container{
+#sociallistcontainer{
     min-height: 4.31rem;
     display: flex;
     align-items: center;
 }
-#social-media-list{
+#socialmedialist{
     width: 34vw; 
     border-right: 1px solid white; 
     height: 4.93rem; 
     margin-bottom:0px; 
     overflow: hidden;
 }
-#social-media-list-item{
+#socialmedialistitem{
     display: inline-block;
     margin-top: 1.1rem; 
     font-size: 3rem;
 }
-.facebook-icon{
+.facebookicon{
 margin-left: 1.6rem; 
 margin-right: 0.45rem;
 font-size: 2.5rem; 
 }
-#footer-social-icon{
+#footersocialicon{
 font-size: 2.5rem;  
 color: white; 
 transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 cursor: pointer !important; 
 }
-#footer-CTA-container{
+#footerCTAcontainer{
 position: absolute; 
 bottom: 0px; 
 border: 1px solid white; 
@@ -83,27 +83,27 @@ overflow: hidden;
 width: 100vw; 
 min-height: 5rem; 
 }
-#CTA-button-container{
+#CTAbuttoncontainer{
     width: 23rem; 
     transform: translate(36vw, 0);
 }
-#CTA-button{
+#CTAbutton{
     display: grid; 
     justify-content: center;
     align-content: center;
 }
-#footer-CTA-text{
+#footerCTAtext{
     margin-top: 1.5rem; 
     text-transform: uppercase;
 }
-#footer-main-container{
+#footermaincontainer{
     background: #161822 !important;
     background-color:  #161822 !important;
     position: absolute; 
     bottom: 0 !important;
     left: 0 !important; 
 }
-#footer-section-container{
+#footersectioncontainer{
     display: grid;
     position: relative !important;
     width: 99.5vw; 
@@ -111,7 +111,7 @@ min-height: 5rem;
     transform: translate(0,0) !important;
     padding: 0 !important; 
 }
-#section-list-container{
+#sectionlistcontainer{
 display: grid; 
 margin-top: 3%; 
 margin-left: 5%; 
@@ -122,45 +122,45 @@ position: relative;
 }
 
 
-#list-container{
+#listcontainer{
 position: absolute; 
 left: 0; 
 top: 16% !important; 
 }
 
-#section-list{
+#sectionlist{
 display: grid;
 place-content: center;
 }
-#section-list-item{
+#sectionlistitem{
 margin-bottom: 1rem; 
 }
-#headline-container{
+#headlinecontainer{
     -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
-#footer-main-container{
+#footermaincontainer{
 width: 99.9vw !important; 
 position: relative !important; 
 margin: 0 auto !important; 
 padding: 0 !important; 
 }
-#section-headline{
+#sectionheadline{
 margin-bottom: 2rem; 
 font-size: 1rem !important;
 cursor: pointer !important; 
 font-weight: 500; 
   transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
-#second-section-container{
+#secondsectioncontainer{
     position: absolute; 
     right: 0; 
     top: 0%; 
 }
-#second-section-list{
+#secondsectionlist{
     min-height: 37vh; 
     margin-top: 5.5% !important; 
     margin-left: -10% !important; 
@@ -170,21 +170,21 @@ font-weight: 500;
     width: 33vw !important;
     grid-template-columns: 1fr 1fr;
 }
-#second-section-text{
+#secondsectiontext{
     font-size: 1.2rem; 
     font-weight: 700;   
 }
-#location-icon{
+#locationicon{
     font-size: 1rem; 
     font-weight: 500; 
 }
-#meeting-location{
+#meetinglocation{
     margin-left: 1rem; 
     font-size: 1.2rem; 
     font-weight: 700; 
     color: white; 
 }
-#meeting-info{
+#meetinginfo{
     display: block; 
     font-size: 1rem; 
     font-weight: 500; 
@@ -192,65 +192,65 @@ font-weight: 500;
     margin-top: 5.5px !important; 
     transform: translate(4.5px, 0);
 }
-#headline-container{
+#headlinecontainer{
     margin-bottom: 1.7rem; 
 } 
-#section-headline{
+#sectionheadline{
     font-size: 1.1rem; 
     font-weight: 700;
     color: #e7e7e8; 
     text-transform: uppercase;
 }
-#list-phone-text{
+#listphonetext{
     font-size: 1.2rem !important;
     color: #00c56f; 
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
 }
-#list-text{
+#listtext{
    font-size: 1.5rem; 
    font-weight: 400; 
     color: #00c56f;
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
 }
-.email-contact{
+.emailcontact{
     margin-bottom: 2rem !important; 
     margin-top: -5px; 
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
-#signup-container{
+#signupcontainer{
 display: grid;
 place-content: center;
 }    
-#signup-header{
+#signupheader{
 font-size: 1.3rem; 
 font-weight: 400; 
 }    
-#signup-input{
+#signupinput{
 width: 12rem; 
 margin-top: 1rem; 
 margin-bottom: 3rem; 
 margin-left: 13.5%; 
 }
-#footer-section-container{
+#footersectioncontainer{
     display: grid;
 }
-#social-list{
+#sociallist{
     display: flex;
     align-items: baseline; 
 }
-#social-item{
+#socialitem{
     display: inline-block;
     margin-right: 1rem; 
     font-size: 1.3rem; 
 }
-#icon-container{
+#iconcontainer{
     font-size: 2rem; 
     transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     cursor: pointer !important; 
 }
-#bottom-section-container{
+#bottomsectioncontainer{
     position: absolute;
     bottom: 9% !important; 
     left: 5%; 
@@ -258,13 +258,13 @@ margin-left: 13.5%;
     justify-items: center;
     
 }
-#bottom-section-list{
+#bottomsectionlist{
     display: flex; 
     place-items: center;    
     margin: 0 auto; 
     color: white; 
 }
-#bottom-section-item{ 
+#bottomsectionitem{ 
 display: inline-block; 
 margin-right: 2rem; 
 font-size: 0.75rem; 
@@ -275,7 +275,7 @@ cursor: pointer !important;
 -o-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
 }
-#copyright-info{
+#copyrightinfo{
 margin-top: 5%; 
 position: absolute !important;
 bottom: 8%; 
@@ -287,12 +287,12 @@ display: grid;
 justify-content: center;
 color: #535357; 
 }
-#copyright-info-container{
+#copyrightinfocontainer{
 width: 100vw; 
 margin: 0 auto;
 background-color: #161822 !important;
 }
-#ministry-tagline{
+#ministrytagline{
 position: absolute; 
 bottom: 10%; 
 right: 5%; 
@@ -302,10 +302,10 @@ margin-top: 2rem;
 color: white; 
 }
 @media(max-width: 1800px) and (min-width: 1435.1px){
-    #copyright-info-container{
+    #copyrightinfocontainer{
         margin: 0 auto !important;
 }
-    #tagline-container{
+    #taglinecontainer{
         margin-top: 1rem !important;
         position: absolute  !important;
         bottom: 5%;
@@ -314,20 +314,22 @@ color: white;
 }
 }
 @media(max-width: 1435px){
-    #copyright-info-container{
+    #copyrightinfocontainer{
         width: 50vw !important;
         margin: 0 auto !important; 
         display: grid;
         place-content: center;
     }
-    #copyright-info{
+    #copyrightinfo{
         position: relative !important;
         width: 90vw; 
         display: grid;
         place-content: center;
         margin-top: 2.3rem; 
     }
-    #bottom-section-container{
+    /* #bottomsectioncontainer */
+    #bottomsectioncontainer
+    {
     left: 25%;
     bottom: 5%;
     transform: translate(-50%, -50%);
@@ -343,58 +345,69 @@ color: white;
     -o-transform: translate(0,0) !important;
     transform: translate(0,0) !important;
 }
-    #ministry-tagline{
+    /* #ministryMaterial */
+    #ministrymaterial
+    
+    {
         position: relative !important; 
     }
-    #tagline-container{
+    /* #taglinecontainer */
+    #taglinecontainer
+    {
         width: 50vw; 
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         position: relative !important; 
     }
-    #list-container{
+    #listcontainer
+    {
     position: relative; 
     }
-    #second-section-container{
+    #secondsectioncontainer
+    {
         position: relative; 
     }
-    #second-section-list{
+    #secondsectionlist
+    {
         margin: 0 auto; 
         margin-top: 15vh; 
     }
-    #section-list-container{
+    #sectionlistcontainer
+    
+    {
         grid-template-columns: 1fr !important; 
     }
     }
 @media(max-width: 1435px){
-    #section-list-item{
+    #sectionlistitem
+    {
         text-align: center;
     }
-    #section-list{
+    #sectionlist
+    {
         text-align: center; 
     }
-    #second-section-container{
+    #secondsectioncontainer{
         position: relative !important; 
         margin: 0 !important; 
         padding: 0 !important; 
         display: grid;
         place-content: center;
     }
-    #second-section-list{
-        margin: 0 auto !important; 
+    #secondsectionlist{
         padding: 0 !important; 
         margin-top: 4rem !important; 
         grid-template-columns: 1fr !important; 
         width: min-content !important; 
     }
-    #social-list{
+    #sociallist{
         margin: 0 auto !important; 
     }
-    #social-media-item{
+    #socialmediaitem{
         margin: 0 auto !important; 
     }
-    #copyright-info-container{
+    #copyrightinfocontainer{
         width: 60vw; 
         margin: 0 auto !important; 
         padding: 0 !important; 
@@ -403,7 +416,7 @@ color: white;
         display: grid; 
         place-content: center;
     }
-    #copyright-info{
+    #copyrightinfo{
         width: 50vw !important; 
         position: absolute !important; 
         left: 0 !important; 
@@ -413,7 +426,7 @@ color: white;
         transform: translate(0,0) !important;
         z-index: 20 !important; 
     }
-    #bottom-section-container{
+    #bottomsectioncontainer{
     width: 50vw; 
     margin: 0 auto !important; 
     transform: translate(0,0) !important;
@@ -422,124 +435,123 @@ color: white;
     display: grid;
     place-content: center;
     }
-    #bottom-section-list{
+    #bottomsectionlist{
         margin: 0 auto !important; 
         padding: 0 !important; 
         transform: translate(0,0) !important;
         position: relative !important; 
     }
-    #tagline-container{
+    #taglinecontainer{
         margin-bottom: 3rem;
     }
 }
 @media(max-width: 1434.4px){
-#tagline-container{
+#taglinecontainer{
     margin-top: 6rem !important; 
 }
-#copyright-info-container{
+#copyrightinfocontainer{
     margin-top: 5.5rem !important; 
     margin-bottom: 7rem;
 }
-#bottom-section-container{
+#bottomsectioncontainer{
 bottom: 1.9% !important; 
 }
 }
 @media(max-width: 960px){
-    #copyright-info-container{
+    #copyrightinfocontainer{
         text-align: center !important; 
     }
-    #bottom-section-list{
+    #bottomsectionlist{
         margin: 0 auto !important; 
     }
 }
 
 @media(max-width: 620px){
-    #copyright-info-container{
+    #copyrightinfocontainer{
         margin: 0 auto !important; 
         padding: 0 !important; 
     }
 }
 @media(max-width: 665px){
-    #copyright-info-container{
+    #copyrightinfocontainer{
         display: none;
     }
 }
 @media screen and (max-width: 480px) {
-    #hero-container{
+    #herocontainer{
         margin-left: -1.5rem;
     }
-    #copyright-info-container{
+    #copyrightinfocontainer{
         text-align: center !important; 
     }
-    #footer-section-container{
+    #footersectioncontainer{
     transform: translate(0vw, 0) !important;
     }
-    #second-section-item{
+    #secondsectionitem{
         margin-top: 3.5rem !important;
     }
-        #section-list-container{
+        #sectionlistcontainer{
             transform: translate(0, 3rem) !important; 
         }
-        #section-list{
+        #sectionlist{
             margin: 0 auto; 
         }
-        #bottom-section-list{
+        #bottomsectionlist{
             flex-wrap: wrap;
             justify-content: center;
             color: white !important; 
         }
-        .mission-statement-item{
+        .missionstatementitem{
             margin-top: 1rem !important; 
         }
-        #bottom-section-container{
+        #bottomsectioncontainer{
             margin-top: 7rem !important;
         }
-    #bottom-section-list{
+    #bottomsectionlist{
         width: 80vw !important; 
     }
-    #section-list-container{
+    #sectionlistcontainer{
         margin: 0 auto !important; 
     }
-    #section-list{
+    #sectionlist{
         margin: 0 auto !important; 
     }
-    #list-container{
+    #listcontainer{
         position: absolute; 
         left: 0; 
         position: relative; 
         margin: 0 auto !important; 
         top: 22% !important; 
         }
-        #second-section-list{
-            min-height: 37vh; 
+        #secondsectionlist{
         }
-        #tagline-container{
+        #taglinecontainer{
             margin: 0 auto !important; 
             width: 50vw; 
             font-weight: 400;   
             margin-top: 13rem !important;
             margin-bottom: 2rem !important;
         }
-        #social-item{
+        #socialitem{
             margin-right: 1.4rem;   
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
-        #copyright-info-container{
+        #copyrightinfocontainer{
             margin: 0 auto !important; 
             text-align: center !important; 
         }
-        #bottom-section-list{
+        #bottomsectionlist{
             margin: 0 auto !important; 
         }
   }    
-#hero-text-container{
+#herotextcontainer{
 position: absolute;
 top: 50%; 
 left: 5vw; 
 z-index: 20; 
 }
 @media(max-width: 390px){
-    #social-list{
+    #sociallist{
         -webkit-transform: translate(2.8vw, 0) !important;
         -moz-transform: translate(2.8vw, 0) !important;
         -ms-transform: translate(2.8vw, 0) !important;
@@ -548,7 +560,7 @@ z-index: 20;
         transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 }
-#icon-container:hover{ 
+#iconcontainer:hover{ 
     -webkit-transform: scale(1.1) !important ; 
     -moz-transform: scale(1.1) !important ; 
     -ms-transform: scale(1.1) !important ; 
@@ -561,14 +573,14 @@ z-index: 20;
     -o-transform: translate(0, 3deg) !important ;
     transform: translate(0, 3deg) !important ;
 }
-#footer-social-icon:hover{
+#footersocialicon:hover{
     -webkit-transform: translate(0, 3deg) !important ;
     -moz-transform: translate(0, 3deg) !important ;
     -ms-transform: translate(0, 3deg) !important ;
     -o-transform: translate(0, 3deg) !important ;
     transform: translate(0, 3deg) !important ;
 }
-#social-item:hover{
+#socialitem:hover{
     -webkit-transform: scale(1.1) !important ; 
     -moz-transform: scale(1.1) !important ; 
     -ms-transform: scale(1.1) !important ; 
@@ -580,7 +592,7 @@ z-index: 20;
     -o-transform: translate(0, 3deg) !important ;
     transform: translate(0, 3deg) !important ;
 }
-#list-phone-text:hover{
+#listphonetext:hover{
     color: #42f5a8 !important;
     transform: scale(1.1) !important ;
     -webkit-transform: scale(1.1) !important ;
@@ -594,7 +606,7 @@ z-index: 20;
     transform: translate(0, 3deg) !important;
 }
 
-#email-contact:hover{
+#emailcontact:hover{
     
     color: #42f5a8 !important;
     transform: scale(1.1) !important ;
@@ -609,7 +621,7 @@ z-index: 20;
     -o-transform: translate(0, 3deg) !important;
     transform: translate(0, 3deg) !important;
 }
-#list-text:hover{
+#listtext:hover{
     color: #42f5a8 !important;
     transform: scale(1.1) !important ;
     -webkit-transform: scale(1.1) !important ;
@@ -622,7 +634,7 @@ z-index: 20;
     -o-transform: translate(0, 3deg) !important;
     transform: translate(0, 3deg) !important;
 }
-#bottom-section-item:hover{
+#bottomsectionitem:hover{
     color: white;
     -webkit-transform: scale(1.1) !important;
     -moz-transform: scale(1.1) !important;

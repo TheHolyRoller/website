@@ -37,34 +37,36 @@ import YouTube from "@mui/icons-material/YouTube";
 import Link from "next/link";
 
 
-import '../Styles/footer.css'; 
+import ft from '../Styles/footer.module.css'; 
+
+
 
 function Footer() {
   return (
 
     
     
-  <div id="footer-main-container" >
+  <div id={ft.footermaincontainer }>
     
-  <footer id="footer-container"   >
+  <footer id={ft.footercontainer}>
   
-  <section id="footer-section-container" >
+  <section id={ft.footersectioncontainer }>
   
   
   
-  {/* ------GRID CONTAINER!#!!---------- */}
-  <div id="section-list-container" >
+  {/* GRID CONTAINER!#!! */}
+  <div id={ft.sectionlistcontainer} >
   
     
   
   {/* Add in the list here  */}
-  <div id='list-container' >
-  <ul id="section-list" >
+  <div id={ft.listcontainer} >
+  <ul id={ft.sectionlist}>
     {/* Add in the first list item here  */}
-    <li id='section-list-item'    >
+    <li id={ft.sectionlistitem}>
     
-    <div id="headline-container" >
-  <text id="section-headline" style={{pointerEvents: 'none', cursor: 'none'}}  >
+    <div id={ft.headlinecontainer} >
+  <text id={ft.sectionheadline} style={{pointerEvents: 'none', cursor: 'none'}}  >
     Contact Us 
 
   </text>
@@ -73,7 +75,7 @@ function Footer() {
 
     {/* Add in the Anchor Tag here  */}
     {/* Add in the phone number here  */}
-    <text id="list-phone-text" style={{pointerEvents: 'auto'}}  >
+    <text id={ft.listphonetext} style={{pointerEvents: 'auto'}}  >
     <Link href='tel:+355762053987' >
     0121 711 7300
     </Link>
@@ -87,9 +89,9 @@ function Footer() {
       
     </li>
     
-    <li className='email-contact'  id='section-list-item' >
+    <li className={ft.emailcontact}  id={ft.sectionlistitem} >
     
-    <text className='email-contact'  id='list-text' >
+    <text className={ft.emailcontact}  id={ft.listtext} >
     <Link href='mailto:wakeleyfamily@gmail.com' >
     hello@renewalcc.com
     </Link>
@@ -100,44 +102,44 @@ function Footer() {
     <li>
     </li>
 
-    <li id="social-media-item" >
+    <li id={ft.socialmediaitem} >
     
     {/* Add in the social media list here  */}
     
-    <ul id='social-list' >
+    <ul id={ft.sociallist} >
     
-    <li id='social-item' >
+    <li id={ft.socialitem} >
     
     <Link href='https://www.facebook.com/' target="_blank" >
     
-      <Facebook id='footer-social-icon' style={{fontSize: '2rem', color: 'white'}}/>
+      <Facebook id={ft.footersocialicon} style={{fontSize: '2rem', color: 'white'}}/>
       
     </Link>
 
       
     </li>
     
-    <li id='social-item' >
+    <li id={ft.socialitem} >
     
     
     
     
-    <div id="icon-container" >
+    <div id={ft.iconcontainer} >
     
     <Link href='https://www.instagram.com/' target="_blank" >
-    <InstagramIcon id='footer-social-icon'  style={{ fontSize: '2rem', marginBottom: '-5px'}} />
+    <InstagramIcon id={ft.footersocialicon}  style={{ fontSize: '2rem', marginBottom: '5px'}} />
     </Link>
       
     </div>
     
     </li>
     
-    <li id='social-item' > 
+    <li id={ft.socialitem} > 
       {/* Add in the icon and anchor tag here  */}
       
       
       <Link href='https://www.youtube.com/' target="_blank">
-      <YouTubeIcon id='footer-social-icon'  style={{fontSize: '2.3rem', transform: 'scale(1.15)'}} />
+      <YouTubeIcon id={ft.footersocialicon}  style={{fontSize: '2.3rem', transform: 'scale(1.15)'}} />
       </Link>
     </li>
     </ul>
@@ -146,34 +148,34 @@ function Footer() {
   </div>
 
   
-  <div id="second-section-container" >
+  <div id={ft.secondsectioncontainer} >
   
 
   
-  <ul id="second-section-list" >
+  <ul id={ft.secondsectionlist} >
     {/* Add in the list item here  */}
-    <li id="second-section-item" >
+    <li id={ft.secondsectionitem} >
 
     
-    <div id="second-section-text" >
+    <div id={ft.secondsectiontext} >
 
     
-    <text id='location-icon'  style={{pointerEvents: 'auto', cursor: 'pointer'}}   >
+    <text id={ft.locationicon}  style={{pointerEvents: 'auto', cursor: 'pointer'}}   >
     <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank" >
-    <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    <LocationOnIcon id={ft.locationiconfa}  style={{color: "#6465ff"}} />
     </Link>
 
     </text>
-    <text id='meeting-location'>
+    <text id={ft.meetinglocation}>
       Cerrik 
 
 
     </text>
     
     {/* Add in the time and day information here  */}
-    <text id='meeting-info' >
+    <text id={ft.meetinginfo}>
             
-    Sunday - 10AM    
+    Sunday  10AM    
     </text>
 
     </div>
@@ -181,27 +183,27 @@ function Footer() {
     </li>
     
     
-    <li id='second-section-item' >
+    <li id={ft.secondsectionitem} >
     
-    <div id='section-item-container' >
+    <div id={ft.sectionitemcontainer}>
     
-    <text id='location-icon' >
+    <text id={ft.locationicon} >
     <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank">
 
-      <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+      <LocationOnIcon id={ft.locationiconfa}  style={{color: "#6465ff"}} />
     </Link>
 
     </text>
     
-    <text id='meeting-location' >
+    <text id={ft.meetinglocation} >
     Elbasan 
       
     </text>
     
     {/* Add in the Time and day info here  */}
-    <text id='meeting-info' >
+    <text id={ft.meetinginfo} >
 
-    Wednesday-5pm 
+    Wednesday5pm 
     </text>
       
       
@@ -210,23 +212,24 @@ function Footer() {
     </li>
     
     
-    <li id='second-section-item' >
-      <text id='location-icon' >
+    <li id={ft.secondsectionitem}>
+      <text id={ft.locationicon} >
       
     <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank" >
-      <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+      <LocationOnIcon id={ft.locationiconfa}  style={{color: "#6465ff"}} />
+
     </Link>
         
       </text>
       
       
-    <text id='meeting-location' >
+    <text id={ft.meetinglocation}>
       Xherie   
     </text>
     
     
-    <text id='meeting-info' >
-    Tuesday-6pm 
+    <text id={ft.meetinginfo }>
+    Tuesday6pm 
 
     </text>
     
@@ -236,24 +239,25 @@ function Footer() {
     
     {/* Add in the online service details here  */}
     
-    <li id='second-section-item' >
+    <li id={ft.secondsectionitem} >
     
-    <text id='location-icon' >
+    <text id={ft.locationicon} >
     <Link href='https://maps.app.goo.gl/rEhVhSwnYHoWGyqRA' target="_blank" >
-    <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    <LocationOnIcon id={ft.locationiconfa}  style={{color: "#6465ff"}} />
+
     </Link>
 
       
     </text>
     
-    <text id='meeting-location' >
+    <text id={ft.meetinglocation} >
       <Link href='./live'>
       Online 
       </Link>
     </text>
     
-    <text id='meeting-info' >
-      Sunday-7am 
+    <text id={ft.meetinginfo }>
+      Sunday7am 
 
     </text>
       
@@ -271,27 +275,27 @@ function Footer() {
     
   </section>
   
-  <div id="bottom-section-container">
+  <div id={ft.bottomsectioncontainer}>
   
   
-  <ul id="bottom-section-list" >
+  <ul id={ft.bottomsectionlist} >
     
   {/* Add in the list items here  */}
-  <li id="bottom-section-item" >
+  <li id={ft.bottomsectionitem} >
   <Link href='./contact'>
   CONTACT 
   </Link>
   
 
   </li>
-  <li id="bottom-section-item" >
+  <li id={ft.bottomsectionitem} >
   <Link href='./live'>
   LIVE 
    </Link>
   
 
   </li>
-  <li id="bottom-section-item" >
+  <li id={ft.bottomsectionitem} >
   <Link href='./ministries' >
   PROJECTS  
   </Link>
@@ -299,7 +303,7 @@ function Footer() {
 
   </li>
   {/*  */}
-  <li  className='mission-statement-item' id="bottom-section-item" >
+  <li  className={ft.missionstatementitem} id={ft.bottomsectionitem} >
   <Link href='./mission' >
   MISSION STATEMENT  
   </Link>
@@ -313,13 +317,13 @@ function Footer() {
   
   
 
-  <div id="copyright-info-container" 
+  <div id={ft.copyrightinfocontainer} 
   
   
   
   >
 
-  <div id="copyright-info" style={{backgroundColor: '#161822'}} >
+  <div id={ft.copyrightinfo} style={{backgroundColor: '#161822'}} >
     
   © 2023 Renewal Christian Centre Ltd | All Rights Reserved | Charity No. 1117019 | Registered in England & Wales No. 5996380.   
 
@@ -328,9 +332,9 @@ function Footer() {
   </div>
   
   
-  <div id="tagline-container" style={{backgroundColor: '#161822'}} >
+  <div id={ft.taglinecontainer} style={{backgroundColor: '#161822'}} >
     
-  <div id="ministry-tagline" style={{backgroundColor: '#161822'}} > 
+  <div id={ft.ministrytagline} style={{backgroundColor: '#161822'}} > 
 
   renewal. 
     
@@ -341,6 +345,7 @@ function Footer() {
   
 </div> 
   );
+  
   
   
   

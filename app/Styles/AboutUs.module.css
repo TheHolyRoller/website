@@ -3,8 +3,7 @@
 
 #mainContainer{
     
-    
-    
+    background: #161822; 
     
     
     
@@ -49,8 +48,7 @@
 
 #startedCardContainer{
     
-    
-    
+
     
 }
 
@@ -112,6 +110,18 @@ background:#161822 !important;
 
 #headedHeadlineContainer{
 
+
+
+width: 50vw; 
+margin: 0 auto; 
+display: grid;
+place-content: center;
+color: lightslategray; 
+font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+font-weight: 900;   
+margin-bottom: -3rem;
+
+
     
 }
 #headedHeadline{
@@ -125,7 +135,7 @@ background:#161822 !important;
     
 }
 
-#imagGridContainer{
+#imageGridContainer{
     
     display: grid; 
     place-content: center; 
@@ -143,7 +153,7 @@ background:#161822 !important;
 @media(max-width: 900px){
 
     
-    #imagGridContainer{
+    #imageGridContainer{
     
         display: grid; 
         place-content: center; 
@@ -160,29 +170,73 @@ background:#161822 !important;
 #goingImageSubContainer{
     
     
+    margin-bottom: 35vh;
+    
     
     
 }
     
 }
+
+@media(max-width: 767px){
+
+#startedMainContainer{
+    
+    margin-top: -15rem !important; 
+    
+}
+
+#goingImageSubContainer{
+    
+    
+    margin-bottom: 45vh;
+    
+    
+    
+}
+
+
+    
+    
+}
+
+
 @media(max-width: 694px){
 
     
     #goingImageSubContainer{
     
-        margin-bottom: 130vh;
+        margin-bottom: 140vh;
+        
         
         
         
     }
     
     
+    /* Add in the Headed headline container here  */
+    #headedHeadlineContainer{
+
+
+
+        width: 90vw; 
+        margin: 0 auto; 
+        display: grid;
+        place-content: center;
+        color: lightslategray; 
+        font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+        font-weight: 900;   
+        margin-bottom: -5rem !important;
+
+            
+        }
+    
 }
 
 
 @media(max-width: 660px){
 
-     #imagGridContainer{
+     #imageGridContainer{
     
         display: grid; 
         place-content: center; 
@@ -205,10 +259,34 @@ background:#161822 !important;
 
     #goingImageSubContainer{
     
-        margin-bottom: 100vh;
+        
+        margin-bottom: 120vh;
+
         
         
     }
+    #imageGridContainer{
+        
+        margin-top: -1rem !important; 
+        gap: 2rem !important;
+
+        
+        
+        
+    }   
+    
+    /* Add in the top component container and adjust the top margin  */
+    
+    #startedMainContainer{
+        
+        margin-top: -7rem !important; 
+        
+
+        
+    }
+    
+    
+    
     
 }
 
