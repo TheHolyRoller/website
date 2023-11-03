@@ -59,7 +59,6 @@ width: 50vw;
 #textSectionContainer{
 
     
-    
 }
 
 #textSectionSubContainer{
@@ -89,6 +88,8 @@ color: #422c18;
 
 
 width: 70%; 
+
+
 
     
 }
@@ -236,8 +237,9 @@ font-weight: 900;
     font-size: 1rem; 
     font-weight: 500;   
     width: 80% !important;
-    /* margin-left: 10%;  */
-
+    margin: 0 auto; 
+    
+    
 }
 
 
@@ -274,6 +276,7 @@ margin: 0 auto;
     font-size: clamp(1.1rem, 1vw + 1rem, 1.3rem); 
 
     color:#422c18; 
+    
     
     
     
@@ -481,6 +484,7 @@ margin: 0 auto;
            width: 85vw; 
            margin: 0 auto !important; 
            /* font-family: 'Luckiest Guy', cursive; */
+           padding-left: 3% !important; 
            
            
            
@@ -493,6 +497,7 @@ margin: 0 auto;
        
        margin: 1rem auto !important; 
        padding-top: 1rem; 
+       padding-left: 3% !important; 
        
        font-family: 'Poppins', cursive;
        

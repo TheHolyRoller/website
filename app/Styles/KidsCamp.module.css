@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300&family=Playpen+Sans:wght@800&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300&family=Lobster&family=Playpen+Sans:wght@800&display=swap');
+
 
 
 #mainContainer{
@@ -15,10 +15,13 @@ width: 99.999vw;
 display: grid; 
 place-content: center; 
 
+/* background:#161822 !important;  */
+
 }
 
 
 #mainHeadlineContainer{
+
 
     
     
@@ -45,7 +48,9 @@ color: #dd5449;
 font-weight: 600;
 
 /* Clamp the font size here  */
-font-size: 2rem; 
+font-size: clamp(2.1rem, 2vw + 1.5rem, 5rem) !important; 
+
+/* font-size: 2rem;  */
 }
 
 
@@ -192,7 +197,11 @@ gap:2rem;
 
 #headlineFirstIntro{
 
-    color:#dd5449 !important; 
+    color:#dd5449 !important;
+    
+    font-size: clamp(2.1rem, 2vw + 1rem, 4.5rem) !important;
+    
+    
     
     
 }
@@ -227,7 +236,7 @@ margin: 0 auto;
 #activitiesIntroText{
 
 font-family: 'Luckiest Guy', cursive;
-font-size: clamp(1.5rem, 2vw + 3rem, 4rem); 
+font-size: clamp(1.5rem, 2vw + 2.5rem, 4rem); 
 color:#422c18 !important; 
 
     
@@ -252,8 +261,9 @@ color:#422c18 !important;
 
 #galleryComponentContainer{
 
-    
-    
+margin: 3rem auto;
+
+
 }
 
 #galleryComponent{
@@ -271,7 +281,7 @@ width: 50vw;
 margin: 0 auto; 
 display: grid;
 place-content: center; 
-font-size: clamp(1.5rem, 2vw + 1rem, 3rem); 
+font-size: clamp(1.5rem, 2vw + 1.4rem, 3rem); 
 
 font-family: 'Luckiest Guy', cursive;
 color: #422c18; 
@@ -308,6 +318,8 @@ color: #422c18;
 
 
 #youtubeComponentContainer{
+    
+    margin: 4rem auto !important; 
 
     
     
@@ -342,7 +354,7 @@ color: #422c18;
 
 
 #infoCardsHeadlineContainer{
-    
+
 margin: 1rem auto; 
 width: 50vw; 
 
@@ -354,7 +366,7 @@ width: 50vw;
 
 #infoCardsHeadline{
     
-    font-size: clamp(1.4rem, 2vw + 1rem, 3rem) !important;
+    font-size: clamp(1.5rem, 2vw + 1.7rem, 3rem) !important;
     width: max-content; 
     margin: 0 auto;
     font-family: 'Luckiest Guy', cursive;
@@ -366,6 +378,7 @@ width: 50vw;
 
 #infoCards{
 
+
     
 }
 
@@ -375,7 +388,8 @@ width: 50vw;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     margin: 3rem auto; 
-
+    padding-bottom: 2.5rem; 
+    
     
 }
 
@@ -392,6 +406,13 @@ width: 50vw;
 
        grid-template-columns: 1fr 1fr;
 
+    }
+    
+    #mainHeadline{
+    
+    margin-top: -10rem !important; 
+    
+    
     }
     
     #imageGridContainer{
@@ -416,24 +437,49 @@ width: 50vw;
         display: grid;
         grid-template-columns: 1fr; 
         margin: 2rem auto; 
+        gap: 2em; 
         
         
     }
+    
+    
+    /* Add in the Youtube Section here  */
+    
+    #youtubeComponentContainer{
+    
+        margin: 3rem auto; 
+        
+        
+        
+    }
+    
+    
+    /* Add in the Intro Text headline container here  */
+    
+    
+
     
     
 }
 
 @media(max-width: 563px){
     
-    /* Add in the grid container here  */
     #kidsCardGrid{
 
         display: grid; 
         grid-template-columns: 1fr;
         margin: 4rem auto; 
-
+        
         
         }
+        
+        
+        #mainHeadline{
+    
+            margin-top: -3rem !important; 
+            
+            
+            }
         
 #supportingTextContainer{
     

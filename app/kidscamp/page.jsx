@@ -82,7 +82,14 @@ Klea Huta Summer Camp
   <div id={kk.timelineCards}>
     
     <div id={kk.kidsCardGrid} >
+    
+    
+    {/* Add in the props template here  */}
+{/* Prop template Kids Image Cards 
 
+    Image title text 
+
+*/}
   
     <KidsImageCards/> 
   <KidsImageCards/> 
@@ -102,6 +109,7 @@ Klea Huta Summer Camp
   
   {/* Add in the component in here  */}
   
+{/* Add in the prop template here  */}
 
 
   <ImageTextBullet/> 
@@ -154,7 +162,13 @@ Klea Huta Summer Camp
   <div id={kk.activitiesCardGrid} >
 
     {/* Add in the kids cards here  */}
-
+  
+  {/* Prop Template Kids Cards 
+  image title text 
+  
+  
+  */}
+  
 <KidsCards/> 
 <KidsCards/> 
 <KidsCards/> 
@@ -197,6 +211,7 @@ Klea Huta Summer Camp
     <Images/>
     {/* <Images/> */}
     
+        
         
         
       </div>
@@ -265,7 +280,7 @@ Klea Huta Summer Camp
       
       */}
       <InfoCards/> 
-      <InfoCards/> 
+      <InfoCards /> 
       
       
     </div>
