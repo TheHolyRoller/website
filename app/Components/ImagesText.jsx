@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 import mt from '../Styles/ImagesText.module.css';
 
 
-function ImagesText() {
+function ImagesText(props) {
 
   return (
 
@@ -30,6 +30,9 @@ function ImagesText() {
     
     {/* Add in the subcontainer here  */}
     <div id={mt.imagesubcontainer}>
+
+      {/* {props.image} */}
+      
     <Image
     src={BluePrints}
     id={mt.image}
@@ -74,7 +77,7 @@ function ImagesText() {
     <Typography id={mt.textsectiontypography}>
     <h1 id={mt.textsectionheader}>
         Our Values 
-        
+        {/* {props.values} */}
       
         
     </h1>
@@ -84,13 +87,16 @@ function ImagesText() {
 
 
     <div id={mt.toptextcontainer}>
+    
+    {/* {props.text} */}
+    
     The River Church for Change continued to grow and expand into 4 different suites at the storefronts on the south side of Portland Road. In March 2020, when many churches closed down - we stayed open. The church is ESSENTIAL! Like Hebrews 10:25 says, 
     
     {/* Renewal’s values are what we do alongside what we believe. */}
     
     <div id={mt.middleTextcontainer} >
     
-    
+    {/* {props.mainText} */}
     "Let us not give up the habit of meeting together, as some are doing.
 Instead, let us encourage one another all the more,
 since you see that the Day of the Lord is coming nearer. "
@@ -101,6 +107,8 @@ since you see that the Day of the Lord is coming nearer. "
     
     
     <div id={mt.bottomtextcontainer}>
+    
+    {/* {props.supportingText} */}
     We were outgrowing the building, so we moved across the street and met in the parking lot, during the summer, until we gained occupancy of our new building. 
     
         
@@ -126,6 +134,8 @@ since you see that the Day of the Lord is coming nearer. "
     <li id={mt.imageListItem}>
     
     <div id={mt.listImage} >
+    
+    {/* {props.imageItem} */}
 
         
 </div>
@@ -179,6 +189,7 @@ since you see that the Day of the Lord is coming nearer. "
     
     {/* Component Sub Container   */}
     </div>
+    
     
     
     {/* Component Container  */}

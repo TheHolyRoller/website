@@ -6,9 +6,7 @@ import React from 'react'
 import or from '../Styles/OutReachCards.module.css'; 
 
 
-
-
-function OutReachCards() {
+function OutReachCards(props) {
   return (
   
     <div id={or.cardMainContainer}>
@@ -25,6 +23,8 @@ function OutReachCards() {
     <div id={or.imageContainer}>
     <div id={or.cardImage}>
     
+    {/* {props.image} */}
+    
     {/* Try adding in an orage tag here  */}
     
     </div>
@@ -40,7 +40,7 @@ function OutReachCards() {
     <div id={or.cardHeadline}>
     
     Groups 
-    
+    {/* {props.title} */}
 
     </div>
     
@@ -53,7 +53,7 @@ function OutReachCards() {
     <div id={or.cardText}>
     
     Our group of small networks that meet regularly across the midlands 
-    
+    {/* {props.text} */}
     
         
     </div>

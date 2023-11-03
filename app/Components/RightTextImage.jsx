@@ -57,13 +57,13 @@ import { Typography } from '@mui/material';
 import '../Styles/RightTextImage.css'; 
 
 
-function RightImage() {
+
+function RightImage(props) {
   return (
 
     <div id='right-background-container' >
     
-    {/* Add in the main component container here  */}
-    
+
     <div id='right-component-container' >
     
     <div id='right-component-sub-container' >
@@ -73,13 +73,17 @@ function RightImage() {
       
    
     <li id='right-list-component-item' >
-    
-    
-    {/* No styling so far  */}
+
+
     <div id='right-image-section-container' >
-    
-    {/* Add in the sub-container here  */}
+      
+      
     <div id='right-image-sub-container'  >
+
+      
+      {/* {props.image} */}
+      
+      
     <Image
     src={BluePrints}
     id='right-image'
@@ -126,6 +130,9 @@ function RightImage() {
     
     {/* Add in some extra text here  */}
     <div id='right-lorem-container' >
+    
+
+    {/* {props.text} */}
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis exercitationem eius. Impedit, quaerat veritatis voluptas distinctio ducimus tempore error molestias voluptatem, illo ullam perspiciatis laboriosam, quam sapiente aperiam sequi?
     
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequuntur sint quibusdam animi vero repellat, voluptas culpa dolore fuga adipisci!
@@ -174,6 +181,8 @@ function RightImage() {
     
     <Typography id='right-text-section-typography' >
     <h1 id='right-text-section-header-backup'>
+
+      {/* {props.values} */}
         Our Values 
         
         
@@ -191,6 +200,8 @@ function RightImage() {
     <div id='top-right-text-backup' >
     {/* Renewal’s values */}
     
+    
+    {/* {props.supportingText} */}
     
      are what we do alongside what we believe. 
     </div>

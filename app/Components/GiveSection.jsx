@@ -15,11 +15,8 @@ function GiveSection() {
 
     <div id={gs.headlineContainer} >
     <div id={gs.headline}>
-    
-    
-    
+
     Would you like to contribute to more projects like these? 
-    
     
     </div>
 

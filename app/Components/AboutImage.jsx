@@ -11,7 +11,7 @@ import ab from '../Styles/AboutImage.module.css';
 
 
 
-function AboutImage() {
+function AboutImage(props) {
   return (
     <div id={ab.mainContainer} >
     <div id={ab.subContainer} >
@@ -20,7 +20,7 @@ function AboutImage() {
     <div id={ab.image} >
         
         {/* Add in the image here  */}
-        
+        {/* {props.image} */}
 
     </div>
         

@@ -9,7 +9,7 @@ import { Typography } from '@mui/material';
 import img from '../Styles/TextImage.module.css'; 
   
 
-function ImageText() {
+function ImageText(props) {
   return (
 
     <div id={img.backgroundcontainer} >
@@ -54,6 +54,7 @@ function ImageText() {
       {/* Why  */}
       
          Our Values 
+         {/* {props.values} */}
          
        
          
@@ -68,7 +69,7 @@ function ImageText() {
      <div id={img.toptextcontainer}>
 
       {/* The River Church started at Cornerstone Christian Fellowship Church in Keizer, Oregon in 2014. Pastor Lew and Lorri Wootan were handed the baton from Pastor Jim & Shannon Banke. They have continued to work together to grow this church into a community fellowship to reach out to Salem with the powerful gift of Salvation. This church is a place to change, encourage and grow in relationship with Jesus Christ and other Christians. */}
-
+{/* {props.text} */}
 The church moved to a hotel meeting room where they had to clean, set-up and tear down every week. The continued growth motivated another change to a storefront on Portland Road in Salem
 
       
@@ -99,6 +100,10 @@ The church moved to a hotel meeting room where they had to clean, set-up and tea
     
     {/* Add in the subcontainer here  */}
     <div id={img.imagesubcontainer}>
+      
+      {/* {props.image} */}
+      
+      
     <Image
     src={BluePrints}
     id={img.image}
@@ -131,9 +136,10 @@ The church moved to a hotel meeting room where they had to clean, set-up and tea
     {/* Component Container  */}
     </div>
 
-    <div id={img.visibletext}>
+    {/* <div id={img.visibletext}>
 
-    </div>
+
+    </div> */}
       
       {/* Background Container  */}
     </div>

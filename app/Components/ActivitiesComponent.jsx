@@ -10,7 +10,7 @@ import at from '../Styles/ActivitiesComponent.module.css';
 import KidsCards from './KidsCards'; 
 
 
-function ActivitiesComponent() {
+function ActivitiesComponent(props) {
   return (
     <div id={at.mainContainer} >
     <div id={at.mainSubContainer} >
@@ -25,6 +25,8 @@ function ActivitiesComponent() {
     
     <div id={at.gridItem}>
     
+    
+    {/* Add in the props template here */}
     <KidsCards/> 
     
         

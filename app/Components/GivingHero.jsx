@@ -10,7 +10,7 @@ import React from 'react'
 
 import '../Styles/Giving.css'; 
 
-function GivingHero() {
+function GivingHero(props) {
   return (
     // Add in the main hero container here 
     
@@ -18,9 +18,13 @@ function GivingHero() {
     <div id='giving-hero-sub-container' >
     
     
+    
     <div id='giving-hero-image-container' > 
     
     <div id='giving-hero-image' >
+    
+    {/* {props.image} */}
+    
     </div>
           
     {/* Add in the text container here  */}
@@ -34,7 +38,7 @@ function GivingHero() {
     <div id='giving-hero-text'>
     
     Give 
-    
+    {/* {props.text} */}
     
 
     </div>

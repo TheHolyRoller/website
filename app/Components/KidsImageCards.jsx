@@ -12,7 +12,7 @@ import mm from '../Styles/KidsImageCards.module.css';
 
 
 
-function KidsImageCards() {
+function KidsImageCards(props) {
   return (
     <div id={mm.cardMainContainer}>
     
@@ -24,7 +24,7 @@ function KidsImageCards() {
     
     <div id={mm.imageContainer}>
     <div id={mm.cardImage}>
-    
+    {/* {props.image} */}
     {/* Try adding in an mmage tag here  */}
     
     </div>
@@ -41,7 +41,7 @@ function KidsImageCards() {
     
     Groups 
     
-
+    {/* {props.title} */}
     </div>
     
     </div>
@@ -54,6 +54,7 @@ function KidsImageCards() {
     
     {/* Our group of small networks that meet regularly   */}
     
+    {/* {props.text} */}
         
     </div>
         
@@ -61,12 +62,9 @@ function KidsImageCards() {
         
     </div>
     
-    
 
     </div>
     
-
-
 
     </div>
   )

@@ -29,6 +29,8 @@ import StargeredGrid from './Components/StargeredGrid';
 
 import GiveSection from './Components/GiveSection'; 
 import KidsCamp from './Components/KidsCamp'; 
+import PropRender from './Components/PropRender'; 
+import PropTest from './Components/PropTest'; 
 
 
 export default function Home() {
@@ -38,7 +40,6 @@ export default function Home() {
     
     <LandingPage/>
     
-    {/* <AboutUs/>  */}
     
 
    </div>

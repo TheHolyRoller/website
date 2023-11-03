@@ -11,14 +11,17 @@ import MuiCard from '../Components/MuiCard';
 
 import BeliefsHero from '../Components/Heros/BeliefsHero'; 
 import Link from 'next/link';
-
+import GivingHero from '../Components/GivingHero'; 
 
 function Values() {
   return (
     <div  id={val.valuesContainer} >
-    <BeliefsHero/> 
-    
-    
+      
+      {/* Add in the props here as image and title  */}
+      <GivingHero 
+      // image='../assets/BluePrints.jpg' title='Our Beliefs'
+      /> 
+
     <div id={val.valuessubcontainer}>
     
     <div id={val.valuesfirsttextsection} >
@@ -186,6 +189,7 @@ function Values() {
     </div>
     
     <div id={val.valuescardcontainer}>
+
 
     
     <div id={val.valuescarditem}  >

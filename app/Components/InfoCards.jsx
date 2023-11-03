@@ -4,7 +4,8 @@ import React from 'react'
 import ic from '../Styles/InfoCards.module.css'; 
 
 
-function InfoCards() {
+
+function InfoCards(props) {
   return (
     <div id={ic.mainContainer} >
     
@@ -16,22 +17,22 @@ function InfoCards() {
         
             
     <div id={ic.mainCard} >
-    
-    
-   
+
     
     
     {/* Add in the icon container here  */}
     <div id={ic.iconContainer} >
     
     {/* Add in the icon here  */}
+    {/* {props.icon} */}
+    
     
     </div>
     
     {/* Add in the text container here  */}
     
     <div id={ic.headlineContainer} >
-    
+    {/* {props.addressOne} */}
     Adresa 
         
     </div>
@@ -41,8 +42,11 @@ function InfoCards() {
     
     
     Rruga “Zef Jubani” 
+    {/* {props.addressTwo} */}
     
     <span id={ic.subTextContainer} >
+    
+    {/* {props.addressThree} */}
     Sheshi Wilson, pas Postës nr.8
 
         

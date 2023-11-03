@@ -9,8 +9,7 @@ import m from '../Styles/ImageText.module.css';
 
 
 
-
-function ImageText() {
+function ImageText(props) {
   return (
 
     <div id={m.backgroundcontainer} >
@@ -33,6 +32,10 @@ function ImageText() {
     
     {/* Add in the subcontainer here  */}
     <div id={m.imagesubcontainer}>
+
+      
+      {/* {props.image} */}
+      
     <Image
     src={BluePrints}
     id={m.image}
@@ -76,6 +79,7 @@ function ImageText() {
     {/* Add in the container for the Header here  */}
     <Typography id={m.textsectiontypography}>
     <h1 id={m.textsectionheader}>
+      {/* {props.values} */}
         Our Values 
         
       
@@ -87,10 +91,12 @@ function ImageText() {
 
 
     <div id={m.toptextcontainer}>
+    
+    {/* {props.text} */}
     Renewal’s values are what we do alongside what we believe. 
-    <div id={m.bottomtextcontainer}>
+    {/* <div id={m.bottomtextcontainer}>
     Read more about our values here.
-    </div>
+    </div> */}
     </div>
     
     <span> 
@@ -98,6 +104,7 @@ function ImageText() {
     
     Our Values 
     
+    {/* {props.buttonText} */}
       
       
     </button>
@@ -146,13 +153,14 @@ function ImageText() {
     {/* Component Container  */}
     </div>
 
-    <div id={m.visibletext}>
+    {/* <div id={m.visibletext}>
 
-    </div>
+    </div> */}
       
       {/* Background Container  */}
     </div>
   );
+  
   
 }
 

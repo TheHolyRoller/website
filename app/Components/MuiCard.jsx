@@ -12,7 +12,7 @@ import tc from '../Styles/TextCard.module.css';
 
 
 
-export default function MuiCard() {
+export default function MuiCard(props) {
  return (
    <Card id={tc.textCard}   sx={{ maxWidth: 365 }}>
      <CardMedia
@@ -21,11 +21,17 @@ export default function MuiCard() {
 
        title="cute kitten"
      />
+     
+     {/* {props.image} */}
+     
      <CardContent>
        <Typography gutterBottom variant="h5" component="div">
-         Teams 
+        {/* {props.title}  */}
+         {/* Teams  */}
        </Typography>
        <Typography variant="body2" color="text.secondary">
+       {/* {props.text} */}
+       
       Everyday our amazing teams work together to make our church happen 
       
        </Typography>
