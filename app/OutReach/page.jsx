@@ -23,35 +23,6 @@ import GiveSection from '../Components/GiveSection';
 import OutReachCards from '../Components/OutReachCards'; 
 
 
-  {/* Prop template Right Text Image 
-        image, text, supportingText, 
-        
-        */}
-
-
-         {/* Props template OutReach Cards 
-      
-      image title text 
-      
-      
-      
-      */}
-      
-      
-      {/* 
-Prop template Mui Cards 
-
-image text title 
-
-*/}
-
-
-{/* Props template Info Cards 
-    icon, addressOne addressTwo addressThree 
-    
-    */}
-        
-        
 
 function OutReach() {
   return (
@@ -127,7 +98,7 @@ function OutReach() {
     
     {/* Add in the headline container here  */}
     
-   
+    
     
     
     {/* Add in the Image Text CTA here  */}
@@ -141,7 +112,7 @@ function OutReach() {
     
     <div id={oo.businessHeadline}>
     
-    {/* Business Headline  */}
+    Sponsoring Businesses 
         
 
         
@@ -188,6 +159,8 @@ function OutReach() {
     <div id={oo.scholarHeadlineSubContainer}>
     
     <div id={oo.scholarHeadline}>
+        
+        Sponsoring Students 
         
     {/* Scholar Headline          */}
     <div id={oo.scholarTextContainer}>
@@ -282,9 +255,8 @@ function OutReach() {
     
     <div id={oo.counsellingHeadline}>
     
+      Helping People find Homes 
 
-    
-        
         
     </div>
 
@@ -337,6 +309,7 @@ function OutReach() {
     <div id={oo.farmingHeadlineSubContainer}>
     <div id={oo.farmingHeadline}>
       
+      Ministry to the Poor 
     
     </div>
     

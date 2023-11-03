@@ -35,6 +35,12 @@
 #headlineContainer{
 
 
+width: 50vw; 
+margin: 0 auto; 
+padding-top: 2.4rem; 
+display: grid;
+place-content: center;
+
     
 }
 
@@ -49,6 +55,9 @@
 
 
 #firstHeadline{
+
+font-size: clamp(1.8rem, 2vw + 1rem, 2.3rem);
+font-weight: 900;   
 
     
     
@@ -159,14 +168,22 @@ display: flex;
 
 #prayerTextContainer{
 
-    
+
+   width: 50vw; 
+   margin: 0 auto; 
+   display: grid; 
+   place-content: center; 
+   
     
 }
 
 
 
 #prayerText{
-
+    
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    font-weight: 900;   
+    
 
 }
 
@@ -227,6 +244,16 @@ display: flex;
 
 #teachingHeadlineContainer{
 
+
+
+width: 50vw; 
+margin: 4rem auto !important;
+/* padding: 3rem;  */
+
+display: grid; 
+place-content: center; 
+
+
     
     
 }
@@ -240,6 +267,8 @@ display: flex;
 
 #teachingHeadline{
 
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+    font-weight: 900;   
     
     
 }
@@ -284,6 +313,12 @@ margin: 3rem auto;
 
 #worshipHeadlineContainer{
 
+width: 50vw; 
+margin: 0 auto; 
+display: grid; 
+place-content: center; 
+
+
     
     
 }
@@ -299,6 +334,11 @@ margin: 3rem auto;
 
 #worshipHeadline{
 
+    
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important;
+    font-weight: 900;   
+    margin-bottom: -2.5rem; 
+    
     
 }
 
@@ -320,6 +360,7 @@ margin: 3rem auto;
     
     
 }
+
 
 
 #worshipGridContainer{
@@ -360,7 +401,16 @@ margin: 3rem auto;
 
 #detailsHeadlineContainer{
 
+    width: 50vw; 
+    margin: 1rem auto; 
+    display: grid;
+    place-content: center;
 
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important;
+    color: white !important; 
+    position: relative; 
+    z-index: 200;   
+    
     
 }
 
@@ -372,7 +422,21 @@ margin: 3rem auto;
 }
 
 
+
 #detailsHeadline{
+
+    
+    
+width: 50vw; 
+margin: 0 auto; 
+min-height: 4rem;
+color: rgb(222, 221, 228) !important; 
+position: relative; 
+z-index: 2000;
+display: grid;
+place-content: center;
+font-size: clamp(1.5rem, 2vw + 1rem, 2.2rem) !important;
+font-weight: 900;   
 
     
     
@@ -504,9 +568,66 @@ margin: 3rem auto;
     width: 90vw; 
     margin: 2rem auto; 
     margin-top: 5rem; 
+    
 
 }
 
+
+/* Add in all the headline containers here  */
+
+#detailsHeadlineContainer{
+
+    margin-bottom: -2rem !important;
+    
+    
+}
+
+#worshipHeadlineContainer{
+
+
+outline: 4px solid lime; 
+width: 90vw; 
+/* margin: 3rem auto;  */
+padding-top: 1rem; 
+margin-bottom: -1.5rem !important; 
+
+
+
+
+
+}
+
+
+#teachingHeadlineContainer{
+
+outline: 4px solid lime; 
+width: 90vw; 
+margin-top: -3rem !important;
+margin-bottom: -1rem !important;
+
+
+
+    
+}
+
+
+#prayerHeadlineContainer{
+
+outline: 4px solid lime; 
+margin: 2rem auto; 
+margin-top: -2.5rem;
+
+    
+}
+
+
+#headlineContainer{
+    
+    outline: 4px solid lime; 
+    width: 90vw !important; 
+    
+    
+}
 
 #prayerGridContainer{
     
@@ -560,21 +681,33 @@ margin: 3rem auto;
 
 
 
-@media(max-width: 1200px){
-    
-#nightCTAContainer{
-
-
-/* margin-top: -12rem; */
+@media(max-width: 765px){
 
     
+    /* Add in the top headline container here  */
+    
+    #headlineContainer{
+    
+    margin-top: -10rem; 
+    
+
+    }
     
     
     
 }
+
+@media(max-width: 500px){
+
+    #headlineContainer{
     
+        margin-top: -3rem; 
+        
+    
+        }
     
 }
+
 
 
 /* Add in the container queries here  */

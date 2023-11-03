@@ -34,17 +34,15 @@ import OutReachCards from '../Components/OutReachCards';
     
     <div id={nn.mainSubContainer} >
     
-    {/* Add in the Hero component here  */}
 
-    
-    {/* Add in the content container here  */}
     <div id={nn.contentContainer} >
     
     <div id={nn.contentSubContainer}>
     
     {/* Add in the headline container here  */}
     
-    <div id={nn.headlineContainer} >
+    <div id={nn.headlineContainer}>
+    
     
     <div id={nn.headlineSubCotnainer} >
     
@@ -57,6 +55,7 @@ import OutReachCards from '../Components/OutReachCards';
     <div id={nn.headlineText} >
     
     {/* Main Headline Text  */}
+    Join us for a Night of Prayer 
     
     
     </div>
@@ -106,11 +105,6 @@ import OutReachCards from '../Components/OutReachCards';
     
     {/* This is where the image Text CTA Cards will go  */}
     <div id={nn.nightCTA} >
-        {/* Night Text Image CTA  */}
-        
-        {/* Add in the image Text component here  */}
-
-        {/* <ImageText/>  */}
         
         {/* Prop template Right Text Image 
         image, text, supportingText, 
@@ -153,7 +147,7 @@ import OutReachCards from '../Components/OutReachCards';
     
     <div id={nn.prayerText}>
     
-    {/* Prayer Text  */}
+    Pray with Us 
 
     
     </div>
@@ -248,6 +242,8 @@ image text title
     
     {/* Teaching Headline  */}
     
+    Enjoy Great Teaching  
+    
     </div>
 
     
@@ -317,7 +313,7 @@ image text title
     <div id={nn.worshipHeadline} >
     
     {/* Worship Headline  */}
-    
+    Worship with Women of God 
     
     </div>
 
@@ -327,6 +323,14 @@ image text title
         
     </div>
     
+{/*     
+    <div id={nn.worshipInfoHeadline} >
+
+        See you There! 
+        
+        
+      </div> */}
+    
     
     {/* Add in the worship Section Cards here  */}
     
@@ -335,6 +339,14 @@ image text title
     <div id={nn.worshipSectionCards}>
       
       {/* Add in the Grid container here  */}
+      
+      
+      {/* <div id={nn.worshipInfoHeadline} >
+
+        See you There! 
+        
+        
+      </div> */}
       
       <div id={nn.worshipGridContainer} >
       
@@ -386,6 +398,8 @@ image text title
     <div id={nn.detailsHeadline} >
     
     {/* Details Headline  */}
+    
+    See you there!
     
     
     </div>

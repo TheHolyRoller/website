@@ -3,22 +3,15 @@
     padding: 0 !important; 
     margin: 0 !important; 
     box-sizing: border-box; 
-    
     color: rgb(213, 214, 223) !important;
-    
-    
-    
-    
+
 }
 
 
 #mainSubContainer{
 
     
-     
-    
 }
-
 
     
 #contentContainer{
@@ -108,16 +101,18 @@
     
 #businessSection{
 
-    
-    
+
 }
 
 
 #businessHeadlineContainer{
     
-    width: 20vw; 
+    width: 50vw; 
     margin: 2em auto; 
 
+    display: grid; 
+    place-content: center;
+    
 
 
 }
@@ -126,10 +121,20 @@
 
 #businessHeadline{
 
-font-size: 2rem; 
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important;
+    
+/* font-size: 2rem;  */
 
-font-weight: 550; 
-/* margin-bottom: -1rem;  */
+font-weight: 900;   
+
+margin: 0 auto; 
+
+width: 50vw; 
+min-height: 5rem;
+overflow: hidden;   
+display: grid;
+place-content: center;
+
 
 
     
@@ -182,6 +187,13 @@ place-content: center;
 
 
 #scholarHeadlineContainer{
+    
+    margin: 2rem auto; 
+    width: 50vw; 
+    display: grid; 
+    place-content: center; 
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important;
+    font-weight: 900;
 
     
 }
@@ -273,6 +285,15 @@ margin: 0 auto;
 
 
 #counsellingHeadlineContainer{
+
+
+margin: 5rem auto; 
+display: grid; 
+place-content: center; 
+
+font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+font-weight: 900;   
+
 
     
 }
@@ -367,11 +388,21 @@ margin: 0 auto;
 
 
 #farmingSectionSubContainer{
-
+    
     
 }
 
 #farmingHeadlineContainer{
+
+
+width: 50vw; 
+margin: 0 auto; 
+display: grid; 
+place-content: center; 
+font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+font-weight: 900;   
+padding-top: 2rem !important; 
+
 
     
     
