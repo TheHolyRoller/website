@@ -13,6 +13,9 @@ import ss from '../Styles/MissionText.module.css';
 import MissionHero from '../Components/Heros/MissionHero'; 
 import Link from 'next/link';
 
+// MUI Card TextCard1 
+
+
 function Mission() {
   return (
     <div id={ss.textcomponentcontainer}>
@@ -225,7 +228,13 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
     <div id={ss.missioncarditem}>
     
     <Link href='/mission' >
-        
+    
+    {/* Props template 
+    image='' title='' text=''
+    
+    
+    
+    */}
     <MuiCard   /> 
     </Link>
     </div>

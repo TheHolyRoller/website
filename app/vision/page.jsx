@@ -71,15 +71,33 @@ Read more about our vision, values & vision
 <div id={vs.visioncardcontainer}>
 <div id={vs.visioncarditem}  >
 <Link href='mission'>
+      {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link> 
 </div>
 <div id={vs.visioncarditem}>
 <Link href='vision'>
+      {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link> </div>
 <div id={vs.visioncarditem} >
 <Link href='values'>
+      {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link> 
 </div>

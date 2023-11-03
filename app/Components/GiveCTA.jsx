@@ -7,7 +7,7 @@ import g  from '../Styles/Give.module.css';
 
 
 
-function GiveCTA() {
+function GiveCTA(props) {
   
   // Define a function that takes a custom URL as a parameter
 function openDonationWindow (customUrl) {
@@ -56,6 +56,8 @@ openDonationWindow ("https://donate.stripe.com/test_7sI5kOexagFeeJicMN");
     
     <div id={g.toptextcontainer}>
     
+    {props.text}
+    
     Because of the great gift we have been given in Jesus, we are committed to living lives of sacrificial generosity. God calls us to give. Not only to meet the internal needs of the church, but also to reach our local community and the world
 
 
@@ -79,6 +81,8 @@ openDonationWindow ("https://donate.stripe.com/test_7sI5kOexagFeeJicMN");
 
     <h1 id={g.giveheadline}>
     How to Give 
+    {props.title}
+    
     </h1>
     </div>
         

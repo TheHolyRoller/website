@@ -13,10 +13,10 @@ import YoutubeVideo from '../Components/YoutubeVideo';
 
 
 
-
-
+  
 function KidsCamp() {
   return (
+  
     <div id={kk.mainContainer}>
     
     
@@ -102,9 +102,7 @@ Klea Huta Summer Camp
   
   {/* Add in the component in here  */}
   
-  Image Learning Text Component 
-  
-  {/* Add in the IMage text bullet here  */}
+
 
   <ImageTextBullet/> 
   
@@ -132,8 +130,9 @@ Klea Huta Summer Camp
   
 
   </div>
-    
+    <span id={kk.headlineFirstIntro} >
   Rreth kampit
+    </span>
     {/* Activities Headline  */}
   <div id={kk.activitiesIntroText} >
   
@@ -150,11 +149,7 @@ Klea Huta Summer Camp
   </div>
 
   </div>
-  
-  Activities Cards 
-  
-  {/* Add in a grid container here  */}
-  
+
   
   <div id={kk.activitiesCardGrid} >
 
@@ -192,15 +187,12 @@ Klea Huta Summer Camp
     </div>
     
     </div>
-    
-      Gallery Component
-      
-      {/* create a grid component here  */}
+
       
       <div id={kk.imageGridContainer} >
     
-    
-    <Images/>
+    {/* Props template text='' supportingText='' image='' imageItem */}
+    <Images  />
     <Images/>
     <Images/>
     {/* <Images/> */}
@@ -227,7 +219,6 @@ Klea Huta Summer Camp
     
    <div id={kk.youtubeContainer} >
    
-   Youtube Video 
    <YoutubeVideo/> 
 
 
@@ -254,7 +245,8 @@ Klea Huta Summer Camp
     <div id={kk.infoCardsHeadlineContainer} >
     <div id={kk.infoCardsHeadline}>
 
-    Virësevini
+
+    Mirësevini
     
     </div>
 
@@ -264,13 +256,14 @@ Klea Huta Summer Camp
     
     <div id={kk.infoCards} >
     
-    Info Cards 
     
-    {/* Add in the Info cards here  */}
-    
-    {/* Add in the grid container here  */}
-    <div id={kk.infoGridContainer} >
 
+    <div id={kk.infoGridContainer} >
+      {/* 
+      Props Template 
+      icon='' address='' addressOne='' addressTwo='' addressThree=''
+      
+      */}
       <InfoCards/> 
       <InfoCards/> 
       

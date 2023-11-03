@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300&family=Lobster&family=Playpen+Sans:wght@800&display=swap');
 
+
 #mainContainer{
 background: white !important; 
     
@@ -71,7 +72,7 @@ margin: 0rem auto;
 display: grid; 
 place-content: center; 
 
-outline: 5px solid blue; 
+
 
 width: 90vw; 
 text-align: center;
@@ -173,7 +174,7 @@ gap:2rem;
 #activitiesHeadlineContainer{
 
     
-    outline: 5px solid blue; 
+
     width: 50vw; 
     margin: 0 auto; 
     font-family: 'Grand Hotel', cursive;
@@ -189,13 +190,20 @@ gap:2rem;
     
 }
 
+#headlineFirstIntro{
+
+    color:#dd5449 !important; 
+    
+    
+}
+
 #HeadlineIntro{
     
     
     margin: 0 auto; 
     width: 10vw; 
     
-    outline: 4px solid red; 
+
 color: #422c18 !important;
 
     
@@ -206,7 +214,7 @@ color: #422c18 !important;
 #activitiesHeadline{
 
 
-outline: 4px solid red; 
+
 margin: 0 auto; 
 /* color: #422c18 !important; */
 /*  color: white;  */
@@ -220,6 +228,7 @@ margin: 0 auto;
 
 font-family: 'Luckiest Guy', cursive;
 font-size: clamp(1.5rem, 2vw + 3rem, 4rem); 
+color:#422c18 !important; 
 
     
 
@@ -257,7 +266,7 @@ font-size: clamp(1.5rem, 2vw + 3rem, 4rem);
 #galleryHeadlineContainer{
 
 
-outline: 4px solid lime; 
+
 width: 50vw; 
 margin: 0 auto; 
 display: grid;
@@ -288,8 +297,7 @@ color: #422c18;
     grid-template-columns: 1fr 1fr 1fr;
     place-content: center;
     gap: 1rem; 
-    outline: 4px solid lime; 
-    
+
     
     
 }
@@ -334,13 +342,24 @@ color: #422c18;
 
 
 #infoCardsHeadlineContainer{
+    
+margin: 1rem auto; 
+width: 50vw; 
+
+
 
 }
 
 
 
 #infoCardsHeadline{
-
+    
+    font-size: clamp(1.4rem, 2vw + 1rem, 3rem) !important;
+    width: max-content; 
+    margin: 0 auto;
+    font-family: 'Luckiest Guy', cursive;
+    color:#422c18; 
+    
     
 }
 
@@ -381,7 +400,7 @@ color: #422c18;
         grid-template-columns: 1fr ;
         place-content: center;
         gap: 1rem; 
-        outline: 4px solid lime; 
+
 
         
     }
@@ -411,8 +430,6 @@ color: #422c18;
 
         display: grid; 
         grid-template-columns: 1fr;
-        outline: 4px solid blue; 
-        
         margin: 4rem auto; 
 
         

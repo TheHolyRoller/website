@@ -7,7 +7,7 @@ import React from 'react'
 import gs from '../Styles/GiveSection.module.css'; 
 
 
-function GiveSection() {
+function GiveSection(props) {
   return (
     <div id={gs.mainContainer} >
     <div id={gs.subContainer} >
@@ -15,7 +15,7 @@ function GiveSection() {
 
     <div id={gs.headlineContainer} >
     <div id={gs.headline}>
-
+    {/* {props.text} */}
     Would you like to contribute to more projects like these? 
     
     </div>
@@ -32,7 +32,7 @@ function GiveSection() {
     
     <div id={gs.giveButton} >
 
-
+    {/* {props.buttonText} */}
 
       {/* Add in the button here  */}
       Give 

@@ -199,12 +199,26 @@ function Values() {
     
     <div id={val.valuescarditem}  >
     <Link href='mission'>
+    
+    
+          {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link>  
     </div>
     
     <div id={val.valuescarditem} >
     <Link href='vision'>
+          {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link> 
     </div>
@@ -213,6 +227,12 @@ function Values() {
     <div id={val.valuescarditem} >
       
     <Link href='values'>
+          {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     </Link> 
     </div>

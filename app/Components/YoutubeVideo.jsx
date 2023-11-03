@@ -13,7 +13,7 @@ function YoutubeVideo() {
     <div id={yy.VideoContainer} >
     
 
-    Video 
+    {/* Video  */}
         
     </div>
 
@@ -21,8 +21,6 @@ function YoutubeVideo() {
     
     </div>
     
-    
-    YoutubeVideo
     
     
     </div>

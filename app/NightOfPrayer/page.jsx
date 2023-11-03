@@ -1,11 +1,7 @@
 'use client'
 import React from 'react'
 
-
-
 import nn from '../Styles/NightOfPrayer.module.css'; 
-
-// import nn from '../Styles/NightOfNight.module.css'; 
 
 import MuiCard from '../Components/MuiCard'; 
 
@@ -20,21 +16,21 @@ import AboutImage from '../Components/AboutImage';
   import ImagesText from '../Components/ImagesText'; 
   import TextImage from '../Components/TextImage'; 
   
+   
 import RightTextImage from '../Components/RightTextImage'; 
 import OutReachCards from '../Components/OutReachCards'; 
 
 
-
  export default function NightOfNight() {
+  
+  
   return (
+  
     <div id={nn.mainContainer} >
     
-    
-    
-    {/* Add in the hero Section here  */}
-    
     <GivingHero/> 
-
+    
+    
     
     <div id={nn.mainSubContainer} >
     
@@ -115,6 +111,11 @@ import OutReachCards from '../Components/OutReachCards';
         {/* Add in the image Text component here  */}
 
         {/* <ImageText/>  */}
+        
+        {/* Prop template Right Text Image 
+        image, text, supportingText, 
+        
+        */}
         <RightTextImage/> 
         
         
@@ -188,6 +189,12 @@ import OutReachCards from '../Components/OutReachCards';
     
     <div id={nn.prayerGridContainer} >
 
+{/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
     <MuiCard/> 
     <MuiCard/> 
     <MuiCard/> 
@@ -261,6 +268,11 @@ import OutReachCards from '../Components/OutReachCards';
         
         {/* Add in the Text Image CTA Section here  */}
         
+        {/* Props Template 
+        image, text, values 
+        
+        
+        */}
         <TextImage/> 
         
         
@@ -330,6 +342,13 @@ import OutReachCards from '../Components/OutReachCards';
 
       
       {/* Add in the outreach cards here  */}
+      {/* Props template OutReach Cards 
+      
+      image title text 
+      
+      
+      
+      */}
       <OutReachCards/> 
       <OutReachCards/> 
       <OutReachCards/> 
@@ -392,6 +411,12 @@ import OutReachCards from '../Components/OutReachCards';
     {/* Details Cards  */}
     
     <div id={nn.infoCardsGrid} >
+    
+    {/* Props template Info Cards 
+    icon, addressOne addressTwo addressThree 
+    
+    */}
+    
     <InfoCards/> 
     <InfoCards/> 
       

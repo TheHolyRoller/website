@@ -4,7 +4,7 @@ import tt from '../Styles/ImageTextBullet.module.css';
 import LooksOneRoundedIcon from '@mui/icons-material/LooksOneRounded';
 // import LooksOneIcon from '@mui/icons-material/LooksOne';
 
-function ImageTextBullet() {
+function ImageTextBullet(props) {
   return (
     <div id={tt.mainContainer} >
 
@@ -25,7 +25,7 @@ function ImageTextBullet() {
     
     <div id={tt.imageBullet} >
     {/* Image Section  */}
-
+    {/* {props.image} */}
         
         
     </div>
@@ -49,9 +49,11 @@ function ImageTextBullet() {
     
     Klea Hunta 
     
+    {/* {props.name} */}
     
     <span id={tt.summerSpan} >
     Summer Camp 
+    {/* {props.title} */}
     
     </span>
     
@@ -70,7 +72,7 @@ function ImageTextBullet() {
     <div id={tt.supportingTextContainer} >
     <div id={tt.supportingText} >
     
-    
+    {/* {props.text} */}
 “Klea Huta Summer Camp” zhvillohet rreth tre karakteristikave kryesore:
 
 
@@ -95,6 +97,7 @@ function ImageTextBullet() {
     
     <div id={tt.bulletNumberContainer}>
     <div id={tt.bulletNumber}>
+    {/* {props.icon} */}
     
     <LooksOneRoundedIcon style={{color: 'orange', fontSize: '3rem'}}  /> 
 
@@ -117,7 +120,7 @@ function ImageTextBullet() {
     
     <div id={tt.bulletPointText} >
     
-    
+        {/* {props.supportingTitle} */}
         Ndërtimi i Komunitetit
         
      
@@ -128,6 +131,7 @@ function ImageTextBullet() {
     <div id={tt.bulletPointSupportingTextContainer} >
     <div id={tt.bulletPointSupportingText} >
     
+    {/* {props.supportingText} */}
         {/* Bullet Point Supporting Text Block  */}
         Edhe pse secili fëmijë është një individ unik, ne besojmë se kampi veror është i dobishëm për të gjithë fëmijët.
     
@@ -162,6 +166,7 @@ function ImageTextBullet() {
     <div id={tt.bulletNumberContainer}>
     <div id={tt.bulletNumber}>
     
+    {/* {props.numberIcon} */}
     <LooksOneRoundedIcon style={{color: 'orange', fontSize: '3rem'}}  /> 
 
     {/* Bullet Point Number  */}
@@ -183,13 +188,15 @@ function ImageTextBullet() {
     
     <div id={tt.bulletPointText} >
     
+        {/* {props.supportingTitleOne} */}
         Ndërtimi i Komunitetit
 
     </div>
     {/* Add in the Headline Text container here  */}
     <div id={tt.bulletPointSupportingTextContainer} >
     <div id={tt.bulletPointSupportingText} >
-    
+        
+        {/* {props.supportingTextOne} */}
         {/* Bullet Point Supporting Text Block  */}
         Edhe pse secili fëmijë është një individ unik, ne besojmë se kampi veror është i dobishëm për të gjithë fëmijët.
     
@@ -223,7 +230,8 @@ function ImageTextBullet() {
     
     <div id={tt.bulletNumberContainer}>
     <div id={tt.bulletNumber}>
-    
+        
+        {/* {props.supportingIconOne} */}
     <LooksOneRoundedIcon style={{color: 'orange', fontSize: '3rem'}}  /> 
 
     {/* Bullet Point Number  */}
@@ -244,7 +252,8 @@ function ImageTextBullet() {
     <div id={tt.bulletPointTextSubContainer}>
     
     <div id={tt.bulletPointText} >
-    
+        
+        {/* {props.supportingTitleTwo} */}
         Ndërtimi i Komunitetit
 
     </div>
@@ -287,7 +296,8 @@ function ImageTextBullet() {
     
     {/* Add in the Supporting Text container here  */}
     <div id={tt.subHeadlineSupportingText} >
-    
+        
+        {/* {props.subHeadline} */}
             Doni që fëmija juaj të jetë pjesë?
     
     </div>
@@ -295,6 +305,7 @@ function ImageTextBullet() {
     <div id={tt.subHeadlineMainText}>
 
     Klikoni këtu!
+    {/* {props.cta} */}
         
     </div>
     

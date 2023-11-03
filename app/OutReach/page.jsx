@@ -16,10 +16,42 @@ import Images from '../Components/Images';
 import RightTextImage from '../Components/RightTextImage'; 
 import TextImage from '../Components/TextImage'; 
 
+
 import MaterialCards from '../Components/MuiCard'; 
 import GiveSection from '../Components/GiveSection'; 
 
 import OutReachCards from '../Components/OutReachCards'; 
+
+
+  {/* Prop template Right Text Image 
+        image, text, supportingText, 
+        
+        */}
+
+
+         {/* Props template OutReach Cards 
+      
+      image title text 
+      
+      
+      
+      */}
+      
+      
+      {/* 
+Prop template Mui Cards 
+
+image text title 
+
+*/}
+
+
+{/* Props template Info Cards 
+    icon, addressOne addressTwo addressThree 
+    
+    */}
+        
+        
 
 function OutReach() {
   return (
@@ -119,6 +151,11 @@ function OutReach() {
     </div>
     
     {/* Add the image text CTA here  */}
+    
+    {/* Prop template Right Text Image 
+        image, text, supportingText, 
+        
+        */}
     <RightTextImage/> 
     
     
@@ -187,6 +224,13 @@ function OutReach() {
     
     <div id={oo.scholarGridContainer} >
 
+ {/* Props template OutReach Cards 
+      
+      image title text 
+      
+      
+      
+      */}
     <OutReachCards/> 
     <OutReachCards/> 
     <OutReachCards/> 
@@ -257,15 +301,11 @@ function OutReach() {
     <div id={oo.counsellingCardSectionSubContainer}>
     
     <div id={oo.counsellingCards}>
-
-
+      
+      {/* Props template Text Image 
+      image text values 
+      */}
         <TextImage/> 
-        
-        
-        {/* Add in the text image CTA here  */}
-        
-        
-        
         
     </div>
 
@@ -320,6 +360,13 @@ function OutReach() {
     {/* Add in the Grid container here  */}
     
     <div id={oo.farmingGrid} >
+       {/* 
+Prop template Material Cards 
+
+image text title 
+
+*/}
+    
     <MaterialCards/> 
     <MaterialCards/> 
     <MaterialCards/> 

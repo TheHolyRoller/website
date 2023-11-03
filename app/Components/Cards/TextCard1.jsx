@@ -7,7 +7,7 @@ import cf from '../../Styles/TextCard1.module.css';
 
 
 
-function TextCard1() {
+function TextCard1(props) {
   return (
     <div id={cf.mainCardContainer}>
     
@@ -19,7 +19,7 @@ function TextCard1() {
     
     <div id={cf.imageBackground} >
     
-    
+    {/* {props.image} */}
         
     </div>
         
@@ -33,7 +33,7 @@ function TextCard1() {
     <div id={cf.textHeadline} >
         
 
-        
+        {/* {props.title} */}
     </div>
     
     </div>
@@ -42,7 +42,7 @@ function TextCard1() {
     
     <div id={cf.textBlock} >
     
-    
+    {/* {props.text} */}
 
     
     </div>
@@ -51,6 +51,8 @@ function TextCard1() {
     </div>
     
     Toy Offering 
+    
+    {/* {props.title} */}
     
     </div>
     

@@ -4,7 +4,7 @@ import im from '../../Styles/ImageTextCard.module.css';
 
 
 
-function ImageTextCard() {
+function ImageTextCard(props) {
   return (
   
   
@@ -17,7 +17,7 @@ function ImageTextCard() {
     
     <div id={im.imageContainer} >
     <div id={im.cardImage} >
-    
+    {/* {props.image} */}
     {/* Try adding in an image tag here  */}
     
     </div>
@@ -34,6 +34,7 @@ function ImageTextCard() {
     
     Groups 
     
+    {/* {props.title} */}
 
     </div>
     
@@ -44,7 +45,7 @@ function ImageTextCard() {
     <div id={im.cardTextSubContainer}>
     
     <div id={im.cardText}>
-    
+    {/* {props.text} */}
     Our group of small networks that meet regularly across the midlands 
     
         
