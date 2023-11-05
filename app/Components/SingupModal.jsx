@@ -223,10 +223,10 @@ const [submit, submitting] = useFormspark({
     console.log('did this work!!!!!?????'); 
     
     
-    useEffect(() => {
-      setEmail(initialInputValues.email);
+    // useEffect(() => {
+    //   setEmail(initialInputValues.email);
       
-    }, [formKey, initialInputValues]);
+    // }, [formKey, initialInputValues]);
     
     
     
