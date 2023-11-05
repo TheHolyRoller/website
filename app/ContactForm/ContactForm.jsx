@@ -197,6 +197,7 @@ alert("Your message has been sent. Thank you!");
   // }, [formKey, initialInputValues]);
   
   
+  
   const onSubmit = async (e) => {
     e.preventDefault();
     await submit({ name,lastName, message, email });
@@ -211,11 +212,11 @@ alert("Your message has been sent. Thank you!");
     
     
     
-    useEffect(() => {
-      setName(initialInputValues.name);
-      setEmail(initialInputValues.email);
-      setMessage(initialInputValues.message);
-    }, [formKey, initialInputValues]);
+    // useEffect(() => {
+    //   setName(initialInputValues.name);
+    //   setEmail(initialInputValues.email);
+    //   setMessage(initialInputValues.message);
+    // }, [formKey, initialInputValues]);
     
     
     
