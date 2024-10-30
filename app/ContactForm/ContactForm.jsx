@@ -38,6 +38,7 @@ const options = [
 
 
 
+
 import fv from '../Styles/form.module.css'; 
 
 
@@ -270,8 +271,10 @@ Get in touch
 
    </div>
     
-    
+    <div id={fv.CTAMainText} >
+
     We love to hear from people, so if you'd like to ask a question, get some info or just want to say hi, drop us a message below.   
+    </div>
     </div>
    
    </div>

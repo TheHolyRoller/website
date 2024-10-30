@@ -19,19 +19,33 @@
     min-height: 80vh;
     position: relative; 
     }
+
     #giving-hero-image{
-    background-image: url('../assets/BluePrints.jpg') !important; 
+    background-image: url('../assets/BluePrints.jpg');
     background-color: rgba(0, 0, 0, 0.2); 
     background-blend-mode: darken;
-    width: 99.999vw !important; 
+    width: 99.999vw !important;
+    height: 100vh; 
     position: relative; 
+    z-index: 1;
     background-repeat: no-repeat; 
     background-position: center center;
     background-size: cover;
+
+
     }
     #giving-hero-text-container{
     font-size: 3rem;
     color: white !important; 
+    /* outline: 6px solid lime; */
+    position: absolute;
+    left: 6%; 
+    top: 55%; 
+    width: 35rem;
+
+    z-index: 20000;
+
+
     }
     #giving-hero-text-sub-container{
     position: absolute; 

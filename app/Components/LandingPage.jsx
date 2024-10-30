@@ -214,7 +214,7 @@ function LandingPage() {
     </div>
      
     
-    <div id="text-container"   >
+    <div id="text-container">
       There are many ways you can get involved with the Renewal Family 
         
         

@@ -4,7 +4,8 @@ import './globals.css'
 import NewNav from './Components/NewNav'; 
 import Footer from './footer/Footer'; 
 
-// import Footer from './Footer'; 
+require('dotenv').config();
+
 
 
 

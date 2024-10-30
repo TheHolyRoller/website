@@ -6,9 +6,6 @@ import { FaLocationArrow } from "react-icons/fa";
 
 
 
-
-
-
  
 import  Grid  from "@nextui-org/react";
 
@@ -132,7 +129,7 @@ function Footer() {
     <div id={ft.iconcontainer} >
     
     <Link href='https://www.instagram.com/' target="_blank" >
-    <InstagramIcon id={ft.footersocialicon}  style={{ fontSize: '2rem', marginBottom: '5px'}} />
+    <InstagramIcon id={ft.footersocialicon}  style={{ fontSize: '2rem', marginBottom: '-7px'}} />
     </Link>
       
     </div>

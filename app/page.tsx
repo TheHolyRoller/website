@@ -33,6 +33,10 @@ import PropRender from './Components/PropRender';
 import PropTest from './Components/PropTest'; 
 
 
+require('dotenv').config();
+
+
+
 export default function Home() {
   return (
    

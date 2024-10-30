@@ -14,8 +14,6 @@ font-family: 'Roboto', sans-serif;
   margin: 0 !important   ; 
   margin-top: -3vw;
   
-
-  
   
   
 }
@@ -93,8 +91,8 @@ position: relative !important;
 
 .messageHeader{
 
-  /* outline: 20px solid blue !important; */
   position: relative !important; 
+
   
   transform:   translate(-1rem,0) !important; 
   margin: 0 !important; 
@@ -638,8 +636,6 @@ margin-top: 2.5em !important;
   /* transform: translate(0,0) !important; */
   
   margin-bottom: 20rem !important; 
-  /* outline: 20px solid red;  */
-  /* margin-top: -3rem !important;  */
   
   
   
@@ -808,4 +804,43 @@ height: 10vh !important ;
   #contactform{
     transform: translate(0vw, 0rem) !important;
   }
+}
+
+@media(min-width: 2000px){
+
+  #CTAHeader{
+    font-size: clamp(1.2rem, 1.3vw + 1rem, 4rem) !important; 
+    font-weight: 770;
+    position: absolute; 
+    top: -90%; 
+    left: 13%; 
+    text-align: left;
+    color: white; 
+    width: max-content; 
+
+
+
+
+
+    }
+
+
+    #CTAMainText{
+
+      
+      margin-left: 13%; 
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
 }

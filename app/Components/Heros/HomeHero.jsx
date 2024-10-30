@@ -14,6 +14,9 @@ function GalleryHero() {
     <div id='giving-hero-image-container' > 
     
     <div id='giving-hero-image' >
+    <span style={{opacity: '0'}} >
+    t
+    </span>
     </div>
           
     {/* Add in the text container here  */}
@@ -25,6 +28,7 @@ function GalleryHero() {
     <div id='giving-hero-text'>
     
     
+
     
     Sharing the Gospel 
     {/* Find out if you need to import a new stylesheet  */}

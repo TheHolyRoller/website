@@ -43,6 +43,11 @@ body{
         left: 5%; 
         z-index: 20; 
         color: white !important; 
+        margin-bottom: 0.5rem;
+        outline: 4px solid lime; 
+
+
+
         /* color: rgb(240, 240, 248) !important; */
     }
     #hero-headline{
@@ -105,6 +110,8 @@ body{
     }
     #text-container{
         color: #f2f2f7; 
+
+        margin-bottom:2rem;
         
     }
     #landing-grid-container{
