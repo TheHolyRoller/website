@@ -31,7 +31,7 @@ import {
   import InstagramIcon from '@mui/icons-material/Instagram';
   import YouTubeIcon from '@mui/icons-material/YouTube';
 
-// import '../Styles/NewModal.css'; 
+import '../Styles/NewModal.css'; 
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 
@@ -125,8 +125,6 @@ const theme = extendTheme({
             <div id='open-btn-container' >
            
               <MenuIcon   id='toggle-button' className={className}  style={style1}  />
-
-              
             <div
             
             style={{marginTop: '-1.69rem', 
@@ -159,6 +157,7 @@ const theme = extendTheme({
 <ChakraProvider theme={theme}>
 
         <Modal 
+        
         ml={0} pl={0}
         
         // scrollBehavior={scrollBehavior}
@@ -166,8 +165,8 @@ const theme = extendTheme({
         
         colorScheme='orange'
         bg='#161822'
-        style={{backgroundColor: '#161822'}}
-        scrollBehavior="inside"   
+        // style={{backgroundColor: '#161822', outline: '20px solid lime'}}
+        // scrollBehavior="inside"   
         id='modal' onClose={onClose} size={size} isOpen={isOpen}>
           <ModalOverlay 
 
@@ -228,11 +227,12 @@ const theme = extendTheme({
             
             </header>
 
-            <ModalBody overflowY="scroll" id='modal-body'>
+            {/* <ModalBody  id='modal-body'> */}
+            {/* overflowY="scroll" */}
 
-            <div id='modal-content-container' >
+            {/* <div id='modal-content-container' > */}
             
-            <div id='modal-list-container' style={{outline: '0px solid blue'}}  >
+            {/* <div id='modal-list-container' style/>={{outline: '0px solid blue'}}  > */}
             <ul id='modal-list' style={{outline: '0px solid red'}}  >
            
             <li id='menu-list-item'style={{borderBottom: '0.0rem solid slategrey'}}   >
@@ -344,14 +344,14 @@ const theme = extendTheme({
             </div>
                 
             </ul>
-            </div>
-            </div>
+            {/* </div> */}
+            {/* </div> */}
           
           
-            </ModalBody>
-            <ModalFooter id='modal-footer' style={{position: 'relative'}} >
+            {/* </ModalBody> */}
+            {/* <ModalFooter id='modal-footer' style={{position: 'relative'}} >
 
-            </ModalFooter>
+            </ModalFooter> */}
           </ModalContent>
           
         </Modal>

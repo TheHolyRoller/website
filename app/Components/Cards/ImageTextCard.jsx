@@ -1,7 +1,8 @@
 import React from 'react'
 
 import im from '../../Styles/ImageTextCard.module.css';
-
+import Image from 'next/image';
+// import { image } from '@nextui-org/theme';
 
 
 function ImageTextCard(props) {
@@ -14,12 +15,16 @@ function ImageTextCard(props) {
     <div id={im.cardContainer} >
     
     
-    
     <div id={im.imageContainer} >
     <div id={im.cardImage} >
     {/* {props.image} */}
     {/* Try adding in an image tag here  */}
+
+    <Image src={props.image} alt='ministry' width={50} height={50}/>
+
     
+
+
     </div>
     </div>
     
@@ -34,7 +39,7 @@ function ImageTextCard(props) {
     
     Groups 
     
-    {/* {props.title} */}
+    {props.title}
 
     </div>
     
@@ -45,7 +50,7 @@ function ImageTextCard(props) {
     <div id={im.cardTextSubContainer}>
     
     <div id={im.cardText}>
-    {/* {props.text} */}
+    {props.text}
     Our group of small networks that meet regularly across the midlands 
     
         
@@ -54,13 +59,8 @@ function ImageTextCard(props) {
     </div>
         
     </div>
-    
-    
 
     </div>
-    
-
-
 
     </div>
   )

@@ -4,14 +4,6 @@ import './globals.css'
 import NewNav from './Components/NewNav'; 
 import Footer from './footer/Footer'; 
 
-<<<<<<< HEAD
-require('dotenv').config();
-=======
-// require('dotenv').config();
->>>>>>> 56e2ad2 (testing)
-
-
-
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -17,7 +17,6 @@
             z-index: 20000;
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
-        
         #modal{
         background: #1f2231; 
         background-color: #202333 !important;
@@ -68,14 +67,24 @@
         margin-right: 2rem; 
         }
         #modal-body{
-        min-width: 109vw; 
+
+        min-width: 90vw; 
         margin-left: -2.6vw !important; 
         padding: 0 !important; 
         transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-        }
+        background-color: red;
+        max-height: 80vh !important;   
+
+
+    }
         #modal-list-container{
         margin-left: -4%; 
-        background-color: #161822 !important; 
+        background-color: red !important; 
+
+        outline: 10px solid lime;
+        max-height: 80vh !important;    
+
+
         }
         #modal-list{
         width: 50vw; 
@@ -83,6 +92,10 @@
         display: grid;
         place-content: center;
         padding-top: 5%;
+        max-height: 80vh !important;    
+        margin-top: -20rem !important; 
+        /* outline: 5px solid lime */
+        
         }
         #menu-list-item{
         height: 5.5rem; 
@@ -146,15 +159,15 @@
         #open-btn-container{
         transform: translate(0rem, -1.95rem) !important;
         height: 3.4rem;
-        width: 8rem !important;
+        width: 8rem !important; 
         display: grid;
         align-content: center;
         background-color: white;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
-        border-radius: 10px;
+        -webkit-border-radius: 10px               ;
+        -moz-border-radius: 10px               ;
+        -ms-border-radius: 10px               ;
+        -o-border-radius: 10px               ;
+        border-radius: 10px;                ;
 }
         #toggle-button{
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);

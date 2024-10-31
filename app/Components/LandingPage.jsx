@@ -40,7 +40,7 @@ import GivingHero from "./GivingHero.jsx";
 
 import HomeHero from '../Components/Heros/HomeHero.jsx'; 
 
-import ContactForm from '../ContactForm/ContactForm'; 
+import ContactForm from '../contactform/ContactForm'; 
 
 import Card1 from '../Components/Cards/Card1'; 
 import Card2 from './Cards/Card2'
@@ -54,10 +54,30 @@ import ImageTextCard from '../Components/Cards/ImageTextCard';
 
 import MinistryMaterial from '../Components/MinistryMaterial'; 
 
+// Import the static assets here 
+// import 
 
 
 
 function LandingPage() {
+
+
+
+  // Create the object here to Loop through for the Cards 
+  const cardObject = [
+
+
+    {id: 1, }
+
+
+
+
+  ]
+
+
+
+
+
   return (
     <div id='landing-page-main-container' >
     <HomeHero/> 

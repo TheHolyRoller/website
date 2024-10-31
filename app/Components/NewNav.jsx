@@ -26,6 +26,7 @@ import React from 'react'
     <div id='new-nav-container'>
     {/* Nav Container  */}
     
+
     <div id='new-nav-sub-container'>
     
     <div id='new-nav-bar'>
@@ -85,9 +86,6 @@ import React from 'react'
       </Link>
       
       
-      
-      
-      
       <Link   href='./live' className='nav-hover'  >
       <span id='new-nav-text' className='nav-hover'  >
       
@@ -106,6 +104,7 @@ import React from 'react'
     
     <div id='new-nav-modal-container' >
       
+
     <NewModal id='new-nav-modal' />
 
     <div className="mobileSideBar" >

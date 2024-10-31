@@ -2,9 +2,6 @@ import React from 'react'
 
 import cf from '../../Styles/TextCard1.module.css'; 
 
-// import cf from '../../Styles/Card1.module.css'; 
-
-
 
 
 function TextCard1(props) {

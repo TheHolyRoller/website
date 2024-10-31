@@ -9,6 +9,7 @@ margin: 0;
 box-sizing: border-box; 
 }
 
+
 #new-nav-container{
 width: 100vw; 
 min-height: 6.5rem; 
@@ -16,6 +17,7 @@ position: absolute;
 top: 0; 
 left: 0; 
 z-index: 1;
+
 }
 #new-nav-sub-container{
 position: relative; 
