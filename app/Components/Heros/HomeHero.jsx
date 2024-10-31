@@ -11,6 +11,12 @@ function GalleryHero() {
     <div id='giving-hero-sub-container' >
     
     
+<<<<<<< HEAD
+=======
+    
+    
+    
+>>>>>>> 56e2ad2 (testing)
     <div id='giving-hero-image-container' > 
     
     <div id='giving-hero-image' >

@@ -21,8 +21,15 @@
     }
 
     #giving-hero-image{
+<<<<<<< HEAD
     background-image: url('../assets/BluePrints.jpg');
     background-color: rgba(0, 0, 0, 0.2); 
+=======
+    /* background-image: url('../assets/BluePrints.jpg'); */
+    background-image: url('../assets/Worship.jpg');
+    background-color: rgba(0, 0, 0, 0.2); 
+    
+>>>>>>> 56e2ad2 (testing)
     background-blend-mode: darken;
     width: 99.999vw !important;
     height: 100vh; 
@@ -37,13 +44,21 @@
     #giving-hero-text-container{
     font-size: 3rem;
     color: white !important; 
+<<<<<<< HEAD
     /* outline: 6px solid lime; */
+=======
+>>>>>>> 56e2ad2 (testing)
     position: absolute;
     left: 6%; 
     top: 55%; 
     width: 35rem;
+<<<<<<< HEAD
 
     z-index: 20000;
+=======
+    z-index: 1;
+
+>>>>>>> 56e2ad2 (testing)
 
 
     }

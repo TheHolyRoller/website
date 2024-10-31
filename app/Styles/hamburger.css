@@ -1,0 +1,441 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --bar-width: 45px;
+  --bar-height: 8px;
+  --hamburger-gap: 6px;
+  --foreground: white;
+  --background: white;
+  --hamburger-margin: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+
+.hamburger-menu {
+  --x-width: calc(var(--hamburger-height) * 1.41421356237);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--hamburger-gap);
+  width: max-content;
+  /* width: 100vw !important; */
+  position: absolute;
+
+  top: 0%; 
+  right: 38%;
+  z-index: 3;
+  margin-top: -2.2rem;
+
+  cursor: pointer;
+
+
+    /* outline: 4px solid lime;  */
+    
+
+
+}
+
+.hamburger-menu:has(input:checked) {
+
+    /* Change the color of the bars here  */
+  --foreground: white;
+  
+  --background: white;
+}
+
+.hamburger-menu:has(input:focus-visible)::before,
+.hamburger-menu:has(input:focus-visible)::after,
+.hamburger-menu input:focus-visible {
+  border: 1px solid var(--background);
+  box-shadow: 0 0 0 1px var(--foreground);
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--foreground);
+  border-radius: 2px;
+  transform-origin: left center;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing),
+    /* background-color var(--animation-timing); */
+}
+
+.hamburger-menu input {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+  /* opacity: 0; */
+  /* outline: 4px solid lime;  */
+  
+}
+
+.hamburger-menu:has(input:checked)::before {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / -2);
+}
+
+.hamburger-menu:has(input:checked)::after {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / 2);
+}
+
+.hamburger-menu input:checked {
+  opacity: 0;
+  width: 0;
+}
+
+.sidebar {
+  transition: translate var(--animation-timing);
+  /*translate: -64%;
+  */translate: 100%;
+  margin-top: -3.75rem;
+  background-color: #161822;
+  color: var(--background);
+  width: 101vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+  /*outline: 5px solid lime;
+    */
+  -webkit-transition: translate var(--animation-timing);
+  -moz-transition: translate var(--animation-timing);
+  -ms-transition: translate var(--animation-timing);
+  -o-transition: translate var(--animation-timing);
+}
+
+.hamburger-menu:has(input:checked) + .sidebar {
+  translate: -65vw;
+}
+
+
+
+/* EXPERIMENTAL  */
+
+
+
+
+#modal-body{
+    min-width: 109vw; 
+    margin-left: -2.6vw !important; 
+    padding: 0 !important; 
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #modal-list-container{
+
+
+
+    }
+    #modal-list{
+    width: 50vw; 
+    margin: 0 auto; 
+    display: grid;
+    place-content: center;
+    padding-top: 35%;
+
+        
+    }
+    #menu-list-item{
+    height: 5.5rem; 
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #list-item-content{
+        font-size: 2.4rem;
+        font-weight: 680; 
+        color: white; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #social-media-footer-section{
+        margin-top: 0.7rem; 
+    }
+    #social-media-footer-list{
+        margin-left: -7%; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #social-media-item-footer{
+    display: inline-block;
+    margin-right: 2rem;
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #social-footer-icon-container{
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #footer-icon{
+        font-size: 2rem;
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #modal-close-button{
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    z-index: 200;   
+    }
+    #modal-close-icon-button{
+    position: relative; 
+    margin-right: -3.3rem; 
+    z-index: 200; 
+    padding: 0; 
+    margin-bottom: -1rem; 
+    font-size: 1.3rem;
+    }
+    #close-modal-span{
+        text-transform: uppercase;
+        font-weight: 550;   
+        margin-left: 2.3rem;
+    }
+    #close-btn-container{
+        display: block;
+        width: 8.1rem; 
+        height: 3.4rem; 
+        display: grid;
+        background-color: white;
+        border-radius: 10px; 
+        align-content: center;
+        position: relative; 
+        margin-bottom: -2rem; 
+    }
+    #open-btn-container{
+    transform: translate(0rem, -1.95rem) !important;
+    height: 3.4rem;
+    width: 8rem !important;
+    display: grid;
+    align-content: center;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+    #toggle-button{
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #toggle-button-text{
+    margin-top: -2rem !important;
+
+   transform: translate(0, -0.23rem) !important; 
+   
+   
+    position: relative;
+    font-weight: 550;
+    margin-left: 2.35rem;
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+    #modal-open-button{
+    transform: translate(0.88rem, 1.8rem) !important;
+    }
+    #second-toggle-button{
+        display: none;
+        color: white; 
+        font-size: 2.3rem !important; 
+        border-radius: 10px; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    @media(min-width: 300px){
+        #nav-buttons-container{
+            display: none !important; 
+        }
+    }
+    @media(max-width: 430px){
+        #modal-body{
+        margin-left: -0.2vw !important; 
+        }
+    }
+    @media(max-width: 360px){
+        #modal-body{
+            margin-left: -0.1vw !important;
+        }
+    }
+    @media(min-width: 500px){
+        #nav-buttons-container{
+        transform: translate(0, 0);
+        }
+    }
+    @media(max-width: 949px){
+        #modal-open-button{
+            display: none !important;
+        } 
+    }
+    @media(max-width: 950px){
+    #modal-open-button{
+    display: none !important; 
+    }
+    #second-menu-btn-container{
+    position: relative; 
+    }
+    #second-toggle-button{
+        display: inline-block !important;
+        font-size: 3.5rem;
+        margin-top: 0; 
+        margin-left: 0; 
+    }
+    }
+    @media(max-width: 880px){
+        #second-toggle-button{
+            display: inline-block !important;
+            font-size: 3.5rem;
+        }
+    }
+    @media(max-with: 540px){
+            #toggle-button{
+                outline: none !important; 
+            }
+            #second-toggle-button{
+                display: inline-block !important;
+                font-size: 3.5rem;
+                margin-left: 0; 
+            }
+            #modal-open-button{
+            transform: translate(0rem, 0rem) !important;
+                outline: none !important; 
+            }
+            #second-toggle-button{
+                display: inline-block !important;
+                font-size: 3.5rem;
+                margin-left: 0; 
+            }
+    }
+    @media(max-width: 710px){
+        #second-menu-btn-container{
+            margin: 0 !important; 
+            padding: 0 !important; 
+            transform: translate(0rem, 0rem) !important;
+        }
+    }
+    @media(max-width: 600px){
+        #second-menu-btn-container{
+            margin: 0 !important; 
+            padding: 0 !important; 
+            transform: translate(0rem, 0rem) !important;
+        }
+        #second-toggle-button{
+           margin: 0 !important; 
+           padding: 0 !important; 
+           transform: translate(0rem, 0rem,) !important; 
+        }
+    }
+    @media(max-width: 490px){
+        #second-toggle-button{
+            display: inline-block !important;
+            font-size: 3.5rem;
+        }
+    }
+    @media(max-width: 773.5px) and (min-width: 566px){
+        #second-menu-btn-container{
+            margin: 0 !important; 
+            padding: 0 !important; 
+            transform: translate(4vw,0) !important;
+        }
+    }
+    @media(max-width: 556.10px) and (min-width: 438.10px) {
+        #second-menu-btn-container{
+            margin: 0 !important; 
+            padding: 0 !important; 
+            transform: translate(9.5vw,0) !important;
+        color: white !important; 
+        }
+    }
+    #modal-open-button:hover{
+        color: white !important; 
+}
+    #open-btn-container:hover{
+        color: white !important; 
+    }
+    #toggle-button:hover{
+        color: white !important; 
+    }
+    #toggle-button-text:hover{
+    color: white !important;
+}
+#toggle-button-text{
+margin-top: -1.69rem !important; 
+}
+    #menu-list-item:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transform: translate(0, 3deg) ;
+    -moz-transform: translate(0, 3deg) ;
+    -ms-transform: translate(0, 3deg) ;
+    -o-transform: translate(0, 3deg) ;
+    transform: translate(0, 3deg) ;
+    color: white; 
+}
+    #list-item-content:hover{
+        -webkit-transform: translate(0, 3deg) ;
+        -moz-transform: translate(0, 3deg) ;
+        -ms-transform: translate(0, 3deg) ;
+        -o-transform: translate(0, 3deg) ;
+        transform: translate(0, 3deg) ;
+}
+
+    #social-footer-icon-container:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transform: translate(0, 3deg) ;
+        -moz-transform: translate(0, 3deg) ;
+        -ms-transform: translate(0, 3deg) ;
+        -o-transform: translate(0, 3deg) ;
+        transform: translate(0, 3deg) ;
+        color: white; 
+    }
+    #footer-icon:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -webkit-transform: translate(0, 3deg) ;
+        -moz-transform: translate(0, 3deg) ;
+        -ms-transform: translate(0, 3deg) ;
+        -o-transform: translate(0, 3deg) ;
+        transform: translate(0, 3deg) ;
+        color: white; 
+    }
+    #open-btn-container:hover{
+        background: black !important;
+    }
+
+
+    @media(min-width:940px){
+
+
+        .mainSideBar{
+        
+        
+        display: none !important; 
+        
+        
+        }
+
+        .sidebar{
+
+
+        display: none !important; 
+
+
+
+        }
+
+    }
+        

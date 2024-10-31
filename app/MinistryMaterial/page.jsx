@@ -1,4 +1,5 @@
 'use client'
+<<<<<<< HEAD
 /** 
 
 
@@ -96,6 +97,8 @@ I just need to get it done and then work on polishing it
 
 */
 
+=======
+>>>>>>> 56e2ad2 (testing)
 
 import React from 'react';
 

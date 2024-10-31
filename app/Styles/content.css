@@ -108,6 +108,10 @@ body{
         color: white; 
         margin-bottom: 4.5rem !important; 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 56e2ad2 (testing)
     #text-container{
         color: #f2f2f7; 
 
@@ -234,6 +238,13 @@ body{
         #mission-section{
             width: 80vw; 
          }
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 56e2ad2 (testing)
     }
     @media(max-width: 455px){
         #content-main-headline{
@@ -262,6 +273,40 @@ body{
     font-size: 2rem; 
     font-weight: 900;   
     }
+<<<<<<< HEAD
+=======
+    #mission-text{
+
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        /* outline: 4px solid lime !important; */
+
+
+    }
+
+
+    #content-main-headline{
+
+        /* Adjust the font size clamp here  */
+        font-size: clamp(1.23rem, 2vw + 2rem, 1.7rem) !important;
+        /* outline: 5px solid lime; */
+        width: 95vw; 
+        text-align: center;
+
+
+
+    }
+
+    #text-container{
+
+
+        text-align: center;
+        margin-bottom: 1.5rem !important;
+
+    }
+
+>>>>>>> 56e2ad2 (testing)
     #TextCard1:hover{
         transform: scale(1.1) !important ;
         -webkit-transform: scale(1.1) !important ;

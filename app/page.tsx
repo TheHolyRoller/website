@@ -13,6 +13,14 @@ import ImageTextCard from './Components/Cards/ImageTextCard';
 
 import KidsCards from './Components/KidsCards'; 
 
+<<<<<<< HEAD
+=======
+import EventCard from './Components/EventCard'; 
+import SignupForm from './Components/SignupForm';
+import NewsLetterForm from './Components/NewsLetterForm'; 
+import Mailchimp from './Components/Mailchimp';
+
+>>>>>>> 56e2ad2 (testing)
 import Images from './Components/Images'; 
 import Video from './Components/Video'; 
 import InfoCards from './Components/InfoCards'; 
@@ -33,18 +41,32 @@ import PropRender from './Components/PropRender';
 import PropTest from './Components/PropTest'; 
 
 
+<<<<<<< HEAD
 require('dotenv').config();
 
 
+=======
+
+require('dotenv').config();
+
+// Audience id for mailchimp 
+// 6ac8e7a420
+// mailchimp api key 
+// 1ad48d9949b54edf129610560d097d83-us21
+>>>>>>> 56e2ad2 (testing)
 
 export default function Home() {
   return (
    
    <div>
+<<<<<<< HEAD
     
     <LandingPage/>
     
     
+=======
+    <LandingPage/>
+>>>>>>> 56e2ad2 (testing)
 
    </div>
    

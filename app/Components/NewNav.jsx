@@ -6,6 +6,12 @@ import { FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 
 import NewModal from './NewModal';
+<<<<<<< HEAD
+=======
+// import Sidebar from '../Components/'
+import Sidebar from './Sidebar'; 
+
+>>>>>>> 56e2ad2 (testing)
 
 import { Navbar } from "@nextui-org/react";
 import {  Button, Link, Text, useTheme } from "@nextui-org/react";
@@ -95,19 +101,37 @@ import React from 'react'
         
     </div>    
         
+<<<<<<< HEAD
         
     </li>
     <li id='new-nav-list-item'>
+=======
+    </li>
+    <li id='new-nav-list-item'>
+    
+>>>>>>> 56e2ad2 (testing)
 
     <div id='new-nav-item' >
     
     <div id='new-nav-modal-container' >
       
     <NewModal id='new-nav-modal' />
+<<<<<<< HEAD
     </div>
 
     
     
+=======
+
+    <div className="mobileSideBar" >
+      
+    <Sidebar/> 
+    </div>
+
+
+    </div>
+
+>>>>>>> 56e2ad2 (testing)
     </div>    
         
         
