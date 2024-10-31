@@ -37,11 +37,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTube from "@mui/icons-material/YouTube";
 import Link from "next/link";
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 56e2ad2 (testing)
 import ft from '../Styles/footer.module.css'; 
 
 

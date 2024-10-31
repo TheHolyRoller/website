@@ -31,11 +31,7 @@ import {
   import InstagramIcon from '@mui/icons-material/Instagram';
   import YouTubeIcon from '@mui/icons-material/YouTube';
 
-<<<<<<< HEAD
-import '../Styles/NewModal.css'; 
-=======
 // import '../Styles/NewModal.css'; 
->>>>>>> 56e2ad2 (testing)
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 
@@ -56,14 +52,8 @@ const theme = extendTheme({
 
 
 
-<<<<<<< HEAD
-
- export default function NewModal() {
-    const { isOpen, onOpen, onClose } = useDisclosure()
-=======
  export default function NewModal() {
     const { isOpen, onOpen, onClose } = useDisclosure(); 
->>>>>>> 56e2ad2 (testing)
     const [size, setSize] = React.useState('md')
 
     const [scrollBehavior, setScrollBehavior] = React.useState('inside')
@@ -134,13 +124,6 @@ const theme = extendTheme({
 
             <div id='open-btn-container' >
            
-<<<<<<< HEAD
-              
-              
-              
-              
-=======
->>>>>>> 56e2ad2 (testing)
               <MenuIcon   id='toggle-button' className={className}  style={style1}  />
 
               
@@ -150,11 +133,7 @@ const theme = extendTheme({
         transform: 'translate(0rem, 0rem)', position: 'relative', 
         textTransform: 'uppercase', 
         fontWeight: '550', 
-<<<<<<< HEAD
-        marginLeft: '2.3rem'}}
-=======
         marginLeft: '2.3rem', outline: '0px solid lime'}}
->>>>>>> 56e2ad2 (testing)
             
             id='toggle-button-text'
             >
@@ -165,11 +144,7 @@ const theme = extendTheme({
           </Button>
         ))}
         
-<<<<<<< HEAD
-        <div id='second-menu-btn-container' >
-=======
         <div id='second-menu-btn-container' onClick={handleClick} style={{cursor: 'pointer'}} >
->>>>>>> 56e2ad2 (testing)
 
         
         
@@ -197,10 +172,6 @@ const theme = extendTheme({
           <ModalOverlay 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 56e2ad2 (testing)
            opacity='1'
            backdropFilter='blur(30px) hue-rotate(190deg)'
             id='modal-overlay' />
@@ -271,14 +242,9 @@ const theme = extendTheme({
             <Link href='./ministries'>
             Ministries 
             </Link> 
-<<<<<<< HEAD
-            
-            
-=======
 
 
 
->>>>>>> 56e2ad2 (testing)
             </div>
 
             </li>

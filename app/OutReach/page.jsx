@@ -51,20 +51,12 @@ function OutReach() {
     
     <div id={oo.firstHeadline}>
     
-    
-<<<<<<< HEAD
-    <div id={oo.headlineDiv} >
-      
-    Sharing the Gospel 
-    
-     
-=======
+
     
     <div id={oo.headlineDiv} >
       
 
     Sharing the Gospel 
->>>>>>> 56e2ad2 (testing)
       
     </div>  
     

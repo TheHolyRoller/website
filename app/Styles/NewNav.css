@@ -21,26 +21,17 @@ z-index: 1;
 position: relative; 
 min-height: 6.5rem;
 }
-<<<<<<< HEAD
-#new-nav-bar{
-width: 90vw; 
-}
-=======
 
 #new-nav-bar{
 width: 90vw; 
 }
 
->>>>>>> 56e2ad2 (testing)
 #new-nav-logo-container{
     position: absolute;
     top: 28%; 
     left: 4.55%; 
     font-size: clamp(1.5rem, 1vw + 1rem, 3rem) !important; 
-<<<<<<< HEAD
-=======
     z-index: 2;
->>>>>>> 56e2ad2 (testing)
 }
 #new-nav-logo{
 font-weight: 770;
@@ -62,10 +53,6 @@ transform: translate(0.7rem, 0.5rem) !important;
 transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1); 
 }
 #new-nav-list-item{
-<<<<<<< HEAD
-=======
-
->>>>>>> 56e2ad2 (testing)
     display: inline-block;
     margin-left: 6rem;
     -webkit-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -209,8 +196,6 @@ margin-bottom: 0 !important;
     #new-nav-modal-container{
     margin: 0 !important; 
     }
-<<<<<<< HEAD
-=======
     #new-nav-logo-container{
         position: absolute;
         top: 14%; 
@@ -219,7 +204,6 @@ margin-bottom: 0 !important;
 
 
 
->>>>>>> 56e2ad2 (testing)
 }
 .nav-hover:hover ~ #new-nav-icon + #new-nav-text{
     color: red !important; 
@@ -235,9 +219,6 @@ color: red !important;
 }
 #nav-hover:hover > * {
     color: red !important; 
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -255,4 +236,3 @@ display: none;
 
 
 } */
->>>>>>> 56e2ad2 (testing)

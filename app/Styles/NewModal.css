@@ -17,10 +17,7 @@
             z-index: 20000;
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
-<<<<<<< HEAD
-=======
         
->>>>>>> 56e2ad2 (testing)
         #modal{
         background: #1f2231; 
         background-color: #202333 !important;
@@ -149,17 +146,6 @@
         #open-btn-container{
         transform: translate(0rem, -1.95rem) !important;
         height: 3.4rem;
-<<<<<<< HEAD
-        width: 8rem !important; 
-        display: grid;
-        align-content: center;
-        background-color: white;
-        -webkit-border-radius: 10px               ;
-        -moz-border-radius: 10px               ;
-        -ms-border-radius: 10px               ;
-        -o-border-radius: 10px               ;
-        border-radius: 10px;                ;
-=======
         width: 8rem !important;
         display: grid;
         align-content: center;
@@ -169,7 +155,6 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         border-radius: 10px;
->>>>>>> 56e2ad2 (testing)
 }
         #toggle-button{
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);

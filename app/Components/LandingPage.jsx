@@ -20,10 +20,6 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 56e2ad2 (testing)
 import React from 'react'
 
 import Link from 'next/link';
