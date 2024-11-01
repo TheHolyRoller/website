@@ -1,23 +1,20 @@
 
 'use client'  
-
 import React from 'react'
 import '../../Styles/HomeHero.css'; 
 
 
-function GalleryHero() {
+
+
+function HomeHero() {
   return (
     
     <div id='giving-hero-main-container' >
     <div id='giving-hero-sub-container' >
     
-    
-    
-    
-    
     <div id='giving-hero-image-container' > 
     
-    <div id='giving-hero-image' >
+    <div id='home-hero-image' >
     <span style={{opacity: '0'}} >
     t
     </span>
@@ -53,4 +50,4 @@ function GalleryHero() {
   
 }
 
-export default GalleryHero
+export default HomeHero

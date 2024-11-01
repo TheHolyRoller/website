@@ -17,18 +17,26 @@
     width: 99.999vw; 
     max-width: 99.999vw; 
     min-height: 80vh;
+    max-height: 100vh;
     position: relative; 
+    overflow: hidden;
+    /* outline: 10px solid lime; */
     }
   
     #giving-hero-image{
-    background: url('../assets/PrayerNight/BluePrints.jpg');
-    background-color: rgba(0, 0, 0, 0.2); 
-    background-blend-mode: darken;
-    width: 99.999vw !important; 
-    position: relative; 
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-size: cover;
+
+
+        width: 100vw; 
+        background-size: cover;
+
+
+
+
+
+
+
+
+   
     }
     #giving-hero-text-container{
     font-size: 3rem;

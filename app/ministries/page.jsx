@@ -2,9 +2,23 @@
 import React from 'react'
 import mi from '../Styles/Ministries.module.css';
 
+
+
 import Image from 'next/image';
 import Blue from '../assets/PrayerNight/BluePrints.jpg'; 
 import MinistriesHero from '../Components/Heros/MinistriesHero';
+import ministry from '../assets/Ministry/FoodGiving.jpg'; 
+import minXL from '../assets/Ministry/ministryXL.jpg'; 
+import minMD from '../assets/Ministry/ministryMD.jpg'; 
+import minSM from '../assets/Ministry/ministrySM.jpg'; 
+
+
+import min from '../assets/Ministry/FoodBank.jpg'; 
+import foodLG from '../assets/Ministry/ministry.jpg'; 
+import poor from '../assets/Ministry/poor.jpg';
+
+
+// Import the dependencies for the media query here 
 
 
  
@@ -12,7 +26,12 @@ function Ministries() {
   return (
     
     <div id={mi.ministrymaincontainer}>
-      <MinistriesHero/> 
+
+
+    <div className={mi.ministriesHero} >
+
+      <MinistriesHero image={poor} title='Ministery To the Needy'  /> 
+    </div>
       
       
     <div id={mi.ministrysubcontainer}>

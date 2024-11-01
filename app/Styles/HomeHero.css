@@ -21,7 +21,7 @@
     position: relative; 
     }
 
-    #giving-hero-image{
+    #home-hero-image{
     /* background-image: url('../assets/BluePrints.jpg'); */
     background-image: url('../assets/PrayerNight/Worship.jpg');
     background-color: rgba(0, 0, 0, 0.2); 
@@ -47,7 +47,6 @@
     z-index: 1;
 
 
-
     }
     #giving-hero-text-sub-container{
     position: absolute; 
@@ -57,7 +56,7 @@
     font-weight: 700;   
     }
     @media(max-width: 1700px){
-    #giving-hero-image{
+    #home-hero-image{
         min-height: 93.4vh;
     }
     #giving-hero-text-sub-container{
@@ -79,7 +78,7 @@
     }
     }
     @media(max-width: 768.5px){
-        #giving-hero-image{
+        #home-hero-image{
             min-height: 49vh;
         }
         #giving-hero-text-sub-container{
@@ -87,19 +86,20 @@
         position: absolute; 
         left: 5%; 
         top:39%; 
-        z-index: 2000000000000 !important;
+        z-index: 1 !important;
         color: white !important; 
         font-weight: 700;   
     }
+
     }
     @media(max-width: 500px){
-        #giving-hero-image{
+        #home-hero-image{
             min-height: 70.5vh;
         }
     #giving-hero-text-container{
         font-size: 3rem;
         color: white !important; 
-        z-index: 999999999999999 !important; 
+        z-index:1 !important; 
         }
         #giving-hero-text-sub-container{
         position: absolute; 

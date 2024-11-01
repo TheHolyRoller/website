@@ -15,6 +15,16 @@
     font-weight: 700; 
     text-align: center;
     }
+
+    .ministriesHero{
+
+        max-height: 100vh;
+
+
+
+    }
+
+
     #ministrycardsheadlinecontainer{
     position: relative; 
     z-index: 2;

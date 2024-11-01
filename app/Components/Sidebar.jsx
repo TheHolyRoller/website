@@ -85,7 +85,7 @@ if(checkRef.current){
 
 
   return (
-    <div className='mainSideBar'  style={{outline: '0px solid red', width: '50vw', margin: '0 auto'}} >
+    <div className='mainSideBar'  style={{outline: '5px solid blue', }} >
 
       <label className="hamburger-menu">
         <input ref={checkRef}  type="checkbox" />
@@ -96,6 +96,7 @@ if(checkRef.current){
         <nav className='slideOutMenu' style={{outline: '0px solid lime'}} >
 
         {/* Create the menu here  */}
+
         {/* crate the list here  */}
         <ul id='modal-list' style={{outline: '0px solid red'}}  >
            

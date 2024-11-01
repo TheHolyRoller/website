@@ -32,13 +32,28 @@ body {
 
   top: 1.8%; 
   right: 63%;
-  z-index: 3;
+  z-index: 30;
   margin-top: -2.2rem;
 
   cursor: pointer;
 
 
     
+
+
+}
+
+.mainSideBar{
+
+
+    outline: 10px solid lime;
+    /* background-color: red; */
+    position: relative;
+    width: 10rem; 
+    margin-top: 16.5rem; 
+    position: relative;
+
+
 
 
 }
@@ -259,14 +274,49 @@ body {
     position: absolute;
     
 
-    top: calc(-2% + -9vh + 11vw); 
-    right: 58%;
-    z-index: 3;
+    /* top: calc(-2% + -9vh + 11vw);  */
+    top: 8%; 
+
+    right: 18%;
+    z-index: 30;
   
     cursor: pointer;
   
   
   
+  }
+
+
+  #modal-list{
+    width: 50vw; 
+    margin: 0 auto; 
+    display: grid;
+    place-content: center;
+    padding-top: 65%;
+
+        
+    }
+
+
+ 
+.sidebar {
+    transition: translate var(--animation-timing);
+    translate: 100% ; 
+    
+    margin-top: -3.75rem;
+    margin-left: -12vw;
+    background-color: #161822;
+    color: var(--background);
+    width: 101vw;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+      
+  
+    -webkit-transition: translate var(--animation-timing);
+    -moz-transition: translate var(--animation-timing);
+    -ms-transition: translate var(--animation-timing);
+    -o-transition: translate var(--animation-timing);
   }
 
 
@@ -276,22 +326,27 @@ body {
 
 
                 
-.hamburger-menu {
-    --x-width: calc(var(--hamburger-height) * 1.41421356237);
-  
-    display: flex;
-    flex-direction: column;
-    gap: var(--hamburger-gap);
-    width: max-content;
-    position: absolute;
-
-    top: calc(-4% + -5vh + 9vw); 
-    
-    right: 58%;
-    z-index: 3;
-    cursor: pointer;
-  
-  }
+        .hamburger-menu {
+            --x-width: calc(var(--hamburger-height) * 1.41421356237);
+          
+            display: flex;
+            flex-direction: column;
+            gap: var(--hamburger-gap);
+            width: max-content;
+            position: absolute;
+            
+        
+            /* top: calc(-2% + -9vh + 11vw);  */
+            top: 8%; 
+        
+            right: 15%;
+            z-index: 30;
+          
+            cursor: pointer;
+          
+          
+          
+          }
 
 
 
@@ -311,10 +366,11 @@ body {
     width: max-content;
     position: absolute;
     
-
+/* 
     top: calc(-4% + -10vh + 12vw); 
-    right: 58%;
-    z-index: 3;
+    right: 58%; */
+    z-index: 30;
+    
     cursor: pointer;
   
   
@@ -341,10 +397,11 @@ body {
     width: max-content;
     position: absolute;
     
-
+/* 
     top: calc(-4% + -10vh + 11vw); 
-    right: 58%;
-    z-index: 3;
+    right: 58%; */
+    z-index: 30;
+
     cursor: pointer;
   
   
@@ -370,9 +427,10 @@ body {
             position: absolute;
           
             /* top: -19%;  */
-            top: calc(-6% + -10vh + 9vw);
-            right: 60%;
-            z-index: 3;
+            /* top: calc(-6% + -10vh + 9vw);
+            right: 60%; */
+            z-index: 30;
+
             margin-top: -2.2rem;
         
             cursor: pointer;
@@ -402,15 +460,39 @@ body {
     position: absolute;
   
     /* top: -19%;  */
-    top: calc(-6% + -10vh + 6vw);
-    right: 40%;
-    z-index: 3;
+    /* top: calc(-6% + -10vh + 6vw);
+    right: 40%; */
+    z-index: 30;
+    
     margin-top: -2.2rem;
 
     cursor: pointer;
   
   
   
+  }
+
+
+  
+ 
+.sidebar {
+    transition: translate var(--animation-timing);
+    translate: 100% ; 
+    
+    margin-top: -3.75rem;
+    margin-left: -0vw;
+    background-color: #161822;
+    color: var(--background);
+    width: 101vw;
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+      
+  
+    -webkit-transition: translate var(--animation-timing);
+    -moz-transition: translate var(--animation-timing);
+    -ms-transition: translate var(--animation-timing);
+    -o-transition: translate var(--animation-timing);
   }
 
 
@@ -429,10 +511,10 @@ body {
             gap: var(--hamburger-gap);
             width: max-content; 
             position: absolute;
-            top: calc(-15% + -2vh + 12vw);
+            top: 15%; 
+            right: 15%; 
+            z-index: 30;
 
-            right: 40%;
-            z-index: 3;
             margin-top: -6.2rem;
         
             cursor: pointer;
@@ -440,6 +522,28 @@ body {
           
           
           }
+
+           
+.sidebar {
+    transition: translate var(--animation-timing);
+    translate: 100% ; 
+    
+    margin-top: -4rem;
+    margin-left: -0.5vw;
+    background-color: #161822;
+    color: var(--background);
+    width: 101vw;
+    min-height: 100vh;
+    position: relative;
+    z-index: 25;
+    
+      
+  
+    -webkit-transition: translate var(--animation-timing);
+    -moz-transition: translate var(--animation-timing);
+    -ms-transition: translate var(--animation-timing);
+    -o-transition: translate var(--animation-timing);
+  }
 
 
 
@@ -449,7 +553,7 @@ body {
 
     @media(max-width: 460px){
 
-        .hamburger-menu {
+        /* .hamburger-menu {
             --x-width: calc(var(--hamburger-height) * 1.41421356237);
           
             display: flex;
@@ -457,9 +561,10 @@ body {
             gap: var(--hamburger-gap);
             width: max-content; 
             position: absolute;
-            top: calc(-15% + -2vh + 10vw);
+            top: 18%; 
+            right: 25%; 
 
-            right: 40%;
+
             z-index: 3;
             margin-top: -6.2rem;
         
@@ -467,7 +572,7 @@ body {
           
           
           
-          }
+          } */
 
 
 
@@ -485,10 +590,10 @@ body {
             gap: var(--hamburger-gap);
             width: max-content; 
             position: absolute;
-            top: calc(-15% + -2vh + 10vw);
+            top: 16%; 
+            right: 25%; 
+            z-index: 30;
 
-            right: 40%;
-            z-index: 3;
             margin-top: -6.2rem;
         
             cursor: pointer;
@@ -513,16 +618,24 @@ body {
             width: max-content; 
             position: absolute;
 
-            
-            top: calc(-15% + -5vh + 10vw);
-            right: 40%;
-            z-index: 3;
+            top: 16%; 
+            right: 30%; 
+            z-index: 30;
+
             margin-top: -6.2rem;
         
             cursor: pointer;
           
           
           
+          }
+
+
+          .sidebar{
+
+
+
+            
           }
 
 
