@@ -21,7 +21,7 @@
     }
   
     #giving-hero-image{
-    background: url('../assets/BluePrints.jpg');
+    background: url('../assets/PrayerNight/BluePrints.jpg');
     background-color: rgba(0, 0, 0, 0.2); 
     background-blend-mode: darken;
     width: 99.999vw !important; 

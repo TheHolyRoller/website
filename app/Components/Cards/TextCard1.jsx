@@ -1,7 +1,7 @@
 import React from 'react'
 
 import cf from '../../Styles/TextCard1.module.css'; 
-
+import Image from 'next/image';
 
 
 function TextCard1(props) {
@@ -16,7 +16,8 @@ function TextCard1(props) {
     
     <div id={cf.imageBackground} >
     
-    {/* {props.image} */}
+    <Image scr={props.image} alt='ministry' width={50} height={50}/> 
+
         
     </div>
         
@@ -30,7 +31,7 @@ function TextCard1(props) {
     <div id={cf.textHeadline} >
         
 
-        {/* {props.title} */}
+        {props.title}
     </div>
     
     </div>
@@ -39,7 +40,7 @@ function TextCard1(props) {
     
     <div id={cf.textBlock} >
     
-    {/* {props.text} */}
+    {props.text}
 
     
     </div>

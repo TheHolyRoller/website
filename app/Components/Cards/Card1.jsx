@@ -9,7 +9,6 @@ function Card1(props) {
     <div id={cc.mainCardContainer}>
     
     <div id={cc.backgroundContainer} >
-      {/* {props.image} */}
 
       <div className={cc.imageContainer}>
 

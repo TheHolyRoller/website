@@ -10,20 +10,15 @@ function Card2(props) {
     <div id={cv.mainCardContainer}>
     
     <div id={cv.backgroundContainer} >
-    
-    
-    {/* {props.image} */}
-    
+
     
     <div id={cv.textContainer} >
     
     Toy Offering 
     
-    {/* {props.title} */}
+    {props.title}
     
     </div>
-    
-    
     
     
     </div>

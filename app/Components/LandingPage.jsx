@@ -4,7 +4,9 @@ import {  Spacer } from "@nextui-org/react"
 
 import Image from "next/image.js";
 
-import Worship from '../assets/Worship.jpg'; 
+// import Worship from '../assets/Worship.jpg'; 
+import Worship from '../assets/PrayerNight/Worship.jpg'; 
+
 
 
 import '../Styles/content.css'; 
@@ -55,7 +57,22 @@ import ImageTextCard from '../Components/Cards/ImageTextCard';
 import MinistryMaterial from '../Components/MinistryMaterial'; 
 
 // Import the static assets here 
-// import 
+import outreach from '../assets/Outreach/OutReachLake.jpg'
+import outreachHand from '../assets/Outreach/Outreachhands.jpg'; 
+
+import future from '../assets/Vision/Future.jpg'; 
+
+import prayer from '../assets/PrayerNight/WomenPrayingLG.jpg';
+import singlePrayer from '../assets/PrayerNight/WomanPrayBible.jpg'; 
+
+import kidsCamp from '../assets/KidsCamp/KidsParachute.jpg';
+import Bible from '../assets/PrayerNight/BibleCoffee.jpg'; 
+
+
+import mission from '../assets/Vision/Mission.jpg'; 
+import vision from '../assets/Vision/Future.jpg'; 
+import eye from '../assets/Vision/VisionEyes.jpg'; 
+import values from '../assets/Vision/Ingegrity.jpg'; 
 
 
 
@@ -67,12 +84,36 @@ function LandingPage() {
   const cardObject = [
 
 
-    {id: 1, }
+    {id: 1, title: 'Outreach', image: outreach}, 
+
+    {id: 2, title: 'About Us', image: future }
 
 
 
 
   ]
+
+  const largeCard = [
+
+    {id: 1, title: 'Night of Prayer', image: prayer }, 
+    {id:2, title:'Kids Camp', image:kidsCamp}, 
+    {id:3, title: 'Ministry Material', image:Bible}
+
+
+
+
+  ];
+
+  const textCard = [
+
+    {id: 1, title: 'Mission', text: 'Read more about our Mission Statement for the Balkans', image:mission }, 
+    {id: 2, title: 'Vision', text: 'Learn more about our Vision for the Albania and the Kingdom of God', image: eye}, 
+    {id: 3, title: 'Values', text: 'Learn more about our values and our beliefs', image:values },
+
+
+  ]
+
+
 
 
 
