@@ -20,8 +20,6 @@ function TextCard1(props) {
 
         
     </div>
-        
-        
     </div>
     
     <div id={cf.textContainer} >

@@ -10,11 +10,11 @@ function Card1(props) {
     
     <div id={cc.backgroundContainer} >
 
-      <div className={cc.imageContainer}>
-
-    <Image src={props.image} alt='ministry' width={50} height={50}/>
-
+      <div id={cc.imageContainer}>
       </div>
+
+    <Image id={cc.image}  src={props.image} alt='ministry' width={50} height={50}/>
+
     
     <div id={cc.textContainer} >
     

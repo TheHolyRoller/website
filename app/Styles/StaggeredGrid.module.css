@@ -67,7 +67,7 @@ masonry-auto-flow: next !important; /* make the items display in order on the gr
 
 
 /* Add in the background image here  */
-background: url('../assets/BluePrints.jpg'); 
+background: url('../assets/PrayerNight/BluePrints.jpg'); 
 background-size: cover; 
 background-position: center center; 
 background-repeat: no-repeat;
@@ -92,7 +92,7 @@ justify-self: center;
 
 #gridItemTwo{
 
-    background: url('../assets/BluePrints.jpg'); 
+    background: url('../assets/PrayerNight/BluePrints.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ justify-self: center;
 
 #gridItemThree{
 
-    background: url('../assets/BluePrints.jpg'); 
+    background: url('../assets/PrayerNight/BluePrints.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ justify-self: center;
 
 #gridItemFour{
 
-    background: url('../assets/BluePrints.jpg'); 
+    background: url('../assets/PrayerNight/BluePrints.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ justify-self: center;
 
 #gridItemFive{
     
-    background: url('../assets/BluePrints.jpg'); 
+    background: url('../assets/PrayerNight/BluePrints.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ justify-self: center;
 }
 #gridItemSeven{
 
-    background: url('../assets/BluePrints.jpg'); 
+    background: url('../assets/PrayerNight/BluePrints.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -199,8 +199,8 @@ justify-self: center;
 }
 #gridItemSix{
 
-    /* background: url('../assets/BluePrints.jpg');  */
-    background: url('../assets/GroupImage.jpg'); 
+    /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+    background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -250,8 +250,8 @@ justify-self: center;
 #gridItemOne{
 
 
-    /* background: url('../assets/BluePrints.jpg');  */
-    background: url('../assets/GroupImage.jpg'); 
+    /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+    background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -278,8 +278,8 @@ justify-self: center;
     
     #gridItemTwo{
     
-     /* background: url('../assets/BluePrints.jpg');  */
-     background: url('../assets/GroupImage.jpg'); 
+     /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+     background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
      background-size: cover; 
      background-position: center center; 
      background-repeat: no-repeat;
@@ -309,8 +309,8 @@ justify-self: center;
     }
     
     #gridItemThree{
-     /* background: url('../assets/BluePrints.jpg');  */
-     background: url('../assets/GroupImage.jpg'); 
+     /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+     background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
      background-size: cover; 
      background-position: center center; 
      background-repeat: no-repeat;
@@ -342,8 +342,8 @@ justify-self: center;
     
     #gridItemFour{
     
-     /* background: url('../assets/BluePrints.jpg');  */
-     background: url('../assets/GroupImage.jpg'); 
+     /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+     background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
      background-size: cover; 
      background-position: center center; 
      background-repeat: no-repeat;
@@ -375,8 +375,8 @@ justify-self: center;
     
     #gridItemFive{
         
-        /* background: url('../assets/BluePrints.jpg');  */
-        background: url('../assets/GroupImage.jpg'); 
+        /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+        background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
         background-size: cover; 
         background-position: center center; 
         background-repeat: no-repeat;
@@ -408,8 +408,8 @@ justify-self: center;
     }
     #gridItemSeven{
     
-         /* background: url('../assets/BluePrints.jpg');  */
-         background: url('../assets/GroupImage.jpg'); 
+         /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+         background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
          background-size: cover; 
          background-position: center center; 
          background-repeat: no-repeat;
@@ -439,8 +439,8 @@ justify-self: center;
     }
     #gridItemSix{
     
-        /* background: url('../assets/BluePrints.jpg');  */
-        background: url('../assets/GroupImage.jpg'); 
+        /* background: url('../assets/PrayerNight/BluePrints.jpg');  */
+        background: url('../assets/PrayerNight/WomenPrayingLG.jpg'); 
         background-size: cover; 
         background-position: center center; 
         background-repeat: no-repeat;

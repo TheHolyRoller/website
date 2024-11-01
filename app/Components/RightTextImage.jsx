@@ -1,58 +1,11 @@
 'use client'
-/**
 
-Let's work things out. 
-
-So now I have a Material UI Card that needs to be heavily modified. 
-
-
-
-First of all I need to add in the right image and remove the buttons. 
-
-Then add in the right text and headline, 
-
-Then once that is done I need to create a ground and then add them into the right 
-
-responsive grid container that will make sure they are fully responsive and 
-centered. 
-
-Once that is done then I need to polish it up and make sure the image 
-
-and text are all in the right place. 
-
-Once that is done then I'll work on polishing the image text 
-
-and then polishing the landing page. 
-
-Once that is done then I'll make the text elements for each page and then I'll 
-
-assemble the components and the pages. 
-
-Once that is done I'll do the effects and the routing. 
-
-
-And once that is done the website will be ready for launch after some polishing. 
-
-Okay so let's get started with the MUI Card. 
-
-Okay so now for the most part the card has been properly modified. 
-
-So let's move onto the polishing up the Image Text card variations and then 
-
-once that is done I can move onto the landing page. 
-
-
-
-
-
-
-*/
 
 
 import Image from 'next/image';
 import React from 'react'
 
-import BluePrints from '../assets/BluePrints.jpg'; 
+import BluePrints from '../assets/PrayerNight/BluePrints.jpg'; 
 import { Typography } from '@mui/material';
 import '../Styles/RightTextImage.css'; 
 

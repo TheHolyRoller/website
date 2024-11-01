@@ -4,7 +4,7 @@ max-width: 900px;
 width: 35vw; 
 min-height: 300px;
 
-background: url('../assets/PrayerNight/BluePrints.jpg') !important; 
+/* background: url('../assets/PrayerNight/BluePrints.jpg') !important;  */
 background-size: cover; 
 background-position: center center !important; 
 
@@ -17,7 +17,38 @@ transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
 
 
 
+
 }
+
+
+#imageContainer{
+
+
+
+
+
+
+}
+
+
+
+#image{
+    /* outline: 4px solid lime; */
+    margin: auto;
+    width: 560px;
+    height: 343px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+
+
+
 
 
 #mainCardContainer:hover{ 

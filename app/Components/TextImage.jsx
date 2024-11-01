@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import React from 'react'
 
-import BluePrints from '../assets/BluePrints.jpg'; 
+import BluePrints from '../assets/PrayerNight/BluePrints.jpg'; 
 import { Typography } from '@mui/material';
 // import img from '../Styles/ImageText.module.css';
 import img from '../Styles/TextImage.module.css'; 

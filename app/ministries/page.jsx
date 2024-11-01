@@ -3,7 +3,7 @@ import React from 'react'
 import mi from '../Styles/Ministries.module.css';
 
 import Image from 'next/image';
-import Blue from '../assets/BluePrints.jpg'; 
+import Blue from '../assets/PrayerNight/BluePrints.jpg'; 
 import MinistriesHero from '../Components/Heros/MinistriesHero';
 
 

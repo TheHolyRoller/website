@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LandingPage from './Components/LandingPage'; 
+import LandingPage from '../public/LandingPage'; 
 
 import NightofPrayer from './Components/NightofPrayer'; 
 

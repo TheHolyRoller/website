@@ -5,11 +5,14 @@ import {  Spacer } from "@nextui-org/react"
 import Image from "next/image.js";
 
 // import Worship from '../assets/Worship.jpg'; 
-import Worship from '../assets/PrayerNight/Worship.jpg'; 
+// import Worship from '../assets/PrayerNight/Worship.jpg'; 
+import Worship from '../app/assets/PrayerNight/Worship.jpg';
 
 
 
-import '../Styles/content.css'; 
+// import '../Styles/content.css'; 
+import '../app/Styles/content.css';
+
 import { LocationCity } from "@mui/icons-material"; 
 
 import { FaSearchLocation } from "react-icons/fa";
@@ -33,89 +36,54 @@ import { Facebook } from '@mui/icons-material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-import Footer from '../footer/Footer.tsx'; 
-import SingupModal from '../Components/SingupModal.jsx'; 
+import Footer from '../app/footer/Footer.tsx'; 
+import SingupModal from '../app/Components/SingupModal.jsx'; 
 
-import HeroComponent from '../Components/HeroComponent.jsx'; 
-import ImageText from "./ImageText.jsx";
-import GivingHero from "./GivingHero.jsx";
+import HeroComponent from '../app/Components/HeroComponent.jsx'; 
+import ImageText from "../app/Components/ImageText.jsx";
+import GivingHero from "../app/Components/GivingHero.jsx";
 
-import HomeHero from '../Components/Heros/HomeHero.jsx'; 
+import HomeHero from '../app/Components/Heros/HomeHero.jsx'; 
 
-import ContactForm from '../contactform/ContactForm'; 
-
-import Card1 from '../Components/Cards/Card1'; 
-import Card2 from './Cards/Card2'
+// import ContactForm from '../app/contact/ContactForm.jsx'; 
+import ContactForm from '../app/contact/ContactForm'; 
 
 
+import Card1 from '../app/Components/Cards/Card1.jsx'; 
+import Card2 from '../app/Components/Cards/Card2.jsx'
 
 
-import TextCard1 from '../Components/Cards/TextCard1';
 
-import ImageTextCard from '../Components/Cards/ImageTextCard'; 
+import TextCard1 from '../app/Components/Cards/TextCard1.jsx';
 
-import MinistryMaterial from '../Components/MinistryMaterial'; 
+import ImageTextCard from '../app/Components/Cards/ImageTextCard.jsx'; 
+
+import MinistryMaterial from '../app/Components/MinistryMaterial.jsx'; 
 
 // Import the static assets here 
-import outreach from '../assets/Outreach/OutReachLake.jpg'
-import outreachHand from '../assets/Outreach/Outreachhands.jpg'; 
+// import outreach from '../assets/Outreach/OutReachLake.jpg'
+// import outreachHand from '../assets/Outreach/Outreachhands.jpg'; 
 
-import future from '../assets/Vision/Future.jpg'; 
+// import future from '../assets/Vision/Future.jpg'; 
 
-import prayer from '../assets/PrayerNight/WomenPrayingLG.jpg';
-import singlePrayer from '../assets/PrayerNight/WomanPrayBible.jpg'; 
+// import prayer from '../assets/PrayerNight/WomenPrayingLG.jpg';
+// import singlePrayer from '../assets/PrayerNight/WomanPrayBible.jpg'; 
 
-import kidsCamp from '../assets/KidsCamp/KidsParachute.jpg';
-import Bible from '../assets/PrayerNight/BibleCoffee.jpg'; 
+// import kidsCamp from '../assets/KidsCamp/KidsParachute.jpg';
+// import Bible from '../assets/PrayerNight/BibleCoffee.jpg'; 
 
 
-import mission from '../assets/Vision/Mission.jpg'; 
-import vision from '../assets/Vision/Future.jpg'; 
-import eye from '../assets/Vision/VisionEyes.jpg'; 
-import values from '../assets/Vision/Ingegrity.jpg'; 
+// import mission from '../assets/Vision/Mission.jpg'; 
+// import vision from '../assets/Vision/Future.jpg'; 
+// import eye from '../assets/Vision/VisionEyes.jpg'; 
+// import values from '../assets/Vision/Ingegrity.jpg'; 
+
+import outreach from '../app/assets/Outreach/HandCircle.jpg'; 
+import about from './Future.jpg'; 
 
 
 
 function LandingPage() {
-
-
-
-  // Create the object here to Loop through for the Cards 
-  const cardObject = [
-
-
-    {id: 1, title: 'Outreach', image: outreach}, 
-
-    {id: 2, title: 'About Us', image: future }
-
-
-
-
-  ]
-
-  const largeCard = [
-
-    {id: 1, title: 'Night of Prayer', image: prayer }, 
-    {id:2, title:'Kids Camp', image:kidsCamp}, 
-    {id:3, title: 'Ministry Material', image:Bible}
-
-
-
-
-  ];
-
-  const textCard = [
-
-    {id: 1, title: 'Mission', text: 'Read more about our Mission Statement for the Balkans', image:mission }, 
-    {id: 2, title: 'Vision', text: 'Learn more about our Vision for the Albania and the Kingdom of God', image: eye}, 
-    {id: 3, title: 'Values', text: 'Learn more about our values and our beliefs', image:values },
-
-
-  ]
-
-
-
-
 
 
 
@@ -136,9 +104,6 @@ function LandingPage() {
     home to many people from across the Midlands. We are a dynamic, 
     family church with people of all ages and from all walks of life and 
     you are welcome to join us.
-    
-    
-  
   
     <SingupModal/> 
 
@@ -158,12 +123,9 @@ function LandingPage() {
     
 
     
-    {/* Construct the Grid here  */}
     <div id='landing-grid-container' >
     
-    
-    {/* <div id='landing-grid-sub-container' > */}
-    
+
 
     
     <div id='landing-grid-one' >
@@ -173,7 +135,7 @@ function LandingPage() {
     <div id='grid-item-container' >
     
     <Link href='/outreach'>
-    <Card2  id='grid-card-one' />
+    <Card2  id='grid-card-one' image={outreach}  title='Outreach'  />
     
     </Link>
 
@@ -184,14 +146,14 @@ function LandingPage() {
     </div>
     <div id='landing-grid-one' >
     
-    {/* Add in Each Grid Item here  */}
     
     
     <div id='grid-item-two-container' >
 
     <Link href='/about'>
       
-    <Card2 id='grid-card-two'/>
+
+    <Card2 id='grid-card-two' image={about}  title='About Us' />
     
     </Link>
 
@@ -203,16 +165,8 @@ function LandingPage() {
     </div>
     
     
-    {/* ---Add in the sub container here ----- */}
-    
-    
-    
-    {/* </div> */}
-    
     </div>
     
-    
-    {/* Add in the second grid here  */}
     
     <div id='landing-second-grid' >
     
