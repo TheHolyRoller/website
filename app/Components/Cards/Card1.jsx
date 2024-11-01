@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 
 
-function Card1(props) {
+function Card1({ image, title, text }) {
   return (
     <div id={cc.mainCardContainer}>
     
@@ -13,25 +13,17 @@ function Card1(props) {
       <div id={cc.imageContainer}>
       </div>
 
-    <Image id={cc.image}  src={props.image} alt='ministry' width={50} height={50}/>
+    <Image id={cc.image}  src={image} alt='ministry' width={50} height={50}/>
 
     
     <div id={cc.textContainer} >
     
     Toy Offering 
-    {props.title}
-    
-    
+    {title}
     
     </div>
     
-    
-    
-    
     </div>
-    
-    
-    
     
     </div>
   )

@@ -4,7 +4,7 @@ import cf from '../../Styles/TextCard1.module.css';
 import Image from 'next/image';
 
 
-function TextCard1(props) {
+function TextCard1({ image, title, text }) {
   return (
     <div id={cf.mainCardContainer}>
     
@@ -16,8 +16,7 @@ function TextCard1(props) {
     
     <div id={cf.imageBackground} >
     
-    <Image scr={props.image} alt='ministry' width={50} height={50}/> 
-
+    <Image id={cf.image} src={image} alt='ministry' width={50} height={50}/> 
         
     </div>
     </div>
@@ -29,7 +28,7 @@ function TextCard1(props) {
     <div id={cf.textHeadline} >
         
 
-        {props.title}
+        {title}
     </div>
     
     </div>
@@ -38,7 +37,7 @@ function TextCard1(props) {
     
     <div id={cf.textBlock} >
     
-    {props.text}
+    {text}
 
     
     </div>
@@ -46,7 +45,7 @@ function TextCard1(props) {
     
     </div>
     
-    Toy Offering 
+    {/* Toy Offering  */}
     
     {/* {props.title} */}
     

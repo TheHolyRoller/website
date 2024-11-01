@@ -202,14 +202,17 @@ body{
             grid-template-columns: 1fr;
             width:80vw; 
             position: relative; 
-            
 
+            
+            margin-bottom: 2rem !important;
             margin: 0 auto !important; 
             gap: clamp(1rem, 1vw + 2rem, 3.2rem) !important; 
 
             
         }
-        /* Add in the grid item here  */
+
+        
+
         #grid-item-container-two{
         
             

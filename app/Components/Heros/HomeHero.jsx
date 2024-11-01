@@ -4,6 +4,7 @@
 import React from 'react'
 import '../../Styles/HomeHero.css'; 
 
+
 function GalleryHero() {
   return (
     

@@ -2,19 +2,31 @@
     max-width: 700px; 
     width: 17vw; 
     min-width: 365px; 
-    background: url('../assets/PrayerNight/BluePrints.jpg') !important; 
+    /* background: url('../assets/PrayerNight/BluePrints.jpg') !important;  */
     background-size: cover; 
     background-position: center center !important; 
-    min-height: 230px;
+    min-height: 230px;  
     margin: 0rem auto !important; 
     align-self: center; 
     border-radius: 20px !important; 
     position: relative;
+    color: white; 
     
-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+    
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
     
     
     }
+
+    #image{
+        height: 220px;
+        width: 20vw;
+        border-radius:20px ;
+        -webkit-border-radius:20px ;
+        -moz-border-radius:20px ;
+        -ms-border-radius:20px ;
+        -o-border-radius:20px ;
+}
     
     #mainCardContainer:hover{ 
         transform: translate(0, -0.3rem) !important;
@@ -22,8 +34,14 @@ transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
         
 
     }
-    
-    
+
+    #backgroundImageContainer
+    {
+
+        display: grid;  
+        place-content: center;
+
+    }
     
     #textContainer{
     margin: 0 auto !important; 
@@ -48,5 +66,34 @@ transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
     #mainCardContainer{ 
         width: 80vw; 
     } 
+
+    #image{
+        height: 220px;
+        width: 50vw;
+        border-radius:20px ;
+        -webkit-border-radius:20px ;
+        -moz-border-radius:20px ;
+        -ms-border-radius:20px ;
+        -o-border-radius:20px ;
+}
+
     
+    }
+
+
+    @media(max-width: 550px){
+
+
+        #image{
+            height: 220px;
+            width: 80vw;
+            border-radius:20px ;
+            -webkit-border-radius:20px ;
+            -moz-border-radius:20px ;
+            -ms-border-radius:20px ;
+            -o-border-radius:20px ;
+    }
+
+
+
     }

@@ -5,13 +5,13 @@ import {  Spacer } from "@nextui-org/react"
 import Image from "next/image.js";
 
 // import Worship from '../assets/Worship.jpg'; 
-// import Worship from '../assets/PrayerNight/Worship.jpg'; 
-import Worship from '../app/assets/PrayerNight/Worship.jpg';
+import Worship from '../assets/PrayerNight/Worship.jpg'; 
+// import Worship from '../app/assets/PrayerNight/Worship.jpg';
 
 
 
-// import '../Styles/content.css'; 
-import '../app/Styles/content.css';
+import '../Styles/content.css'; 
+// import '../app/Styles/content.css';
 
 import { LocationCity } from "@mui/icons-material"; 
 
@@ -36,55 +36,46 @@ import { Facebook } from '@mui/icons-material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-import Footer from '../app/footer/Footer.tsx'; 
-import SingupModal from '../app/Components/SingupModal.jsx'; 
+import Footer from '../footer/Footer.tsx'; 
+import SingupModal from './SingupModal.jsx'; 
 
-import HeroComponent from '../app/Components/HeroComponent.jsx'; 
-import ImageText from "../app/Components/ImageText.jsx";
-import GivingHero from "../app/Components/GivingHero.jsx";
+import HeroComponent from './HeroComponent.jsx'; 
+import ImageText from "./ImageText.jsx";
+import GivingHero from "./GivingHero.jsx";
 
-import HomeHero from '../app/Components/Heros/HomeHero.jsx'; 
+import HomeHero from './Heros/HomeHero.jsx'; 
 
 // import ContactForm from '../app/contact/ContactForm.jsx'; 
-import ContactForm from '../app/contact/ContactForm'; 
+import ContactForm from '../contact/ContactForm.jsx'; 
 
 
-import Card1 from '../app/Components/Cards/Card1.jsx'; 
-import Card2 from '../app/Components/Cards/Card2.jsx'
+import Card1 from './Cards/Card1.jsx'; 
+import Card2 from './Cards/Card2.jsx'
 
 
 
-import TextCard1 from '../app/Components/Cards/TextCard1.jsx';
+import TextCard1 from './Cards/TextCard1.jsx';
 
-import ImageTextCard from '../app/Components/Cards/ImageTextCard.jsx'; 
+import ImageTextCard from './Cards/ImageTextCard.jsx'; 
 
-import MinistryMaterial from '../app/Components/MinistryMaterial.jsx'; 
+import MinistryMaterial from './MinistryMaterial.jsx'; 
 
-// Import the static assets here 
-// import outreach from '../assets/Outreach/OutReachLake.jpg'
-// import outreachHand from '../assets/Outreach/Outreachhands.jpg'; 
+import outreach from '../assets/Outreach/HandCircle.jpg';
 
-// import future from '../assets/Vision/Future.jpg'; 
+import about from '../../public/Future.jpg'; 
+import prayer from '../assets/PrayerNight/WomenPrayingLG.jpg'; 
+import kidscamp from '../assets/KidsCamp/KidsRunning.jpg'; 
+import Bible from '../assets/PrayerNight/BibleCoffee.jpg'; 
+import mission from '../../public/Mission.jpg'; 
+import vision from '../../public/VisionEyes.jpg'; 
+import values from '../../public/Ingegrity.jpg'; 
 
-// import prayer from '../assets/PrayerNight/WomenPrayingLG.jpg';
-// import singlePrayer from '../assets/PrayerNight/WomanPrayBible.jpg'; 
-
-// import kidsCamp from '../assets/KidsCamp/KidsParachute.jpg';
-// import Bible from '../assets/PrayerNight/BibleCoffee.jpg'; 
-
-
-// import mission from '../assets/Vision/Mission.jpg'; 
-// import vision from '../assets/Vision/Future.jpg'; 
-// import eye from '../assets/Vision/VisionEyes.jpg'; 
-// import values from '../assets/Vision/Ingegrity.jpg'; 
-
-import outreach from '../app/assets/Outreach/HandCircle.jpg'; 
-import about from './Future.jpg'; 
 
 
 
 function LandingPage() {
 
+  
 
 
   return (
@@ -159,8 +150,6 @@ function LandingPage() {
 
 
     </div>
-    
-        
         
     </div>
     
@@ -172,11 +161,11 @@ function LandingPage() {
     
     {/* Add in the first grid item here  */}
     
-    <div id='second-landing-item-one' >
+    <div id='second-landing-item-one' style={{outline:'0px solid lime'}}  >
     
-    <Link href='/nightofprayer'>
+    <Link href='/nightofprayer' image={prayer} title='Night of Prayer'  >
     
-    <TextCard1/> 
+    <TextCard1  image={prayer} title="Night of Prayer"  /> 
     
     </Link>
     
@@ -186,7 +175,7 @@ function LandingPage() {
       
          <Link href='/kidscamp'>
     
-    <TextCard1/> 
+    <TextCard1 image={kidscamp} title="Kids Camp"  /> 
     
     </Link>
     
@@ -198,7 +187,7 @@ function LandingPage() {
     
     <Link href='/ministrymaterial'>
     
-    <TextCard1/> 
+    <TextCard1 image={Bible} title='Ministry Material' /> 
     
     </Link>
 
@@ -241,20 +230,16 @@ function LandingPage() {
     
     <div id='landing-grid-container-two'>
     
-    
-    
     <div id='landing-grid-sub-container-two'>
     
     <div id='landing-grid-two' >
-    
-    {/* Add in Each Grid Item here  */}
     
     <div id='grid-item-container-two' >
     
 
     <Link href='/mission'>
 
-    <ImageTextCard/> 
+    <ImageTextCard image={mission} title='Our Mission' text="Read More About our Mission for the Future of the Kingdom of God in Albania"  /> 
     
     </Link>
      
@@ -265,7 +250,7 @@ function LandingPage() {
     {/* Add in the Card here  */}
     <Link href='/vision'>
 
-    <ImageTextCard/> 
+    <ImageTextCard image={vision} title="Our Vision" text='Read more about our vision for our outreach in the Balkans'  /> 
     
     </Link>
         
@@ -273,7 +258,8 @@ function LandingPage() {
     <div id='grid-item-container-two' >
     <Link href='/values'>
 
-<ImageTextCard/> 
+
+<ImageTextCard image={values} title="Our Values" text="Read more about our values and what we believe in from Gods Word"  /> 
 
 </Link>
         

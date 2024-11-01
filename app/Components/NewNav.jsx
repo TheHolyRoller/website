@@ -21,6 +21,7 @@ import '../Styles/NewNav.css';
 import React from 'react'
 // import Link from 'next/link';
 
+
   const NewNav = () => {
   return (
     <div id='new-nav-container'>
@@ -103,8 +104,6 @@ import React from 'react'
     <div id='new-nav-item' >
     
     <div id='new-nav-modal-container' >
-      
-
     <NewModal id='new-nav-modal' />
 
     <div className="mobileSideBar" >

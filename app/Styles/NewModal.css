@@ -79,9 +79,8 @@
     }
         #modal-list-container{
         margin-left: -4%; 
-        background-color: red !important; 
+        /* background-color: red !important;  */
 
-        outline: 10px solid lime;
         max-height: 80vh !important;    
 
 
@@ -94,7 +93,6 @@
         padding-top: 5%;
         max-height: 80vh !important;    
         margin-top: -20rem !important; 
-        /* outline: 5px solid lime */
         
         }
         #menu-list-item{
@@ -193,6 +191,43 @@
             border-radius: 10px; 
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
+        @media(max-width: 950px){
+
+
+       #modal-open-button{
+
+
+
+        display: none !important;
+
+
+
+       }
+
+       #second-menu-btn-container{
+
+        display: none !important; 
+
+
+       }
+
+        }
+
+        @media(max-width: 650px){
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
         @media(min-width: 300px){
             #nav-buttons-container{
                 display: none !important; 

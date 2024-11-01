@@ -8,10 +8,11 @@ body {
   margin: 0;
 }
 
+
 :root {
-  --bar-width: 45px;
-  --bar-height: 8px;
-  --hamburger-gap: 6px;
+  --bar-width: 30px;
+  --bar-height: 5px;
+  --hamburger-gap: 4px;
   --foreground: white;
   --background: white;
   --hamburger-margin: 8px;
@@ -29,15 +30,14 @@ body {
   /* width: 100vw !important; */
   position: absolute;
 
-  top: 0%; 
-  right: 38%;
+  top: 1.8%; 
+  right: 63%;
   z-index: 3;
   margin-top: -2.2rem;
 
   cursor: pointer;
 
 
-    /* outline: 4px solid lime;  */
     
 
 
@@ -78,10 +78,8 @@ body {
   margin: 0;
   outline: none;
   pointer-events: none;
-  /* opacity: 0; */
-  /* outline: 4px solid lime;  */
-  
 }
+
 
 .hamburger-menu:has(input:checked)::before {
   rotate: 45deg;
@@ -111,8 +109,8 @@ body {
   min-height: 100vh;
   position: relative;
   z-index: 2;
-  /*outline: 5px solid lime;
-    */
+    
+
   -webkit-transition: translate var(--animation-timing);
   -moz-transition: translate var(--animation-timing);
   -ms-transition: translate var(--animation-timing);
@@ -246,6 +244,95 @@ body {
         border-radius: 10px; 
         transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     }
+
+    @media(max-width: 680px){
+
+        
+.hamburger-menu {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+  
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    /* width: 100vw !important; */
+    position: absolute;
+  
+    top: -9%; 
+    right: 58%;
+    z-index: 3;
+    /* margin-top: -2.2rem; */
+  
+    cursor: pointer;
+  
+  
+  
+  }
+  
+
+
+
+
+    }
+
+
+    @media(max-width: 570px){
+
+
+                
+.hamburger-menu {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+  
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    /* width: 100vw !important; */
+    position: absolute;
+  
+    top: -19%; 
+    right: 40%;
+    z-index: 3;
+    margin-top: -2.2rem;
+
+    cursor: pointer;
+  
+  
+  
+  }
+
+
+    }
+
+
+    @media(max-width: 410px){
+
+        .hamburger-menu {
+            --x-width: calc(var(--hamburger-height) * 1.41421356237);
+          
+            display: flex;
+            flex-direction: column;
+            gap: var(--hamburger-gap);
+            width: max-content;
+            /* width: 100vw !important; */
+            position: absolute;
+          
+            top: -19%; 
+            right: 40%;
+            z-index: 3;
+            margin-top: -6.2rem;
+        
+            cursor: pointer;
+          
+          
+          
+          }
+
+
+
+    }
+
+
     @media(min-width: 300px){
         #nav-buttons-container{
             display: none !important; 
@@ -292,6 +379,7 @@ body {
         }
     }
     @media(max-with: 540px){
+        
             #toggle-button{
                 outline: none !important; 
             }

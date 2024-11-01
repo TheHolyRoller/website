@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 
 
-function Card2({ image, title }) {
+function Card2({ image, title, text }) {
   return (
     <div id={cv.mainCardContainer}>
     

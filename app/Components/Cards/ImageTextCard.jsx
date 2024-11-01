@@ -5,7 +5,7 @@ import Image from 'next/image';
 // import { image } from '@nextui-org/theme';
 
 
-function ImageTextCard(props) {
+function ImageTextCard({ image, title, text }) {
   return (
   
   
@@ -20,7 +20,7 @@ function ImageTextCard(props) {
     {/* {props.image} */}
     {/* Try adding in an image tag here  */}
 
-    <Image src={props.image} alt='ministry' width={50} height={50}/>
+    <Image  className={im.image} src={image} alt='ministry' width={50} height={50}/>
 
     
 
@@ -37,9 +37,9 @@ function ImageTextCard(props) {
     
     <div id={im.cardHeadline}>
     
-    Groups 
+    {/* Groups  */}
     
-    {props.title}
+    {title}
 
     </div>
     
@@ -50,8 +50,8 @@ function ImageTextCard(props) {
     <div id={im.cardTextSubContainer}>
     
     <div id={im.cardText}>
-    {props.text}
-    Our group of small networks that meet regularly across the midlands 
+    {text}
+    {/* Our group of small networks that meet regularly across the midlands  */}
     
         
     </div>
