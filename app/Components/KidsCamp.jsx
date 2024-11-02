@@ -10,6 +10,9 @@ import KidsImageCards from '../Components/KidsImageCards';
 import Images from '../Components/Images'; 
 import YoutubeCTA from '../Components/YoutubeCTA'; 
 import YoutubeVideo from '../Components/YoutubeVideo'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+import kidsHero from '../assets/KidsCamp/GroupImage.jpg'; 
+
 
 
 
@@ -17,11 +20,14 @@ import YoutubeVideo from '../Components/YoutubeVideo';
 
 function KidsCamp() {
   return (
-    <div id={kk.mainContainer}>
+    <div id={kk.mainContainer} style={{outline:"5px solid lime"}} >
     
     
-    {/* Add in the hero component here  */}
-    <GivingHero/> 
+    
+    
+    <Hero image={kidsHero} title='Kids Camp' alt='kids' style={{outline:"5px solid lime"}}  /> 
+
+
     
 
     <div id={kk.mainSubContainer}>
@@ -47,20 +53,17 @@ function KidsCamp() {
 <div id={kk.boldTextContainer} >
 
 Klea Huta Summer Camp
-{/* Bold Text  */}
 
 </div>
   
   
 </div>
   
-  {/* Add in the supporting text container here  */}
   
   <div id={kk.supportingTextContainer} >
   <div id={kk.supportingText} >
 
   Një program i pasur me aktivitete, edukim, kreativitet dhe argëtim- Ku fëmijët zhvillojnë më tej talentet e tyre dhe marrin me vete kujtime që zgjasin për gjithë jetën.
-  {/* Supporting Text  */}
   
   </div>
   
@@ -83,10 +86,10 @@ Klea Huta Summer Camp
     
     <div id={kk.kidsCardGrid} >
 
-  
+{/*   
     <KidsImageCards/> 
   <KidsImageCards/> 
-      
+       */}
     </div>
 
 
@@ -106,7 +109,7 @@ Klea Huta Summer Camp
   
   {/* Add in the IMage text bullet here  */}
 
-  <ImageTextBullet/> 
+  {/* <ImageTextBullet/>  */}
   
   
   </div>

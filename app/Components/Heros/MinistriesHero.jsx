@@ -9,6 +9,7 @@ import '../../Styles/Giving.css';
 
 
 
+
 function MinistriesHero({image, title}) {
   return (
     // Add in the main hero container here 

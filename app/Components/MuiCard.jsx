@@ -32,7 +32,7 @@ export default function MuiCard({image, text}) {
         {/* {props.title}  */}
          {/* Teams  */}
        </Typography>
-       <Typography variant="body2" color="text.secondary">
+       <Typography variant="body2" color="text.secondary" style={{fontWeight: '800'}} >
        {text}
        
       {/* Everyday our amazing teams work together to make our church happen  */}

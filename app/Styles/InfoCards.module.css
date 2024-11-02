@@ -18,8 +18,9 @@
     width: 34.505vw; 
     /* background: rgb(36, 153, 36);  */
     
-    background: rgb(185, 93, 36)  !important; 
-    /* background: blue;  */
+    background: #08052f  !important; 
+
+    
     height: 19vw; 
     margin: 0.3em auto !important; 
     min-height: 17.5rem !important; 
@@ -57,9 +58,10 @@
 }
 
 
+
 #iconContainer{
 
-background: url('../assets/PrayerNight/BluePrints.jpg'); 
+/* background: url('../assets/PrayerNight/BluePrints.jpg');  */
 background-repeat:no-repeat; 
 background-size: cover;
 background-position: center center;

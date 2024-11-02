@@ -9,6 +9,7 @@
 
 #subContainer{
 
+
     
 }
 #imageContainer{
@@ -17,7 +18,7 @@
 width: 26.823vw; 
 height: 17.188rem !important; 
 
-background: url('../assets/PrayerNight/BluePrints.jpg') !important; 
+/* background: url('../assets/PrayerNight/BluePrints.jpg') !important;  */
 
 /* background: url('https://lh5.googleusercontent.com/p/AF1QipMxjnRRkB67shRTRd1862vKCKHFxrIb36WWp_MO=w143-h143-n-k-no ');  */
 background-repeat: no-repeat; 

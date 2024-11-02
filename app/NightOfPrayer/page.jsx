@@ -19,6 +19,17 @@ import AboutImage from '../Components/AboutImage';
    
 import RightTextImage from '../Components/RightTextImage'; 
 import OutReachCards from '../Components/OutReachCards'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+// import prayer from '../assets/PrayerNight/WomanPrayingSun.jpg'; 
+import prayer from '../assets/PrayerNight/WomanPrayBible.jpg'; 
+
+import womanpray from '../assets/PrayerNight/WomanPrayBible.jpg'; 
+import women from '../assets/PrayerNight/WomenPrayingLG.jpg'; 
+import praying from '../assets/PrayerNight/LadiesTogether.jpg';
+import map from '../assets/Outreach/map.png'; 
+
+
+
 
 
  export default function NightOfNight() {
@@ -28,7 +39,8 @@ import OutReachCards from '../Components/OutReachCards';
   
     <div id={nn.mainContainer} >
     
-    <GivingHero/> 
+    {/* <GivingHero/>  */}
+    <Hero image={prayer} title='Night of Prayer' /> 
     
     
     
@@ -104,13 +116,13 @@ import OutReachCards from '../Components/OutReachCards';
     <div id={nn.nightCTAContainer} >
     
     {/* This is where the image Text CTA Cards will go  */}
-    <div id={nn.nightCTA} >
+    <div id={nn.nightCTA} style={{outline: '0px solid lime'}} >
         
         {/* Prop template Right Text Image 
         image, text, supportingText, 
         
         */}
-        <RightTextImage/> 
+        {/* <RightTextImage image={prayer}   />  */}
         
         
     
@@ -181,17 +193,11 @@ import OutReachCards from '../Components/OutReachCards';
     
     {/* Add in the Card Grid here  */}
     
-    <div id={nn.prayerGridContainer} >
+    <div id={nn.prayerGridContainer}  style={{fontWeight: '800'}} >
 
-{/* 
-Prop template Mui Cards 
-
-image text title 
-
-*/}
-    <MuiCard/> 
-    <MuiCard/> 
-    <MuiCard/> 
+    <MuiCard image={womanpray} text='The Word' title='The Word'  /> 
+    <MuiCard image={women} text='Prayer' /> 
+    <MuiCard image={praying} text='Fellowship' /> 
       
       
     </div>
@@ -242,7 +248,7 @@ image text title
     
     {/* Teaching Headline  */}
     
-    Enjoy Great Teaching  
+    {/* Enjoy Great Teaching   */}
     
     </div>
 
@@ -269,7 +275,7 @@ image text title
         
         
         */}
-        <TextImage/> 
+        {/* <TextImage/>  */}
         
         
         {/* Add in the material UI Cards here  */}
@@ -313,7 +319,7 @@ image text title
     <div id={nn.worshipHeadline} >
     
     {/* Worship Headline  */}
-    Worship with Women of God 
+    {/* Worship with Women of God  */}
     
     </div>
 
@@ -361,10 +367,10 @@ image text title
       
       
       */}
+      {/* <OutReachCards/> 
       <OutReachCards/> 
       <OutReachCards/> 
-      <OutReachCards/> 
-      
+       */}
       
 
         
@@ -431,8 +437,8 @@ image text title
     
     */}
     
-    <InfoCards/> 
-    <InfoCards/> 
+    <InfoCards image={map}  /> 
+    {/* <InfoCards/>  */}
       
       
     </div>

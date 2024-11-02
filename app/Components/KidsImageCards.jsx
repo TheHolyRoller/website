@@ -9,14 +9,11 @@
 import React from 'react'
 
 import mm from '../Styles/KidsImageCards.module.css'; 
+import Image from 'next/image';
 
-
-function KidsImageCards(props) {
+function KidsImageCards({image, title, text}) {
   return (
     <div id={mm.cardMainContainer}>
-    
-    
-    
     
     
     <div id={mm.cardContainer}>
@@ -25,9 +22,11 @@ function KidsImageCards(props) {
     
     <div id={mm.imageContainer}>
     <div id={mm.cardImage}>
-    {/* {props.image} */}
-    {/* Try adding in an mmage tag here  */}
     
+    <Image id={mm.cardImage}  src={image} alt='alt' />
+
+
+
     </div>
     </div>
     
@@ -40,9 +39,10 @@ function KidsImageCards(props) {
     
     <div id={mm.cardHeadline}>
     
-    Groups 
+    {title}
+    {/* Groups  */}
     
-    {/* {props.title} */}
+    
     </div>
     
     </div>

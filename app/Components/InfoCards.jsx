@@ -2,14 +2,17 @@
 import React from 'react'
 
 import ic from '../Styles/InfoCards.module.css'; 
+import Image from 'next/image';
+import map from '../assets/Map.webp'; 
 
 
 
-
-function InfoCards(props) {
+function InfoCards({image, text, title}) {
   return (
     <div id={ic.mainContainer} >
     
+    
+
     <div id={ic.subContainer} >
     
     {/* Add in the card container here  */}
@@ -26,7 +29,9 @@ function InfoCards(props) {
     
     {/* Add in the icon here  */}
     {/* {props.icon} */}
+    <Image src={map} alt='map'></Image>
     
+
     
     </div>
     

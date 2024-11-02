@@ -65,6 +65,8 @@ font-weight: 900;
 
 
 #headlineTextContainer{
+
+    margin-top: 2rem;
     
 
     
@@ -472,7 +474,7 @@ font-weight: 900;
     
     display: grid;
     place-content: center; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     
     width: 80vw; 
     margin: 3rem auto; 
@@ -585,8 +587,8 @@ font-weight: 900;
 #worshipHeadlineContainer{
 
 
-outline: 4px solid lime; 
 width: 90vw; 
+
 /* margin: 3rem auto;  */
 padding-top: 1rem; 
 margin-bottom: -1.5rem !important; 
@@ -600,8 +602,8 @@ margin-bottom: -1.5rem !important;
 
 #teachingHeadlineContainer{
 
-outline: 4px solid lime; 
 width: 90vw; 
+
 margin-top: -3rem !important;
 margin-bottom: -1rem !important;
 
@@ -613,8 +615,8 @@ margin-bottom: -1rem !important;
 
 #prayerHeadlineContainer{
 
-outline: 4px solid lime; 
-margin: 2rem auto; 
+
+    margin: 2rem auto; 
 margin-top: -2.5rem;
 
     
@@ -623,8 +625,8 @@ margin-top: -2.5rem;
 
 #headlineContainer{
     
-    outline: 4px solid lime; 
     width: 90vw !important; 
+    
     
     
 }

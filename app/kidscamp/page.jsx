@@ -10,6 +10,23 @@ import KidsImageCards from '../Components/KidsImageCards';
 import Images from '../Components/Images'; 
 import YoutubeCTA from '../Components/YoutubeCTA'; 
 import YoutubeVideo from '../Components/YoutubeVideo'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+import camp from '../assets/KidsCamp/KidsParachute.jpg'; 
+
+// Video ID 
+
+import fire from '../assets/KidsCamp/fire.jpg'; 
+import balloon from '../assets/KidsCamp/ballon.jpg'; 
+import night from '../assets/KidsCamp/nightsky.jpg'; 
+
+
+import hrt from '../assets/KidsCamp/GirlsHeartHands.jpg';
+import running from '../assets/KidsCamp/KidsRunning.jpg'; 
+import openfire from '../assets/KidsCamp/openfire.jpg'; 
+import slide from '../assets/KidsCamp/slide.jpg'; 
+import group from '../assets/KidsCamp/SummerCampImage.png'; 
+import marshallow from '../assets/KidsCamp/marshmallow.jpg'; 
+import { background } from '@chakra-ui/react';
 
 
 
@@ -21,7 +38,8 @@ function KidsCamp() {
     
     
     {/* Add in the hero component here  */}
-    <GivingHero/> 
+    <Hero image={camp} alt='camp' title='Kids Camp' /> 
+
     
 
     <div id={kk.mainSubContainer}>
@@ -81,18 +99,10 @@ Klea Huta Summer Camp
   <div id={kk.timelineCardsContainer}>
   <div id={kk.timelineCards}>
     
-    <div id={kk.kidsCardGrid} >
-    
-    
-    {/* Add in the props template here  */}
-{/* Prop template Kids Image Cards 
+    <div id={kk.kidsCardGrid} style={{outline: '0px solid lime'}} >
 
-    Image title text 
-
-*/}
-  
-    <KidsImageCards/> 
-  <KidsImageCards/> 
+    <KidsImageCards image={fire} title='Fires'/> 
+  <KidsImageCards image={night} title='Night Skies'  /> 
       
     </div>
 
@@ -112,7 +122,7 @@ Klea Huta Summer Camp
 {/* Add in the prop template here  */}
 
 
-  <ImageTextBullet/> 
+  {/* <ImageTextBullet/>  */}
   
   
   </div>
@@ -168,11 +178,15 @@ Klea Huta Summer Camp
   
   
   */}
+  {/* fire
+balloon
+night
+group */}
   
-<KidsCards/> 
-<KidsCards/> 
-<KidsCards/> 
-<KidsCards/> 
+<KidsCards image={fire} title='Fires' text='enjoy camp Fires at night' /> 
+<KidsCards  image={balloon} title='Fires' text='enjoy camp Fires at night'   /> 
+<KidsCards image={night} title='Fires' text='enjoy camp Fires at night'   /> 
+<KidsCards image={group} title='Fires' text='enjoy camp Fires at night'  /> 
     
   </div>
   
@@ -206,9 +220,14 @@ Klea Huta Summer Camp
       <div id={kk.imageGridContainer} >
     
     {/* Props template text='' supportingText='' image='' imageItem */}
-    <Images  />
-    <Images/>
-    <Images/>
+
+    {/* hrt
+running
+openfire
+ */}
+    <Images image={running} />
+    <Images image={hrt} />
+    <Images image={openfire} />
     {/* <Images/> */}
     
         
@@ -233,8 +252,9 @@ Klea Huta Summer Camp
   <div id={kk.youtubeComponent} >
     
    <div id={kk.youtubeContainer} >
-   
-   <YoutubeVideo/> 
+    
+    {/* Embed the video here  */}
+   {/* <YoutubeVideo/>  */}
 
 
    </div> 
@@ -273,13 +293,16 @@ Klea Huta Summer Camp
     
     
 
+
     <div id={kk.infoGridContainer} >
       {/* 
       Props Template 
       icon='' address='' addressOne='' addressTwo='' addressThree=''
       
       */}
-      <InfoCards/> 
+
+
+      <InfoCards style={{backgroundColor: 'brown'}} /> 
       <InfoCards /> 
       
       

@@ -1,10 +1,10 @@
 import React from 'react'
 
-
+import Image from 'next/image';
 import image from '../Styles/Images.module.css'; 
 
 
-function Images(props) {
+function Images({image}) {
   return (
     
     <div id={image.mainContainer} >
@@ -14,10 +14,11 @@ function Images(props) {
     
     <div id={image.mainImage}>
     
-    {/* {props.image} */}
 
-    {/* <img id={image.workingImage}  scr='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBvvF-vBRZTBfQLpe9C-nBcB_VDdy0if7TE8tICuGmEiRuiOBR_HbD&usqp=CAE&s' alt="alt" />  */}
-        
+      <Image id={image.mainImage}  src={image} alt='img'/>
+
+
+
     </div>
         
         

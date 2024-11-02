@@ -4,9 +4,9 @@
 import React from 'react'
 
 import kc from '../Styles/KidsCards.module.css'; 
+import Image from 'next/image';
 
-
-function KidsCards(props) {
+function KidsCards({image, title, text}) {
   return (
   
     <div id={kc.cardMainContainer}>
@@ -20,8 +20,9 @@ function KidsCards(props) {
     
     <div id={kc.imageContainer}>
     <div id={kc.cardImage}>
-    {/* {props.image} */}
-    {/* Try adding in an kcage tag here  */}
+
+    <Image id={kc.cardImage}  src={image} alt='camp'/>
+    
     
     </div>
     </div>
@@ -35,8 +36,8 @@ function KidsCards(props) {
     
     <div id={kc.cardHeadline}>
     
-    Groups 
-    {/* {props.title} */}
+    {/* Groups  */}
+    {title}
 
     </div>
     
@@ -49,8 +50,8 @@ function KidsCards(props) {
     <div id={kc.cardText}>
     
     Our group of small networks that meet regularly across the midlands 
-    {/* {props.text} */}
-    
+
+  {text}    
         
     </div>
         

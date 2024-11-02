@@ -20,17 +20,16 @@ import AboutImage from '../Components/AboutImage';
   
 import RightTextImage from '../Components/RightTextImage'; 
 import OutReachCards from '../Components/OutReachCards'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+import prayer from '../assets/PrayerNight/WomanPrayingSun.jpg'
 
-
+import map from '../assets/Address.webp'
 
  export default function NightOfNight() {
   return (
     <div id={nn.mainContainer} >
     
-    
-    {/* Add in the hero Section here  */}
-    
-    <GivingHero/> 
+  <Hero image={prayer} alt='prayer' title='Night of Prayer' width={50} height={50} />     
 
     
     <div id={nn.mainSubContainer} >
@@ -392,8 +391,9 @@ import OutReachCards from '../Components/OutReachCards';
     <div id={nn.detailsCards}>
     
     
-    <div id={nn.infoCardsGrid} >
-    <InfoCards/> 
+    <div id={nn.infoCardsGrid}  style={{outline: '4px solid lime'}} >
+    <InfoCards image={map}  /> 
+
     <InfoCards/> 
       
       

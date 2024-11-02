@@ -4,8 +4,11 @@
 
 
 
+
 #mainContainer{
 background: white !important; 
+font-family: 'Luckiest Guy', cursive ;
+
     
 }
 
@@ -49,6 +52,9 @@ font-weight: 600;
 
 /* Clamp the font size here  */
 font-size: clamp(2.1rem, 2vw + 1.5rem, 5rem) !important; 
+font-family: 'Luckiest Guy', cursive ;
+
+text-align: center;
 
 /* font-size: 2rem;  */
 }
@@ -104,7 +110,7 @@ color: #422c18;
     
     width: 65vw; 
     
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 1.13rem; 
     margin: 0 auto; 
     color: rgb(83, 80, 80); 

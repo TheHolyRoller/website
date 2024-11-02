@@ -12,6 +12,7 @@ import '../Styles/RightTextImage.css';
 
 
 
+
 function RightImage({image, title, text}) {
   return (
 
@@ -85,11 +86,8 @@ function RightImage({image, title, text}) {
     
 
     {text}
-    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis exercitationem eius. Impedit, quaerat veritatis voluptas distinctio ducimus tempore error molestias voluptatem, illo ullam perspiciatis laboriosam, quam sapiente aperiam sequi?
+    For a Christian, prayer is a powerful, personal connection with God. It brings comfort, guidance, and strength, deepening faith and trust. Through prayer, believers seek God's wisdom, ask for blessings, and find peace amidst struggles. Prayer cultivates gratitude, aligns hearts with God’s will, and fuels hope in His promises
     
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequuntur sint quibusdam animi vero repellat, voluptas culpa dolore fuga adipisci!
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, error?
-     */}
     </div>
     
     
@@ -132,10 +130,10 @@ function RightImage({image, title, text}) {
     <div id='right-text-section-container' > 
     
     <Typography id='right-text-section-typography' >
-    <h1 id='right-text-section-header-backup' style={{outline: '4px solid lime'}} >
+    <h1 id='right-text-section-header-backup' style={{outline: '0px solid lime'}} >
 
-        Our Values 
-        {title}
+        {/* Our Values  */}
+        {/* {title} */}
         
         
     </h1>

@@ -17,11 +17,12 @@
     /* Adjust the width and the height here  */
     
     #cardImage{
-    background: url('../assets/PrayerNight/BluePrints.jpg') !important; 
+    /* background: url('../assets/PrayerNight/BluePrints.jpg') !important;  */
     background-size: cover; 
     background-position: center center; 
     width: 40.5vw; 
     min-height: 226px; 
+    max-height: 600px;
 
     border-top-left-radius: 1.3em; 
     border-top-right-radius: 1.3em; 
@@ -43,6 +44,7 @@
     z-index: 3; 
     padding: 2rem; 
     background-color: #848c2f; 
+    /* background-color: #49dd64; */
     
     color: rgb(23, 23, 23); 
     border-bottom-left-radius: 1.313rem;

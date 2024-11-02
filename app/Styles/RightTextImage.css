@@ -22,9 +22,10 @@
     background-color: #ffffff !important;
     position: relative; 
     z-index: 200; 
-    display: grid;
-    place-content: center;
+    /* display: flex;  */
+    /* align-items: baseline; */
     background: #161822 !important;
+
     
     }
     #right-component-container{
@@ -115,23 +116,39 @@
     }
     #right-top-text-container{
         font-size: 1rem;
-        
         font-weight: 450;
         line-height: 1rem;
-        color: rgb(201, 208, 214); 
-        width: 27vw; 
+        color: rgb(201, 208, 214);
+        width: 27vw;
         text-align: left;
-        transform: translate(0, 7%) !important; 
+        transform: translate(0, -44%) !important;
         margin-left: 2.5rem;
-    }
+        display: flex;
+        align-items: center;
+        outline: 5px solid lime;
+        height: 466px;
+        -webkit-transform: translate(0, -44%) !important;
+        -moz-transform: translate(0, -44%) !important;
+        -ms-transform: translate(0, -44%) !important;
+        -o-transform: translate(0, -44%) !important;
+}
     #right-lorem-container{
-    margin: 0 auto !important; 
-    /* color: lightslategray !important; */
-    
-    }
+
+
+
+
+
+
+
+}
     #right-bottom-text-container{
         max-width: 650px; 
         margin-top: 0.7rem; 
+
+        outline: 4px solid hotpink; 
+        display: none;
+
+
     }
     /* -----Button Section ------ */
     /* #right-values-button{
@@ -153,9 +170,6 @@
 
         #right-lorem-container{
 
-
-            /* margin-top: -2.5rem;
-            outline: 4px solid lime; */
 
 
 
