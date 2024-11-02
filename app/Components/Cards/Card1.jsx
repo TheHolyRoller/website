@@ -18,7 +18,7 @@ function Card1({ image, title, text }) {
     
     <div id={cc.textContainer} >
     
-    Toy Offering 
+    {/* Toy Offering  */}
     {title}
     
     </div>

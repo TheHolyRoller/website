@@ -6,8 +6,18 @@
         import { FaFacebook} from 'react-icons/fa'; 
         import { FaYoutube} from 'react-icons/fa'; 
         import LiveHero from '../Components/Heros/LiveHero'; 
-import Link from 'next/link';
+        import Link from 'next/link';
+        import YouTube from 'react-youtube'; 
+        import VideoEmbed from '../Components/VideoEmbed'; 
+        import Hero from '../Components/Heros/MinistriesHero'; 
+        import Live from '../assets/Live.jpg'; 
+        import Production from '../assets/Production.jpg'; 
 
+
+
+
+        // video id 
+        // gJnmaQXFaqI
 
     
         function YoutubeCTA() {
@@ -16,7 +26,9 @@ import Link from 'next/link';
             
             <div id={l.componentcontainer} >
             
-            <LiveHero id={l.livehero} />
+            {/* <LiveHero id={l.livehero} /> */}
+            <Hero image={Production} title='Live' /> 
+
             
             <div id={l.componentsubcontainer} >
             
@@ -106,9 +118,7 @@ import Link from 'next/link';
 
 </button> 
             
-            {/* Add in the Icon here  */}
-            
-            {/* Add in the Link to the Youtube Channel here  */}
+          
                             
 
             </li>
@@ -130,10 +140,9 @@ import Link from 'next/link';
             <div id={l.youtubesection}>
             
             <div id={l.youtubevideo} >
-            
-            {/* Add in the embedded youtube Container here  */}
                 
-            {/* Add in the embedded video Link here  */}
+                <VideoEmbed  videoId="gJnmaQXFaqI" />
+            
                 
             </div>
                 

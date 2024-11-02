@@ -4,9 +4,9 @@ import React from 'react'
 
 import g  from '../Styles/Give.module.css'; 
 
-import GivingHero from '../Components/GivingHero'; 
-
-
+import Hero from '../Components/Heros/MinistriesHero'; 
+import give from '../assets/Give/Donate.jpg'; 
+import donate from '../assets/Give/FoodGiving.jpg'; 
 
 
 
@@ -41,9 +41,9 @@ openDonationWindow ("https://buy.stripe.com/8wMcN79FLgcN86I000");
 
   return (
     <div id={g.maincontainer}>
-    
-    {/* Add in the component container here */}
-    <GivingHero/> 
+
+      <Hero image={give} title='Give'  />
+
     
     <div id={g.componentcontainer}>
     

@@ -28,7 +28,6 @@ import OutReachCards from '../Components/OutReachCards';
     <div id={nn.mainContainer} >
     
     
-    
     {/* Add in the hero Section here  */}
     
     <GivingHero/> 

@@ -9,10 +9,11 @@ import { Typography } from '@mui/material';
 import img from '../Styles/TextImage.module.css'; 
   
 
-function ImageText(props) {
+
+function ImageText({image, title, text}) {
   return (
 
-    <div id={img.backgroundcontainer} >
+    <div id={img.backgroundcontainer}>
     
     
     {/* Add in the main component container here  */}
@@ -26,9 +27,8 @@ function ImageText(props) {
     
     
     <li id={img.textlistitem}>
-    
-    
-        
+
+
         
          {/* Add in the text section container here  */}
     <div id={img.textsectioncontainer}>
@@ -40,23 +40,16 @@ function ImageText(props) {
      {/* Add in the Text container here  */}
      <div id={img.textsectionblockcontainer}>
      
-     {/* Add in the container for the text block here  */}
-     
-     {/*  */}
+
      <div id={img.textsectioncontainer}> 
      
-     {/* Add in the container for the text here  */}
-        
-     {/* Add in the container for the Header here  */}
+
+
      <Typography id={img.textsectiontypography}>
      <h1 id={img.textsectionheader}>
 
-      {/* Why  */}
-      
-         Our Values 
-         {/* {props.values} */}
-         
-       
+      {title}
+
          
      </h1>
          
@@ -70,10 +63,10 @@ function ImageText(props) {
 
       {/* The River Church started at Cornerstone Christian Fellowship Church in Keizer, Oregon in 2014. Pastor Lew and Lorri Wootan were handed the baton from Pastor Jim & Shannon Banke. They have continued to work together to grow this church into a community fellowship to reach out to Salem with the powerful gift of Salvation. This church is a place to change, encourage and grow in relationship with Jesus Christ and other Christians. */}
 {/* {props.text} */}
-The church moved to a hotel meeting room where they had to clean, set-up and tear down every week. The continued growth motivated another change to a storefront on Portland Road in Salem
+{text}
+{/* The church moved to a hotel meeting room where they had to clean, set-up and tear down every week. The continued growth motivated another change to a storefront on Portland Road in Salem */}
 
       
-     Renewal’s values are what we do alongside what we believe. 
     
      </div>
      
@@ -105,10 +98,10 @@ The church moved to a hotel meeting room where they had to clean, set-up and tea
       
       
     <Image
-    src={BluePrints}
+    src={image}
     id={img.image}
     width={700}
-    height={1200} 
+    height={700} 
     alt='alt'
     
     /> 

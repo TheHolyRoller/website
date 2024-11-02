@@ -12,6 +12,7 @@ import GivingHero from '../Components/GivingHero';
 import ImageText from '../Components/ImageText'; 
 import KidsCards from '../Components/KidsCards'; 
 import InfoCards from '../Components/InfoCards'; 
+
 import Images from '../Components/Images'; 
 import RightTextImage from '../Components/RightTextImage'; 
 import TextImage from '../Components/TextImage'; 
@@ -21,7 +22,16 @@ import MaterialCards from '../Components/MuiCard';
 import GiveSection from '../Components/GiveSection'; 
 
 import OutReachCards from '../Components/OutReachCards'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+import outreach from '../../public/OutReachLake.jpg'; 
+import reach from '../../public/Outreachhands.jpg';
+import smallBusiness from '../assets/Give/Smalbusiness.jpg'; 
 
+
+
+import stud from '../assets/Give/student.jpg'; 
+import student from '../assets/Give/studentSunny.jpg'; 
+import stu from '../assets/Give/StudentsBlackPoor.jpg'; 
 
 
 function OutReach() {
@@ -30,12 +40,12 @@ function OutReach() {
     
     <div id={oo.mainContainer}>
     
-    <GivingHero/> 
 
     
     <div id={oo.mainSubContainer}>
     
     {/* Add in the Hero component here  */}
+    <Hero image={reach} title='Outreach' /> 
 
     
     {/* Add in the content container here  */}
@@ -56,7 +66,8 @@ function OutReach() {
     <div id={oo.headlineDiv} >
       
 
-    Sharing the Gospel 
+    {/* Sharing the Gospel  */}
+    Building the community
       
     </div>  
     
@@ -65,13 +76,7 @@ function OutReach() {
     
     <div id={oo.headlineText}>
     
-    Main Headline Text 
-    The Senate shall chuse their Speaker and other needful Buildings. Nor 
-    any State be formed by the Junction of two thirds, expel a Member. 
-    The Congress shall assemble at least once in every Year, 
-    and such Meeting shall be on Oath or Affirmation: —“
-    I do solemnly swear or affirm that I will faithfully execute 
-    the Office of President. New States may be chosen every second Year 
+    "As followers of Christ, we are called to love and serve one another, bearing each other’s burdens in faith and fellowship. Scripture reminds us, ‘Let us not love in word or talk but in deed and in truth’ (1 John 3:18). Helping our brothers and sisters in Christ means walking alongside them in both joy and struggle, strengthening each other through prayer, encouragement, and support. In doing so, we embody the love of Christ, who taught us to be a family united by faith, building each other up so that together we may grow stronger in Him.
    
     </div>
     
@@ -112,7 +117,7 @@ function OutReach() {
     
     <div id={oo.businessHeadline}>
     
-    Sponsoring Businesses 
+    {/* Sponsoring Businesses  */}
         
 
         
@@ -120,17 +125,15 @@ function OutReach() {
         
         
     </div>
+      
+   
+    {/* <RightTextImage image={smallBusiness}   title='Helping Small Businesses' text="At Renewal, we believe in empowering Albanian small businesses. As a family, supporting these businesses is more than just a passion; it’s a commitment to our community." */}
+
+
+
+    {/* />  */}
     
-    {/* Add the image text CTA here  */}
     
-    {/* Prop template Right Text Image 
-        image, text, supportingText, 
-        
-        */}
-    <RightTextImage/> 
-    
-    
-        {/* Business Text Image CTA  */}
     
     </div>
 
@@ -161,6 +164,7 @@ function OutReach() {
     <div id={oo.scholarHeadline}>
         
         Sponsoring Students 
+
         
     {/* Scholar Headline          */}
     <div id={oo.scholarTextContainer}>
@@ -197,24 +201,14 @@ function OutReach() {
     
     <div id={oo.scholarGridContainer} >
 
- {/* Props template OutReach Cards 
-      
-      image title text 
-      
-      
-      
-      */}
-    <OutReachCards/> 
-    <OutReachCards/> 
-    <OutReachCards/> 
+
+    <OutReachCards image={stud}  /> 
+    <OutReachCards image={student} /> 
+    <OutReachCards image={stu} /> 
       
     </div>
     
 
-    {/* Create the the grid container here  */}
-   
-   
-   
 
     </div>
     
@@ -277,7 +271,7 @@ function OutReach() {
       {/* Props template Text Image 
       image text values 
       */}
-        <TextImage/> 
+        <TextImage  image={smallBusiness} /> 
         
     </div>
 
@@ -309,15 +303,12 @@ function OutReach() {
     <div id={oo.farmingHeadlineSubContainer}>
     <div id={oo.farmingHeadline}>
       
-      Ministry to the Poor 
-    
-    </div>
-    
+      {/* Ministry to the Poor  */}
     
     </div>
 
-    
-    
+    </div>
+
     </div>
     
     
@@ -339,28 +330,17 @@ Prop template Material Cards
 image text title 
 
 */}
-    
+{/*     
     <MaterialCards/> 
     <MaterialCards/> 
     <MaterialCards/> 
-    <MaterialCards/> 
+    <MaterialCards/>  */}
       
     </div>
-      
-      
     
-    
-    
-    {/* Add in the Cards here  */}
-    
-    
-    </div>
-    
-    
-
     </div>
 
-        
+    </div>
         
     </div>
         

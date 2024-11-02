@@ -165,7 +165,7 @@
     
     #listImage{
     
-    background: url('../assets/PrayerNight/BluePrints.jpg'); 
+    /* background: url('../assets/car.jpg');  */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -178,6 +178,33 @@
     
     
     }
+
+    .imageOne{
+
+
+        background: url('../assets/valleySM.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+
+    }
+
+
+    .imageTwo{
+
+
+        background: url('../assets/car.jpg'); 
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+
+
+    }
+
+
     
     
     @media(max-width: 1100px){

@@ -3,14 +3,11 @@
     position: relative;
     color: white; 
     
-    /* align-self: center; */
-    
-
     
     }
     
     #cardImage{
-    background: url('../assets/PrayerNight/BluePrints.jpg') !important; 
+            
     background-size: cover; 
     background-position: center center; 
     width: 19vw !important; 

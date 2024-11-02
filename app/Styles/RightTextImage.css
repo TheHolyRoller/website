@@ -8,11 +8,14 @@
     margin: 0; 
     box-sizing: border-box; 
     background: #161822 !important;
-    
     color: lightslategray !important;
     
-    
+
+
+
     }
+
+
     #right-background-container{
     width: 99.99vw !important; 
     margin: 0 auto !important; 
@@ -145,6 +148,23 @@
     width: 10rem; 
     background-color: #ecb61f;
     } */
+
+    @media(min-width: 990px){
+
+        #right-lorem-container{
+
+
+            /* margin-top: -2.5rem;
+            outline: 4px solid lime; */
+
+
+
+        }
+
+
+
+    }
+
     @media(max-width: 1700px) and (min-width: 1200.5px){
         #right-text-list-item-backup{
             display: none;

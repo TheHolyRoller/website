@@ -12,15 +12,18 @@ import MuiCard from '../Components/MuiCard';
 
 import ValuesHero from '../Components/Heros/ValuesHero'; 
 import Link from 'next/link';
+import Hero from '../Components/Heros/MinistriesHero'; 
+import values from '../../public/Ingegrity.jpg';
+import mission from '../../public/Mission.jpg'; 
+import vision from '../../public/VisionEyes.jpg'; 
 
 
 
 function Values() {
   return (
     <div  id={val.valuesContainer} >
-      <ValuesHero/>
-      
-      
+
+    <Hero image={values} title='Our Values' />       
       
     <div id={val.valuessubcontainer}>
     
@@ -149,8 +152,6 @@ function Values() {
     
     <FormatQuoteRoundedIcon id={val.valuessecondicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
     
-    
-    
     </div>
     
     </div>
@@ -199,27 +200,17 @@ function Values() {
     
     <div id={val.valuescarditem}  >
     <Link href='mission'>
-    
-    
-          {/* 
-Prop template Mui Cards 
 
-image text title 
-
-*/}
-    <MuiCard/> 
+    <MuiCard image={mission} text='Read more about our mission' /> 
     </Link>  
     </div>
     
     <div id={val.valuescarditem} >
     <Link href='vision'>
-          {/* 
-Prop template Mui Cards 
+ 
+    <MuiCard  image={vision} text='Read more about our vision'/> 
+    
 
-image text title 
-
-*/}
-    <MuiCard/> 
     </Link> 
     </div>
     
@@ -227,26 +218,20 @@ image text title
     <div id={val.valuescarditem} >
       
     <Link href='values'>
-          {/* 
-Prop template Mui Cards 
 
-image text title 
+    <MuiCard image={values} text='Read more about our values'  /> 
 
-*/}
-    <MuiCard/> 
+
+
     </Link> 
+   
+   
     </div>
-    
-    
       
     </div>
 
-    
     </div>
-    
-    
-    
-        
+
     </div>
       
     </div>

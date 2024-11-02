@@ -4,15 +4,16 @@
 import React from 'react'
 
 import or from '../Styles/OutReachCards.module.css'; 
+import stud from '../assets/Give/student.jpg'; 
+import student from '../assets/Give/studentSunny.jpg'; 
+import stu from '../assets/Give/StudentsBlackPoor.jpg'; 
+import Image from 'next/image';
 
 
-
-function OutReachCards(props) {
+function OutReachCards({image, title, text}) {
   return (
   
     <div id={or.cardMainContainer}>
-    
-    
     
     
     
@@ -23,10 +24,10 @@ function OutReachCards(props) {
     
     <div id={or.imageContainer}>
     <div id={or.cardImage}>
+
+    <Image src={image} alt='student'  /> 
     
-    {/* {props.image} */}
     
-    {/* Try adding in an orage tag here  */}
     
     </div>
     </div>
@@ -40,8 +41,7 @@ function OutReachCards(props) {
     
     <div id={or.cardHeadline}>
     
-    Groups 
-    {/* {props.title} */}
+    {title}
 
     </div>
     
@@ -52,10 +52,8 @@ function OutReachCards(props) {
     <div id={or.cardTextSubContainer}>
     
     <div id={or.cardText}>
-    
-    Our group of small networks that meet regularly across the midlands 
-    {/* {props.text} */}
-    
+
+      {text}
         
     </div>
         

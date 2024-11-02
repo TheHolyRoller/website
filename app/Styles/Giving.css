@@ -9,6 +9,7 @@
     width: 100vw; 
     min-height: 100vh;
     overflow-x:  hidden !important; 
+
     }
     html{
     scroll-behavior: smooth;
@@ -82,8 +83,10 @@
         position: absolute; 
         left: 5%; 
         top:39%; 
-        z-index: 2000000000000 !important;
+        z-index: 2 !important;
         color: white !important; 
+        
+
         font-weight: 700;   
     }
     }
@@ -94,7 +97,8 @@
     #giving-hero-text-container{
         font-size: 3rem;
         color: white !important; 
-        z-index: 999999999999999 !important; 
+        z-index: 2 !important; 
+
         }
         #giving-hero-text-sub-container{
         position: absolute; 

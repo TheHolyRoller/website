@@ -11,105 +11,19 @@ import TextImage from '../Components/TextImage';
 
 import Images from '../Components/Images'; 
 import GiveHero from '../Components/GivingHero'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+import about from '../assets/LakeLG.jpg'; 
 
-
-
-
-/** 
- * 
- 
-
-
-
-
-import { LocationCity } from "@mui/icons-material"; 
-
-import { FaSearchLocation } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa";
-
-
-
-import  Grid  from "@nextui-org/react";
-
-import Card from "@nextui-org/react"; 
-import Row from "@nextui-org/react"; 
-import Text from "@nextui-org/react"; 
-import Col from "@nextui-org/react"; 
-import Button from "@nextui-org/react"; 
-// import {  Col,  Button,  } from "@nextui-org/react";
-
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-
-import TwitterIcon from '@mui/icons-material/Twitter';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-
-
-
-import React from 'react'
-
-
-// import Link from 'next/link';
-import { TypeFormatFlags } from 'typescript';
-
-import { Typography } from '@mui/material';
-
-import { Facebook } from '@mui/icons-material';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTube from "@mui/icons-material/YouTube";
-import Link from "next/link";
-
-
-import ft from '../Styles/footer.module.css'; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-*/
 
 
 function AboutUs() {
   return (
     <div id={a.mainContainer}>
+
     
-    
-    {/* Add in the hero Component in here  */}
-    
-    <GiveHero/> 
+
+    <Hero  image={about} title='About Us' /> 
+
     
     
     <div id={a.mainSubContainer} >
@@ -125,7 +39,7 @@ function AboutUs() {
     
     <div id={a.firstHeadline} >
     
-    {/* First Headline  */}
+    First Headline 
     
     </div>
       
@@ -143,7 +57,8 @@ function AboutUs() {
     
     <div id={a.startedHeadlineContainer} >
     <div id={a.startedHeadline}>
-    
+
+      {/* {title} */}
     
     {/* Started Headline  */}
     
@@ -157,18 +72,10 @@ function AboutUs() {
     {/* Add in the component container here  */}
     
     <div id={a.startedCardContainer} >
-    <div id={a.startedCardSubContainer}>
-    
-    {/* Add in the imported UI component here  */}
-    
-    {/* Started Sub Container  */}
+    <div id={a.startedCardSubContainer} style={{outline: '0px solid lime'}} >
 
-    {/* Add in the image Text component here  */}
-    
-    {/* <ImageText/>  */}
-    <TextImage/> 
-    
 
+    <TextImage  image={about} title='Gods call' text={'The Wakeley family, guided by faith, felt a strong calling from God to serve the people of Albania. With open hearts, they dedicated themselves to supporting local communities, sharing hope, and fostering growth. Driven by love and compassion, the Wakeleys continue to uplift and connect with the Albanian people, honoring God’s mission'} /> 
 
     </div>
     
@@ -220,10 +127,10 @@ function AboutUs() {
     
     <div id={a.imageGridContainer} >
  
+    {/* <Images/> 
     <Images/> 
     <Images/> 
-    <Images/> 
-    <Images id={a.lastImage} /> 
+    <Images id={a.lastImage} />  */}
     
 
 
@@ -283,7 +190,7 @@ function AboutUs() {
       
       {/* Headed Headline  */}
       
-      Where We're Headed...
+      Back into the years Past...
       
       
     </div>

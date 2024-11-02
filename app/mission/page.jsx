@@ -12,14 +12,32 @@ import {  Col,  Button,  } from "@nextui-org/react";
 import ss from '../Styles/MissionText.module.css';
 import MissionHero from '../Components/Heros/MissionHero'; 
 import Link from 'next/link';
+import Hero from '../Components/Heros/MinistriesHero'; 
+
+
+import outreach from '../../public/OutReachLake.jpg';
+import mission from '../../public/Mission.jpg'; 
+
+import vision from '../../public/VisionEyes.jpg'; 
+import values from '../../public/Ingegrity.jpg'; 
+import CardText from '../Components/Cards/TextCard1'; 
+
+
+
 
 // MUI Card TextCard1 
+
+
+
 
 
 function Mission() {
   return (
     <div id={ss.textcomponentcontainer}>
-    <MissionHero/> 
+    
+    <Hero image={mission} alt='mission' width={50} height={50} />
+
+    
     
     <div id={ss.missionsubcontainer}>
     
@@ -48,12 +66,12 @@ We will be large enough for gatherings to have great impact and small enough for
 
     </div>
       
-      
+      f
     </div> */}
     
     <div id={ss.missionversecontainer}>
     
-    <div id={ss.missionversesubcontainer}>
+    <div id={ss.versesubcontainer}>
     
     <div id={ss.firsticon}> 
 
@@ -109,9 +127,6 @@ John 12:32 (ESV)
     <div id={ss.missionsecondverse}>
     And His name will be the hope of all the world.
 Matthew 12:21 (NLT)
-
-    
-    
     
     </div>
       
@@ -203,7 +218,6 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
     
     <div id={ss.missioncardheadlinecontainer}>
     
-    {/* Add in the Main headline here  */}
     <div id={ss.missioncardheadline}>
     Mission, Values & Vision
 
@@ -216,8 +230,6 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
     </div>
     </div>
     
-    {/* Add in the subheadline container here  */}
-
     
     
     </div>
@@ -229,27 +241,22 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
     
     <Link href='/mission' >
     
-    {/* Props template 
-    image='' title='' text=''
-    
-    
-    
-    */}
-    <MuiCard   /> 
+   
+    <CardText  image={mission} text='Read More About our Mission for the Future of the Kingdom of God in Albania' /> 
     </Link>
     </div>
     
     <div id={ss.missioncarditem}>
     
     <Link href='vision'>
-    <MuiCard/> 
+    <CardText image={vision} text='Read More about our Vision for outreach in the Balkans ' /> 
     </Link> 
     </div>
     
     
     <div id={ss.missioncarditem}>
     <Link href='values'>
-    <MuiCard/> 
+    <CardText image={values} text='Read more about our values and what we believe in from Gods Word' /> 
     </Link> 
     </div>
     
@@ -257,15 +264,8 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
       
     </div>
    
-   {/* Mission card container */}
     </div>
    
-    
-    
-    {/* Add in the image text here  */}
-    
-    
-    
       
     </div>
   );

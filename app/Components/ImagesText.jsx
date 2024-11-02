@@ -6,9 +6,13 @@ import React from 'react'
 import BluePrints from '../assets/PrayerNight/BluePrints.jpg'; 
 import { Typography } from '@mui/material';
 import mt from '../Styles/ImagesText.module.css';
+import road from '../assets/Road.jpg'; 
+import car from '../assets/car.jpg'; 
+import valley from '../assets/valley.jpg'; 
 
 
-function ImagesText(props) {
+
+function ImagesText({image, imageOne, imageTwo, title, text}) {
 
   return (
 
@@ -34,7 +38,7 @@ function ImagesText(props) {
       {/* {props.image} */}
       
     <Image
-    src={BluePrints}
+    src={road}
     id={mt.image}
     width={700}
     height={1200} 
@@ -76,9 +80,8 @@ function ImagesText(props) {
     {/* Add in the container for the Header here  */}
     <Typography id={mt.textsectiontypography}>
     <h1 id={mt.textsectionheader}>
-        Our Values 
-        {/* {props.values} */}
-      
+        The Future 
+
         
     </h1>
         
@@ -90,17 +93,18 @@ function ImagesText(props) {
     
     {/* {props.text} */}
     
-    The River Church for Change continued to grow and expand into 4 different suites at the storefronts on the south side of Portland Road. In March 2020, when many churches closed down - we stayed open. The church is ESSENTIAL! Like Hebrews 10:25 says, 
+    {/* The River Church for Change continued to grow and expand into 4 different suites at the storefronts on the south side of Portland Road. In March 2020, when many churches closed down - we stayed open. The church is ESSENTIAL! Like Hebrews 10:25 says,  */}
+    The future of our Christian ministry in Albania is filled with hope and purpose. We aim to deepen our connections, expand outreach, and empower local believers to share their faith. Through education, discipleship, and community service, we envision a flourishing Albanian church that transforms lives and shines God’s light across generations.
     
     {/* Renewal’s values are what we do alongside what we believe. */}
     
     <div id={mt.middleTextcontainer} >
     
     {/* {props.mainText} */}
-    "Let us not give up the habit of meeting together, as some are doing.
+    {/* "Let us not give up the habit of meeting together, as some are doing.
 Instead, let us encourage one another all the more,
-since you see that the Day of the Lord is coming nearer. "
-        
+since you see that the Day of the Lord is coming nearer. " */}
+        “For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.”
         
         
     </div>
@@ -109,7 +113,8 @@ since you see that the Day of the Lord is coming nearer. "
     <div id={mt.bottomtextcontainer}>
     
     {/* {props.supportingText} */}
-    We were outgrowing the building, so we moved across the street and met in the parking lot, during the summer, until we gained occupancy of our new building. 
+    {/* We were outgrowing the building, so we moved across the street and met in the parking lot, during the summer, until we gained occupancy of our new building.  */}
+    God has faithfully guided us as we’ve grown. When we outgrew our original building, we moved across the street and gathered in the parking lot during the summer. This transition strengthened our unity as we awaited our new space, trusting God’s provision for our ministry’s futureF
     
         
     {/* Read more about our values here. */}
@@ -125,7 +130,9 @@ since you see that the Day of the Lord is coming nearer. "
     
     <li id={mt.imageListItem} >
     
-    <div id={mt.listImage} >
+    <div className={mt.imageOne}  id={mt.listImage}   style={{outline: '0px solid lime'}} >
+
+
 
         
     </div>
@@ -133,9 +140,9 @@ since you see that the Day of the Lord is coming nearer. "
     </li>
     <li id={mt.imageListItem}>
     
-    <div id={mt.listImage} >
+    <div className={mt.imageTwo}  id={mt.listImage} >
     
-    {/* {props.imageItem} */}
+    {/* <Image src={imageOne} alt='future' /> */}
 
         
 </div>
@@ -144,6 +151,7 @@ since you see that the Day of the Lord is coming nearer. "
     
 
     </ul>
+
     
 
     

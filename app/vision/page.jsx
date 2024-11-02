@@ -4,13 +4,26 @@ import MuiCard from '../Components/MuiCard';
 import VisionHero from '../Components/Heros/VisionHero'; 
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
 import { Card, Row, Text } from "@nextui-org/react";
+
+// import the images here 
+import vision from '../../public/VisionEyes.jpg'; 
+import mission from '../../public/Mission.jpg'; 
+import values from '../../public/Ingegrity.jpg'; 
+import Hero from '../Components/Heros/MinistriesHero'; 
+
+
+
 import Link from 'next/link';
 
 import vs from '../Styles/VisionText.module.css';
 function Vision() {
   return (
     <div id={vs.visionmaincontainer} >
-    <VisionHero/>
+
+
+    <Hero image={values} title='Our Vision' /> 
+
+
     <div id={vs.visionsubcontainer} >
     <div id={vs.visionheadlinecontainer} >
     <div id={vs.visionheadline} >
@@ -28,7 +41,8 @@ We will be large enough for gatherings to have great impact and small enough for
     </div>
     <div id={vs.visionfirstversecontainer}>
     <div id={vs.missionfirsticon}> 
-<FormatQuoteRoundedIcon id={vs.visionfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    
+    <FormatQuoteRoundedIcon id={vs.visionfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
 </div>
     <div id={vs.visionfirstverse}>
     He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love.
@@ -70,35 +84,23 @@ Read more about our vision, values & vision
 </div>
 <div id={vs.visioncardcontainer}>
 <div id={vs.visioncarditem}  >
+
+
+
 <Link href='mission'>
-      {/* 
-Prop template Mui Cards 
 
-image text title 
-
-*/}
-    <MuiCard/> 
+    <MuiCard image={mission} text='Read More About our Mission for the Future of the Kingdom of God in Albania'   /> 
     </Link> 
 </div>
 <div id={vs.visioncarditem}>
 <Link href='vision'>
-      {/* 
-Prop template Mui Cards 
 
-image text title 
-
-*/}
-    <MuiCard/> 
+    <MuiCard image={vision} text='Read More about our Vision for outreach in the Balkans ' /> 
     </Link> </div>
 <div id={vs.visioncarditem} >
 <Link href='values'>
-      {/* 
-Prop template Mui Cards 
-
-image text title 
-
-*/}
-    <MuiCard/> 
+    
+    <MuiCard image={values} text='Read more about our values and what we believe ' /> 
     </Link> 
 </div>
 </div>

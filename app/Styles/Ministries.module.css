@@ -2,7 +2,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     margin: 0 auto !important; 
-    background: white !important; 
+    background: #161822 !important; 
     }
     #ministrysubcontainer{
     width: 80vw; 
@@ -10,7 +10,10 @@
     }
     #ministrymainheadlinecontainer{
     width: 75.5vw; 
-    color: #00c670; 
+    /* color: #00c670;  */
+    color: white;
+
+
     font-size: clamp(1.9rem, 2vw + 1rem, 2.9rem); 
     font-weight: 700; 
     text-align: center;
@@ -19,7 +22,6 @@
     .ministriesHero{
 
         max-height: 100vh;
-
 
 
     }
@@ -68,7 +70,7 @@
         display: inline-block !important;
     }
     #ministryfirsttextheadline{
-        color: black; 
+        color: rgb(221, 222, 236); 
         font-weight: 700;   
     }
     #ministrygridlistitemtwo{
@@ -79,66 +81,71 @@
         position: relative; 
     }
     #ministryitemtwoheadline{
-        color: black; 
+        color: rgb(221, 222, 236); 
         font-size: 1rem;
         font-weight: 700;   
     }
     #ministryitemtwodash{
-        color: black; 
+        color: rgb(221, 222, 236); 
         position: absolute;
         top: 0; 
         right: 90%; 
         z-index: 4;
     }
     #ministryitemtwotext{
-        color: black; 
+        color: rgb(221, 222, 236); 
         margin: 0 auto !important; 
     }
     #ministryitemtwosecondtextcontainer{
     margin: 2rem auto; 
-    color: black; 
+    color: rgb(221, 222, 236); 
     }
     #ministryitemsecondtwoheadline{
         font-weight: 700;   
-        color: black; 
+        color: rgb(221, 222, 236); 
     }
     #ministryitemtwothirdtextcontainer{
-        color: black; 
+        color: rgb(221, 222, 236); 
     }
     #ministryheadlinethirdtext{
-        color: black; 
+        color: rgb(221, 222, 236); 
         font-weight: 700; 
     }
     #ministryfirsttext{
-        color: black; 
+        color: rgb(221, 222, 236); 
     }
     #ministryfirsttextlower{
         margin: 2rem auto; 
-        color: black; 
+        color: rgb(221, 222, 236); 
     }
     #ministryfirsttextlowertwo{
-        color: black; 
+        color: rgb(221, 222, 236); 
         margin: 2rem auto; 
     }
     #ministryfirsttextlowerthree{
-        color: black; 
+        color: rgb(221, 222, 236); 
     }
     #ministryheadlinelowerthree{
         font-weight: 700;   
     }
     #ministryfirsttextlowerfour{
-        color: black; 
+        color: rgb(221, 222, 236); 
         margin: 2rem auto; 
     }
     #ministryheadlinelowerfour{
         font-weight: 700;   
     }
     #ministryfirstcardimage{
-        height: 303px; 
-        width: 456px; 
-        position: relative; 
+        height: 303px;
+        width: 456px;
+        position: relative;
         z-index: 4;
-    }
+        border-radius:20px ;
+        -webkit-border-radius:20px ;
+        -moz-border-radius:20px ;
+        -ms-border-radius:20px ;
+        -o-border-radius:20px ;
+}
     #ministrygriditemcard{
         display: inline-block  !important;
     }
@@ -152,13 +159,17 @@
         font-size: 1rem !important;
         }
         #ministrytextheadline{
-            color:#00ff00; 
+            /* color:#00ff00;  */
+            /* color: rgb(221, 222, 236);  */
+            color: white; 
+
+            
             position: relative; 
             font-size: 1.3rem;
             font-weight: 700;   
         }
         #ministryfirsttext{
-            color: black; 
+            color: rgb(221, 222, 236); 
         }
     @media(max-width: 1273px){
             #ministrycardsheadlinecontainer{

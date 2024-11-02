@@ -11,7 +11,8 @@ import '../Styles/RightTextImage.css';
 
 
 
-function RightImage(props) {
+
+function RightImage({image, title, text}) {
   return (
 
     <div id='right-background-container' >
@@ -34,11 +35,9 @@ function RightImage(props) {
     <div id='right-image-sub-container'  >
 
       
-      {/* {props.image} */}
-      
       
     <Image
-    src={BluePrints}
+    src={image}
     id='right-image'
     width={600}
     
@@ -85,17 +84,17 @@ function RightImage(props) {
     <div id='right-lorem-container' >
     
 
-    {/* {props.text} */}
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis exercitationem eius. Impedit, quaerat veritatis voluptas distinctio ducimus tempore error molestias voluptatem, illo ullam perspiciatis laboriosam, quam sapiente aperiam sequi?
+    {text}
+    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis exercitationem eius. Impedit, quaerat veritatis voluptas distinctio ducimus tempore error molestias voluptatem, illo ullam perspiciatis laboriosam, quam sapiente aperiam sequi?
     
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequuntur sint quibusdam animi vero repellat, voluptas culpa dolore fuga adipisci!
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, error?
-    
+     */}
     </div>
     
     
     
-    Renewal’s values are what we do alongside what we believe. 
+    {/* Renewal’s values are what we do alongside what we believe.  */}
     {/* <div id='right-bottom-text-container' >
     Read more about our values here.
     </div> */}
@@ -133,10 +132,10 @@ function RightImage(props) {
     <div id='right-text-section-container' > 
     
     <Typography id='right-text-section-typography' >
-    <h1 id='right-text-section-header-backup'>
+    <h1 id='right-text-section-header-backup' style={{outline: '4px solid lime'}} >
 
-      {/* {props.values} */}
         Our Values 
+        {title}
         
         
     </h1>
@@ -151,12 +150,8 @@ function RightImage(props) {
     <div id='right-top-text-container-backup'  >
     
     <div id='top-right-text-backup' >
-    {/* Renewal’s values */}
     
-    
-    {/* {props.supportingText} */}
-    
-     are what we do alongside what we believe. 
+     {/* are what we do alongside what we believe.  */}
     </div>
     <div id='right-bottom-text-container' >
     {/* Read more about our values here. */}

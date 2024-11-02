@@ -12,6 +12,9 @@
         color: #9b9997; 
         margin-top: 5rem;
     }
+
+
+
 #missionheadline{
 font-size: 2.5rem; 
 font-weight: 700; 
@@ -21,6 +24,7 @@ color: black;
     width: 60vw; 
     text-align: left;
     }
+
     #missionfirstverse{
       color: #00c670; 
       font-size: 1.7rem; 
@@ -83,6 +87,20 @@ color: black;
     #missioncardsubheadline{
     margin: 0 auto; 
     }
+
+    #missioncardcontainer{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto; 
+        width: 60vw; 
+
+
+
+
+    }
+    
+
     @media(max-width: 1700px) and (min-width: 1023.4px){
         #missioncardcontainer{
             display: grid;  
@@ -90,6 +108,9 @@ color: black;
             width: 95vw; 
             margin: 1rem auto; 
             margin-bottom: 5rem; 
+            
+
+
         }
         #missioncarditem{
             margin: 2rem auto; 
@@ -97,8 +118,9 @@ color: black;
     }
     @media(max-width: 1023px){
         #missioncardcontainer{
+
             display: grid;  
-            grid-template-columns: 1fr ;
+            grid-template-columns: 1fr;
             width: 95vw; 
             margin: 1rem auto; 
             margin-bottom: 3rem; 

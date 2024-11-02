@@ -15,3 +15,31 @@
     transform: translate(0, -0.3rem) !important;
     transform: scale(1.01); 
 }
+
+.image{
+
+
+    width: 100%; 
+    max-height: 220px;
+    min-height: 220px;
+
+}
+
+
+@media(max-width: 1166px){
+
+
+    .image{
+
+
+        min-width: 100%; 
+        max-height: 220px;
+        min-height: 220px;
+    
+    
+    
+    }
+
+
+
+}
