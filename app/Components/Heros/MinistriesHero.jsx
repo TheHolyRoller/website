@@ -8,8 +8,6 @@ import '../../Styles/Giving.css';
 
 
 
-
-
 function MinistriesHero({image, title}) {
   return (
     // Add in the main hero container here 
@@ -22,6 +20,8 @@ function MinistriesHero({image, title}) {
 
       {/* giving-hero-image */}
     <div id='' style={{maxHeight: '100vh'}} >
+
+    
 
     <Image id='giving-hero-image' style={{maxHeight: '100vh'}} className='ministryHeroImage' src={image} alt='ministry' width={50} height={50}/>
 

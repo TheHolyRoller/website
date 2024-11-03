@@ -2,6 +2,7 @@
     padding: 0; 
     margin: 0; 
     }
+
     body{
     padding: 0; 
     margin: 0; 
@@ -11,6 +12,8 @@
     overflow-x:  hidden !important; 
 
     }
+
+
     html{
     scroll-behavior: smooth;
     }
@@ -29,6 +32,9 @@
 
         width: 100vw; 
         background-size: cover;
+        max-height: 90vh !important;
+        outline: 40px solid lime; 
+
 
 
 
@@ -78,6 +84,9 @@
         #giving-hero-image{
             min-height: 49vh;
         }
+
+
+
         #giving-hero-text-sub-container{
         font-size: clamp(1.85rem, 1vw + 1.9rem, 3rem) !important; 
         position: absolute; 
@@ -85,10 +94,26 @@
         top:39%; 
         z-index: 2 !important;
         color: white !important; 
-        
-
         font-weight: 700;   
+
+
+
     }
+
+    #giving-hero-image{
+
+
+        width: 100vw; 
+        background-size: cover;
+        max-height: 70vh !important;
+        outline: 40px solid red; 
+        
+        
+    }
+
+
+
+
     }
     @media(max-width: 500px){
         #giving-hero-image{
