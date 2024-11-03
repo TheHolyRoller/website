@@ -46,14 +46,12 @@ body {
 .mainSideBar{
 
 
-    outline: 10px solid lime;
-    /* background-color: red; */
     position: relative;
+
     width: 10rem; 
     margin-top: 16.5rem; 
     position: relative;
-
-
+    z-index: 200;
 
 
 }
@@ -526,24 +524,25 @@ body {
            
 .sidebar {
     transition: translate var(--animation-timing);
-    translate: 100% ; 
-    
-    margin-top: -4rem;
-    margin-left: -0.5vw;
+    translate: 100% ;
+    margin-top: -12rem;
+    margin-left: -0.8vw;
     background-color: #161822;
     color: var(--background);
     width: 101vw;
     min-height: 100vh;
     position: relative;
     z-index: 25;
-    
-      
-  
+    transform:translate(0, -1rem) !important ;
     -webkit-transition: translate var(--animation-timing);
     -moz-transition: translate var(--animation-timing);
     -ms-transition: translate var(--animation-timing);
     -o-transition: translate var(--animation-timing);
-  }
+    -webkit-transform:translate(0, -1rem) !important ;
+    -moz-transform:translate(0, -1rem) !important ;
+    -ms-transform:translate(0, -1rem) !important ;
+    -o-transform:translate(0, -1rem) !important ;
+}
 
 
 
@@ -726,12 +725,34 @@ body {
            padding: 0 !important; 
            transform: translate(0rem, 0rem,) !important; 
         }
+
+        #modal-list{
+            
+            transform: translate(0, -12rem);
+            -webkit-transform: translate(0, -12rem);
+            -moz-transform: translate(0, -12rem);
+            -ms-transform: translate(0, -12rem);
+            -o-transform: translate(0, -12rem);
+}
+
+
     }
     @media(max-width: 490px){
         #second-toggle-button{
             display: inline-block !important;
             font-size: 3.5rem;
         }
+
+        #modal-list{
+             transform: translate(0, -9rem);
+
+             -webkit-transform: translate(0, -9rem);
+             -moz-transform: translate(0, -9rem);
+             -ms-transform: translate(0, -9rem);
+             -o-transform: translate(0, -9rem);
+}
+
+
     }
     @media(max-width: 773.5px) and (min-width: 566px){
         #second-menu-btn-container{
@@ -739,6 +760,19 @@ body {
             padding: 0 !important; 
             transform: translate(4vw,0) !important;
         }
+        #modal-list{
+            
+ 
+             transform: translate(0, -15rem);
+
+            -webkit-transform: translate(0, -15rem);
+            -moz-transform: translate(0, -15rem);
+            -ms-transform: translate(0, -15rem);
+            -o-transform: translate(0, -15rem);
+}
+
+
+
     }
     @media(max-width: 556.10px) and (min-width: 438.10px) {
         #second-menu-btn-container{
@@ -834,6 +868,35 @@ margin-top: -1.69rem !important;
 
 
         }
+
+    }
+
+
+    @media(max-width: 935px) and (min-width:730px) {
+
+
+
+        .sidebar{
+            transform: translate(0, -2rem) !important;
+            -webkit-transform: translate(0, -2rem) !important;
+            -moz-transform: translate(0, -2rem) !important;
+            -ms-transform: translate(0, -2rem) !important;
+            -o-transform: translate(0, -2rem) !important;
+}
+
+
+    /* Adjust the top margin of the list here  */
+
+    #modal-list{
+        transform: translate(0, -17rem);
+        -webkit-transform: translate(0, -17rem);
+        -moz-transform: translate(0, -17rem);
+        -ms-transform: translate(0, -17rem);
+            -o-transform: translate(0, -17rem);
+
+}
+
+
 
     }
         

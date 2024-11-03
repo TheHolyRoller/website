@@ -85,7 +85,7 @@ if(checkRef.current){
 
 
   return (
-    <div className='mainSideBar'  style={{outline: '5px solid blue', }} >
+    <div className='mainSideBar'  style={{outline: '0px solid blue', }} >
 
       <label className="hamburger-menu">
         <input ref={checkRef}  type="checkbox" />

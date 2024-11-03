@@ -24,7 +24,6 @@
     max-height: 100vh;
     position: relative; 
     overflow: hidden;
-    /* outline: 10px solid lime; */
     }
   
     #giving-hero-image{
@@ -33,7 +32,6 @@
         width: 100vw; 
         background-size: cover;
         max-height: 90vh !important;
-        outline: 40px solid lime; 
 
 
 
@@ -92,10 +90,12 @@
         position: absolute; 
         left: 5%; 
         top:39%; 
-        z-index: 2 !important;
+        z-index: 1 !important;
         color: white !important; 
         font-weight: 700;   
-
+        
+        
+            
 
 
     }
@@ -106,7 +106,6 @@
         width: 100vw; 
         background-size: cover;
         max-height: 70vh !important;
-        outline: 40px solid red; 
         
         
     }
