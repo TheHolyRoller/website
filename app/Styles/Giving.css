@@ -31,16 +31,7 @@
 
         width: 100vw; 
         background-size: cover;
-        max-height: 90vh !important;
-
-
-
-
-
-
-
-
-
+        
    
     }
     #giving-hero-text-container{
@@ -77,12 +68,26 @@
         left: 5%;
         top: 72%; 
     }
+
+    #giving-hero-image{
+
+
+        width: 100vw; 
+        background-size: cover;
+        max-height: 100vh !important;
+   
+    }
+
+
+
+
     }
     @media(max-width: 768.5px){
         #giving-hero-image{
             min-height: 49vh;
         }
 
+        
 
 
         #giving-hero-text-sub-container{

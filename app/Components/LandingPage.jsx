@@ -183,14 +183,9 @@ function LandingPage() {
       
     <div id='second-landing-item-three' >
       
-    
-    
-    <Link href='/ministrymaterial'>
-    
+    <a href="https://www.youtube.com/watch?v=gJnmaQXFaqI&t=11s" target="_blank" rel="noopener noreferrer">
     <TextCard1 image={Bible} title='Ministry Material' /> 
-    
-    </Link>
-
+</a>
     
     </div>
       
@@ -250,7 +245,7 @@ function LandingPage() {
     {/* Add in the Card here  */}
     <Link href='/vision'>
 
-    <ImageTextCard image={vision} title="Our Vision" text='Read more about our vision for our outreach in the Balkans'  /> 
+    <ImageTextCard image={vision} title="Our Vision" text='Read more about our vision for our outreach in the Balkans and Beyond'/> 
     
     </Link>
         

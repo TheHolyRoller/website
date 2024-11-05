@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 import '../../Styles/Giving.css'; 
 
-
+  
 
 function MinistriesHero({image, title}) {
   return (
@@ -20,6 +20,7 @@ function MinistriesHero({image, title}) {
 
       {/* giving-hero-image */}
     <div id='' style={{maxHeight: '100vh'}} >
+
 
     
 

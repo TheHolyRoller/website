@@ -53,6 +53,12 @@ body {
     position: relative;
     z-index: 200;
 
+    transform:translate(0, -1rem)  !important;
+    -webkit-transform:translate(0, -1rem)  !important;
+    -moz-transform:translate(0, -1rem)  !important;
+    -ms-transform:translate(0, -1rem)  !important;
+    -o-transform:translate(0, -1rem)  !important;
+
 
 }
 
@@ -118,7 +124,9 @@ body {
   margin-top: -3.75rem;
   background-color: #161822;
   color: var(--background);
-  width: 101vw;
+  /* width: 101vw; */
+  width: 120vw !important;
+
   min-height: 100vh;
   position: relative;
   z-index: 2;
@@ -272,15 +280,16 @@ body {
     position: absolute;
     
 
-    /* top: calc(-2% + -9vh + 11vw);  */
-    top: 8%; 
+    top: 10%; 
 
-    right: 18%;
+    right: 9%;
     z-index: 30;
   
     cursor: pointer;
+    
+
   
-  
+
   
   }
 
@@ -335,14 +344,15 @@ body {
             
         
             /* top: calc(-2% + -9vh + 11vw);  */
-            top: 8%; 
+            top: 10%; 
         
-            right: 15%;
+            right: 10%;
             z-index: 30;
           
             cursor: pointer;
-          
-          
+            
+            
+
           
           }
 
@@ -381,6 +391,26 @@ body {
     }
 
 
+    @media(min-width: 670px) and (max-width: 760px){
+
+
+        .sidebar{
+
+
+            margin-left: -15vw; 
+            
+                        
+            
+              }
+              
+
+
+
+
+
+    }
+
+
 
 
     @media(max-width: 650px){
@@ -395,9 +425,7 @@ body {
     width: max-content;
     position: absolute;
     
-/* 
-    top: calc(-4% + -10vh + 11vw); 
-    right: 58%; */
+
     z-index: 30;
 
     cursor: pointer;
@@ -405,7 +433,9 @@ body {
   
   
   }
-  
+
+
+
 
 
 
@@ -456,18 +486,14 @@ body {
     gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-  
-    /* top: -19%;  */
-    /* top: calc(-6% + -10vh + 6vw);
-    right: 40%; */
     z-index: 30;
-    
-    margin-top: -2.2rem;
 
+    
+    top: 17.5% !important; 
     cursor: pointer;
-  
-  
-  
+
+
+    
   }
 
 
@@ -475,23 +501,28 @@ body {
  
 .sidebar {
     transition: translate var(--animation-timing);
-    translate: 100% ; 
-    
-    margin-top: -3.75rem;
-    margin-left: -0vw;
+    translate: 100% ;
+    margin-left: -10vw;
     background-color: #161822;
     color: var(--background);
     width: 101vw;
     min-height: 100vh;
     position: relative;
     z-index: 2;
-      
-  
     -webkit-transition: translate var(--animation-timing);
     -moz-transition: translate var(--animation-timing);
     -ms-transition: translate var(--animation-timing);
     -o-transition: translate var(--animation-timing);
-  }
+    transform:translate(0, -1rem)  !important;
+    -webkit-transform:translate(0, -1rem)  !important;
+    -moz-transform:translate(0, -1rem)  !important;
+    -ms-transform:translate(0, -1rem)  !important;
+    -o-transform:translate(0, -1rem)  !important;
+
+    width: 120vw !important;
+
+}
+
 
 
     }
@@ -552,26 +583,7 @@ body {
 
     @media(max-width: 460px){
 
-        /* .hamburger-menu {
-            --x-width: calc(var(--hamburger-height) * 1.41421356237);
-          
-            display: flex;
-            flex-direction: column;
-            gap: var(--hamburger-gap);
-            width: max-content; 
-            position: absolute;
-            top: 18%; 
-            right: 25%; 
-
-
-            z-index: 3;
-            margin-top: -6.2rem;
         
-            cursor: pointer;
-          
-          
-          
-          } */
 
 
 
@@ -617,20 +629,21 @@ body {
             width: max-content; 
             position: absolute;
 
-            top: 16%; 
-            right: 30%; 
+            top: 14%; 
+            right: 39%; 
             z-index: 30;
-
             margin-top: -6.2rem;
-        
             cursor: pointer;
-          
-          
-          
+
+            
           }
 
 
           .sidebar{
+
+
+            margin-left: -1.5vw;
+
 
 
 
@@ -706,6 +719,12 @@ body {
                 font-size: 3.5rem;
                 margin-left: 0; 
             }
+
+            #sidebar{
+
+
+
+            }
     }
     @media(max-width: 710px){
         #second-menu-btn-container{
@@ -732,11 +751,13 @@ body {
             -webkit-transform: translate(0, -12rem);
             -moz-transform: translate(0, -12rem);
             -ms-transform: translate(0, -12rem);
- 
- 
- 
             -o-transform: translate(0, -12rem);
-}
+
+
+
+        }
+
+
 
 
     }
@@ -903,3 +924,21 @@ margin-top: -1.69rem !important;
 
     }
         
+
+    @media(max-width: 380px){
+
+
+        .sidebar{
+
+
+
+            margin-left: -4vw; 
+
+
+
+
+        }
+
+
+
+    }
