@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+https://light2albania.vercel.app/
+
+Tomorrow’s To Do List: 
+
+1. Tidy Room 
+2. Have a long prayer time 
+3. Watch Youtube videos & take notes 
+4. Start on presentation
+
 First, run the development server:
 
 ```bash
