@@ -236,6 +236,7 @@ function LandingPage() {
 
     <ImageTextCard image={mission} title='Our Mission' text="Read More About our Mission for the Future of the Kingdom of God in Albania"  /> 
     
+    
     </Link>
      
         
@@ -247,6 +248,7 @@ function LandingPage() {
 
     <ImageTextCard image={vision} title="Our Vision" text='Read more about our vision for our outreach in the Balkans and Beyond'/> 
     
+
     </Link>
         
     </div>
