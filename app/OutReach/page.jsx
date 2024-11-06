@@ -41,15 +41,12 @@ function OutReach() {
     
     <div id={oo.mainContainer}>
     
-
-    
     <div id={oo.mainSubContainer}>
     
     {/* Add in the Hero component here  */}
     <Hero image={reach} title='Outreach' /> 
 
-    
-    {/* Add in the content container here  */}
+
     <div id={oo.contentContainer}>
     
     <div id={oo.contentSubContainer}>
@@ -262,6 +259,19 @@ function OutReach() {
     
     </div>
 
+    <div id={oo.mainText} >
+
+    As missionaries, we have helped people find a place they can call home by offering support, warmth, and spiritual guidance to create a sense of belonging and love.
+
+
+
+
+    </div>
+
+
+
+
+
     {/* Add in the Card Section container here  */}
     
     <div id={oo.counsellingCardSectionContainer}>
@@ -269,10 +279,8 @@ function OutReach() {
     
     <div id={oo.counsellingCards}>
       
-      {/* Props template Text Image 
-      image text values 
-      */}
-        <TextImage  image={smallBusiness} /> 
+  
+        <TextImage  image={smallBusiness} style={{outline: '5px solid blue'}} /> 
         
     </div>
 
@@ -347,13 +355,11 @@ image text title
         
         
     </div>
-    {/* BusinessOfBusiness */}
 
     </div>
     
     
     
-    {/* Add in the food distribution section container here  */}
     
     <div id={oo.foodDistributionSectionContainer} >
     <div id={oo.foodDistributionSectionSubContainer} >

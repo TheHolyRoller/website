@@ -7,6 +7,7 @@ import React from 'react'
 import gs from '../Styles/GiveSection.module.css'; 
 
 
+
 function GiveSection(props) {
   return (
     <div id={gs.mainContainer} >

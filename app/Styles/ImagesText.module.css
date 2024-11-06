@@ -2,11 +2,7 @@
 
 #backgroundcontainer{
     box-sizing: border-box; 
-    /* width: 100vw;  */
-    /* min-height: 100vh;  */
     background: #161822 !important; 
-    
-    /* background-color: #ffffff !important; */
     position: relative; 
     z-index: 200; 
     display: grid;
@@ -58,6 +54,8 @@
         margin: 0 auto !important; 
         
         justify-items: center;
+
+        
         
         
     }
@@ -192,6 +190,7 @@
     }
 
 
+
     .imageTwo{
 
 
@@ -210,6 +209,10 @@
     @media(max-width: 1100px){
         
         /* Add in the main image here and sort the height and width  */
+
+
+
+
 
         
         
@@ -348,15 +351,55 @@
             
         }
         
-        /* Ensure that everything wraps here  */
+    
         
         
-        /* Sort out the widths and alignment here  */
+    }
 
+
+    @media (min-width: 696px) and (max-width: 860px) {
+
+        #image{
+    
+            width: 90vw;
+            height: 52vw; 
+            border-radius: 1rem; 
+            margin-top: 2rem;
+
+
+
+
+            }
+
+
+
+
+    }
+
+
+    @media(max-width: 570px){
+
+
+        #imagesubcontainer{
+            border-radius: 40px; 
+            margin: 0 auto !important; 
+            
+            justify-items: center;
+    
+            
+            
+        }
+        #image{
+    
+        width: 90vw;
+        height: 72vw; 
         
-        /*  */
         
+        border-radius: 1rem; 
         
+        }
+
+
     }
     
     

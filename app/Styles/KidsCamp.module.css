@@ -413,6 +413,13 @@ width: 50vw;
        grid-template-columns: 1fr 1fr;
 
     }
+
+    #galleryHeadline{
+
+        text-align: center;
+    
+    
+    }
     
     #mainHeadline{
     

@@ -85,15 +85,22 @@
     /* ----TEXT SECTION------ */
     #textsectioncontainer{
     position: relative;
-    transform: translate(0, -15.5%);
-    padding-right: 0.3rem; 
-
-    display: grid;  
+    transform: translate(0, -15.5%) !important;
+    padding-right: 0.3rem;
+    display: grid;
     place-content: center;
-    margin-top: 3rem; 
-    
-    
-    }
+    margin-top: 1rem;
+    -webkit-transform: translate(0, -15.5%) !important;
+
+    -moz-transform: translate(0, -15.5%) !important;
+    -ms-transform: translate(0, -15.5%) !important;
+    -o-transform: translate(0, -15.5%) !important;
+
+
+
+
+}
+
     #textsectionsubcontainer{
     
         
@@ -113,22 +120,13 @@
     }
     #toptextcontainer{
     
-    
-        /* margin-top: 0.54rem; */
         font-size: 1rem;
         font-weight: 450;
         line-height: 1rem;
         color: lightslategray; 
         text-align: left !important;
         margin: 0rem auto !important; 
-        /* width: auto;  */
-        /* min-width: 530px;  */
-        /* width: 30vw;  */
 
-        
-
-        
-        
         
     }
     #bottomtextcontainer{
@@ -137,6 +135,31 @@
 
         
         
+    }
+
+
+    @media(min-width: 1300px) and (max-width: 1600px){
+
+
+
+            /* ----TEXT SECTION------ */
+    #textsectioncontainer{
+        position: relative;
+        transform: translate(-0rem, -20.5%) !important;
+        padding-right: 0.3rem;
+        display: grid;
+        place-content: center;
+        margin-top: 1rem;
+        -webkit-transform: translate(-0rem, -20.5%) !important;
+        -moz-transform: translate(-0rem, -20.5%) !important;
+        -ms-transform: translate(-0rem, -20.5%) !important;
+        -o-transform: translate(-0rem, -20.5%) !important;
+}
+
+
+
+
+
     }
     
     @media(min-width: 1200px) and (max-width: 1600px) {
@@ -147,6 +170,7 @@
             transform: translate(0, -15.5%);
             padding-right: 0.3rem; 
         
+
             display: grid;  
             place-content: center;
             margin-top: 10%;
@@ -233,12 +257,26 @@
         #image{
         
         width: 75vw; 
+
+        /* margin-top: 4.5rem; */
         
 
             
             
         }
-        
+
+
+        #textsectioncontainer{
+
+
+            margin: 5rem auto !important; 
+            
+
+
+
+        }
+
+
         
         
     }

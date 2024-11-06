@@ -12,9 +12,11 @@ import valley from '../assets/valley.jpg';
 
 
 
+
 function ImagesText({image, imageOne, imageTwo, title, text}) {
 
   return (
+
 
     <div id={mt.backgroundcontainer} >
     

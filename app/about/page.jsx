@@ -20,7 +20,6 @@ function AboutUs() {
   return (
     <div id={a.mainContainer}>
 
-    
 
     <Hero  image={about} title='About Us' /> 
 
@@ -37,7 +36,7 @@ function AboutUs() {
     
     <div id={a.firstHeadlineContainer}>
     
-    <div id={a.firstHeadline} >
+    <div id={a.firstHeadline} style={{display:'none'}} >
     
     First Headline 
     
@@ -194,7 +193,7 @@ function AboutUs() {
       
       
     </div>
-      
+        
 
       
       

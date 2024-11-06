@@ -13,6 +13,19 @@
         margin-top: 5rem;
     }
 
+    #missionsecondversecontainer{
+        /* margin-left: 8.5%;  */
+        margin-top: 2rem;
+    }
+    
+
+    #missionsecondtext{
+
+
+        margin-bottom: 2rem;
+
+    }
+
 
 
 #missionheadline{
@@ -99,6 +112,13 @@ color: black;
 
 
     }
+
+
+    #missioncarditem{
+        margin: 2rem auto; 
+        font-size: clamp(1.1rem, 2vw + 1rem, 2rem) !important;
+
+    }
     
 
     @media(max-width: 1700px) and (min-width: 1023.4px){
@@ -158,6 +178,7 @@ margin-top: 80px;
 }
 #missionsecondversecontainer{
     margin-left: 8.5%; 
+    /* margin-top: 2rem; */
 }
 #missionthirdversecontainer{
     margin-left: 8.5%; 

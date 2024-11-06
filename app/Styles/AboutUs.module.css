@@ -98,10 +98,6 @@ background:#161822 !important;
 }
 
 
-#headedMainContainer{
-
-    
-}
 
 #headedMainSubContainer{
 
@@ -122,6 +118,7 @@ font-weight: 900;
 margin-bottom: -3rem;
 
 
+
     
 }
 #headedHeadline{
@@ -133,10 +130,7 @@ margin-bottom: -3rem;
 }
 
 
-#headedComponent{
 
-    
-}
 
 #imageGridContainer{
     
@@ -150,6 +144,32 @@ margin-bottom: -3rem;
     margin: 0 auto !important; 
 
     
+}
+
+
+
+@media(max-width: 1200px){
+
+
+
+
+    #headedComponent{
+
+
+        margin-top: 6rem;
+        
+        
+    }
+
+  #headedHeadline{
+
+
+    margin-top: 15rem
+
+
+  }
+
+
 }
 
 
@@ -173,7 +193,7 @@ margin-bottom: -3rem;
 #goingImageSubContainer{
     
     
-    margin-bottom: 35vh;
+    /* margin-bottom: 5vh; */
     
     
     
@@ -186,15 +206,15 @@ margin-bottom: -3rem;
 #startedMainContainer{
     
     margin-top: -15rem !important; 
+
+
     
 }
 
 #goingImageSubContainer{
     
     
-    margin-bottom: 45vh;
-    
-    
+  
     
 }
 
@@ -209,12 +229,32 @@ margin-bottom: -3rem;
     
     #goingImageSubContainer{
     
-        margin-bottom: 140vh;
+        /* margin-bottom:90vh; */
+        margin-bottom: 33rem;
         
         
         
         
     }
+
+    
+
+    #headedComponent{
+
+
+        margin-top: 6rem;
+
+        
+    }
+
+  #headedHeadline{
+
+
+    margin-top: 15rem
+
+
+
+  }
     
     
     /* Add in the Headed headline container here  */
@@ -263,7 +303,7 @@ margin-bottom: -3rem;
     #goingImageSubContainer{
     
         
-        margin-bottom: 120vh;
+        /* margin-bottom: 120vh; */
 
         
         

@@ -75,7 +75,7 @@ We will be large enough for gatherings to have great impact and small enough for
     
     <div id={ss.firsticon}> 
 
-    <FormatQuoteRoundedIcon id={ss.firsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    {/* <FormatQuoteRoundedIcon id={ss.firsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     />  */}
     
     </div>
     
@@ -118,7 +118,7 @@ John 12:32 (ESV)
     
     {/* Add in the Icon here  */}
     <div id={ss.quotationicon}>
-    <FormatQuoteRoundedIcon id={ss.quotationicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}} /> 
+    {/* <FormatQuoteRoundedIcon id={ss.quotationicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}} />  */}
     </div>
     
     
@@ -155,7 +155,8 @@ Matthew 12:21 (NLT)
     <div id={ss.missionthirdversecontainer}>
     <div id={ss.thirdicon}> 
 
-    <FormatQuoteRoundedIcon id={ss.thirdicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    {/* <FormatQuoteRoundedIcon id={ss.thirdicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     />  */}
+    
     
 
     </div>
@@ -242,24 +243,25 @@ From the outset, we declare our clear intention to exceed the barrier of 2000 re
     <Link href='/mission' >
     
    
-    <CardText  image={mission} text='Read More About our Mission for the Future of the Kingdom of God in Albania' /> 
+    <CardText  image={mission} text='Mission' /> 
     </Link>
     </div>
     
     <div id={ss.missioncarditem}>
     
     <Link href='vision'>
-    <CardText image={vision} text='Read More about our Vision for outreach in the Balkans ' /> 
+    <CardText image={vision} text='Vision ' /> 
     </Link> 
     </div>
     
     
     <div id={ss.missioncarditem}>
     <Link href='values'>
-    <CardText image={values} text='Read more about our values and what we believe in from Gods Word' /> 
+    <CardText image={values} text='Values' /> 
     </Link> 
     </div>
     
+
     
       
     </div>

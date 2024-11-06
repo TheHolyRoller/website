@@ -42,11 +42,12 @@ We will be large enough for gatherings to have great impact and small enough for
     <div id={vs.visionfirstversecontainer}>
     <div id={vs.missionfirsticon}> 
     
-    <FormatQuoteRoundedIcon id={vs.visionfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    {/* <FormatQuoteRoundedIcon id={vs.visionfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     />  */}
+
 </div>
     <div id={vs.visionfirstverse}>
-    He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love.
-Ephesians 4:16 (NLT)
+    "He makes the whole body fit together perfectly. As each part does its own special work, it helps the other parts grow, so that the whole body is healthy and growing and full of love.
+Ephesians 4:16 (NLT)""
     </div>
     </div>
     <div id={vs.visionsecondtextcontainer}>
@@ -87,20 +88,21 @@ Read more about our vision, values & vision
 
 
 
+
 <Link href='mission'>
 
-    <MuiCard image={mission} text='Read More About our Mission for the Future of the Kingdom of God in Albania'   /> 
+    <MuiCard image={mission} text='Mission'   /> 
     </Link> 
 </div>
 <div id={vs.visioncarditem}>
 <Link href='vision'>
 
-    <MuiCard image={vision} text='Read More about our Vision for outreach in the Balkans ' /> 
+    <MuiCard image={vision} text='Vision ' /> 
     </Link> </div>
 <div id={vs.visioncarditem} >
 <Link href='values'>
     
-    <MuiCard image={values} text='Read more about our values and what we believe ' /> 
+    <MuiCard image={values} text='Values ' /> 
     </Link> 
 </div>
 </div>

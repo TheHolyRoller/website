@@ -27,6 +27,14 @@
         -ms-border-radius:20px ;
         -o-border-radius:20px ;
 }
+
+#textBlock{
+
+
+    font-size: clamp(1.15rem, 2vw + 1rem, 2rem);
+
+
+}
     
     #mainCardContainer:hover{ 
         transform: translate(0, -0.3rem) !important;

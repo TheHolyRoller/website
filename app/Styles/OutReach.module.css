@@ -8,6 +8,7 @@
 }
 
 
+
 #mainSubContainer{
 
     
@@ -66,6 +67,8 @@
     margin: 1rem auto; 
     
     color: rgb(239, 240, 245) !important;
+    font-size: clamp(1.1rem, 2vw + 1rem, 2.5rem) !important;
+    /* outline: 5px solid lime; */
     
     
     
@@ -275,6 +278,12 @@ margin: 0 auto;
 
 #counsellingTestimoniesMainContainer{
 
+
+
+    height: min-content;
+    position: relative; 
+
+
     
 }
 
@@ -295,6 +304,10 @@ place-content: center;
 font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
 font-weight: 900;   
 
+width: 70vw; 
+
+
+
 
     
 }
@@ -304,6 +317,7 @@ font-weight: 900;
 
     
 }
+
 
 #counsellingHeadline{
 
@@ -328,6 +342,34 @@ font-weight: 900;
 
     
 }
+
+
+
+#mainText{
+
+
+
+/* position: absolute;
+top: 20%;  */
+
+width: 30vw; 
+
+    margin-bottom: -15.375rem; 
+    margin-top: 15rem; 
+    margin-left: 2rem; 
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 #prayerNightsSectionMainContainer{
 
@@ -563,6 +605,23 @@ place-content: center;
 
 
 /* Add in the media queries here  */
+@media(max-width: 1290px) and (min-width: 995px) {
+    
+
+    #mainText{
+
+        margin-left: -5vw; 
+
+
+
+
+
+
+    }
+
+
+
+}
 
 @media(max-width: 990px){
     
@@ -574,6 +633,24 @@ place-content: center;
     margin: 0 auto !important; 
     
 }
+
+
+#scholarSecondSectionContainer{
+
+
+    width: 80vw; 
+    margin: 0 auto !important; 
+    margin-top: -6rem !important; 
+    
+    padding: 0 !important; 
+    
+    display: grid; 
+    place-content: center; 
+    
+    
+    
+        
+    }
 
 
 
@@ -646,7 +723,160 @@ margin-top: -10vh;
 
 
 }
+
+
+
+
     
+}
+
+
+
+@media(max-width: 550px){
+
+
+    #counsellingHeadlineContainer{
+
+
+        margin: 5rem auto; 
+        display: grid; 
+        place-content: center; 
+        
+        font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+        font-weight: 900;   
+        
+        position: absolute; 
+
+        top: -5%; 
+        left: 5%; 
+
+        
+            
+        }
+
+
+        #mainText{
+
+
+            
+            position: absolute;
+            top: 20%; 
+            left: 5%; 
+
+            /* margin: 0 auto !important; */
+
+            margin-bottom: 19rem !important;
+            /* padding-bottom: 5rem; */
+
+            
+            width: 70vw;
+            
+            
+            }
+
+
+
+
+}
+
+
+
+
+@media(max-width:990px){
+
+
+    #counsellingHeadlineContainer{
+
+
+        margin: 5rem auto; 
+        display: grid; 
+        place-content: center; 
+        
+        font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+        font-weight: 900;   
+        
+        position: absolute; 
+
+        top: -5%; 
+        left: 5%; 
+
+        
+            
+        }
+
+
+        #mainText{
+
+
+            
+            position: absolute;
+            top: 20%; 
+            left: 15%; 
+
+
+            margin: 0 auto !important;
+            margin-left: 0 !important;
+            
+            width: 60vw;
+            
+            
+            }
+
+            #scholarHeadline{
+
+                text-align: center;
+    
+    
+            }
+
+            
+#counsellingHeadlineContainer{
+
+
+    margin: 5rem auto; 
+    display: grid; 
+    place-content: center; 
+    
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem) !important; 
+    font-weight: 900;   
+    
+    width: 70vw;
+
+    text-align: center;
+    
+    
+        
+    }
+
+
+
+
+
+
+}
+
+
+@media(max-width: 655px){
+
+
+    
+    #mainText{
+
+
+            
+        position: absolute;
+        top: 20%; 
+        left: 5%; 
+
+        margin: 0 auto !important;
+        
+        width: 70vw;
+        
+        
+        }
+
+
+
 }
 
 

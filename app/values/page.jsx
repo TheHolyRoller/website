@@ -92,7 +92,8 @@ function Values() {
     <div id={val.valuesfirsticon} >
     
     
-    <FormatQuoteRoundedIcon id={val.valuesfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    {/* <FormatQuoteRoundedIcon id={val.valuesfirsticon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     />  */}
+
     
       
       
@@ -102,7 +103,7 @@ function Values() {
     
     
     {/* Add in the verse here  */}
-    <div id={val.valuesverse}>
+    <div id={val.valuesverse} style={{margin: '2rem 0'}}>
     Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us, to him be glory in the church and in Christ Jesus throughout all generations, for ever and ever! Amen. Ephesians 3:2021 (NIV)
 
     </div>
@@ -150,13 +151,14 @@ function Values() {
     <div id={val.valuessecondverseiconcontainer}>
     <div id={val.valuessecondverseicon}>
     
-    <FormatQuoteRoundedIcon id={val.valuessecondicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     /> 
+    {/* <FormatQuoteRoundedIcon id={val.valuessecondicon} style={{ transform: 'rotate(1turn)', fontSize: '4.5rem', color: '#00c670'}}     />  */}
+
     
     </div>
     
     </div>
     
-    <div id={val.valuessecondverse}>
+    <div id={val.valuessecondverse} style={{marginTop: '2rem'}}>
     You are members of God’s family. Together, we are his house, built on the foundation of the apostles and the prophets. And the cornerstone is Christ Jesus himself. Ephesians 2:1920 (NLT)
     </div>
       
