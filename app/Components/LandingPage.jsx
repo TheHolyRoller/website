@@ -125,7 +125,7 @@ function LandingPage() {
       
     <div id='grid-item-container' >
     
-    <Link href='/mission'>
+    <Link href='/outreach'>
     <Card2  id='grid-card-one' image={outreach}  title='Outreach'  />
     
     </Link>
