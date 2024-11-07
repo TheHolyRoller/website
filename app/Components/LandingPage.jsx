@@ -166,7 +166,8 @@ function LandingPage() {
     
     <div id='second-landing-item-one' style={{outline:'0px solid lime'}}  >
     
-    <Link href='/nightofprayer' image={prayer} title='Night of Prayer'  >
+    <Link href='/prayer' image={prayer} title='Night of Prayer'  >
+    
     
     <TextCard1  image={prayer} title="Night of Prayer"  /> 
     
