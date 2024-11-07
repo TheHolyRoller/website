@@ -183,7 +183,8 @@ margin-bottom: 0 !important;
     position: absolute; 
     pointer-events: none;
     z-index: -5;
-    
+
+
     }
 }
 @media(max-width: 949px){
@@ -245,18 +246,3 @@ color: red !important;
 }
 
 
-
-/* @media(max-width:940px){
-
-
-.mobileSideBar{
-
-
-display: none; 
-
-
-}
-
-
-
-} */
