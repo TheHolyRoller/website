@@ -82,7 +82,6 @@ function LandingPage() {
       }
       else{
 
-
         window.location.reload(); 
 
 
