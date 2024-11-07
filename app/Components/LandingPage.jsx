@@ -3,15 +3,10 @@
 import {  Spacer } from "@nextui-org/react"
 
 import Image from "next/image.js";
-
-// import Worship from '../assets/Worship.jpg'; 
 import Worship from '../assets/PrayerNight/Worship.jpg'; 
-// import Worship from '../app/assets/PrayerNight/Worship.jpg';
-
-
+import { useEffect } from "react";
 
 import '../Styles/content.css'; 
-// import '../app/Styles/content.css';
 
 import { LocationCity } from "@mui/icons-material"; 
 
@@ -75,7 +70,28 @@ import values from '../../public/Ingegrity.jpg';
 
 function LandingPage() {
 
-  
+  useEffect(() => {
+
+
+    const hasRefreshed = sessionStorage.getItem('hasRefreshed'); 
+
+    if(!hasRefreshed){
+
+      sessionStorage.setItem('hasRefreshed', 'true'); 
+
+      }
+      else{
+
+
+        window.location.reload(); 
+
+
+      }
+
+
+
+
+  }, []);
 
 
   return (
@@ -167,9 +183,7 @@ function LandingPage() {
     <div id='second-landing-item-one' style={{outline:'0px solid lime'}}  >
     
     <Link href='/prayer' image={prayer} title='Night of Prayer'  >
-    
 
-    
 
     <TextCard1  image={prayer} title="Night of Prayer"  /> 
     
