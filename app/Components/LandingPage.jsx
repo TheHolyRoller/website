@@ -168,7 +168,9 @@ function LandingPage() {
     
     <Link href='/prayer' image={prayer} title='Night of Prayer'  >
     
+
     
+
     <TextCard1  image={prayer} title="Night of Prayer"  /> 
     
     </Link>
