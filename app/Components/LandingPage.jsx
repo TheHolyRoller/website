@@ -211,6 +211,7 @@ function LandingPage() {
     <div id="card-headline" className='getInvolved' >
     Get Involved 
     </div>
+    
      
     
     <div id="text-container">

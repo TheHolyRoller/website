@@ -16,6 +16,9 @@
         #modal-open-button{
             z-index: 20000;
             transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+            /* outline: 5px solid lime; */
+
+
         }
         #modal{
         background: #1f2231; 
@@ -186,6 +189,8 @@
         }
         #second-toggle-button{
             display: none;
+
+
             color: white; 
             font-size: 2.3rem !important; 
             border-radius: 10px; 
@@ -202,11 +207,15 @@
 
 
 
+
+
        }
 
        #second-menu-btn-container{
 
         display: none !important; 
+
+
 
 
        }
@@ -231,6 +240,8 @@
         @media(min-width: 300px){
             #nav-buttons-container{
                 display: none !important; 
+                
+
             }
         }
         @media(max-width: 430px){
@@ -241,6 +252,8 @@
         @media(max-width: 360px){
             #modal-body{
                 margin-left: -0.1vw !important;
+
+
             }
         }
         @media(min-width: 500px){
@@ -251,11 +264,17 @@
         @media(max-width: 949px){
             #modal-open-button{
                 display: none !important;
+
+
             } 
         }
         @media(max-width: 950px){
         #modal-open-button{
+
+
         display: none !important; 
+
+
         }
         #second-menu-btn-container{
         position: relative; 
@@ -282,9 +301,11 @@
                     font-size: 3.5rem;
                     margin-left: 0; 
                 }
+
                 #modal-open-button{
                 transform: translate(0rem, 0rem) !important;
                     outline: none !important; 
+
                 }
                 #second-toggle-button{
                     display: inline-block !important;

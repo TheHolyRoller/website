@@ -52,6 +52,7 @@ const theme = extendTheme({
 
 
 
+
  export default function NewModal() {
     const { isOpen, onOpen, onClose } = useDisclosure(); 
     const [size, setSize] = React.useState('md')
@@ -143,10 +144,8 @@ const theme = extendTheme({
         ))}
         
         <div id='second-menu-btn-container' onClick={handleClick} style={{cursor: 'pointer'}} >
-
         
-        
-        <FaBars id='second-toggle-button' className={className}   />
+        <FaBars id='second-toggle-button' className={className} style={{outline: '0px solid lime'}}  />
         
         {/* <MenuIcon   id='second-toggle-button' className={className}     /> */}
         </div>

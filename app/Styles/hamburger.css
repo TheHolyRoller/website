@@ -27,13 +27,11 @@ body {
   flex-direction: column;
   gap: var(--hamburger-gap);
   width: max-content;
-  /* width: 100vw !important; */
   position: absolute;
 
-  top: 1.8%; 
-  right: 63%;
+ 
   z-index: 30;
-  margin-top: -2.2rem;
+  /* margin-top: -2.2rem; */
 
   cursor: pointer;
 
@@ -90,6 +88,7 @@ body {
     rotate var(--animation-timing), translate var(--animation-timing),
     /* background-color var(--animation-timing); */
 }
+
 
 .hamburger-menu input {
   appearance: none;
@@ -280,9 +279,9 @@ body {
     position: absolute;
     
 
-    top: 10%; 
+    top: 3rem; 
 
-    right: 9%;
+    right: 1.5rem;
     z-index: 30;
   
     cursor: pointer;
@@ -344,9 +343,11 @@ body {
             
         
             /* top: calc(-2% + -9vh + 11vw);  */
-            top: 10%; 
+            /* top: 10%; 
+
+
         
-            right: 10%;
+            right: 10%; */
             z-index: 30;
           
             cursor: pointer;
@@ -459,7 +460,7 @@ body {
             right: 60%; */
             z-index: 30;
 
-            margin-top: -2.2rem;
+            /* margin-top: -2.2rem; */
         
             cursor: pointer;
           
@@ -473,33 +474,38 @@ body {
     }
 
 
-
-    @media(max-width: 570px){
-
+    
+    @media (max-width: 570px) and (min-width: 500px) {
 
                 
-.hamburger-menu {
-    --x-width: calc(var(--hamburger-height) * 1.41421356237);
-  
-    display: flex;
-    flex-direction: column;
-    gap: var(--hamburger-gap);
-    width: max-content;
-    position: absolute;
-    z-index: 30;
-
-    
-    top: 17.5% !important; 
-    cursor: pointer;
-
-
-    
-  }
+        .hamburger-menu {
+            --x-width: calc(var(--hamburger-height) * 1.41421356237);
+          
+            display: flex;
+            flex-direction: column;
+            gap: var(--hamburger-gap);
+            width: max-content;
+            position: absolute;
+            z-index: 30;
+            outline: 5px solid lime;
+         
+            /* right: 5% !important; 
 
 
-  
+            top: 10.5% !important;  */
+            cursor: pointer;
+        
+        
+            
+          }
+
+        }
+
+
+
+    @media(max-width: 550px){
  
-.sidebar {
+    .sidebar {
     transition: translate var(--animation-timing);
     translate: 100% ;
     margin-left: -10vw;
@@ -540,12 +546,10 @@ body {
             gap: var(--hamburger-gap);
             width: max-content; 
             position: absolute;
-            top: 15%; 
-            right: 15%; 
-            z-index: 30;
+            /* top: 18%; 
 
-            margin-top: -6.2rem;
-        
+            right: 15%;  */
+            z-index: 30;
             cursor: pointer;
           
           
@@ -583,16 +587,6 @@ body {
 
     @media(max-width: 460px){
 
-        
-
-
-
-    }
-
-
-
-    @media(max-width: 410px){
-
         .hamburger-menu {
             --x-width: calc(var(--hamburger-height) * 1.41421356237);
           
@@ -601,11 +595,45 @@ body {
             gap: var(--hamburger-gap);
             width: max-content; 
             position: absolute;
-            top: 16%; 
-            right: 25%; 
+            /* top: 16%; 
+
+            right: 25%;  */
             z-index: 30;
 
-            margin-top: -6.2rem;
+            /* margin-top: -6.2rem; */
+
+        
+            cursor: pointer;
+          
+          
+          
+          }
+
+
+
+
+
+    }
+
+
+
+    @media(max-width: 430px){
+
+        .hamburger-menu {
+            --x-width: calc(var(--hamburger-height) * 1.41421356237);
+          
+            display: flex;
+            flex-direction: column;
+            gap: var(--hamburger-gap);
+            width: max-content; 
+            /* position: absolute;
+
+            top: 16.5%; 
+            right: 25%;  */
+            z-index: 30;
+
+            /* margin-top: -6.2rem; */
+
         
             cursor: pointer;
           
@@ -629,11 +657,16 @@ body {
             width: max-content; 
             position: absolute;
 
-            top: 14%; 
-            right: 39%; 
+            /* top: 16.5%; 
+
+            right: 42%;  */
             z-index: 30;
-            margin-top: -6.2rem;
+            /* margin-top: -6.2rem; */
+
             cursor: pointer;
+
+            /* outline: 5px solid blue; */
+
 
             
           }
@@ -698,7 +731,36 @@ body {
         #second-toggle-button{
             display: inline-block !important;
             font-size: 3.5rem;
+
+
+            
         }
+
+        .hamburger-menu {
+            --x-width: calc(var(--hamburger-height) * 1.41421356237);
+          
+            display: flex;
+            flex-direction: column;
+            gap: var(--hamburger-gap);
+            width: max-content; 
+            position: absolute;
+            /* top: 13.5%; 
+
+            right: 13%;  */
+            z-index: 30;
+
+            /* margin-top: -6.2rem; */
+
+        
+            cursor: pointer;
+          
+          
+          
+          }
+
+
+
+
     }
     @media(max-with: 540px){
         
@@ -720,11 +782,7 @@ body {
                 margin-left: 0; 
             }
 
-            #sidebar{
-
-
-
-            }
+        
     }
     @media(max-width: 710px){
         #second-menu-btn-container{
@@ -929,14 +987,7 @@ margin-top: -1.69rem !important;
 
 
         .sidebar{
-
-
-
             margin-left: -4vw; 
-
-
-
-
         }
 
 

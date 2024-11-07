@@ -22,6 +22,7 @@ import React from 'react'
 // import Link from 'next/link';
 
 
+
   const NewNav = () => {
   return (
     <div id='new-nav-container'>
