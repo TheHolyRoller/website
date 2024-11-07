@@ -50,7 +50,8 @@ function Ministries() {
     
     {/* Add in the main Ministries Headline here  */}
     We are proud to support and partner with ministries birthed within our community and outside of it, all united with one goal: to bring hope to the hopeless and healing to broken places.  
-    
+  
+      
 
     </div>
     </div>
