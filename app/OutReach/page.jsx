@@ -1,7 +1,5 @@
 'use client'
 
-
-
 import React from 'react'
 
 import oo from '../Styles/OutReach.module.css'; 
@@ -145,9 +143,6 @@ function OutReach() {
         
         
     </div>
-    
-    
-
     
     
     <div id={oo.scholarSecondSectionContainer}>
