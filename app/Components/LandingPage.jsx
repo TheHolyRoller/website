@@ -70,28 +70,6 @@ import values from '../../public/Ingegrity.jpg';
 
 function LandingPage() {
 
-  useEffect(() => {
-
-
-    const hasRefreshed = sessionStorage.getItem('hasRefreshed'); 
-
-    if(!hasRefreshed){
-
-      sessionStorage.setItem('hasRefreshed', 'true'); 
-
-      }
-      else{
-
-        window.location.reload(); 
-
-
-      }
-
-
-
-
-  }, []);
-
 
   return (
     <div id='landing-page-main-container' >

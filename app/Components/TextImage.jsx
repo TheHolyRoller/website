@@ -11,8 +11,6 @@ import img from '../Styles/TextImage.module.css';
 
 
 
-
-
 function ImageText({image, title, text}) {
   return (
 
